@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "공유를 취소하려면 [취소]를 누르세요"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFC로 공유"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "태그를 공유하지 못하였습니다"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "공유하려면 휴대폰을 서로 가볍게 부딪히세요"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%s 태그가 공유되었습니다"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "연결하지 못하였습니다"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s가 선택되었습니다"
+

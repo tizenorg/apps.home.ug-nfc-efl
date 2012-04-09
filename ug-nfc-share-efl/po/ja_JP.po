@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "共有を解除するには、［キャンセル］をタップしてください。"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFCで共有"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "タグの共有に失敗しました。"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "共有するには、端末同士をゆっくりと近づけてください。"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%sタグを共有しました。"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "転送​に​失敗​しました"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s​が​選択​されました"
+

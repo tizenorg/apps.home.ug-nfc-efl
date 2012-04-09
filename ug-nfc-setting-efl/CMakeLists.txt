@@ -1,0 +1,56 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(ug-setting-nfc-efl C)
+
+SET(PREFIX ${CMAKE_INSTALL_PREFIX})
+SET(EXEC_PREFIX "\${prefix}")
+SET(LIBDIR "\${prefix}/lib")
+SET(INCLUDEDIR "\${prefix}/include")
+SET(VERSION 0.1.0)
+SET(RESDIR "${PREFIX}/res")
+SET(LOCALEDIR "${RESDIR}/locale")
+SET(ICONDIR "${RESDIR}/icons/${PROJECT_NAME}")
+
+SET(SRCS
+src/ug-nfc-setting-main.c
+)
+
+IF("${CMAKE_BUILD_TYPE}" STREQUAL "")
+	SET(CMAKE_BUILD_TYPE "Release")
+ENDIF("${CMAKE_BUILD_TYPE}" STREQUAL "")
+MESSAGE("Build type: ${CMAKE_BUILD_TYPE}")
+
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+INCLUDE(FindPkgConfig)
+pkg_check_modules(pkgs_ug_nfc_setting REQUIRED elementary appcore-efl ui-gadget evas ecore-x edje ecore dbus-glib-1 capi-network-nfc)
+
+FOREACH(flag ${pkgs_ug_nfc_setting_CFLAGS})
+        SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
+ENDFOREACH(flag)
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror-implicit-function-declaration -Wl,--unresolved-symbols=ignore-in-shared-libs")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS}")
+SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
+SET(CMAKE_C_FLAGS_RELEASE "-O2")
+
+FIND_PROGRAM(UNAME NAMES uname)
+EXEC_PROGRAM("${UNAME}" ARGS "-m" OUTPUT_VARIABLE "ARCH")
+IF("${ARCH}" STREQUAL "arm")
+	ADD_DEFINITIONS("-DTARGET")
+	MESSAGE("add -DTARGET")
+ENDIF("${ARCH}" STREQUAL "arm")
+
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
+
+ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
+ADD_DEFINITIONS("-DRESDIR=\"${RESDIR}\"")
+
+ADD_LIBRARY(${PROJECT_NAME} SHARED ${SRCS})
+SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES SOVERSION 0.1.0)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_ug_nfc_setting_LDFLAGS})
+
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /opt/ug/lib)
+
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/icons/org.tizen.nfc-app.png DESTINATION ${ICONDIR})
+
+ADD_SUBDIRECTORY(po)

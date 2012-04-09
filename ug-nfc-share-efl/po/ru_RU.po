@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Чтобы не предоставлять доступ, нажмите Отмена"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Отправить через NFC"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "Не удалось отправить метку"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Прикоснитесь одним телефоном к другому для отправки"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "Метка %s отправлена"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Сбой перевода"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "Выбрано: %s"
+

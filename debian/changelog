@@ -1,0 +1,56 @@
+ug-nfc-efl (0.0.1-7) unstable; urgency=low
+
+  * intergration from private git
+  * Git: pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-7
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Thu, 29 Mar 2012 16:00:39 +0900
+
+ug-nfc-efl (0.0.1-6) unstable; urgency=low
+
+  * update from Private Git
+  * Git: pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-6
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Fri, 16 Mar 2012 15:32:49 +0900
+
+ug-nfc-efl (0.0.1-5) unstable; urgency=low
+
+  * change nfc icon
+  * Git: pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-5
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Fri, 17 Feb 2012 11:10:44 +0900
+
+ug-nfc-efl (0.0.1-4) unstable; urgency=low
+
+  * update changelog
+  * Git: slp/pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-4
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Thu, 16 Feb 2012 08:46:36 +0900
+
+ug-nfc-efl (0.0.1-3) unstable; urgency=low
+
+  * share vi NFC updated
+  * Git: slp/pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-3
+
+ -- Sechang Sohn <sc.sohn@samsung.com>  Wed, 15 Feb 2012 08:46:15 +0900
+
+ug-nfc-efl (0.0.1-2) unstable; urgency=low
+
+  * move vconf value(db/nfc/enable)
+  * Git: slp/pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-2
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Mon, 30 Jan 2012 16:55:30 +0900
+
+ug-nfc-efl (0.0.1-1) unstable; urgency=low
+
+  * first source package for building
+  * Git: slp/pkgs/u/ug-nfc-efl
+  * Tag: ug-nfc-efl_0.0.1-1
+
+ -- Junyong Sim <junyong.sim@samsung.com>  Thu, 26 Jan 2012 19:13:37 +0900
+

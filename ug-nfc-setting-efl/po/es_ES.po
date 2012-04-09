@@ -1,0 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_POP_ACTIVATION"
+msgstr "Activación"
+

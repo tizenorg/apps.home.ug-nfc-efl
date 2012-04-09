@@ -1,0 +1,80 @@
+collections {
+	group{
+		name: "share_via_nfc";
+		parts
+		{
+			part
+			{
+				name: "label_name";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					fixed: 1 1;
+					state: "default" 0.0;
+					rel1{relative: 0 20/1130; offset:20 0;}
+					rel2{relative: 1 140/1130; offset:-20 0;}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "label_message";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					fixed: 1 1;
+					state: "default" 0.0;
+					rel1{relative: 0 180/1130; offset:20 0;}
+					rel2{relative: 1 220/1130; offset:-20 0;}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "touch_image";
+				type: SWALLOW;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 0 250/1130; offset:0 0;}
+					rel2{relative: 1 860/1130; offset:0 0;}
+					align: 0.5 0;
+				}
+			}
+			part
+			{
+				name: "label_cancel_message";
+				type: SWALLOW;
+				scale: 1;
+				description
+				{
+					fixed: 1 1;
+					state: "default" 0.0;
+					rel1{relative: 0 900/1130; offset:20 0;}
+					rel2{relative: 1 980/1130; offset: -20 0;}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "cancel_button";
+				type: SWALLOW;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 0 1020/1130; offset:20 0;}
+					rel2{relative: 1 1100/1130; offset: -20 0;}
+					align:0 0;
+				}
+			}
+
+		}
+	}
+}

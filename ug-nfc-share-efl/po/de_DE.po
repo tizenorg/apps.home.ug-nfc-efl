@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Tippen Sie auf „Abbrechen“, um die Freigabe abzubrechen"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Über NFC freigeben"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "Tag konnte nicht freigegeben werden."
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Führen Sie die Telefone leicht zusammen, um freizugeben."
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%s-Tag freigegeben"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Übertragungsfehler"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s ausgewählt"
+
