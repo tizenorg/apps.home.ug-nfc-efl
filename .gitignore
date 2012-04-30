@@ -1,0 +1,16 @@
+.cproject
+.project
+build-stamp
+cmake_tmp/
+configure-stamp
+debian/files
+debian/*.debhelper.log
+debian/*.install
+debian/*.debhelper
+debian/*.substvars
+debian/*.init
+debian/libug-setting-nfc-efl/
+debian/libug-setting-nfc-efl-dbg/
+debian/libug-share-nfc-efl/
+debian/libug-share-nfc-efl-dbg/
+debian/tmp/
