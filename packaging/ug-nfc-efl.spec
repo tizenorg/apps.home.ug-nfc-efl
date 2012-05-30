@@ -11,6 +11,7 @@ License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
 Source1:    libug-setting-nfc-efl.install.in
 Source2:    libug-share-nfc-efl.install.in
+Source1001: packaging/ug-nfc-efl.manifest 
 BuildRequires: cmake
 BuildRequires: edje-tools
 BuildRequires: gettext-tools
@@ -65,6 +66,7 @@ ug for nfc share
 
 
 %build
+cp %{SOURCE1001} .
 mkdir cmake_tmp
 cd cmake_tmp
 cmake .. -DCMAKE_INSTALL_PREFIX=%{_ugdir}
@@ -87,12 +89,14 @@ vconftool set -t int db/nfc/last_file_number 0 -u 5000
 %postun
 
 %files
+%manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
 /opt/ug/lib/libug-setting-nfc-efl*
 /opt/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
 /opt/ug/res/icons/*
 
 %files -n ug-share-nfc-efl
+%manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
 /opt/ug/lib/libug-share-nfc-efl*
 /opt/ug/res/edje/*
