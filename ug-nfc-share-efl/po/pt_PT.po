@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Para cancelar a partilha, toque em Cancelar"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Partilhar via NFC"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "Falha ao partilhar etiqueta"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Toque suavemente com o telefone no outro para partilhar"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%s etiquetas partilhadas"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Erro de transferência"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s seleccionado"
+

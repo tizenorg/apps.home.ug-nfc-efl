@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Paylaşmayı iptal etmek için, İptal'e basın"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFC ile paylaş"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "Etiket paylaşılamadı"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Paylaşmak için hafifçe telefonlara dokunun"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%s etiket paylaşıldı"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Transfer başarısız"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s seçildi"
+

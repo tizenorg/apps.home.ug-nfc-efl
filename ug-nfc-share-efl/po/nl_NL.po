@@ -1,0 +1,21 @@
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Tik op Annuleren om delen te annuleren"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Delen via NFC"
+
+msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
+msgstr "Kan tag niet delen"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Houd de telefoons voorzichtig tegen elkaar om te delen"
+
+msgid "IDS_NFC_POP_PS_TAG_SHARED"
+msgstr "%s tag gedeeld"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Fout bij doorverbinden"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s geselecteerd"
+
