@@ -7,7 +7,7 @@ Summary:    UI gadget about the nfc
 Version:    0.0.1
 Release:    1
 Group:      TO_BE/FILLED_IN
-License:    Samsung Proprietary License
+License:    Flora Software License
 Source0:    %{name}-%{version}.tar.gz
 Source1:    libug-setting-nfc-efl.install.in
 Source2:    libug-share-nfc-efl.install.in
