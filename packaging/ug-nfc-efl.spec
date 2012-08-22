@@ -4,37 +4,26 @@
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
-Version:    0.0.1
-Release:    1
+Version:    0.0.2
+Release:    17
 Group:      TO_BE/FILLED_IN
-License:    Flora Software License
+License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
 Source1:    libug-setting-nfc-efl.install.in
 Source2:    libug-share-nfc-efl.install.in
-BuildRequires: cmake
-BuildRequires: edje-tools
-BuildRequires: gettext-tools
-BuildRequires: pkgconfig(nfc-common-lib)
-BuildRequires: pkgconfig(security-server)
-BuildRequires: pkgconfig(contacts-service)
-BuildRequires: pkgconfig(elementary)
-BuildRequires: pkgconfig(bundle)
-BuildRequires: pkgconfig(ui-gadget)
-BuildRequires: pkgconfig(dlog)
-BuildRequires: pkgconfig(vconf)
-BuildRequires: pkgconfig(bluetooth-api)
-BuildRequires: pkgconfig(edbus)
-BuildRequires: pkgconfig(evas)
-BuildRequires: pkgconfig(edje)
-BuildRequires: pkgconfig(ecore)
-BuildRequires: pkgconfig(eina)
-BuildRequires: pkgconfig(aul)
-BuildRequires: pkgconfig(appcore-efl)
-BuildRequires: pkgconfig(syspopup-caller)
-BuildRequires: pkgconfig(appsvc)
-BuildRequires: pkgconfig(capi-network-nfc)
-BuildRequires: pkgconfig(nfc)
-BuildRequires: pkgconfig(utilX)
+BuildRequires:  pkgconfig(elementary)
+BuildRequires:  pkgconfig(ui-gadget-1)
+BuildRequires:  pkgconfig(dlog)
+BuildRequires:  pkgconfig(vconf)
+BuildRequires:  pkgconfig(utilX)
+BuildRequires:  pkgconfig(syspopup-caller)
+BuildRequires:  pkgconfig(capi-appfw-application)
+BuildRequires:  pkgconfig(capi-network-nfc)
+
+BuildRequires:  cmake
+BuildRequires:  edje-tools
+BuildRequires:  gettext-tools
+
 Requires(post): /sbin/ldconfig
 Requires(post): /usr/bin/vconftool
 Requires(postun): /sbin/ldconfig
@@ -56,7 +45,7 @@ ug for nfc setting
 %package -n ug-share-nfc-efl
 Summary:  ug for nfc share
 Group:    Development/Libraries
-Requires(post):   /sbin/ldconfig
+Requires(post): /sbin/ldconfig
 Requires(post): /usr/bin/vconftool
 Requires: %{name} = %{version}-%{release}
 
@@ -78,11 +67,10 @@ rm -rf %{buildroot}
 %make_install
 
 %post
-vconftool set -t bool db/nfc/enable 0 -u 5000
 
 
 %post -n ug-share-nfc-efl
-vconftool set -t int db/nfc/last_file_number 0 -u 5000
+vconftool set -t int -f db/private/ug-nfc-efl/last_file_number 0 -u 5000
 
 %postun
 

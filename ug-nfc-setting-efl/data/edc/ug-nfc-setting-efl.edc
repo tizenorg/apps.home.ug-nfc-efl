@@ -1,0 +1,105 @@
+collections {
+
+	styles
+	{
+		style
+		{
+			name: "style_txt_desc_black";
+			base: "font=SLP:style=Regular text_class=slp_regular font_size=40 align=left color=#FFFFFF wrap=word";
+			tag:  "br" "\n";
+			tag:  "tab" "\t";
+			tag:  "b" "+ font=SLP:style=Bold";
+			tag:  "link" "+ color=#800 underline=on underline_color=#8008";
+			tag:  "hilight" "+ font=SLP:style=Bold";
+
+		}
+	}
+
+	group{
+		name: "nfc_setting";
+		parts
+		{
+			part
+			{
+				name: "setting_list";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					min: 0 50;
+					fixed: 0 1;
+					rel1{relative: 0 0;}
+					rel2{relative: 1 0.3;}
+					align: 0.5 0.0;
+				}
+			}
+
+			part
+			{
+				name: "left_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 16 0;
+					fixed: 1 0;
+					rel1 {relative: 0 1; to_y: "setting_list";}
+					rel2 {relative: 0 1;}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "right_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 16 0;
+					fixed: 1 0;
+					rel1 {relative: 1 1; to_y: "setting_list";}
+					rel2 {relative: 1 1;}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "bottom_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 16;
+					fixed: 0 1;
+					rel1 {relative: 0 0.75;}
+					rel2 {relative: 1 0.75;}
+					align: 0 0;
+				}
+			}
+
+
+			part
+			{
+				name: "sbeam_help";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 1 1; to_x:"left_pad"; to_y: "setting_list";}
+					rel2{relative: 0 0; to_x:"right_pad";to_y: "bottom_pad";}
+					align: 0 0;
+				}
+			}
+		}
+	}
+}

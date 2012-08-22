@@ -1,7 +1,1 @@
 #!/bin/sh
-if [ ${USER} == "root" ]
-then
-vconftool set -t bool db/nfc/enable 0 -u 5000
-else
-vconftool set -t bool db/nfc/enable 0
-fi

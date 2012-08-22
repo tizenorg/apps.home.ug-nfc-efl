@@ -1,6 +1,9 @@
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Για να ακυρώσετε την κοινή χρήση, πατήστε “Άκυρο”"
 
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Η υπηρεσία δεν είναι διαθέσιμη. Το NFC είναι απενεργοποιημένο. Να ενεργοποιηθεί το NFC;"
+
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Κοινή χρήση μέσω NFC"
 
@@ -10,12 +13,9 @@ msgstr "Αποτυχία κοινής χρήσης ετικέτας"
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Αγγίξτε απαλά τα τηλέφωνα για κοινή χρήση"
 
-msgid "IDS_NFC_POP_PS_TAG_SHARED"
-msgstr "Έγινε κοινή χρήση της ετικέτας %s"
-
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Σφάλμα μεταφοράς"
 
-msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "Επιλέχθηκε το %s"
+msgid "IDS_NFC_POP_TAG_SHARED"
+msgstr "Έγινε κοινή χρήση της ετικέτας"
 

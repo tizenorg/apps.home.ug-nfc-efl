@@ -1,6 +1,9 @@
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "若要取消共享，点击取消"
 
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "服务不可用。NFC 已关闭。是否开启 NFC？"
+
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "通过 NFC 共享"
 
@@ -10,12 +13,9 @@ msgstr "共享标签失败"
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "轻轻地将手机触碰在一起以共享"
 
-msgid "IDS_NFC_POP_PS_TAG_SHARED"
-msgstr "%s 标签已共享"
-
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "转换失败"
 
-msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "已选择%s"
+msgid "IDS_NFC_POP_TAG_SHARED"
+msgstr "标签已共享"
 

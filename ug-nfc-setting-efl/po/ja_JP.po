@@ -1,6 +1,9 @@
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_POP_ACTIVATION"
-msgstr "アクティベーション"
+msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
+msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
 

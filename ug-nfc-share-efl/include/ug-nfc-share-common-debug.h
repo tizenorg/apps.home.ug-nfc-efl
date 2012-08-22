@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #ifndef __UG_NFC_SHARE_DEBUG_H__
 #define __UG_NFC_SHARE_DEBUG_H__
 

@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #ifndef __UG_NFC_SHARE_MAIN_H__
 #define __UG_NFC_SHARE_MAIN_H__
 
@@ -27,12 +28,10 @@ extern "C" {
 #include <dlog.h>
 #include <stdbool.h>
 #include <string.h>
-#include <appsvc.h>
 
-#include <appcore-efl.h>
 #include <Ecore_X.h>
 #include <utilX.h>
-
+#include <bundle.h>
 #include <assert.h>
 #include <glib.h>
 
@@ -48,8 +47,8 @@ extern "C" {
 #endif
 #define PREFIX "/opt/ug/"
 #define EDJ_PATH 		PREFIX"/res/edje/"PACKAGE
-#define EDJ_FILE        	EDJ_PATH"/ug-nfc-share-efl.edj"
-#define IMAGES_PATH 	PREFIX"/res/images/"PACKAGE
+#define EDJ_FILE        		EDJ_PATH"/ug-nfc-share-efl.edj"
+#define IMAGES_PATH 		PREFIX"/res/images/"PACKAGE
 #define LOCALE_PATH		PREFIX"/res/locale"
 
 #ifdef LOG_TAG
@@ -57,6 +56,9 @@ extern "C" {
 #endif
 
 #define LOG_TAG "UG_NFC_SHARE_EFL"
+
+#define NFC_SHARE_SERVICE			"com.samsung.nfc-share-service"
+#define NFC_SHARE_SERVICE_SHARE_VIA_UG		"http://tizen.org/appsvc/operation/nfc_share_via_ug"
 
 #define GET_SAFE_STRING(x) ((x) != NULL ? (x) : "NULL")
 #define STRING_AND_SIZE(x) (x), strlen((x))
@@ -74,58 +76,73 @@ extern "C" {
 #define NFCUG_LOCALEDIR		LOCALE_PATH
 
 /* Registered string in STMS NFC */
-#define IDS_PS_SELECTED										dgettext(PACKAGE, "IDS_NFC_BODY_PS_SELECTED")
-#define IDS_SHARE_VIA_NFC									dgettext(PACKAGE, "IDS_NFC_HEADER_SHARE_VIA_NFC")
-#define IDS_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE		dgettext(PACKAGE, "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE")
-#define IDS_TO_CANCEL_SHARING_TAP_CANCEL				dgettext(PACKAGE, "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL")
-#define IDS_PS_TAG_SHARED									dgettext(PACKAGE, "IDS_NFC_POP_PS_TAG_SHARED")
-#define IDS_FAILED_TO_SHARE_TAG							dgettext(PACKAGE, "IDS_NFC_POP_FAILED_TO_SHARE_TAG")
+#define IDS_SHARE_VIA_NFC							dgettext(PACKAGE, "IDS_NFC_HEADER_SHARE_VIA_NFC")
+#define IDS_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE				dgettext(PACKAGE, "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE")
+#define IDS_TO_CANCEL_SHARING_TAP_CANCEL					dgettext(PACKAGE, "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL")
+#define IDS_TAG_SHARED								dgettext(PACKAGE, "IDS_NFC_POP_TAG_SHARED")
+#define IDS_FAILED_TO_SHARE_TAG						dgettext(PACKAGE, "IDS_NFC_POP_FAILED_TO_SHARE_TAG")
+#define IDS_TRANSFER_FAILED							dgettext(PACKAGE, "IDS_NFC_POP_TRANSFER_FAILED")
+#define IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q		dgettext(PACKAGE, "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q")
 
 #define IDS_HANDOVER	_("HANDOVER")
-#define IDS_TRANSFER_FAILED								dgettext(PACKAGE, "IDS_NFC_POP_TRANSFER_FAILED")
 #define IDS_UNABLE_TO_SHARE_FILES_MAXIMUM_FILE_SIZE_EXCEEDED_SHARE_FILES_VIA_BLUETOOTH_PAIRED_DEVICES_MAY_BE_DISCONNECTED_CONTINUE_Q \
 	_("File size exceeds allowed limit. Share files via Bluetooth. Continue?")
-#define IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q		_("Service not available. NFC turned off. Turn on NFC?")
+#define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
 
 /* System string */
 #define IDS_YES				dgettext("sys_string", "IDS_COM_SK_YES")
 #define IDS_NO				dgettext("sys_string", "IDS_COM_SK_NO")
-#define IDS_OK			dgettext("sys_string", "IDS_COM_SK_OK")
-#define IDS_NONE		dgettext("sys_string", "IDS_COM_BODY_NONE")
-#define IDS_UNKNOWN	dgettext("sys_string", "IDS_COM_BODY_UNKNOWN")
-#define IDS_CANCEL		dgettext("sys_string", "IDS_COM_SK_CANCEL")
+#define IDS_OK				dgettext("sys_string", "IDS_COM_SK_OK")
+#define IDS_NONE			dgettext("sys_string", "IDS_COM_BODY_NONE")
+#define IDS_UNKNOWN			dgettext("sys_string", "IDS_COM_BODY_UNKNOWN")
+#define IDS_CANCEL			dgettext("sys_string", "IDS_COM_SK_CANCEL")
+#define IDS_CLOSE			dgettext("sys_string", "IDS_COM_POP_CLOSE")
 
 /**** common lib functions endzz  **********/
 
 typedef enum
 {
-        UG_NFC_SHARE_TAG_CONTACT = 0,
-        UG_NFC_SHARE_TAG_URL,
-        UG_NFC_SHARE_TAG_MPLAYER,
-        UG_NFC_SHARE_TAG_MEMO,
-        UG_NFC_SHARE_TAG_BT,
-        UG_NFC_SHARE_TAG_WIFI,
-        UG_NFC_SHARE_TAG_PROFILE,
-        UG_NFC_SHARE_TAG_ALLSHARE,
-        UG_NFC_SHARE_TAG_FILE,
-        UG_NFC_SHARE_TAG_HANDOVER,
-        UG_NFC_SHARE_TAG_UNKNOWN,
-        UG_NFC_SHARE_TAG_MAX
+	UG_NFC_SHARE_TAG_CONTACT = 0,
+	UG_NFC_SHARE_TAG_URL,
+	UG_NFC_SHARE_TAG_MPLAYER,
+	UG_NFC_SHARE_TAG_MEMO,
+	UG_NFC_SHARE_TAG_BT,
+	UG_NFC_SHARE_TAG_WIFI,
+	UG_NFC_SHARE_TAG_PROFILE,
+	UG_NFC_SHARE_TAG_ALLSHARE,
+	UG_NFC_SHARE_TAG_FILE,
+	UG_NFC_SHARE_TAG_HANDOVER,
+	UG_NFC_SHARE_TAG_UNKNOWN,
+	UG_NFC_SHARE_TAG_MAX
 } ug_nfc_share_tag_type;
 
+enum
+{
+	UG_FONT_LIST = 0,
+	UG_FONT_SBEAM_TITLE,
+	UG_FONT_LIVEBOX,
+	UG_FONT_HELP,
+	UG_FONT_MAX,
+};
+
+enum
+{
+	UG_ALIGN_LEFT,
+	UG_ALIGN_CENTER,
+	UG_ALIGN_RIGHT,
+};
 
 typedef struct _ugdata_t
 {
 	Evas_Object* ug_win_main;
-	struct ui_gadget *nfc_share_ug;
+	ui_gadget_h nfc_share_ug;
 	Evas_Object* base_layout;
 	Evas_Object *bg;
 
+	nfc_ndef_message_h current_ndef;
+	bundle *bd;
 	Evas_Object* base_naviframe;
 	Elm_Object_Item *base_navi_it;
-
-	nfc_ndef_message_h current_ndef;
-	char *uri;
 }ugdata_t;
 
 

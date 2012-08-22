@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #ifndef __UG_NFC_SHARE_TAG_H__
 #define __UG_NFC_SHARE_TAG_H__
 
@@ -23,19 +24,25 @@ extern "C" {
 
 #include "ug-nfc-share-main.h"
 
-#define UG_NFC_SHARE_LAST_FILE_NUMBER_KEY "db/nfc/last_file_number"
+#if 0
+#define UG_NFC_SHARE_LAST_FILE_NUMBER_KEY "db/private/ug-nfc-efl/last_file_number"
 #define UG_NFC_SHARE_FILE_NAME_PREFIX _("nfc_receive_file_")
+#endif
 
 /* get and set function */
+#if 0
 char* ug_nfc_share_get_display_str(void);
 void ug_nfc_share_set_display_str(const char* text);
+#endif
 ug_nfc_share_tag_type ug_nfc_share_get_tag_type(void);
 void ug_nfc_share_set_tag_type(ug_nfc_share_tag_type tag_type);
 nfc_ndef_message_h ug_nfc_share_get_current_ndef(void *data);
 ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message_h ndef_msg);
 
 /* util function */
+#if 0
 char *ug_nfc_share_get_display_text_from_ndef(ug_nfc_share_tag_type record_type, nfc_ndef_message_h ndef_msg);
+#endif
 ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_h *msg, const char *path);
 ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_message_h *msg, const char *path[], int record_count); /* nfc_handover */
 void ug_nfc_set_nfc_callback(void *user_data);

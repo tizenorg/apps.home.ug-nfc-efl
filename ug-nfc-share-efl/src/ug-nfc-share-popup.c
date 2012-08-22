@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #include "ug-nfc-share-popup.h"
 
 
@@ -30,17 +31,19 @@ static void _ug_nfc_share_popup_response_cb(void *data, Evas_Object *obj, void *
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
 
 	int btn_type = (int)data;
+	UG_NFC_POPUP_USER_RESP_CB temp_cb = _user_response_cb;
+	void *temp_data = _user_data;
 
 	LOGD("btn_type: %d", (int)btn_type);
-	if (_user_response_cb)
-		_user_response_cb(_user_data, obj, (void*)btn_type);
-
 	LOGD("Popup is removed: [%p]", obj);
 	evas_object_del(_popup);
 
 	_popup = NULL;
 	_user_response_cb = NULL;
 	_user_data = NULL;
+
+	if (temp_cb)
+		temp_cb(temp_data, obj, (void*)btn_type);
 
 	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
 }
@@ -98,18 +101,21 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
 
 	if(btn1_text) {
 		btn = elm_button_add(_popup);
+		elm_object_style_set (btn, "popup_button/default");
 		elm_object_text_set(btn, btn1_text);
 		elm_object_part_content_set(_popup, "button1", btn);
 		evas_object_smart_callback_add(btn, "clicked", _ug_nfc_share_popup_response_cb, (void*)btn1_type);
 	}
 	if (btn2_text) {
 		btn = elm_button_add(_popup);
+		elm_object_style_set (btn, "popup_button/default");
 		elm_object_text_set(btn, btn2_text);
 		elm_object_part_content_set(_popup, "button2", btn);
 		evas_object_smart_callback_add(btn, "clicked", _ug_nfc_share_popup_response_cb, (void*)btn2_type);
 	}
 	if (btn3_text) {
 		btn = elm_button_add(_popup);
+		elm_object_style_set (btn, "popup_button/default");
 		elm_object_text_set(btn, btn3_text);
 		elm_object_part_content_set(_popup, "button3", btn);
 		evas_object_smart_callback_add(btn, "clicked", _ug_nfc_share_popup_response_cb, (void*)btn3_type);

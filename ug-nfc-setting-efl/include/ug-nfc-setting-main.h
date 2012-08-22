@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #ifndef __UG_NFC_SETTING_MAIN_H__
 #define __UG_NFC_SETTING_MAIN_H__
 
@@ -32,6 +33,8 @@ extern "C" {
 #undef PREFIX
 #endif
 #define PREFIX "/opt/ug/"
+#define EDJ_PATH 		PREFIX"/res/edje/"PACKAGE
+#define EDJ_FILE			EDJ_PATH"/ug-nfc-setting-efl.edj"
 #define LOCALE_PATH		PREFIX"/res/locale"
 
 #ifdef LOG_TAG
@@ -43,22 +46,54 @@ extern "C" {
 #define NFCUG_TEXT_DOMAIN		PACKAGE
 #define NFCUG_LOCALEDIR		LOCALE_PATH
 
-/* Registered string in STMS NFC */
-#define IDS_ACTIVATION		dgettext(PACKAGE, "IDS_NFC_POP_ACTIVATION")
-#define IDS_NFC				dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
+#define POPUP_TEXT_SIZE	1024
 
+/* Registered string in STMS NFC */
+#define IDS_NFC_NFC					dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
+#define IDS_NFC_S_BEAM					dgettext(PACKAGE, "IDS_NFC_OPT_S_BEAM")
+#define IDS_NFC_S_BEAM_DESCRIPTION_MSG_CHN		dgettext(PACKAGE, "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN")
+#define IDS_CLOSE					dgettext("sys_string", "IDS_COM_POP_CLOSE")
+
+#define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
+
+typedef enum _NFCSettingType {
+	NFC_ON_OFF = 0,
+	NFC_S_BEAM,
+	NFC_SETTING_MAX
+} NFCSettingType;
+
+enum
+{
+	UG_FONT_LIST = 0,
+	UG_FONT_SBEAM_TITLE,
+	UG_FONT_LIVEBOX,
+	UG_FONT_HELP,
+	UG_FONT_MAX,
+};
+
+enum
+{
+	UG_ALIGN_LEFT,
+	UG_ALIGN_CENTER,
+	UG_ALIGN_RIGHT,
+};
 
 typedef struct _ugdata_t
 {
 	Evas_Object* ug_win_main;
-	struct ui_gadget *nfc_setting_ug;
+	ui_gadget_h nfc_setting_ug;
 	Evas_Object* base_layout;
 	Evas_Object *bg;
-	Evas_Object *check;
 
 	Evas_Object* base_naviframe;
 	Elm_Object_Item *base_navi_it;
 }ugdata_t;
+
+typedef struct _gl_item_data_t
+{
+	NFCSettingType type;
+	ugdata_t *data;
+}gl_item_data;
 
 #ifdef __cplusplus
 }

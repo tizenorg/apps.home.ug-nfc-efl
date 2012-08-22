@@ -1,8 +1,0 @@
-#!/bin/sh
-if [ ${USER} == "root" ]
-then
-vconftool set -t int db/nfc/last_file_number 0 -u 5000
-else
-vconftool set -t int db/nfc/last_file_number 0
-fi
-

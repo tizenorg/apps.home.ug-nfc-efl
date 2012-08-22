@@ -14,10 +14,8 @@
   * limitations under the License.
   */
 
-#include <string.h>
 
-#include "appsvc.h"
-#include <aul.h>
+#include <string.h>
 
 #include "ug-nfc-share-common-util.h"
 #include "ug-nfc-share-common-debug.h"
@@ -194,33 +192,3 @@ ug_nfc_share_memory_print_list()
 }
 #endif /*_UG_NFC_SHARE_MEM_TRACE_*/
 
-int ug_nfc_share_launch_service(const char *operation, const char *uri, const char *mime)
-{
-	int result = -1;
-
-	bundle *bd = NULL;
-
-	bd = bundle_create();
-	retv_if(bd == NULL, result);
-
-	if (operation != NULL)
-	{
-		appsvc_set_operation(bd, operation);
-	}
-
-	if (uri != NULL)
-	{
-		appsvc_set_uri(bd, uri);
-	}
-
-	if (mime != NULL)
-	{
-		appsvc_set_mime(bd, mime);
-	}
-
-	result = appsvc_run_service(bd, 0, NULL, NULL);
-
-	bundle_free(bd);
-
-	return result;
-}

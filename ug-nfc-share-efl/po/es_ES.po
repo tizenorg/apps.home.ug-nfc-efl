@@ -1,6 +1,9 @@
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Para detener el uso compartido, pulse Cancelar"
 
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Servicio no disponible. NFC apagado. ¿Encender NFC?"
+
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Compartir mediante NFC"
 
@@ -10,12 +13,9 @@ msgstr "Error al compartir etiqueta"
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Toque un teléfono con otro con suavidad para compartir"
 
-msgid "IDS_NFC_POP_PS_TAG_SHARED"
-msgstr "Etiqueta %s compartida"
-
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Error de transferencia"
 
-msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "Se ha seleccionado %s"
+msgid "IDS_NFC_POP_TAG_SHARED"
+msgstr "Etiqueta compartida"
 

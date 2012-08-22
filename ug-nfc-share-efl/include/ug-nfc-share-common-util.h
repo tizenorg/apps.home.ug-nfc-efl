@@ -14,6 +14,7 @@
   * limitations under the License.
   */
 
+
 #ifndef __UG_NFC_SHARE_COMMON_UTIL_H__
 #define __UG_NFC_SHARE_COMMON_UTIL_H__
 
@@ -205,8 +206,6 @@ void ug_nfc_share_memory_print_list(void);
 		}while(0)
 
 #endif /* _UG_NFC_SHARE_MEM_TRACE_ */
-
-int ug_nfc_share_launch_service(const char *operation, const char *uri, const char *mime);
 
 #endif	/*__UG_NFC_SHARE_COMMON_UTIL_H__*/
 
