@@ -28,68 +28,28 @@
 #include <sys/wait.h>
 
 /* external library header */
-#include "xdgmime.h"
-#include "syspopup_caller.h"
-
+#include "mime_type.h"
+#include "status.h"
 
 #define NFC_POPUP_TIMEOUT               3.0
 
 static ug_nfc_share_tag_type ug_nfc_share_tagType;
-static char *ug_nfc_share_displayText = NULL;
 
 
 int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t length);
 
 /*-----------------------------------------------------------------------------------------------*/
 
-static void _show_failure_popup(void *data, char *str)
+static void _show_status_text(void *data, char *text)
 {
 	ugdata_t *ug_data = (ugdata_t *)data;
 
 	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
 
 	ret_if(ug_data == NULL);
-	ret_if(str == NULL);
+	ret_if(text == NULL);
 
-	bundle *bd = NULL;
-
-	bd = bundle_create();
-	bundle_add(bd, "0", "info");
-	bundle_add(bd, "1", str);
-	bundle_add(bd, "2", "0");  // bottom orientation
-	bundle_add(bd, "3", "2");  // terminated after 2 seconds
-
-	syspopup_launch("tickernoti-syspopup", bd);
-
-	bundle_free(bd);
-
-	ug_destroy_me(ug_data->nfc_share_ug);
-
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
-}
-
-static void _show_success_popup(void *data)
-{
-	char popup_str[POPUP_TEXT_SIZE] = { 0, };
-	ugdata_t *ug_data = (ugdata_t *)data;
-
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
-
-	ret_if(ug_data == NULL);
-
-	snprintf(popup_str, POPUP_TEXT_SIZE, "%s", IDS_TAG_SHARED);
-
-	bundle *bd = NULL;
-
-	bd = bundle_create();
-	bundle_add(bd, "0", "info");
-	bundle_add(bd, "1", popup_str);
-	bundle_add(bd, "2", "0");  // bottom orientation
-	bundle_add(bd, "3", "2");  // terminated after 2 seconds
-
-	syspopup_launch("tickernoti-syspopup", bd);
-
-	bundle_free(bd);
+	status_message_post(text);
 
 	ug_destroy_me(ug_data->nfc_share_ug);
 
@@ -148,24 +108,45 @@ ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message
 
 }
 
-static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(const char *path, uint8_t **type_data, uint32_t *type_size)
+static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(const char *path, uint8_t *type_data, uint32_t *type_size)
 {
 	ug_nfc_share_result_e result = UG_NFC_SHARE_ERROR;
-	const char *mime_type;
+	char *extension = NULL;
 
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
 
 	retv_if(path == NULL, result);
 	retv_if(type_data == NULL, result);
+	retv_if(type_size == NULL, result);
 
-	mime_type = xdg_mime_get_mime_type_from_file_name(path);
-	UG_NFC_SHARE_MEM_MALLOC(*type_data, strlen(mime_type), uint8_t);
-	memcpy(*type_data, mime_type, strlen(mime_type));
-	*type_size = strlen(mime_type);
+	LOGD("typedata = %p, typesize = %d", type_data, *type_size);
 
-	LOGD("mime type : %s", GET_SAFE_STRING((char *)*type_data));
+	memset(type_data, 0, *type_size);
+	*type_size = 0;
 
-	result = UG_NFC_SHARE_OK;
+	extension = strrchr(path, '.');
+	LOGD("extension = %s\n", GET_SAFE_STRING(extension));
+
+	if (extension != NULL)
+	{
+		char *mime_str = NULL;
+
+		if (mime_type_get_mime_type(extension+1, &mime_str) == MIME_TYPE_ERROR_NONE)
+		{
+			LOGD("mime_str[%s]", mime_str);
+
+			*type_size = strlen(mime_str);
+			memcpy(type_data, mime_str, *type_size);
+			result = UG_NFC_SHARE_OK;
+		}
+		else
+		{
+			LOGD("ERROR :: mime_type_get_mime_type failed");
+			result = UG_NFC_SHARE_ERROR;
+		}
+	}
+
+	LOGD("mime type : %s", GET_SAFE_STRING((char *)type_data));
 
 	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 
@@ -176,8 +157,8 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 {
 	int result = UG_NFC_SHARE_ERROR;
 	struct stat st;
-	uint8_t *type_buffer = NULL;
-	int type_size = 0;
+	uint8_t type_buffer[50] = { 0, };
+	int type_size = sizeof(type_buffer);
 	nfc_ndef_record_h record = NULL;
 	FILE *file = NULL;
 	char *file_name = NULL;
@@ -236,7 +217,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	}
 
 	/* get type data */
-	result = ug_nfc_share_make_mime_type_data_from_file_path(path, &type_buffer, (uint32_t *)&type_size);
+	result = ug_nfc_share_make_mime_type_data_from_file_path(path, type_buffer, (uint32_t *)&type_size);
 	if (result != UG_NFC_SHARE_OK)
 	{
 		LOGD("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
@@ -298,8 +279,8 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 {
 	int result = UG_NFC_SHARE_ERROR;
 	struct stat st;
-	uint8_t *type_buffer = NULL;
-	int type_size = 0;
+	uint8_t type_buffer[50] = { 0, };
+	int type_size = sizeof(type_buffer);
 	nfc_ndef_record_h record = NULL;
 	FILE *file = NULL;
 	char *file_name = NULL;
@@ -363,7 +344,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 		}
 
 		/* get type data */
-		result = ug_nfc_share_make_mime_type_data_from_file_path(path[index], &type_buffer, (uint32_t *)&type_size);
+		result = ug_nfc_share_make_mime_type_data_from_file_path(path[index], type_buffer, (uint32_t *)&type_size);
 		if (result != UG_NFC_SHARE_OK)
 		{
 			LOGD("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
@@ -483,23 +464,20 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 
 		if (_bt_ipc_send_obex_message(address, (uint8_t *)data, strlen(data) + 1) == 0)
 		{
-			/* show success popup */
-			_show_success_popup(ug_data);
+			_show_status_text(ug_data, IDS_TAG_SHARED);
 		}
 		else
 		{
 			LOGD("_bt_ipc_send_obex_message failed");
 
-			/* show failure popup */
-			_show_failure_popup(ug_data, IDS_FAILED_TO_SHARE_TAG);
+			_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
 		}
 	}
 	else
 	{
 		LOGD("p2p_connection_handover failed");
 
-		/* show failure popup */
-		_show_failure_popup(ug_data, IDS_FAILED_TO_SHARE_TAG);
+		_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
 	}
 
 	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
@@ -524,15 +502,13 @@ static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 	{
 		LOGD("_p2p_send_completed_cb is completed");
 
-		/* show success popup */
-		_show_success_popup(ug_data);
+		_show_status_text(ug_data, IDS_TAG_SHARED);
 	}
 	else
 	{
 		LOGD("_p2p_send_completed_cb failed");
 
-		/* show failure popup */
-		_show_failure_popup(ug_data, IDS_FAILED_TO_SHARE_TAG);
+		_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
 	}
 
 	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);

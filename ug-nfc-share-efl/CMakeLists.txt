@@ -32,9 +32,10 @@ elementary
 ui-gadget-1
 dlog
 vconf
-syspopup-caller
+status
 capi-appfw-application
 capi-network-nfc
+capi-content-mime-type
 )
 
 FOREACH(flag ${pkgs_ug_nfc_share_CFLAGS})
@@ -78,4 +79,3 @@ INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images/ DESTINATION ${IMAGEDI
 INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images/ DESTINATION ${IMAGEDIR} FILES_MATCHING PATTERN "*.jpg")
 
 ADD_SUBDIRECTORY(po)
-

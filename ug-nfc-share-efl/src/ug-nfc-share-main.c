@@ -29,8 +29,6 @@
 #include <sys/wait.h>
 
 /* external library header */
-#include "xdgmime.h"
-
 #include <assert.h>
 #include <glib.h>
 
@@ -304,6 +302,7 @@ static Evas_Object *_create_image(Evas_Object *parent, const char *file_path, co
 	return image;
 }
 
+#if 0
 static Evas_Object *_create_label(Evas_Object *parent, const char *text, const char *swallow, void *data)
 {
 	Evas_Object *label;
@@ -364,6 +363,27 @@ static Evas_Object *_create_layout(Evas_Object *parent, const char *clas, const 
 	return ly;
 }
 
+static Evas_Object* _create_win_for_popup(Evas_Object * parent)
+{
+	Evas_Object *eo;
+	int w, h;
+
+	eo = elm_win_add(parent, "NFCShareSubWindow", ELM_WIN_BASIC);
+	if (eo)
+	{
+		elm_win_title_set(eo, "NFCShareSubWindow");
+		elm_win_borderless_set(eo, EINA_TRUE);
+		elm_win_alpha_set(eo, EINA_TRUE);
+		evas_object_smart_callback_add(eo, "delete,request", _win_del, NULL);
+		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w, &h);
+		evas_object_resize(eo, w, h);
+		elm_win_indicator_mode_set(eo, EINA_TRUE);
+	}
+
+	return eo;
+}
+#endif
+
 static Evas_Object *_create_bg(Evas_Object *win)
 {
 	Evas_Object *bg = elm_bg_add(win);
@@ -400,26 +420,6 @@ static void _win_del(void *data, Evas_Object *obj, void *event_info)
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
 
 	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
-}
-
-static Evas_Object* _create_win_for_popup(Evas_Object * parent)
-{
-	Evas_Object *eo;
-	int w, h;
-
-	eo = elm_win_add(parent, "NFCShareSubWindow", ELM_WIN_BASIC);
-	if (eo)
-	{
-		elm_win_title_set(eo, "NFCShareSubWindow");
-		elm_win_borderless_set(eo, EINA_TRUE);
-		elm_win_alpha_set(eo, EINA_TRUE);
-		evas_object_smart_callback_add(eo, "delete,request", _win_del, NULL);
-		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w, &h);
-		evas_object_resize(eo, w, h);
-		elm_win_indicator_mode_set(eo, EINA_TRUE);
-	}
-
-	return eo;
 }
 
 static void _activation_completed_cb(nfc_error_e error, void *user_data)
@@ -644,7 +644,6 @@ void ug_nfc_share_create_nfc_share_view(void *user_data)
 {
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 	Evas_Object* nfc_share_layout = NULL;
-	Evas_Object* l_button = NULL;
 
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
 

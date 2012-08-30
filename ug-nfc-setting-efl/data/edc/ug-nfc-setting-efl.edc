@@ -1,3 +1,79 @@
+
+#define PADDING_TOP( param_padding_size ) \
+	part \
+	{ \
+		name: "top_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: 0 param_padding_size; \
+			fixed: 0 1; \
+			rel1 {relative: 0 0;} \
+			rel2 {relative: 1 0;} \
+			align:0 0; \
+		} \
+	} \
+
+#define PADDING_BOTTOM( param_padding_size ) \
+	part \
+	{ \
+		name: "bottom_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: 0 param_padding_size; \
+			fixed: 0 1; \
+			rel1 { relative: 0 1; } \
+			rel2 { relative: 1 1; } \
+			align: 0 1; \
+		} \
+	} \
+
+#define PADDING_LEFT( param_padding_size ) \
+	part \
+	{ \
+		name: "left_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: param_padding_size 0; \
+			fixed: 1 0; \
+			rel1 {relative: 0 0;} \
+			rel2 {relative: 0 1;} \
+			align:0 0; \
+		} \
+	} \
+
+#define PADDING_RIGHT( param_padding_size ) \
+	part \
+	{ \
+		name: "right_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: param_padding_size 0; \
+			fixed: 1 0; \
+			rel1 {relative: 1 0;} \
+			rel2 {relative: 1 1;} \
+			align:1 0; \
+		} \
+	} \
+
+#define SETTING_LIST_HEIGHT	(40+113+113)
+#define SCREEN_HEIGHT		1280
+
 collections {
 
 	styles
@@ -27,65 +103,34 @@ collections {
 				description
 				{
 					state: "default" 0.0;
-					min: 0 50;
+					min: 0 SETTING_LIST_HEIGHT;
 					fixed: 0 1;
 					rel1{relative: 0 0;}
-					rel2{relative: 1 0.3;}
-					align: 0.5 0.0;
-				}
-			}
-
-			part
-			{
-				name: "left_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 16 0;
-					fixed: 1 0;
-					rel1 {relative: 0 1; to_y: "setting_list";}
-					rel2 {relative: 0 1;}
+					rel2{relative: 1 SETTING_LIST_HEIGHT/SCREEN_HEIGHT;}
 					align: 0 0;
 				}
 			}
 
 			part
 			{
-				name: "right_pad";
+				name: "setting_list_pad";
 				type: RECT;
 				scale: 1;
 				description
 				{
 					state: "default" 0.0;
 					color: 0 0 0 0;
-					min: 16 0;
-					fixed: 1 0;
-					rel1 {relative: 1 1; to_y: "setting_list";}
-					rel2 {relative: 1 1;}
-					align: 0 0;
-				}
-			}
-
-			part
-			{
-				name: "bottom_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 16;
+					min: 0 36;
 					fixed: 0 1;
-					rel1 {relative: 0 0.75;}
-					rel2 {relative: 1 0.75;}
-					align: 0 0;
+					rel1 {relative: 0 1; to_y: "setting_list";}
+					rel2 {relative: 1 1; to_y: "setting_list";}
+					align:0 0;
 				}
 			}
 
+			PADDING_LEFT(40)
+			PADDING_RIGHT(40)
+			PADDING_BOTTOM(40)
 
 			part
 			{

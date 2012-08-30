@@ -5,7 +5,7 @@
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.0.2
-Release:    17
+Release:    20
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
@@ -16,9 +16,10 @@ BuildRequires:  pkgconfig(ui-gadget-1)
 BuildRequires:  pkgconfig(dlog)
 BuildRequires:  pkgconfig(vconf)
 BuildRequires:  pkgconfig(utilX)
-BuildRequires:  pkgconfig(syspopup-caller)
+BuildRequires:  pkgconfig(status)
 BuildRequires:  pkgconfig(capi-appfw-application)
 BuildRequires:  pkgconfig(capi-network-nfc)
+BuildRequires:  pkgconfig(capi-content-mime-type)
 
 BuildRequires:  cmake
 BuildRequires:  edje-tools
