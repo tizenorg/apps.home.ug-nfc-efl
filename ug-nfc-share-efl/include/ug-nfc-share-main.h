@@ -58,7 +58,7 @@ extern "C" {
 #define LOG_TAG "UG_NFC_SHARE_EFL"
 
 #define NFC_SHARE_SERVICE			"com.samsung.nfc-share-service"
-#define NFC_SHARE_SERVICE_SHARE_VIA_UG		"http://tizen.org/appsvc/operation/nfc_share_via_ug"
+#define NFC_SHARE_SERVICE_SHARE_VIA_UG		"http://tizen.org/appcontrol/operation/nfc_share_via_ug"
 
 #define GET_SAFE_STRING(x) ((x) != NULL ? (x) : "NULL")
 #define STRING_AND_SIZE(x) (x), strlen((x))
