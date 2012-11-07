@@ -5,7 +5,7 @@
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.0.2
-Release:    20
+Release:    21
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
@@ -76,6 +76,7 @@ vconftool set -t int -f db/private/ug-nfc-efl/last_file_number 0 -u 5000
 %postun
 
 %files
+%manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
 /opt/ug/lib/libug-setting-nfc-efl*
 /opt/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
