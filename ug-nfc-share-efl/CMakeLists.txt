@@ -11,6 +11,12 @@ SET(LOCALEDIR "${RESDIR}/locale")
 SET(EDJDIR "${RESDIR}/edje/${PROJECT_NAME}")
 SET(IMAGEDIR "${RESDIR}/images/${PROJECT_NAME}")
 
+ADD_DEFINITIONS("-DPACKAGE=\"ug-share-nfc-efl\"")
+ADD_DEFINITIONS("-DPREFIX=\"${PREFIX}\"")
+ADD_DEFINITIONS("-DLOCALEDIR=\"${LOCALEDIR}\"")
+ADD_DEFINITIONS("-DIMGDIR=\"${IMGDIR}\"")
+ADD_DEFINITIONS("-DEDJDIR=\"${EDJDIR}\"")
+
 SET(SRCS
 src/ug-nfc-share-main.c
 src/ug-nfc-share-tag.c
@@ -65,15 +71,15 @@ ADD_LIBRARY(${PROJECT_NAME} SHARED ${SRCS})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES SOVERSION 0.1.0)
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_ug_nfc_share_LDFLAGS})
 
-ADD_CUSTOM_TARGET(ug-nfc-share-efl.edj
+ADD_CUSTOM_TARGET(ug-share-nfc-efl.edj
                 COMMAND edje_cc -id ${CMAKE_CURRENT_SOURCE_DIR}/data/images
-                ${CMAKE_CURRENT_SOURCE_DIR}/data/edc/ug-nfc-share-efl.edc ${CMAKE_BINARY_DIR}/ug-nfc-share-efl.edj
-                DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/data/edc/ug-nfc-share-efl.edc
+                ${CMAKE_CURRENT_SOURCE_DIR}/data/edc/ug-share-nfc-efl.edc ${CMAKE_BINARY_DIR}/ug-share-nfc-efl.edj
+                DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/data/edc/ug-share-nfc-efl.edc
 )
-ADD_DEPENDENCIES(${PROJECT_NAME} ug-nfc-share-efl.edj)
+ADD_DEPENDENCIES(${PROJECT_NAME} ug-share-nfc-efl.edj)
 
-INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /opt/ug/lib)
-INSTALL(FILES ${CMAKE_BINARY_DIR}/ug-nfc-share-efl.edj DESTINATION ${EDJDIR})
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION ${LIBDIR})
+INSTALL(FILES ${CMAKE_BINARY_DIR}/ug-share-nfc-efl.edj DESTINATION ${EDJDIR})
 
 INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images/ DESTINATION ${IMAGEDIR} FILES_MATCHING PATTERN "*.png")
 INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images/ DESTINATION ${IMAGEDIR} FILES_MATCHING PATTERN "*.jpg")

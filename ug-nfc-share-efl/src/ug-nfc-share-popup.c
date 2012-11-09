@@ -129,7 +129,10 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
 	}
 
 	if (enable_timeout)
+	{
 		elm_popup_timeout_set(_popup, NFC_POPUP_AUTO_TIMEOUT_SEC);
+		evas_object_smart_callback_add(_popup, "timeout", _ug_nfc_share_popup_response_cb, NULL);
+	}
 
 	_ug_nfc_share_popup_show_cb(NULL);
 

@@ -41,15 +41,10 @@ extern "C" {
 #include "ug-nfc-share-common-debug.h"
 #include "ug-nfc-share-common-util.h"
 
-#define PACKAGE "ug-share-nfc-efl"
-#ifdef PREFIX
-#undef PREFIX
-#endif
-#define PREFIX "/opt/ug/"
-#define EDJ_PATH 		PREFIX"/res/edje/"PACKAGE
-#define EDJ_FILE        		EDJ_PATH"/ug-nfc-share-efl.edj"
-#define IMAGES_PATH 		PREFIX"/res/images/"PACKAGE
-#define LOCALE_PATH		PREFIX"/res/locale"
+#define LOCALE_PATH		LOCALEDIR
+#define IMAGES_PATH 		IMAGEDIR
+#define EDJ_PATH		EDJDIR
+#define EDJ_FILE			EDJ_PATH"/"PACKAGE".edj"
 
 #ifdef LOG_TAG
 #undef LOG_TAG
@@ -81,10 +76,12 @@ extern "C" {
 #define IDS_TO_CANCEL_SHARING_TAP_CANCEL					dgettext(PACKAGE, "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL")
 #define IDS_TRANSFER_FAILED							dgettext(PACKAGE, "IDS_NFC_POP_TRANSFER_FAILED")
 #define IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q		dgettext(PACKAGE, "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q")
-//#define IDS_TAG_SHARED								dgettext(PACKAGE, "IDS_NFC_POP_TAG_SHARED")
-#define IDS_TAG_SHARED								_("Shared")
-//#define IDS_FAILED_TO_SHARE_TAG						dgettext(PACKAGE, "IDS_NFC_POP_FAILED_TO_SHARE_TAG")
-#define IDS_FAILED_TO_SHARE_TAG						_("Failed")
+//#define IDS_NFC_NFC								dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
+#define IDS_NFC_NFC								_("NFC")
+#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS				_("Security policy restricts use of %s")
+
+#define IDS_SHARED								_("Shared")
+#define IDS_UNABLE_TO_SHARE							_("Unable to share")
 
 #define IDS_HANDOVER	_("HANDOVER")
 #define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")

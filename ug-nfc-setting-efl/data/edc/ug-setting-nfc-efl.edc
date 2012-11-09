@@ -71,8 +71,9 @@
 		} \
 	} \
 
-#define SETTING_LIST_HEIGHT	(40+113+113)
-#define SCREEN_HEIGHT		1280
+#define SETTING_LIST_HEIGHT		(40+1+112+1+112+1+1)
+#define PREDEFINED_ITEM_HEIGHT	(40+1+112+15+1)
+#define SCREEN_HEIGHT			1280
 
 collections {
 
@@ -111,26 +112,8 @@ collections {
 				}
 			}
 
-			part
-			{
-				name: "setting_list_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 36;
-					fixed: 0 1;
-					rel1 {relative: 0 1; to_y: "setting_list";}
-					rel2 {relative: 1 1; to_y: "setting_list";}
-					align:0 0;
-				}
-			}
-
 			PADDING_LEFT(40)
 			PADDING_RIGHT(40)
-			PADDING_BOTTOM(40)
 
 			part
 			{
@@ -141,6 +124,55 @@ collections {
 				{
 					state: "default" 0.0;
 					rel1{relative: 1 1; to_x:"left_pad"; to_y: "setting_list";}
+					rel2{relative: 0 1; to_x:"right_pad";to_y: "setting_list";}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "list_pad_1";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 40;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "sbeam_help";}
+					rel2 {relative: 1 1; to_y: "sbeam_help";}
+					align:0 0;
+				}
+			}
+
+			part
+			{
+				name: "predefined_item_list";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					min: 0 PREDEFINED_ITEM_HEIGHT;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "list_pad_1";}
+					rel2 {relative: 1 1; to_y: "list_pad_1";}
+					align: 0 0;
+				}
+			}
+
+			PADDING_BOTTOM(40)
+
+			part
+			{
+				name: "predefined_item_help";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 1 1; to_x:"left_pad"; to_y: "predefined_item_list";}
 					rel2{relative: 0 0; to_x:"right_pad";to_y: "bottom_pad";}
 					align: 0 0;
 				}

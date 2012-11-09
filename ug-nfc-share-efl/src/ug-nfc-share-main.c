@@ -49,6 +49,8 @@ void ug_nfc_share_create_nfc_share_view(void *user_data);
 bool ug_nfc_share_check_nfc_isAvailable(void *user_data);
 static void ug_nfc_share_create_data(ugdata_t* ug_data);
 
+static Ecore_Timer *mdmPopup_timer = NULL;
+
 int _get_theme_type()
 {
 	/* TODO : will be added */
@@ -422,6 +424,33 @@ static void _win_del(void *data, Evas_Object *obj, void *event_info)
 	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 }
 
+static void _mdm_restricted_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	ugdata_t *ug_data = (ugdata_t *)data;
+	ret_if(ug_data == NULL);
+
+	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+
+	ug_destroy_me(ug_data->nfc_share_ug);
+}
+
+static Eina_Bool _mdm_restricted_popup(void *data)
+{
+	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	char popup_str[POPUP_TEXT_SIZE] = { 0, };
+	ugdata_t *ug_data = (ugdata_t *)data;
+	retv_if(ug_data == NULL, ECORE_CALLBACK_CANCEL);
+
+	snprintf(popup_str, POPUP_TEXT_SIZE, IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS, IDS_NFC_NFC);
+	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, NULL, 0, NULL, 0, NULL, 0, true, true, _mdm_restricted_popup_response_cb);
+
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+
+	return ECORE_CALLBACK_CANCEL;
+}
+
 static void _activation_completed_cb(nfc_error_e error, void *user_data)
 {
 	ugdata_t *ug_data = (ugdata_t *)user_data;
@@ -451,7 +480,12 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 		/* setting is on */
 		LOGD("setting is on >>>>", __FUNCTION__, __LINE__);
 
-		nfc_manager_set_activation(TRUE, _activation_completed_cb, ug_data);
+		result = nfc_manager_set_activation(TRUE, _activation_completed_cb, ug_data);
+		if (result == NFC_ERROR_SECURITY_RESTRICTED)
+		{
+			LOGD("mdmPopup_timer START ");
+			mdmPopup_timer = ecore_timer_add(0.25, _mdm_restricted_popup, ug_data);
+		}
 		break;
 
 	case UG_NFC_POPUP_RESP_CANCEL :
@@ -543,13 +577,25 @@ static Evas_Object *ug_nfc_share_create_layout(void *data)
 	Evas_Object *cancel_btn = NULL;
 	nfc_ndef_message_h msg = NULL;
 	ug_nfc_share_tag_type type = UG_NFC_SHARE_TAG_MAX;
+	int width, height;
 
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	ecore_x_window_size_get(ecore_x_window_root_first_get(), &width, &height);
+	LOGD("width[%d] / height[%d]\n", width, height);
 
 	/* create base layout */
 	layout = elm_layout_add(ug_data->base_naviframe);
 	retv_if(layout == NULL, NULL);
 	elm_layout_file_set(layout, EDJ_FILE, "share_via_nfc");
+	if (width == 480) // WVGA
+	{
+		elm_layout_file_set(layout, EDJ_FILE, "share_via_nfc_wvga");
+	}
+	else // HD
+	{
+		elm_layout_file_set(layout, EDJ_FILE, "share_via_nfc");
+	}
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(layout, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_show(layout);
@@ -569,7 +615,14 @@ static Evas_Object *ug_nfc_share_create_layout(void *data)
 
 	/* create image */
 	Evas_Object *image = NULL;
-	_get_image_path("U05_AfterSelect_Share_help.png", path, sizeof(path));
+	if (width == 480) // WVGA
+	{
+		_get_image_path("U05_popup_Share_help.png", path, sizeof(path));
+	}
+	else // HD
+	{
+		_get_image_path("U05_AfterSelect_Share_help.png", path, sizeof(path));
+	}
 	image = _create_image(layout, path, "touch_image", ug_data);
 	retv_if(image == NULL, NULL);
 	evas_object_show(image);
@@ -663,7 +716,7 @@ void ug_nfc_share_create_nfc_share_view(void *user_data)
 		return;
 	}
 
-	ug_data->base_navi_it = elm_naviframe_item_push(ug_data->base_naviframe, IDS_SHARE_VIA_NFC, NULL, NULL, nfc_share_layout, "1line");
+	ug_data->base_navi_it = elm_naviframe_item_push(ug_data->base_naviframe, IDS_SHARE_VIA_NFC, NULL, NULL, nfc_share_layout, NULL);
 	elm_object_item_signal_emit(ug_data->base_navi_it, "elm,state,controlbar,close", "");
 
 	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
@@ -988,7 +1041,7 @@ static void ug_nfc_share_set_tag_type_from_bundle(bundle *bd)
 static void *__ug_nfc_share_create(ui_gadget_h ug, enum ug_mode mode, service_h service, void *priv)
 {
 	ugdata_t *ug_data = (ugdata_t *)priv;
-	int display_mode = -1;
+
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
 
 	/* set text domain */
@@ -1023,14 +1076,6 @@ static void *__ug_nfc_share_create(ui_gadget_h ug, enum ug_mode mode, service_h 
 
 	ug_data->bd = bd;
 #endif
-
-	/* set rotate as portrait */
-	display_mode = elm_win_rotation_get(ug_data->ug_win_main);
-
-	LOGD("display_mode[%d]", display_mode);
-
-	if ((display_mode == 90) || (display_mode == 270))
-		elm_win_rotation_with_resize_set(ug_data->ug_win_main, 0);
 
 	/* parse pameter, and them set request type */
 	ug_nfc_share_set_tag_type_from_bundle(ug_data->bd);
@@ -1097,21 +1142,66 @@ static void __ug_nfc_share_start(ui_gadget_h ug, service_h service, void *priv)
 static void __ug_nfc_share_pause(ui_gadget_h ug, service_h service, void *priv)
 {
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 }
 
 static void __ug_nfc_share_resume(ui_gadget_h ug, service_h service, void *priv)
 {
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 }
 
 static void __ug_nfc_share_message(ui_gadget_h ug, service_h msg, service_h service, void *priv)
 {
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 }
 
 static void __ug_nfc_share_event(ui_gadget_h ug, enum ug_event event, service_h service, void *priv)
 {
 	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+
+	ugdata_t *ug_data = (ugdata_t *)priv;
+
+	LOGD("event[%d]", event);
+
+	switch (event) {
+	case UG_EVENT_LOW_MEMORY:
+		LOGD("UG_EVENT_LOW_MEMORY");
+		break;
+	case UG_EVENT_LOW_BATTERY:
+		LOGD("UG_EVENT_LOW_BATTERY");
+		break;
+	case UG_EVENT_LANG_CHANGE:
+		LOGD("UG_EVENT_LANG_CHANGE");
+		break;
+	case UG_EVENT_ROTATE_PORTRAIT:
+		elm_win_rotation_with_resize_set(ug_data->ug_win_main, 0);
+		LOGD("UG_EVENT_ROTATE_PORTRAIT");
+		break;
+	case UG_EVENT_ROTATE_PORTRAIT_UPSIDEDOWN:
+		elm_win_rotation_with_resize_set(ug_data->ug_win_main, 0);
+		LOGD("UG_EVENT_ROTATE_PORTRAIT_UPSIDEDOWN");
+		break;
+	case UG_EVENT_ROTATE_LANDSCAPE:
+		LOGD("UG_EVENT_ROTATE_LANDSCAPE");
+		elm_win_rotation_with_resize_set(ug_data->ug_win_main, 0);
+		break;
+	case UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN:
+		LOGD("UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN");
+		elm_win_rotation_with_resize_set(ug_data->ug_win_main, 0);
+		break;
+	case UG_EVENT_REGION_CHANGE:
+		LOGD("UG_EVENT_REGION_CHANGE");
+		break;
+	default:
+		break;
+	}
+
+	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
 }
 
 UG_MODULE_API int UG_MODULE_INIT(struct ug_module_ops *ops)

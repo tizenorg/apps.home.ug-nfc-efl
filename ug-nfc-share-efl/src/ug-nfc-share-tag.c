@@ -464,20 +464,20 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 
 		if (_bt_ipc_send_obex_message(address, (uint8_t *)data, strlen(data) + 1) == 0)
 		{
-			_show_status_text(ug_data, IDS_TAG_SHARED);
+			_show_status_text(ug_data, IDS_SHARED);
 		}
 		else
 		{
 			LOGD("_bt_ipc_send_obex_message failed");
 
-			_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
+			_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 		}
 	}
 	else
 	{
 		LOGD("p2p_connection_handover failed");
 
-		_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
+		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
 	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
@@ -502,13 +502,13 @@ static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 	{
 		LOGD("_p2p_send_completed_cb is completed");
 
-		_show_status_text(ug_data, IDS_TAG_SHARED);
+		_show_status_text(ug_data, IDS_SHARED);
 	}
 	else
 	{
 		LOGD("_p2p_send_completed_cb failed");
 
-		_show_status_text(ug_data, IDS_FAILED_TO_SHARE_TAG);
+		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
 	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);

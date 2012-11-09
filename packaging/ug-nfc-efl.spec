@@ -1,11 +1,11 @@
-%define _optdir	/opt
-%define _ugdir	%{_optdir}/ug
+%define _usrdir	/usr
+%define _ugdir	%{_usrdir}/ug
 
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.0.2
-Release:    21
+Release:    36
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
@@ -66,25 +66,32 @@ make %{?jobs:-j%jobs}
 cd cmake_tmp
 rm -rf %{buildroot}
 %make_install
+mkdir -p %{buildroot}/usr/share/license
+cp -af %{_builddir}/%{name}-%{version}/packaging/ug-nfc-efl %{buildroot}/usr/share/license/
+cp -af %{_builddir}/%{name}-%{version}/packaging/ug-share-nfc-efl %{buildroot}/usr/share/license/
 
 %post
 
 
 %post -n ug-share-nfc-efl
-vconftool set -t int -f db/private/ug-nfc-efl/last_file_number 0 -u 5000
+vconftool set -t string db/nfc/predefined_item "None" -u 5000 -f
+vconftool set -t int -f db/private/ug-nfc-efl/last_file_number 0 -u 5000 -f
 
 %postun
 
 %files
 %manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
-/opt/ug/lib/libug-setting-nfc-efl*
-/opt/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
-/opt/ug/res/icons/*
+/usr/ug/lib/libug-setting-nfc-efl*
+/usr/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
+/usr/ug/res/icons/*
+/usr/share/license/ug-nfc-efl
 
 %files -n ug-share-nfc-efl
+%manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
-/opt/ug/lib/libug-share-nfc-efl*
-/opt/ug/res/edje/*
-/opt/ug/res/images/*
-/opt/ug/res/locale/*/LC_MESSAGES/ug-share-nfc-efl*
+/usr/ug/lib/libug-share-nfc-efl*
+/usr/ug/res/locale/*/LC_MESSAGES/ug-share-nfc-efl*
+/usr/ug/res/images/*
+/usr/ug/res/edje/*
+/usr/share/license/ug-share-nfc-efl

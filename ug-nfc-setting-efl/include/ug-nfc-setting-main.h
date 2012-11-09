@@ -28,14 +28,11 @@ extern "C" {
 #include <dlog.h>
 #include <nfc.h>
 
-#define PACKAGE "ug-setting-nfc-efl"
-#ifdef PREFIX
-#undef PREFIX
-#endif
-#define PREFIX "/opt/ug/"
-#define EDJ_PATH 		PREFIX"/res/edje/"PACKAGE
-#define EDJ_FILE			EDJ_PATH"/ug-nfc-setting-efl.edj"
-#define LOCALE_PATH		PREFIX"/res/locale"
+#define LOCALE_PATH		LOCALEDIR
+#define EDJ_PATH 		EDJDIR
+#define EDJ_FILE			EDJ_PATH"/"PACKAGE".edj"
+
+#define PREDEFINED_ITEM_FILE_PATH		"/usr/apps/org.tizen.57r43275q7/share"
 
 #ifdef LOG_TAG
 #undef LOG_TAG
@@ -53,7 +50,12 @@ extern "C" {
 #define IDS_NFC_S_BEAM					dgettext(PACKAGE, "IDS_NFC_OPT_S_BEAM")
 #define IDS_NFC_S_BEAM_DESCRIPTION_MSG_CHN		dgettext(PACKAGE, "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN")
 #define IDS_CLOSE					dgettext("sys_string", "IDS_COM_POP_CLOSE")
+#define IDS_NONE					dgettext("sys_string", "IDS_COM_BODY_NONE")
 
+#define IDS_PREDEFINED_ITEM				_("Predefined item")
+#define IDS_PREDEFINED_ITEM_DESCRIPTION_MSG		_("You can beam selected item to other NFC device by holding the devices close together in homescreenor main menu.")
+
+#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS	_("Security policy restricts use of %s")
 #define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
 
 typedef enum _NFCSettingType {
@@ -61,6 +63,7 @@ typedef enum _NFCSettingType {
 #ifdef _SBEAM_SUPPORT_
 	NFC_S_BEAM,
 #endif
+	NFC_PREDEFINED_ITEM,
 	NFC_SETTING_MAX
 } NFCSettingType;
 
