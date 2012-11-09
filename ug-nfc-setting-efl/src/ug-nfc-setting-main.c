@@ -339,11 +339,7 @@ static void _change_nfc_onoff_setting(void *data)
 		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, status);
 
 		result = nfc_manager_set_activation(!status, NULL, NULL);
-		if (result == NFC_ERROR_SECURITY_RESTRICTED)
-		{
-			_mdm_restricted_popup(ug_data);
-			return;
-		}
+
 		_set_pending_status(TRUE);
 	}
 	else

@@ -481,11 +481,7 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 		LOGD("setting is on >>>>", __FUNCTION__, __LINE__);
 
 		result = nfc_manager_set_activation(TRUE, _activation_completed_cb, ug_data);
-		if (result == NFC_ERROR_SECURITY_RESTRICTED)
-		{
-			LOGD("mdmPopup_timer START ");
-			mdmPopup_timer = ecore_timer_add(0.25, _mdm_restricted_popup, ug_data);
-		}
+
 		break;
 
 	case UG_NFC_POPUP_RESP_CANCEL :
