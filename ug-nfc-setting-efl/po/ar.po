@@ -1,9 +1,42 @@
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "لإلغاء المشاركة، انقر فوق إلغاء"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "الخدمة غير متاحة. تم إيقاف تشغيل NFC‬. هل تريد تشغيل NFC؟"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "مشاركة عبر NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "قم بملامسة الهواتف ببعضها البعض برفق لمشاركتها"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "فشل التحويل"
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "تقيد سياسة الأمان استخدام %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "مشترك"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "يتعذر المشاركة"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "العنصر المحدد مسبقا"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "يمكنك نقل العناصر المحددة مسبقا إلى جهاز NFC آخر. ما عليك سوى تقريب الجهازين من بعضهما (عادة من الخلف) أثناء التواجد في الشاشة الرئيسية"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "عند تشغيل NFC، يمكنك إرسال البيانات أو استلامها عند ملامسة الجهاز لأجهزة أخرى مزودة بإمكانية NFC أو علامات NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "عند تشغيل هذه الميزة، يمكنك نقل الملفات إلى أجهزة أخرى مزودة بإمكانية NFC وWi-Fi Direct بتقريب الجهازين من بعضهما. على سبيل المثال، يمكنك نقل ملفات الصور/الفيديو من الاستوديو‬‬ وملفات الموسيقى من ‏‫مشغل الموسيقى‬، وغير ذلك المزيد. فما عليك سوى تقريب الجهازين من بعضهما (عادة من الخلف) ثم النقر فوق الشاشة. يحدد التطبيق ما يتم نقله"
 

@@ -1,27 +1,98 @@
 collections {
 
-
 	group
 	{
 		name: "share_via_nfc";
-
 		parts
 		{
 			part
 			{
-				name: "genlist";
+				name: "top1_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 190;
+					fixed: 0 1;
+					rel1 {relative: 0 0;}
+					rel2 {relative: 1 0;}
+					align: 0 0;
+				}
+			}
+			part
+			{
+				name: "title";
+				type: TEXT;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 255;
+					min: 0 42;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y : "top1_pad";}
+					rel2 {relative: 1 1; to_y : "top1_pad";}
+					align: 0 0;
+					text{
+						font: "SLP:style=Regular";
+						text_class:"slp_regular";
+						size: 38;
+						min: 1 1 ;
+						align: 0.5 0.5;
+					}
+				}
+			}
+			part
+			{
+				name: "top2_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 60;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "title";}
+					rel2 {relative: 1 1; to_y: "title";}
+					align: 0 0;
+				}
+			}
+			part
+			{
+				name: "image";
 				type: SWALLOW;
 				scale: 1;
 				description
 				{
 					state: "default" 0.0;
-					min: 0 112;
-					fixed: 0 1;
-					rel1{relative: 0 0; }
-					rel2{relative: 1 0;}
+					min: 720 582;
+					max: 720 582;
+					fixed: 1 1;
+					rel1 {relative: 0 1; to_y: "top2_pad";}
+					rel2 {relative: 1 1; to_y: "top2_pad";}
 					align: 0 0;
 				}
 			}
+			part
+			{
+				name: "top3_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 222;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "image";}
+					rel2 {relative: 1 1; to_y: "image";}
+					align: 0 0;
+				}
+			}
+
 			part
 			{
 				name: "left_pad";
@@ -31,10 +102,10 @@ collections {
 				{
 					state: "default" 0.0;
 					color: 0 0 0 0;
-					min: 16 0;
+					min: 72 0;
 					fixed: 1 0;
-					rel1 {relative: 0 0;}
-					rel2 {relative: 0 1;}
+					rel1 {relative: 0 1; to_y: "top3_pad";}
+					rel2 {relative: 0 1; to_y: "top3_pad";}
 					align: 0 0;
 				}
 			}
@@ -47,215 +118,28 @@ collections {
 				{
 					state: "default" 0.0;
 					color: 0 0 0 0;
-					min: 16 0;
+					min: 72 0;
 					fixed: 1 0;
-					rel1 {relative: 1 0;}
-					rel2 {relative: 1 1;}
+					rel1 {relative: 1 1; to_y: "top3_pad";}
+					rel2 {relative: 1 1; to_y: "top3_pad";}
 					align: 1 0;
 				}
 			}
-			part
-			{
-				name: "top_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 23;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "genlist";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "genlist";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "label_name";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1{relative: 1 1; to_x:"left_pad";to_y: "top_pad";}
-					rel2{relative: 0 1; to_x:"right_pad";to_y: "top_pad";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "top_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "label_name";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "label_name";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "label_message";
-				type: SWALLOW;
-				scale:1;
 
-				description
-				{
-					state: "default" 0.0;
-					min: 0 76;
-					fixed: 0 1;
-					rel1{relative: 1 1; to_x: "left_pad"; to_y: "top_pad1";}
-					rel2{relative: 0 1; to_x: "right_pad"; to_y: "top_pad1";}
-					align: 0 0;
-				}
-			}
 			part
 			{
-				name: "top_pad2";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 40;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "label_message";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "label_message";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "left_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 56 0;
-					fixed: 1 0;
-					rel1 {relative: 1 1;to_x: "left_pad"; to_y: "top_pad2";}
-					rel2 {relative: 1 1;to_x: "left_pad"; }
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "right_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 56 0;
-					fixed: 1 0;
-					rel1 {relative: 0 1; to_x: "right_pad"; to_y:"top_pad2";}
-					rel2 {relative: 0 1; to_x:"right_pad";}
-					align: 1 0;
-				}
-			}
-			part
-			{
-				name: "touch_image";
+				name: "cancel_btn";
 				type: SWALLOW;
 				scale: 1;
 				description
 				{
 					state: "default" 0.0;
-					min: 576 560;
-					fixed: 0 0;
-					rel1{relative: 1 1; to_x:"left_pad1"; to_y:"top_pad2";}
-					rel2{relative: 0 0; to_x:"right_pad1"; to_y:"bottom_pad2";}
-					align: 0.5 0.5;
-				}
-			}
-			part
-			{
-				name: "bottom_pad2";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 78;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 1 0; to_x: "left_pad"; to_y: "label_cancel_message";}
-					rel2 {relative: 0 0; to_x: "right_pad"; to_y: "label_cancel_message";}
-				}
-			}
-			part
-			{
-				name: "label_cancel_message";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1{relative: 1 0; to_x: "left_pad"; to_y: "bottom_pad1";}
-					rel2{relative: 0 0; to_x: "right_pad"; to_y: "bottom_pad1";}
-					align: 0 1;
-				}
-			}
-			part
-			{
-				name: "bottom_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 22;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 1 0; to_x: "left_pad"; to_y: "cancel_button";}
-					rel2 {relative: 0 0; to_x: "right_pad"; to_y: "cancel_button";}
-				}
-			}
-			part
-			{
-				name: "cancel_button";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 74;
-					fixed: 0 1;
-					rel1{relative: 1 0; to_x: "left_pad"; to_y: "bottom_pad";}
-					rel2{relative: 0 0; to_x: "right_pad"; to_y: "bottom_pad";}
-					align:0 1;
-				}
-			}
-			part
-			{
-				name: "bottom_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 15;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 0 1;}
-					rel2 {relative: 1 1;}
+					min: 576 84;
+					max: 576 84;
+					fixed: 1 1;
+					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "top3_pad";}
+					rel2 {relative: 0 1; to_x: "right_pad";to_y: "top3_pad";}
+					align: 0 0;
 				}
 			}
 		}
@@ -264,24 +148,96 @@ collections {
 	group
 	{
 		name: "share_via_nfc_wvga";
-
 		parts
 		{
 			part
 			{
-				name: "genlist";
+				name: "top1_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 190;
+					fixed: 0 1;
+					rel1 {relative: 0 0;}
+					rel2 {relative: 1 0;}
+					align: 0 0;
+				}
+			}
+			part
+			{
+				name: "title";
+				type: TEXT;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 255;
+					min: 0 42;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y : "top1_pad";}
+					rel2 {relative: 1 1; to_y : "top1_pad";}
+					align: 0 0;
+					text{
+						font: "SLP:style=Regular";
+						text_class:"slp_regular";
+						size: 38;
+						min: 1 1 ;
+						align: 0.5 0.5;
+					}
+				}
+			}
+			part
+			{
+				name: "top2_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 60;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "title";}
+					rel2 {relative: 1 1; to_y: "title";}
+					align: 0 0;
+				}
+			}
+			part
+			{
+				name: "image";
 				type: SWALLOW;
 				scale: 1;
 				description
 				{
 					state: "default" 0.0;
-					min: 0 112;
-					fixed: 0 1;
-					rel1{relative: 0 0; }
-					rel2{relative: 1 0;}
+					min: 360 300;
+					max: 360 300;
+					fixed: 1 1;
+					rel1 {relative: 0 1; to_y: "top2_pad";}
+					rel2 {relative: 1 1; to_y: "top2_pad";}
 					align: 0 0;
 				}
 			}
+			part
+			{
+				name: "top3_pad";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 222;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "image";}
+					rel2 {relative: 1 1; to_y: "image";}
+					align: 0 0;
+				}
+			}
+
 			part
 			{
 				name: "left_pad";
@@ -291,10 +247,10 @@ collections {
 				{
 					state: "default" 0.0;
 					color: 0 0 0 0;
-					min: 16 0;
+					min: 72 0;
 					fixed: 1 0;
-					rel1 {relative: 0 0;}
-					rel2 {relative: 0 1;}
+					rel1 {relative: 0 1; to_y: "top3_pad";}
+					rel2 {relative: 0 1; to_y: "top3_pad";}
 					align: 0 0;
 				}
 			}
@@ -307,215 +263,28 @@ collections {
 				{
 					state: "default" 0.0;
 					color: 0 0 0 0;
-					min: 16 0;
+					min: 72 0;
 					fixed: 1 0;
-					rel1 {relative: 1 0;}
-					rel2 {relative: 1 1;}
+					rel1 {relative: 1 1; to_y: "top3_pad";}
+					rel2 {relative: 1 1; to_y: "top3_pad";}
 					align: 1 0;
 				}
 			}
-			part
-			{
-				name: "top_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 23;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "genlist";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "genlist";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "label_name";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1{relative: 1 1; to_x:"left_pad";to_y: "top_pad";}
-					rel2{relative: 0 1; to_x:"right_pad";to_y: "top_pad";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "top_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "label_name";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "label_name";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "label_message";
-				type: SWALLOW;
-				scale:1;
 
-				description
-				{
-					state: "default" 0.0;
-					min: 0 76;
-					fixed: 0 1;
-					rel1{relative: 1 1; to_x: "left_pad"; to_y: "top_pad1";}
-					rel2{relative: 0 1; to_x: "right_pad"; to_y: "top_pad1";}
-					align: 0 0;
-				}
-			}
 			part
 			{
-				name: "top_pad2";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 40;
-					fixed: 0 1;
-					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "label_message";}
-					rel2 {relative: 0 1; to_x: "right_pad"; to_y: "label_message";}
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "left_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 56 0;
-					fixed: 1 0;
-					rel1 {relative: 1 1;to_x: "left_pad"; to_y: "top_pad2";}
-					rel2 {relative: 1 1;to_x: "left_pad"; }
-					align: 0 0;
-				}
-			}
-			part
-			{
-				name: "right_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 56 0;
-					fixed: 1 0;
-					rel1 {relative: 0 1; to_x: "right_pad"; to_y:"top_pad2";}
-					rel2 {relative: 0 1; to_x:"right_pad";}
-					align: 1 0;
-				}
-			}
-			part
-			{
-				name: "touch_image";
+				name: "cancel_btn";
 				type: SWALLOW;
 				scale: 1;
 				description
 				{
 					state: "default" 0.0;
-					min: 360 300;
-					fixed: 0 0;
-					rel1{relative: 1 1; to_x:"left_pad1"; to_y:"top_pad2";}
-					rel2{relative: 0 0; to_x:"right_pad1"; to_y:"bottom_pad2";}
-					align: 0.5 0.5;
-				}
-			}
-			part
-			{
-				name: "bottom_pad2";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 78;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 1 0; to_x: "left_pad"; to_y: "label_cancel_message";}
-					rel2 {relative: 0 0; to_x: "right_pad"; to_y: "label_cancel_message";}
-				}
-			}
-			part
-			{
-				name: "label_cancel_message";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 38;
-					fixed: 0 1;
-					rel1{relative: 1 0; to_x: "left_pad"; to_y: "bottom_pad1";}
-					rel2{relative: 0 0; to_x: "right_pad"; to_y: "bottom_pad1";}
-					align: 0 1;
-				}
-			}
-			part
-			{
-				name: "bottom_pad1";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 22;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 1 0; to_x: "left_pad"; to_y: "cancel_button";}
-					rel2 {relative: 0 0; to_x: "right_pad"; to_y: "cancel_button";}
-				}
-			}
-			part
-			{
-				name: "cancel_button";
-				type: SWALLOW;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					min: 0 74;
-					fixed: 0 1;
-					rel1{relative: 1 0; to_x: "left_pad"; to_y: "bottom_pad";}
-					rel2{relative: 0 0; to_x: "right_pad"; to_y: "bottom_pad";}
-					align:0 1;
-				}
-			}
-			part
-			{
-				name: "bottom_pad";
-				type: RECT;
-				scale: 1;
-				description
-				{
-					state: "default" 0.0;
-					color: 0 0 0 0;
-					min: 0 15;
-					fixed: 0 1;
-					align: 0 1;
-					rel1 {relative: 0 1;}
-					rel2 {relative: 1 1;}
+					min: 576 84;
+					max: 576 84;
+					fixed: 1 1;
+					rel1 {relative: 1 1; to_x: "left_pad"; to_y: "top3_pad";}
+					rel2 {relative: 0 1; to_x: "right_pad";to_y: "top3_pad";}
+					align: 0 0;
 				}
 			}
 		}

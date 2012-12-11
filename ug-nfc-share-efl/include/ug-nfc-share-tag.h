@@ -24,11 +24,6 @@ extern "C" {
 
 #include "ug-nfc-share-main.h"
 
-#if 0
-#define UG_NFC_SHARE_LAST_FILE_NUMBER_KEY "db/private/ug-nfc-efl/last_file_number"
-#define UG_NFC_SHARE_FILE_NAME_PREFIX _("nfc_receive_file_")
-#endif
-
 /* get and set function */
 #if 0
 char* ug_nfc_share_get_display_str(void);

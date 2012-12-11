@@ -1,3 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Tik op Annuleren om delen te annuleren"
 
@@ -7,15 +10,33 @@ msgstr "Service niet beschikbaar. NFC uitgeschakeld. NFC inschakelen?"
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Delen via NFC"
 
-msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
-msgstr "Kan tag niet delen"
-
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Houd de telefoons voorzichtig tegen elkaar om te delen"
 
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Fout bij doorverbinden"
 
-msgid "IDS_NFC_POP_TAG_SHARED"
-msgstr "Gedeelde tag"
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Gebruik van %s beperkt door beveiligingsbeleid"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Gedeeld"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Kan niet delen"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Vooraf gedefin. item"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "U kunt vooraf gedefinieerde items overbrengen naar een ander NFC-apparaat. Houd de apparaten in het startscherm dichtbij elkaar (gewoonlijk rug tegen rug)"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Wanneer NFC is ingeschakeld, kunt u gegevens verzenden of ontvangen wanneer uw apparaat andere NFC-apparaten of NFC-tags aanraakt"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Wanneer deze functie is ingeschakeld, kunt u bestanden naar andere NFC- en WiFi Direct-apparaten overbrengen door de apparaten dicht bij elkaar te houden. U kunt bijvoorbeeld foto-/videobestanden van de MP3-speler, notities van S Note en nog veel meer overbrengen. Houd de apparaten bij elkaar (gewoonlijk de achterkanten) en tik op het scherm. De app bepaalt wat wordt overgedragen"
 

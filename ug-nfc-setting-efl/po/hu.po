@@ -1,9 +1,42 @@
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "A megosztás megszüntetéséhez érintse meg a Mégse gombot"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "A szolgáltatás nem elérhető. Az NFC ki van kapcsolva. Bekapcsolja az NFC-t?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Megosztás NFC-n"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Finoman érintse egymáshoz a telefonokat a megosztáshoz"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Hívásátadás sikertelen"
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "A biztonsági irányelv korlátozza a(z) %s használatát"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Megosztott"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nem lehet megosztani"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Előre megadott tétel"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Az előre megadott tételeket másik NFC-eszközre sugározhatja. Elég, ha egymáshoz tartja a két eszközt (jellemzően háttal egymásnak), amikor a kezdőképernyő látható rajtuk"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Az NFC bekapcsolása esetén az eszközt egy másik NFC-kompatibilis eszközhöz vagy NFC-címkéhez érintve adatokat küldhet és fogadhat"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Bekapcsolt funkció mellett fájlokat továbbíthat más NFC vagy Wi-Fi Direct kompatibilis eszközre úgy, hogy egymásnak háttal, közel helyezi egymáshoz a két készüléket. Továbbíthat kép- vagy videofájlokat a Galériából, zene fájlokat a Zenelejátszóból és egyéb fájlokat. A fájlcseréhez tartsa egymásnak háttal a két eszközt és érintse meg a képernyőt. Az alkalmazás megállapítja a fájl típusát."
 

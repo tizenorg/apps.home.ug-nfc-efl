@@ -1,9 +1,42 @@
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Tryck på Avbryt om du vill avbryta delning"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Tjänsten är inte tillgänglig. NFC är avstängt. Slå på NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Dela via NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Sammanför försiktigt telefonerna för att dela"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Överföringsfel"
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Säkerhetspolicyn begränsar användningen av %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Delad"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Det går inte att dela"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Fördefinierat objekt"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Du kan överföra fördefinierade objekt till en annan NFC-enhet. Placera enheterna bredvid varandra (normalt med baksidorna mot varandra) när hemskärmen är öppen"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "När NFC är på kan du skicka och ta emot data när din enhet rör andra enheter med NFC-funktioner eller NFC-taggar"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "När den här funktionen är påslagen kan du överföra filer till en annan NFC- och Wi-Fi Direct-kompatibel enhet genom att placera enheterna nära varandra. Du kan till exempel överföra bilder från galleriet eller musikfiler från musikspelaren. Placera enheterna bredvid varandra (normalt med baksidorna mot varandra) och tryck på din skärm. Programmet bestämmer vad som överförs"
 

@@ -4,8 +4,8 @@
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
-Version:    0.0.2
-Release:    37
+Version:    0.0.6
+Release:    0
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(status)
 BuildRequires:  pkgconfig(capi-appfw-application)
 BuildRequires:  pkgconfig(capi-network-nfc)
 BuildRequires:  pkgconfig(capi-content-mime-type)
+BuildRequires:  pkgconfig(sqlite3)
 
 BuildRequires:  cmake
 BuildRequires:  edje-tools
@@ -72,10 +73,7 @@ cp -af %{_builddir}/%{name}-%{version}/packaging/ug-share-nfc-efl %{buildroot}/u
 
 %post
 
-
 %post -n ug-share-nfc-efl
-vconftool set -t string db/nfc/predefined_item "None" -u 5000 -f
-vconftool set -t int -f db/private/ug-nfc-efl/last_file_number 0 -u 5000 -f
 
 %postun
 

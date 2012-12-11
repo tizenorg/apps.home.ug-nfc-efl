@@ -71,19 +71,19 @@ extern "C" {
 #define NFCUG_LOCALEDIR		LOCALE_PATH
 
 /* Registered string in STMS NFC */
+#define IDS_NFC_NFC								dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
 #define IDS_SHARE_VIA_NFC							dgettext(PACKAGE, "IDS_NFC_HEADER_SHARE_VIA_NFC")
 #define IDS_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE				dgettext(PACKAGE, "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE")
 #define IDS_TO_CANCEL_SHARING_TAP_CANCEL					dgettext(PACKAGE, "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL")
 #define IDS_TRANSFER_FAILED							dgettext(PACKAGE, "IDS_NFC_POP_TRANSFER_FAILED")
 #define IDS_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q		dgettext(PACKAGE, "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q")
-//#define IDS_NFC_NFC								dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
-#define IDS_NFC_NFC								_("NFC")
-#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS				_("Security policy restricts use of %s")
+#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS				dgettext(PACKAGE, "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS")
 
-#define IDS_SHARED								_("Shared")
-#define IDS_UNABLE_TO_SHARE							_("Unable to share")
+#define IDS_SHARED								dgettext(PACKAGE, "IDS_COM_OPT_SHARED")
+#define IDS_UNABLE_TO_SHARE							dgettext(PACKAGE, "IDS_COM_BODY_UNABLE_TO_SHARE")
 
-#define IDS_HANDOVER	_("HANDOVER")
+
+/* will be deleted */
 #define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
 
 /* System string */
@@ -138,8 +138,6 @@ typedef struct _ugdata_t
 
 	nfc_ndef_message_h current_ndef;
 	bundle *bd;
-	Evas_Object* base_naviframe;
-	Elm_Object_Item *base_navi_it;
 }ugdata_t;
 
 

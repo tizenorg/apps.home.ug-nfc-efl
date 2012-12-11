@@ -1,3 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Aby anulować udostępnianie, dotknij opcji Anuluj"
 
@@ -7,15 +10,33 @@ msgstr "Usługa niedostępna. NFC wyłączony. Włączyć NFC?"
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Udostępnij przez NFC"
 
-msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
-msgstr "Udostępnianie etykiety nie powiodło się"
-
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Delikatnie przyłóż telefony do siebie, aby udostępnić"
 
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Błąd transferu"
 
-msgid "IDS_NFC_POP_TAG_SHARED"
-msgstr "Etykieta została udostępniona"
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Zasady zabezpieczeń ograniczają użycie %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Udostępniono"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nie można udostępnić"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Predefiniowany element"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Predefiniowane elementy można przesłać do innego urządzenia obsługującego technologię NFC. Wystarczy zbliżyć urządzenia do siebie (zazwyczaj ich tylne strony), mając wyświetlony ekran startowy"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Gdy NFC jest włączone, możesz wysyłać i odbierać dane po dotknięciu urządzeniem innego urządzenia obsługującego NFC lub etykiety NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Po włączeniu tej funkcji można przesyłać pliki do innego trzymanego blisko urządzenia obsługującego technologię NFC lub Wi-Fi Direct. Można przesłać np. pliki obrazów lub filmów z Galerii, pliki muzyczne z odtwarzacza muzyki itd. Wystarczy zbliżyć urządzenia do siebie (zazwyczaj ich tylne strony) i dotknąć ekranu. Aplikacja określa, co jest przesyłane"
 

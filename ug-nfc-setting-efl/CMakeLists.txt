@@ -18,7 +18,9 @@ ADD_DEFINITIONS("-DEDJDIR=\"${EDJDIR}\"")
 
 SET(SRCS
 src/ug-nfc-setting-main.c
+src/ug-nfc-setting-predefined-item.c
 src/ug-nfc-setting-popup.c
+src/ug-nfc-setting-db.c
 )
 
 IF("${CMAKE_BUILD_TYPE}" STREQUAL "")
@@ -38,6 +40,7 @@ dlog
 vconf
 capi-appfw-application
 capi-network-nfc
+sqlite3
 )
 
 FOREACH(flag ${pkgs_ug_nfc_setting_CFLAGS})

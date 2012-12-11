@@ -1,3 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "За да отмените споделянето, чукнете Отказ"
 
@@ -7,15 +10,33 @@ msgstr "Услугата не е достъпна. NFC е изключено. В
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Споделяне през NFC"
 
-msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
-msgstr "Неуспешно споделяне на тага"
-
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Леко докоснете телефоните един в друг, за да споделите"
 
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Прехвърлянето неуспешно"
 
-msgid "IDS_NFC_POP_TAG_SHARED"
-msgstr "Отбелязване на споделени"
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Правилата за защита ограничават използването на %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Споделен*"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Не може да се сподели"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Предв. зададен елемент"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Можете да изпращате с beam предварително зададени елементи до друго NFC устройство. Просто доближете устройствата (обикновено гърбовете им), докато сте в началния екран"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Когато NFC е включено, можете да изпращате или получавате данни, когато устройството ви докосне други устройства с възможности за NFC или NFC тагове"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Когато тази функция е включена, можете да насочвате файлове към други устройства с NFC и Wi-Fi Direct възможности, като държите устройствата близо едно до друго. Например, можете да насочвате музикални/видео файлове от Галерията, музикални файлове от Музикалния плейър и други. Просто доближете устройствата (обикновено гърбовете им) и чукнете екрана си. Приложението определя какво да се насочи"
 

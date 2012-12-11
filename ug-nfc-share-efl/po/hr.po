@@ -1,3 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Za odustajanje od dijeljenja dodirnite Odustani"
 
@@ -7,15 +10,33 @@ msgstr "Usluga nedostupna. NFC isključen. Uključiti NFC?"
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Dijeli putem NFC"
 
-msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
-msgstr "Greška dijeljenja oznake"
-
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Nježno dodirni telefone za dijeljenje"
 
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Greška prijenosa"
 
-msgid "IDS_NFC_POP_TAG_SHARED"
-msgstr "Oznaka dijeljena"
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Sigurnosna pravila ograničavaju upotrebu %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Dijeljeno"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nemoguće dijeliti"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Postavljena stavka"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Postavljene stavke možete poslati drugom NFC uređaju. Samo prislonite uređaje jedan uz drugi (poželjno stražnje strane uređaja) dok ste na početnom zaslonu"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Kada je NFC uključen, možete slati ili primati podatke kad vaš uređaj dotakne druge uređaje koji podržavaju NFC ili NFC oznake"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Kada je uključeno, možete slati podatke i datoteke u drugi NFC i Wi-Fi Direct uređaj tako da dodirnete uređaje. Možete slati Slike/Video iz Galerije, glazbene datoteke iz Music Playera i više. Samo prislonite uređaje jedan uz drugi (poželjno stražnje strane uređaja) i zatim dodirnite svoj zaslon. Aplikacija određuje što se šalje"
 

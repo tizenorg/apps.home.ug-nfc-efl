@@ -22,10 +22,15 @@
 extern "C" {
 #endif /* __cplusplus */
 
+#include <stdio.h>
 #include <ui-gadget-module.h>
 #include <Evas.h>
+#include <Ecore.h>
+#include <Ecore_X.h>
 #include <Elementary.h>
+#include <bundle.h>
 #include <dlog.h>
+#include <vconf.h>
 #include <nfc.h>
 
 #define LOCALE_PATH		LOCALEDIR
@@ -47,15 +52,17 @@ extern "C" {
 
 /* Registered string in STMS NFC */
 #define IDS_NFC_NFC					dgettext(PACKAGE, "IDS_NFC_BODY_NFC")
+#define IDS_NFC_DESCRIPTION_MSG			dgettext(PACKAGE, "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS")
 #define IDS_NFC_S_BEAM					dgettext(PACKAGE, "IDS_NFC_OPT_S_BEAM")
-#define IDS_NFC_S_BEAM_DESCRIPTION_MSG_CHN		dgettext(PACKAGE, "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN")
-#define IDS_CLOSE					dgettext("sys_string", "IDS_COM_POP_CLOSE")
+#define IDS_NFC_S_BEAM_DESCRIPTION_MSG		dgettext(PACKAGE, "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG")
+#define IDS_PREDEFINED_ITEM				dgettext(PACKAGE, "IDS_NFC_BODY_PREDEFINED_ITEM_ABB")
+#define IDS_PREDEFINED_ITEM_DESCRIPTION_MSG		dgettext(PACKAGE, "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG")
+#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS	dgettext(PACKAGE, "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS")
+
 #define IDS_NONE					dgettext("sys_string", "IDS_COM_BODY_NONE")
+#define IDS_CLOSE					dgettext("sys_string", "IDS_COM_POP_CLOSE")
 
-#define IDS_PREDEFINED_ITEM				_("Predefined item")
-#define IDS_PREDEFINED_ITEM_DESCRIPTION_MSG		_("You can beam selected item to other NFC device by holding the devices close together in homescreenor main menu.")
-
-#define IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS	_("Security policy restricts use of %s")
+/* will be deleted */
 #define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
 
 typedef enum _NFCSettingType {
@@ -99,6 +106,14 @@ typedef struct _gl_item_data_t
 	NFCSettingType type;
 	ugdata_t *data;
 }gl_item_data;
+
+
+/************************** API **************************/
+void _change_nfc_predefined_item_setting(void *data);
+bool _ug_nfc_check_predefined_item_available(void);
+Evas_Object *_ug_nfc_create_predefined_item_list(void *data);
+void _ug_nfc_destroy_predefined_item_list(void *data, Evas_Object *obj, void *event_info);
+
 
 #ifdef __cplusplus
 }

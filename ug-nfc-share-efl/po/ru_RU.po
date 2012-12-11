@@ -1,3 +1,6 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
 msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
 msgstr "Чтобы не предоставлять доступ, нажмите Отмена"
 
@@ -7,15 +10,33 @@ msgstr "Служба недоступна. Связь NFC выключена. В
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Отправить через NFC"
 
-msgid "IDS_NFC_POP_FAILED_TO_SHARE_TAG"
-msgstr "Не удалось отправить метку"
-
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Прикоснитесь одним телефоном к другому для отправки"
 
 msgid "IDS_NFC_POP_TRANSFER_FAILED"
 msgstr "Сбой передачи"
 
-msgid "IDS_NFC_POP_TAG_SHARED"
-msgstr "Метка отправлена"
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Политика безопасности ограничивает использование компонента %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Общедоступное"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Невозможно предоставить общий доступ"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Заданный элемент"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Можно передавать предварительно заданные элементы на другое NFC-устройство. Просто откройте на устройствах главный экран и поднесите их друг к другу (обычно задними сторонами)"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Если протокол NFC включен, можно отправлять и получать данные, прикоснувшись устройством к другому устройству, поддерживающему NFC, или метке NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Если эта функция включена, можно передавать файлы на другое устройство, поддерживающее NFC и Wi-Fi Direct, поднося устройства близко друг к другу. Например, можно отправлять файлы изображений и видео из галереи, музыкальные файлы из приложения Музыка и т. д. Просто поднесите устройства друг к другу (обычно задними сторонами) и нажмите на экран. Приложение определит, какие данные нужно передать"
 
