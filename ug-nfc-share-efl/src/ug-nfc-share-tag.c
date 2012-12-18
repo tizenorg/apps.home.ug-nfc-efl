@@ -44,7 +44,7 @@ static void _show_status_text(void *data, char *text)
 {
 	ugdata_t *ug_data = (ugdata_t *)data;
 
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ret_if(ug_data == NULL);
 	ret_if(text == NULL);
@@ -53,7 +53,7 @@ static void _show_status_text(void *data, char *text)
 
 	ug_destroy_me(ug_data->nfc_share_ug);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 ug_nfc_share_tag_type ug_nfc_share_get_tag_type(void)
@@ -73,23 +73,23 @@ nfc_ndef_message_h ug_nfc_share_get_current_ndef(void *data)
 {
 	ugdata_t *ug_data = (ugdata_t *)data;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	retv_if(ug_data == NULL, NULL);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return ug_data->current_ndef;
 }
 
 ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message_h ndef_msg)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (ug_data == NULL)
 	{
-		LOGD("[%s(): %d] ug_data is null", __FUNCTION__, __LINE__);
+		LOGD("ug_data is null");
 		return UG_NFC_SHARE_ERROR;
 	}
 
@@ -102,7 +102,7 @@ ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message
 	}
 
 	ug_data->current_ndef = ndef_msg;
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return UG_NFC_SHARE_OK;
 
@@ -113,7 +113,7 @@ static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(con
 	ug_nfc_share_result_e result = UG_NFC_SHARE_ERROR;
 	char *extension = NULL;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	retv_if(path == NULL, result);
 	retv_if(type_data == NULL, result);
@@ -148,7 +148,7 @@ static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(con
 
 	LOGD("mime type : %s", GET_SAFE_STRING((char *)type_data));
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return result;
 }
@@ -166,7 +166,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	long int file_len = 0;
 
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	retv_if(msg == NULL, result);
 	retv_if(path == NULL, result);
@@ -269,7 +269,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 
 	LOGD("ug_nfc_share_make_ndef_message_from_file success");
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 
 	return result;
 }
@@ -289,7 +289,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 	int index;
 
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	retv_if(msg == NULL, result);
 	retv_if(path == NULL, result);
@@ -396,7 +396,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 
 		LOGD("ug_nfc_share_make_ndef_message_from_file success");
 
-		LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+		LOGD("END>>>>");
 	}
 	return result;
 }
@@ -434,7 +434,7 @@ void _ug_nfc_share_get_bt_addr_from_string(uint8_t *addr, char *addr_string)
 
 static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_type_e carrior, void *ac_data, int ac_data_size, void *user_data)
 {
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -444,7 +444,7 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 	/* nfc deactivate */
 	if(nfc_manager_deinitialize () != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_manager_deinitialize failed", __FUNCTION__, __LINE__);
+		LOGD("nfc_manager_deinitialize failed");
 	}
 
 	if(result == NFC_ERROR_NONE)
@@ -480,12 +480,12 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 {
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -495,7 +495,7 @@ static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 	/* nfc deactivate */
 	if(nfc_manager_deinitialize () != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_manager_deinitialize failed", __FUNCTION__, __LINE__);
+		LOGD("nfc_manager_deinitialize failed");
 	}
 
 	if(result == NFC_ERROR_NONE)
@@ -511,12 +511,12 @@ static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static void _p2p_target_discovered_cb(nfc_discovered_type_e type, nfc_p2p_target_h target, void *user_data)
 {
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -562,25 +562,25 @@ static void _p2p_target_discovered_cb(nfc_discovered_type_e type, nfc_p2p_target
 		LOGD("NFC_DISCOVERED_TYPE_DETACHED");
 	}
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 void ug_nfc_set_nfc_callback(void *user_data)
 {
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	nfc_manager_set_p2p_target_discovered_cb(_p2p_target_discovered_cb, user_data);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 void ug_nfc_unset_nfc_callback(void)
 {
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	nfc_manager_unset_p2p_target_discovered_cb();
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t length)
@@ -589,7 +589,7 @@ int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t l
 	uint32_t i, count = 1;
 	E_DBus_Connection *conn = NULL;
 
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	if (address == NULL || files == NULL)
 	{
@@ -672,7 +672,7 @@ int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t l
 		result = -1;
 	}
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 
 	return result;
 }

@@ -48,13 +48,13 @@ static int state_index = 0; //selected radio index
 
 static void _check_changed_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	_change_nfc_predefined_item_setting(ud);
 	if (on_off_item)
 		elm_genlist_item_update(on_off_item);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static char *_gl_text_get(void *data, Evas_Object *obj, const char *part)
@@ -124,12 +124,12 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 
 			if (((result = vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &on)) == 0) && (on != 0))
 			{
-				LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool true");
 				elm_check_state_set(content, EINA_TRUE);
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool false");
 				elm_check_state_set(content, EINA_FALSE);
 			}
 			elm_object_style_set(content, "on&off");
@@ -222,11 +222,11 @@ static void _gl_sel(void *data, Evas_Object *obj, void *event_info)
 				result = vconf_set_str(VCONFKEY_NFC_PREDEFINED_ITEM, item->app_id);
 				if (!result )
 				{
-					LOGD("[%s(): %d] vconf_set_str success\n", __FUNCTION__, __LINE__);
+					LOGD("vconf_set_str success\n");
 				}
 				else
 				{
-					LOGD("[%s(): %d] vconf_set_str failed\n", __FUNCTION__, __LINE__);
+					LOGD("vconf_set_str failed\n");
 				}
 			}
 			elm_genlist_item_update(ui_item);
@@ -240,7 +240,7 @@ static void _gl_sel(void *data, Evas_Object *obj, void *event_info)
 #if 0
 static void _gl_realized(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
 	int index = 0;
@@ -263,13 +263,13 @@ static void _gl_realized(void *data, Evas_Object *obj, void *event_info)
 		}
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 #endif
 
 bool _ug_nfc_check_predefined_item_available(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (!_ug_nfc_setting_db_open_table(&dbtable_h))
 	{
@@ -281,19 +281,19 @@ bool _ug_nfc_check_predefined_item_available(void)
 		return false;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void __create_predefined_item_data(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	predefined_item_data *item = NULL;
 	int index;
 
 	if (_ug_nfc_setting_db_open_table(&dbtable_h))
 	{
-		LOGD("_ug_nfc_setting_db_open_table is failed!!!!!", __FUNCTION__, __LINE__);
+		LOGD("_ug_nfc_setting_db_open_table is failed!!!!!");
 		return;
 	}
 
@@ -327,12 +327,12 @@ static void __create_predefined_item_data(void)
 
 	_ug_nfc_setting_db_close_table(dbtable_h);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void __destroy_predefined_item_data(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (predefined_item_list != NULL)
 	{
@@ -356,12 +356,12 @@ static void __destroy_predefined_item_data(void)
 		g_array_free(predefined_item_list, FALSE);
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 Evas_Object *_ug_nfc_create_predefined_item_list(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	Evas_Object *genlist = NULL;
@@ -373,7 +373,7 @@ Evas_Object *_ug_nfc_create_predefined_item_list(void *data)
 	genlist = elm_genlist_add(ug_data->base_naviframe);
 	if (genlist == NULL)
 	{
-		LOGD("[%s(): %d] genlist is null", __FUNCTION__, __LINE__);
+		LOGD("genlist is null");
 		return NULL;
 	}
 #if 0
@@ -425,14 +425,14 @@ Evas_Object *_ug_nfc_create_predefined_item_list(void *data)
 
 	ud = ug_data;
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return genlist;
 }
 
 void _ug_nfc_destroy_predefined_item_list(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = data;
 
@@ -448,7 +448,7 @@ void _ug_nfc_destroy_predefined_item_list(void *data, Evas_Object *obj, void *ev
 		radio_main = NULL;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 

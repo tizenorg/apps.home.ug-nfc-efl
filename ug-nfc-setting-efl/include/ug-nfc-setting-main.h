@@ -43,7 +43,7 @@ extern "C" {
 #undef LOG_TAG
 #endif
 
-#define LOG_TAG "UG_NFC_SETTING_EFL"
+#define LOG_TAG "UG_NFC_EFL_SETTING"
 
 #define NFCUG_TEXT_DOMAIN		PACKAGE
 #define NFCUG_LOCALEDIR		LOCALE_PATH

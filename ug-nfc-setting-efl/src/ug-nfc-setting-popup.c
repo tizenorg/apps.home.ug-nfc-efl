@@ -27,7 +27,7 @@ static void *_user_data = NULL;
 
 static void _ug_nfc_setting_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int btn_type = (int)data;
 	UG_NFC_POPUP_USER_RESP_CB temp_cb = _user_response_cb;
@@ -44,28 +44,28 @@ static void _ug_nfc_setting_popup_response_cb(void *data, Evas_Object *obj, void
 	if (temp_cb)
 		temp_cb(temp_data, obj, (void*)btn_type);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static Eina_Bool _ug_nfc_setting_popup_show_cb(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (_popup)
 		evas_object_show(_popup);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 
 	return ECORE_CALLBACK_CANCEL;
 }
 
 static void _ug_nfc_setting_popup_block_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	_ug_nfc_setting_popup_response_cb((void*)UG_NFC_POPUP_RESP_CLOSE, _popup, NULL);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 Evas_Object *ug_nfc_setting_create_popup(void *data,
@@ -81,7 +81,7 @@ Evas_Object *ug_nfc_setting_create_popup(void *data,
                                     bool enable_timeout,
                                     UG_NFC_POPUP_USER_RESP_CB response_cb)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	Evas_Object *btn = NULL;
 
@@ -136,7 +136,7 @@ Evas_Object *ug_nfc_setting_create_popup(void *data,
 
 	_ug_nfc_setting_popup_show_cb(NULL);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 
 	return _popup;
 }
@@ -144,7 +144,7 @@ Evas_Object *ug_nfc_setting_create_popup(void *data,
 
 void ug_nfc_setting_close_popup(Evas_Object* popup)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (NULL == popup || NULL == _popup || _popup != popup) {
 		LOGD("NULL == popup || NULL == _popup || _popup != popup");
@@ -152,7 +152,7 @@ void ug_nfc_setting_close_popup(Evas_Object* popup)
 
 	_ug_nfc_setting_popup_response_cb((void*)UG_NFC_POPUP_RESP_CLOSE, _popup, NULL);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 

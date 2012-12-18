@@ -44,17 +44,17 @@ static bool pending_status = false;
 #ifdef MDM_PHASE_2
 static void _mdm_restricted_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
 {
+	LOGD("BEGIN >>>>");
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (!ug_data)
 		return;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void _mdm_restricted_popup(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	char popup_str[POPUP_TEXT_SIZE] = { 0, };
 	char *buf = NULL;
@@ -66,7 +66,7 @@ static void _mdm_restricted_popup(void *data)
 	snprintf(popup_str, POPUP_TEXT_SIZE, buf, IDS_NFC_NFC);
 	ug_nfc_setting_create_popup(ug_data, ug_data->base_layout, popup_str, NULL, 0, NULL, 0, NULL, 0, true, true, _mdm_restricted_popup_response_cb);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 #endif
 
@@ -75,7 +75,7 @@ static void _show_app_error_popup_response_cb(void *data, Evas_Object *obj, void
 	ugdata_t *ug_data = (ugdata_t *)data;
 	int result = (int)event_info;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (ug_data == NULL)
 		return;
@@ -92,7 +92,7 @@ static void _show_app_error_popup_response_cb(void *data, Evas_Object *obj, void
 		break;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _show_app_error_popup(void *data)
@@ -100,7 +100,7 @@ static void _show_app_error_popup(void *data)
 	ugdata_t *ug_data = (ugdata_t *)data;
 	char popup_str[POPUP_TEXT_SIZE] = { 0, };
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (ug_data == NULL)
 		return;
@@ -109,7 +109,7 @@ static void _show_app_error_popup(void *data)
 
 	ug_nfc_setting_create_popup(ug_data, ug_data->base_layout, popup_str, IDS_CLOSE, UG_NFC_POPUP_RESP_CLOSE, NULL, 0, NULL, 0, false, false, _show_app_error_popup_response_cb);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static bool _get_pending_status(void)
@@ -124,13 +124,13 @@ static void _set_pending_status(bool status)
 
 static void _back_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	_ug_nfc_setting_db_close();
 
 	ug_destroy_me(data);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 /* Principle of NFC, S Beam On/Off 				*/
@@ -145,7 +145,7 @@ static void _change_nfc_onoff_setting(void *data)
 	int status;
 	int result;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (!ug_data)
@@ -183,17 +183,17 @@ static void _change_nfc_onoff_setting(void *data)
 
 	if ((result = vconf_get_bool(VCONFKEY_NFC_STATE, &status)) == 0)
 	{
-		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, status);
+		LOGD("vconf_get_bool status [%d]\n", status);
 
 		result = nfc_manager_set_activation(!status, NULL, NULL);
 		_set_pending_status(true);
 	}
 	else
 	{
-		LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+		LOGD("vconf_get_bool failed\n");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 #ifdef _SBEAM_SUPPORT_
@@ -202,7 +202,7 @@ static void _change_nfc_sbeam_setting(void *data)
 	int status = 0;
 	int result = -1;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (!ug_data)
@@ -240,7 +240,7 @@ static void _change_nfc_sbeam_setting(void *data)
 
 	if ((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &status)) == 0)
 	{
-		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, status);
+		LOGD("vconf_get_bool status [%d]\n", status);
 
 		if (status)
 		{
@@ -248,11 +248,11 @@ static void _change_nfc_sbeam_setting(void *data)
 			result = vconf_set_bool(VCONFKEY_NFC_SBEAM, FALSE);
 			if (!result )
 			{
-				LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool success\n");
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool failed\n");
 			}
 		}
 		else
@@ -261,17 +261,17 @@ static void _change_nfc_sbeam_setting(void *data)
 			result = vconf_set_bool(VCONFKEY_NFC_SBEAM, TRUE);
 			if (!result )
 			{
-				LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool success\n");
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool failed\n");
 			}
 
 			/* nfc on */
 			if ((result = vconf_get_bool(VCONFKEY_NFC_STATE, &status)) == 0)
 			{
-				LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, status);
+				LOGD("vconf_get_bool status [%d]\n", status);
 				if (!status)
 				{
 					result = nfc_manager_set_activation(true, NULL, NULL);
@@ -280,16 +280,16 @@ static void _change_nfc_sbeam_setting(void *data)
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool failed\n");
 			}
 		}
 	}
 	else
 	{
-		LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+		LOGD("vconf_get_bool failed\n");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 #endif
 
@@ -298,7 +298,7 @@ void _change_nfc_predefined_item_setting(void *data)
 	int status = 0;
 	int result = -1;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (!ug_data)
@@ -336,7 +336,7 @@ void _change_nfc_predefined_item_setting(void *data)
 
 	if ((result = vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &status)) == 0)
 	{
-		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, status);
+		LOGD("vconf_get_bool status [%d]\n", status);
 
 		if (status)
 		{
@@ -344,11 +344,11 @@ void _change_nfc_predefined_item_setting(void *data)
 			result = vconf_set_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, FALSE);
 			if (!result )
 			{
-				LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool success\n");
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool failed\n");
 			}
 		}
 		else
@@ -357,25 +357,25 @@ void _change_nfc_predefined_item_setting(void *data)
 			result = vconf_set_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, TRUE);
 			if (!result )
 			{
-				LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool success\n");
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool failed\n");
 			}
 		}
 	}
 	else
 	{
-		LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+		LOGD("vconf_get_bool failed\n");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 void _nfc_activation_changed_cb(bool activated , void *user_data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)user_data;
 	int predefined_item_state = 0;
@@ -387,11 +387,11 @@ void _nfc_activation_changed_cb(bool activated , void *user_data)
 
 	if ((result = vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &predefined_item_state)) == 0)
 	{
-		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, predefined_item_state);
+		LOGD("vconf_get_bool status [%d]\n", predefined_item_state);
 	}
 	else
 	{
-		LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+		LOGD("vconf_get_bool failed\n");
 		return;
 	}
 
@@ -448,7 +448,7 @@ void _nfc_activation_changed_cb(bool activated , void *user_data)
 		/* sbeam off */
 		if ((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &sbeam_state)) == 0)
 		{
-			LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, sbeam_state);
+			LOGD("vconf_get_bool status [%d]\n", sbeam_state);
 
 			if (sbeam_state)
 			{
@@ -456,22 +456,22 @@ void _nfc_activation_changed_cb(bool activated , void *user_data)
 				result = vconf_set_bool(VCONFKEY_NFC_SBEAM, FALSE);
 				if (!result )
 				{
-					LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+					LOGD("vconf_set_bool success\n");
 				}
 				else
 				{
-					LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+					LOGD("vconf_set_bool failed\n");
 				}
 			}
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+			LOGD("vconf_get_bool failed\n");
 		}
 #endif
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static Evas_Object *_create_bg(Evas_Object *parent, char *style)
@@ -515,13 +515,13 @@ static Eina_Bool _gl_state_get(void *data, Evas_Object *obj, const char *part)
 	Eina_Bool result = EINA_FALSE;
 	int enable = 0;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	gl_item_data *item_data = (gl_item_data *)data;
 
 	if (item_data == NULL)
 	{
-		LOGD("[%s(): %d] item_data is null", __FUNCTION__, __LINE__);
+		LOGD("item_data is null");
 		return EINA_FALSE;
 	}
 
@@ -531,17 +531,17 @@ static Eina_Bool _gl_state_get(void *data, Evas_Object *obj, const char *part)
 		{
 			if (enable != 0)
 			{
-				LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool true");
 				result = EINA_TRUE;
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool false");
 			}
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool error [%d]", __FUNCTION__, __LINE__, result);
+			LOGD("vconf_get_bool error [%d]", result);
 		}
 	}
 #ifdef _SBEAM_SUPPORT_
@@ -551,17 +551,17 @@ static Eina_Bool _gl_state_get(void *data, Evas_Object *obj, const char *part)
 		{
 			if (enable != 0)
 			{
-				LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool true");
 				result = EINA_TRUE;
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool false");
 			}
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool error [%d]", __FUNCTION__, __LINE__, result);
+			LOGD("vconf_get_bool error [%d]", result);
 		}
 	}
 #endif
@@ -571,25 +571,25 @@ static Eina_Bool _gl_state_get(void *data, Evas_Object *obj, const char *part)
 		{
 			if (enable != 0)
 			{
-				LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool true");
 				result = EINA_TRUE;
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool false");
 			}
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool error [%d]", __FUNCTION__, __LINE__, result);
+			LOGD("vconf_get_bool error [%d]", result);
 		}
 	}
 	else
 	{
-		LOGD("[%s(): %d] item_data->type error", __FUNCTION__, __LINE__);
+		LOGD("item_data->type error");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return result;
 }
@@ -599,17 +599,17 @@ static void _gl_del(void *data, Evas_Object *obj)
 {
 	gl_item_data *item_data = (gl_item_data *)data;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (item_data != NULL)
 		free(item_data);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	Elm_Object_Item *item = (Elm_Object_Item *)event_info;
 	gl_item_data *item_data = (gl_item_data *)data;
@@ -618,7 +618,7 @@ static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 
 	if ((item == NULL) || (item_data == NULL))
 	{
-		LOGD("[%s(): %d] item or item_data is null\n", __FUNCTION__, __LINE__);
+		LOGD("item or item_data is null\n");
 		return;
 	}
 
@@ -626,7 +626,7 @@ static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 	{
 		if (_get_pending_status())
 		{
-			LOGD("[%s(): %d] pending status \n", __FUNCTION__, __LINE__);
+			LOGD("pending status \n");
 			return;
 		}
 
@@ -648,7 +648,7 @@ static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 		Evas_Object *l_button = NULL;
 		ugdata_t *ug_data = item_data->data;
 
-		LOGD("[%s(): %d] NFC_PREDEFINED_ITEM", __FUNCTION__, __LINE__);
+		LOGD("NFC_PREDEFINED_ITEM");
 
 		/* create setting view */
 		predefined_item_list = _ug_nfc_create_predefined_item_list(ug_data);
@@ -664,21 +664,21 @@ static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 	}
 	else
 	{
-		LOGD("[%s(): %d] item_data->type error", __FUNCTION__, __LINE__);
+		LOGD("item_data->type error");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _check_changed_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	gl_item_data *item_data = (gl_item_data *)data;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (item_data == NULL)
 	{
-		LOGD("[%s(): %d] item_data is null\n", __FUNCTION__, __LINE__);
+		LOGD("item_data is null\n");
 		return;
 	}
 
@@ -686,7 +686,7 @@ static void _check_changed_cb(void *data, Evas_Object *obj, void *event_info)
 	{
 		if (_get_pending_status())
 		{
-			LOGD("[%s(): %d] pending status \n", __FUNCTION__, __LINE__);
+			LOGD("pending status \n");
 			return;
 		}
 
@@ -713,15 +713,15 @@ static void _check_changed_cb(void *data, Evas_Object *obj, void *event_info)
 	}
 	else
 	{
-		LOGD("[%s(): %d] item_data->type error", __FUNCTION__, __LINE__);
+		LOGD("item_data->type error");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *part)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 	Evas_Object *content = NULL;
 	int on;
 	int result = EINA_FALSE;
@@ -730,14 +730,14 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 	gl_item_data *item_data = (gl_item_data *)data;
 	if (item_data == NULL)
 	{
-		LOGD("[%s(): %d] item_data is null", __FUNCTION__, __LINE__);
+		LOGD("item_data is null");
 		return NULL;
 	}
 
 	ug_data = item_data->data;
 	if (ug_data == NULL)
 	{
-		LOGD("[%s(): %d] ug_data is null", __FUNCTION__, __LINE__);
+		LOGD("ug_data is null");
 		return NULL;
 	}
 
@@ -760,12 +760,12 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 
 			if (((result = vconf_get_bool(VCONFKEY_NFC_STATE, &on)) == 0) && (on != 0))
 			{
-				LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool true");
 				elm_check_state_set(content, EINA_TRUE);
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+				LOGD("vconf_get_bool false");
 				elm_check_state_set(content, EINA_FALSE);
 			}
 
@@ -781,12 +781,12 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 
 		if (((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &on)) == 0) && (on != 0))
 		{
-			LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+			LOGD("vconf_get_bool true");
 			elm_check_state_set(content, EINA_TRUE);
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+			LOGD("vconf_get_bool false");
 			elm_check_state_set(content, EINA_FALSE);
 		}
 
@@ -801,12 +801,12 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 
 		if (((result = vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &on)) == 0) && (on != 0))
 		{
-			LOGD("[%s(): %d] vconf_get_bool true", __FUNCTION__, __LINE__);
+			LOGD("vconf_get_bool true");
 			elm_check_state_set(content, EINA_TRUE);
 		}
 		else
 		{
-			LOGD("[%s(): %d] vconf_get_bool false", __FUNCTION__, __LINE__);
+			LOGD("vconf_get_bool false");
 			elm_check_state_set(content, EINA_FALSE);
 		}
 
@@ -814,17 +814,17 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 	}
 	else
 	{
-		LOGD("[%s(): %d] item_data->type error", __FUNCTION__, __LINE__);
+		LOGD("item_data->type error");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return content;
 }
 
 static char *_gl_text_get_onoff(void *data, Evas_Object *obj, const char *part)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	gl_item_data *item_data = (gl_item_data *)data;
 	char *text = NULL;
@@ -834,7 +834,7 @@ static char *_gl_text_get_onoff(void *data, Evas_Object *obj, const char *part)
 	// label for 'elm.text' part
 	if (item_data == NULL)
 	{
-		LOGD("[%s(): %d] item_data is null", __FUNCTION__, __LINE__);
+		LOGD("item_data is null");
 		return NULL;
 	}
 
@@ -870,17 +870,17 @@ static char *_gl_text_get_onoff(void *data, Evas_Object *obj, const char *part)
 	}
 	else
 	{
-		LOGD("[%s(): %d] type error", __FUNCTION__, __LINE__);
+		LOGD("type error");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return text;
 }
 
 static char *_gl_text_get_help(void *data, Evas_Object *obj, const char *part)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int index = (int) data;
 	char *text = NULL;
@@ -901,14 +901,14 @@ static char *_gl_text_get_help(void *data, Evas_Object *obj, const char *part)
 		text = strdup(IDS_NFC_S_BEAM_DESCRIPTION_MSG);
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return text;
 }
 
 static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	Evas_Object *genlist = NULL;
@@ -921,7 +921,7 @@ static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 	genlist = elm_genlist_add(ug_data->base_naviframe);
 	if (genlist == NULL)
 	{
-		LOGD("[%s(): %d] genlist is null", __FUNCTION__, __LINE__);
+		LOGD("genlist is null");
 		return NULL;
 	}
 	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
@@ -1010,11 +1010,11 @@ static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 			result = vconf_set_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, FALSE);
 			if (!result )
 			{
-				LOGD("[%s(): %d] vconf_set_bool success\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool success\n");
 			}
 			else
 			{
-				LOGD("[%s(): %d] vconf_set_bool failed\n", __FUNCTION__, __LINE__);
+				LOGD("vconf_set_bool failed\n");
 			}
 			elm_object_item_disabled_set(predefined_item, EINA_TRUE);
 		}
@@ -1022,7 +1022,7 @@ static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 
 	evas_object_show(genlist);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return genlist;
 }
@@ -1030,7 +1030,7 @@ static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 #ifdef _SBEAM_SUPPORT_
 static Evas_Object *_ug_nfc_create_sbeam_setting_list(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	Evas_Object *genlist = NULL;
@@ -1041,7 +1041,7 @@ static Evas_Object *_ug_nfc_create_sbeam_setting_list(void *data)
 	genlist = elm_genlist_add(ug_data->base_naviframe);
 	if (genlist == NULL)
 	{
-		LOGD("[%s(): %d] genlist is null", __FUNCTION__, __LINE__);
+		LOGD("genlist is null");
 		return NULL;
 	}
 	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
@@ -1083,7 +1083,7 @@ static Evas_Object *_ug_nfc_create_sbeam_setting_list(void *data)
 
 	evas_object_show(genlist);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return genlist;
 }
@@ -1091,7 +1091,7 @@ static Evas_Object *_ug_nfc_create_sbeam_setting_list(void *data)
 
 static void *__ug_nfc_setting_create(ui_gadget_h ug, enum ug_mode mode, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)priv;
 	Evas_Object *parent = NULL;
@@ -1183,14 +1183,14 @@ static void *__ug_nfc_setting_create(ui_gadget_h ug, enum ug_mode mode, service_
 		LOGD("nfc_manager_initialize FAIL!!!!\n");
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return ug_data->base_layout;
 }
 
 static void __ug_nfc_setting_destroy(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
 	if (ug_data == NULL)
@@ -1205,12 +1205,12 @@ static void __ug_nfc_setting_destroy(ui_gadget_h ug, service_h service, void *pr
 
 	evas_object_del(ug_get_layout(ug));
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void __ug_nfc_setting_start(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
@@ -1221,38 +1221,38 @@ static void __ug_nfc_setting_start(ui_gadget_h ug, service_h service, void *priv
 		_show_app_error_popup(ug_data);
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void __ug_nfc_setting_pause(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
+	LOGD("END <<<<");
 }
 
 static void __ug_nfc_setting_resume(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
+	LOGD("END <<<<");
 }
 
 static void __ug_nfc_setting_message(ui_gadget_h ug, service_h msg, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
+	LOGD("END <<<<");
 }
 
 static void __ug_nfc_setting_event(ui_gadget_h ug, enum ug_event event, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
+	LOGD("END <<<<");
 }
 
 UG_MODULE_API int UG_MODULE_INIT(struct ug_module_ops *ops)
 {
 	ugdata_t *ug_data; // User defined private data
 
-	LOGD("[%s(): %d] UG_MODULE_INIT!!\n", __FUNCTION__, __LINE__);
+	LOGD("UG_MODULE_INIT!!\n");
 
 	if (!ops)
 		return -1;

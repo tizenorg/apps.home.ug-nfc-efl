@@ -81,7 +81,7 @@ const char *_get_font_name(int font)
 			break;
 
 		default :
-			LOGD("[%s(): %d] unknown font type [%d]", __FUNCTION__, __LINE__, font);
+			LOGD("unknown font type [%d]", font);
 			break;
 		}
 	}
@@ -115,7 +115,7 @@ uint32_t _get_font_color(int font)
 			break;
 
 		default :
-			LOGD("[%s(): %d] unknown font type [%d]", __FUNCTION__, __LINE__, font);
+			LOGD("unknown font type [%d]", font);
 			break;
 		}
 	}
@@ -149,7 +149,7 @@ int _get_font_size(int font)
 			break;
 
 		default :
-			LOGD("[%s(): %d] unknown font type [%d]", __FUNCTION__, __LINE__, font);
+			LOGD("unknown font type [%d]", font);
 			break;
 		}
 	}
@@ -183,7 +183,7 @@ const char *_get_font_style(int font)
 			break;
 
 		default :
-			LOGD("[%s(): %d] unknown font type [%d]", __FUNCTION__, __LINE__, font);
+			LOGD("unknown font type [%d]", font);
 			break;
 		}
 	}
@@ -294,18 +294,19 @@ static Evas_Object *_create_main_layout(Evas_Object* parent)
 
 static void _mdm_restricted_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
 {
+
 	ugdata_t *ug_data = (ugdata_t *)data;
 	ret_if(ug_data == NULL);
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
+	LOGD("END >>>>");
 
 	ug_destroy_me(ug_data->nfc_share_ug);
 }
 
 static Eina_Bool _mdm_restricted_popup(void *data)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	char popup_str[POPUP_TEXT_SIZE] = { 0, };
 	char *buf = NULL;
@@ -316,7 +317,7 @@ static Eina_Bool _mdm_restricted_popup(void *data)
 	snprintf(popup_str, POPUP_TEXT_SIZE, buf, IDS_NFC_NFC);
 	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, NULL, 0, NULL, 0, NULL, 0, true, true, _mdm_restricted_popup_response_cb);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return ECORE_CALLBACK_CANCEL;
 }
@@ -325,14 +326,14 @@ static void _activation_completed_cb(nfc_error_e error, void *user_data)
 {
 	ugdata_t *ug_data = (ugdata_t *)user_data;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ret_if(ug_data == NULL);
 
 	/* create share view */
 	ug_nfc_share_create_nfc_share_view(ug_data);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
@@ -340,7 +341,7 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 	ugdata_t *ug_data = (ugdata_t *)data;
 	int result = (int)event_info;
 
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ret_if(ug_data == NULL);
 
@@ -348,7 +349,7 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 	{
 	case UG_NFC_POPUP_RESP_OK :
 		/* setting is on */
-		LOGD("setting is on >>>>", __FUNCTION__, __LINE__);
+		LOGD("setting is on >>>>");
 
 		result = nfc_manager_set_activation(true, _activation_completed_cb, ug_data);
 		if (result == NFC_ERROR_SECURITY_RESTRICTED)
@@ -360,7 +361,7 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 
 	case UG_NFC_POPUP_RESP_CANCEL :
 		/* destroy UG */
-		LOGD("ug_destroy_me >>>>", __FUNCTION__, __LINE__);
+		LOGD("ug_destroy_me >>>>");
 		ug_destroy_me(ug_data->nfc_share_ug);
 		break;
 
@@ -368,7 +369,7 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 		break;
 	}
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static void _setting_on_YesNo_popup(void *data)
@@ -376,7 +377,7 @@ static void _setting_on_YesNo_popup(void *data)
 	ugdata_t *ug_data = (ugdata_t *)data;
 	char popup_str[POPUP_TEXT_SIZE] = { 0, };
 
-	LOGD("[%s(): %d] BEGIN>>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN>>>>");
 
 	ret_if(ug_data == NULL);
 
@@ -384,7 +385,7 @@ static void _setting_on_YesNo_popup(void *data)
 
 	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, IDS_YES, UG_NFC_POPUP_RESP_OK, IDS_NO, UG_NFC_POPUP_RESP_CANCEL, NULL, 0, false, false, _setting_on_YesNo_popup_response_cb);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static void _app_error_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
@@ -392,7 +393,7 @@ static void _app_error_popup_response_cb(void *data, Evas_Object *obj, void *eve
 	ugdata_t *ug_data = (ugdata_t *)data;
 	int result = (int)event_info;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (ug_data == NULL)
 		return;
@@ -401,7 +402,7 @@ static void _app_error_popup_response_cb(void *data, Evas_Object *obj, void *eve
 	{
 	case UG_NFC_POPUP_RESP_CLOSE :
 		/* destroy UG */
-		LOGD("ug_destroy_me >>>>", __FUNCTION__, __LINE__);
+		LOGD("ug_destroy_me >>>>");
 		ug_destroy_me(ug_data->nfc_share_ug);
 		break;
 
@@ -409,7 +410,7 @@ static void _app_error_popup_response_cb(void *data, Evas_Object *obj, void *eve
 		break;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _show_app_error_popup(void *data)
@@ -417,7 +418,7 @@ static void _show_app_error_popup(void *data)
 	ugdata_t *ug_data = (ugdata_t *)data;
 	char popup_str[POPUP_TEXT_SIZE] = { 0, };
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (ug_data == NULL)
 		return;
@@ -426,17 +427,17 @@ static void _show_app_error_popup(void *data)
 
 	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, IDS_CLOSE, UG_NFC_POPUP_RESP_CLOSE, NULL, 0, NULL, 0, false, false, _app_error_popup_response_cb);
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 static void _back_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	/* destroy UG */
 	ug_destroy_me(data);
 
-	LOGD("[%s(): %d] END>>>>", __FUNCTION__, __LINE__);
+	LOGD("END>>>>");
 }
 
 static Evas_Object *ug_nfc_share_create_layout(void *data)
@@ -447,7 +448,7 @@ static Evas_Object *ug_nfc_share_create_layout(void *data)
 	Evas_Object *cancel_btn = NULL;
 	int width, height;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ecore_x_window_size_get(ecore_x_window_root_first_get(), &width, &height);
 	LOGD("width[%d] / height[%d]\n", width, height);
@@ -510,7 +511,7 @@ void ug_nfc_share_create_base_view(void *user_data)
 {
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	/* create base layout */
 	ug_data->base_layout = _create_main_layout(ug_data->ug_win_main);
@@ -518,7 +519,7 @@ void ug_nfc_share_create_base_view(void *user_data)
 	elm_object_part_content_set(ug_data->base_layout, "elm.swallow.bg", ug_data->bg);
 	evas_object_show(ug_data->base_layout);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 void ug_nfc_share_create_nfc_share_view(void *user_data)
@@ -526,7 +527,7 @@ void ug_nfc_share_create_nfc_share_view(void *user_data)
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 	Evas_Object* nfc_share_layout = NULL;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 
 	/* create data */
@@ -543,7 +544,7 @@ void ug_nfc_share_create_nfc_share_view(void *user_data)
 
 	elm_object_part_content_set(ug_data->base_layout, "elm.swallow.content", nfc_share_layout);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 bool ug_nfc_share_check_nfc_isAvailable(void *user_data)
@@ -551,14 +552,14 @@ bool ug_nfc_share_check_nfc_isAvailable(void *user_data)
 	ugdata_t *ug_data = (ugdata_t *)user_data;
 	int result, on;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	retv_if(ug_data == NULL, false);
 
 	/* check if nfc is on */
 	if ((result = vconf_get_bool(VCONFKEY_NFC_STATE, &on)) == 0)
 	{
-		LOGD("[%s(): %d] vconf_get_bool status [%d]\n", __FUNCTION__, __LINE__, on);
+		LOGD("vconf_get_bool status [%d]\n", on);
 		if (!on)
 		{
 			/* show nfc on/off popup */
@@ -568,11 +569,11 @@ bool ug_nfc_share_check_nfc_isAvailable(void *user_data)
 	}
 	else
 	{
-		LOGD("[%s(): %d] vconf_get_bool failed\n", __FUNCTION__, __LINE__);
+		LOGD("vconf_get_bool failed\n");
 		return false;
 	}
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return true;
 }
@@ -582,7 +583,7 @@ static void ug_nfc_share_create_data(ugdata_t* ug_data)
 	bundle *bd = ug_data->bd;
 	int type;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int result = UG_NFC_SHARE_ERROR;
 	nfc_ndef_message_h msg = NULL;
@@ -692,7 +693,7 @@ static void ug_nfc_share_create_data(ugdata_t* ug_data)
 		nfc_ndef_message_destroy(msg);
 	}
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static bool ug_nfc_share_parse_bundle(bundle *bd)
@@ -700,7 +701,7 @@ static bool ug_nfc_share_parse_bundle(bundle *bd)
 	char *request_type = (char *)bundle_get_val(bd, "request_type");
 	char *request_data = (char *)bundle_get_val(bd, "request_data");
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (request_type == NULL || request_data == NULL)
 	{
@@ -741,7 +742,7 @@ static bool ug_nfc_share_parse_bundle(bundle *bd)
 		return false;
 	}
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return true;
 }
@@ -750,7 +751,7 @@ static void *__ug_nfc_share_create(ui_gadget_h ug, enum ug_mode mode, service_h 
 {
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	/* set text domain */
 	bindtextdomain(NFCUG_TEXT_DOMAIN, NFCUG_LOCALEDIR);
@@ -789,7 +790,7 @@ static void *__ug_nfc_share_create(ui_gadget_h ug, enum ug_mode mode, service_h 
 	/* create share view */
 	ug_nfc_share_create_nfc_share_view(ug_data);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 
 	return ug_data->base_layout;
 }
@@ -798,7 +799,7 @@ static void __ug_nfc_share_destroy(ui_gadget_h ug, service_h service, void *priv
 {
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	if (ug_data == NULL)
 		return;
@@ -809,7 +810,7 @@ static void __ug_nfc_share_destroy(ui_gadget_h ug, service_h service, void *priv
 	/* nfc deactivate */
 	if (nfc_manager_deinitialize() != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_manager_deinitialize failed", __FUNCTION__, __LINE__);
+		LOGD("nfc_manager_deinitialize failed");
 	}
 
 	if (ug_data->bd != NULL)
@@ -820,12 +821,12 @@ static void __ug_nfc_share_destroy(ui_gadget_h ug, service_h service, void *priv
 
 	evas_object_del(ug_get_layout(ug));
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void __ug_nfc_share_start(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
@@ -839,33 +840,33 @@ static void __ug_nfc_share_start(ui_gadget_h ug, service_h service, void *priv)
 
 	ug_nfc_share_check_nfc_isAvailable(ug_data);
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void __ug_nfc_share_pause(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void __ug_nfc_share_resume(ui_gadget_h ug, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void __ug_nfc_share_message(ui_gadget_h ug, service_h msg, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 static void __ug_nfc_share_event(ui_gadget_h ug, enum ug_event event, service_h service, void *priv)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	ugdata_t *ug_data = (ugdata_t *)priv;
 
@@ -904,14 +905,14 @@ static void __ug_nfc_share_event(ui_gadget_h ug, enum ug_event event, service_h 
 		break;
 	}
 
-	LOGD("[%s(): %d] END >>>>", __FUNCTION__, __LINE__);
+	LOGD("END >>>>");
 }
 
 UG_MODULE_API int UG_MODULE_INIT(struct ug_module_ops *ops)
 {
 	ugdata_t *ug_data; // User defined private data
 
-	LOGD("[%s(): %d] UG_MODULE_INIT!!\n", __FUNCTION__, __LINE__);
+	LOGD("UG_MODULE_INIT!!\n");
 
 	if (!ops)
 		return -1;

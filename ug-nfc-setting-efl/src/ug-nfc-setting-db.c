@@ -33,7 +33,7 @@ static sqlite3_stmt *g_predefined_item_pstmt;
 
 static void _db_finalize_statement(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 
@@ -48,13 +48,13 @@ static void _db_finalize_statement(void)
 		}
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 }
 
 
 int _ug_nfc_setting_db_open(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 
@@ -64,14 +64,14 @@ int _ug_nfc_setting_db_open(void)
 		LOGD("Failed to open database. error[%d]", db_ret);
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_close(void)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 
@@ -86,14 +86,14 @@ int _ug_nfc_setting_db_close(void)
 		g_predefined_item_db = NULL;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_open_table(int *table_handle)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 	int count = 0;
@@ -133,14 +133,14 @@ int _ug_nfc_setting_db_open_table(int *table_handle)
 		db_ret = SQLITE_ERROR;
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_get_count(int *count)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 	char query[DB_QUERY_LEN] = { 0, };
@@ -170,7 +170,7 @@ int _ug_nfc_setting_db_get_count(int *count)
 
 	_db_finalize_statement();
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }
@@ -179,7 +179,7 @@ int _ug_nfc_setting_db_get_next_record(int table_handle,
 					char **app_id, char **pkgName,
 					char **iconPath, char **msgDes)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 	sqlite3_stmt *stmt = NULL;
@@ -205,14 +205,14 @@ int _ug_nfc_setting_db_get_next_record(int table_handle,
 			*msgDes = strdup((char *)sqlite3_column_text(stmt, 3));
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return SQLITE_OK;
 }
 
 int _ug_nfc_setting_db_get_pkgName(char *app_id, char **pkgName)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 	char query[DB_QUERY_LEN] = { 0, };
@@ -241,14 +241,14 @@ int _ug_nfc_setting_db_get_pkgName(char *app_id, char **pkgName)
 
 	_db_finalize_statement();
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_close_table(int table_handle)
 {
-	LOGD("[%s(): %d] BEGIN >>>>", __FUNCTION__, __LINE__);
+	LOGD("BEGIN >>>>");
 
 	int db_ret = SQLITE_OK;
 	sqlite3_stmt *stmt = NULL;
@@ -263,7 +263,7 @@ int _ug_nfc_setting_db_close_table(int table_handle)
 		LOGD("Failed to sqlite3_finalize error[%d]", db_ret);
 	}
 
-	LOGD("[%s(): %d] END <<<<", __FUNCTION__, __LINE__);
+	LOGD("END <<<<");
 
 	return db_ret;
 }

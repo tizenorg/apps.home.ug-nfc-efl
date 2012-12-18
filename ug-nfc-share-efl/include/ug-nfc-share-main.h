@@ -50,7 +50,7 @@ extern "C" {
 #undef LOG_TAG
 #endif
 
-#define LOG_TAG "UG_NFC_SHARE_EFL"
+#define LOG_TAG "UG_SHARE_NFC_EFL"
 
 #define NFC_SHARE_SERVICE			"com.samsung.nfc-share-service"
 #define NFC_SHARE_SERVICE_SHARE_VIA_UG		"http://tizen.org/appcontrol/operation/nfc_share_via_ug"

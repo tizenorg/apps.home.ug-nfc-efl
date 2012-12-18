@@ -31,7 +31,7 @@
 #undef LOG_TAG
 #endif
 
-#define LOG_TAG "UG_NFC_SHARE_EFL"
+#define LOG_TAG "UG_SHARE_NFC_EFL"
 
 #define UG_NFC_SHARE_ENABLE_DLOG
 
@@ -39,25 +39,25 @@
 #define UG_NFC_SHARE_DEBUG(fmt, ...)\
 	do\
 	{\
-		LOGD("[%s(): %d]" fmt, __FUNCTION__, __LINE__,##__VA_ARGS__);\
+		LOGD(fmt,##__VA_ARGS__);\
 	} while (0)
 
 #define UG_NFC_SHARE_DEBUG_ERR(fmt, ...)\
 	do\
 	{\
-		LOGE(COLOR_RED"[%s(): %d]" fmt COLOR_END, __FUNCTION__, __LINE__,##__VA_ARGS__);\
+		LOGE(COLOR_RED fmt COLOR_END,##__VA_ARGS__);\
 	}while (0)
 
 #define UG_NFC_SHARE_BEGIN() \
 	do\
     {\
-		LOGD(COLOR_BLUE"[%s(): %d] BEGIN >>>>"COLOR_END, __FUNCTION__ ,__LINE__);\
+		LOGD(COLOR_BLUE"BEGIN >>>>"COLOR_END);\
     } while( 0 )
 
 #define UG_NFC_SHARE_END() \
 	do\
     {\
-		LOGD(COLOR_BLUE"[%s(): %d] END <<<<"COLOR_END, __FUNCTION__,__LINE__ );\
+		LOGD(COLOR_BLUE"END <<<<"COLOR_END);\
     } \
     while( 0 )
 
