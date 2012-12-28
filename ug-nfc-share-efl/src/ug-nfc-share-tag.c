@@ -28,15 +28,15 @@
 #include <sys/wait.h>
 
 /* external library header */
-#include "mime_type.h"
-#include "status.h"
+#include <mime_type.h>
+#include <notification.h>
 
 #define NFC_POPUP_TIMEOUT               3.0
 
 static ug_nfc_share_tag_type ug_nfc_share_tagType;
 
 
-int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t length);
+int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t length);
 
 /*-----------------------------------------------------------------------------------------------*/
 
@@ -49,7 +49,7 @@ static void _show_status_text(void *data, char *text)
 	ret_if(ug_data == NULL);
 	ret_if(text == NULL);
 
-	status_message_post(text);
+	notification_status_message_post(text);
 
 	ug_destroy_me(ug_data->nfc_share_ug);
 
@@ -449,7 +449,6 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 
 	if(result == NFC_ERROR_NONE)
 	{
-		uint8_t address[6] = { 0, };
 		char *data = NULL;
 
 		LOGD("p2p_connection_handover is completed");
@@ -458,11 +457,7 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 
 		LOGD("uri[%d] = %s", strlen(data), data);
 
-		_ug_nfc_share_get_bt_addr_from_string(address, (char *)ac_data);
-
-		LOGD("address[%d] = { 0x%02X, 0x%02X, 0x%02X, 0x%02X, 0x%02X, 0x%02X }", sizeof(address), address[0], address[1], address[2], address[3], address[4], address[5]);
-
-		if (_bt_ipc_send_obex_message(address, (uint8_t *)data, strlen(data) + 1) == 0)
+		if (_bt_ipc_send_obex_message((char *)ac_data, (uint8_t *)data, strlen(data) + 1) == 0)
 		{
 			_show_status_text(ug_data, IDS_SHARED);
 		}
@@ -583,7 +578,7 @@ void ug_nfc_unset_nfc_callback(void)
 	LOGD("END>>>>");
 }
 
-int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t length)
+int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t length)
 {
 	int result = 0;
 	uint32_t i, count = 1;
@@ -618,15 +613,21 @@ int _bt_ipc_send_obex_message(uint8_t *address, const uint8_t *files, uint32_t l
 				{
 					int reserved = 0;
 					char *type = "nfc";
+					char *name = address;
+					uint8_t temp[6] = { 0, };
+					uint8_t *addr = temp;
 
-					LOGD("msg [%p], reserved [%d], address [%02X:%02X:%02X:%02X:%02X:%02X], count [%d], files [%s]", msg, reserved, address[0], address[1], address[2], address[3], address[4], address[5], count, files);
+					_ug_nfc_share_get_bt_addr_from_string(temp, address);
+
+					LOGD("msg [%p], reserved [%d], address [%02X:%02X:%02X:%02X:%02X:%02X], count [%d], files [%s]", msg, reserved, addr[0], addr[1], addr[2], addr[3], addr[4], addr[5], count, files);
 
 					if (dbus_message_append_args(msg,
 												DBUS_TYPE_INT32, &reserved,
-												DBUS_TYPE_ARRAY, DBUS_TYPE_BYTE, &address, 6,
+												DBUS_TYPE_ARRAY, DBUS_TYPE_BYTE, &addr, 6,
 												DBUS_TYPE_INT32, &count,
 												DBUS_TYPE_STRING, &files,
 												DBUS_TYPE_STRING, &type,
+												DBUS_TYPE_STRING, &name,
 												DBUS_TYPE_INVALID))
 					{
 						e_dbus_message_send(conn, msg, NULL, -1, NULL);

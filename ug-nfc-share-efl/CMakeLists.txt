@@ -38,7 +38,7 @@ elementary
 ui-gadget-1
 dlog
 vconf
-status
+notification
 capi-appfw-application
 capi-network-nfc
 capi-content-mime-type

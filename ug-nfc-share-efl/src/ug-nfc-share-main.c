@@ -47,7 +47,6 @@ void ug_nfc_share_create_nfc_share_view(void *user_data);
 bool ug_nfc_share_check_nfc_isAvailable(void *user_data);
 static void ug_nfc_share_create_data(ugdata_t* ug_data);
 
-static Ecore_Timer *mdmPopup_timer = NULL;
 
 int _get_theme_type()
 {
@@ -285,41 +284,10 @@ static Evas_Object *_create_main_layout(Evas_Object* parent)
 	elm_layout_theme_set(layout, "layout", "application", "default");
 
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	elm_win_resize_object_add(parent, layout);
 
 	evas_object_show(layout);
 
 	return layout;
-}
-
-static void _mdm_restricted_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
-{
-
-	ugdata_t *ug_data = (ugdata_t *)data;
-	ret_if(ug_data == NULL);
-
-	LOGD("BEGIN >>>>");
-	LOGD("END >>>>");
-
-	ug_destroy_me(ug_data->nfc_share_ug);
-}
-
-static Eina_Bool _mdm_restricted_popup(void *data)
-{
-	LOGD("BEGIN >>>>");
-
-	char popup_str[POPUP_TEXT_SIZE] = { 0, };
-	char *buf = NULL;
-	ugdata_t *ug_data = (ugdata_t *)data;
-	retv_if(ug_data == NULL, ECORE_CALLBACK_CANCEL);
-
-	buf = strdup(IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS);
-	snprintf(popup_str, POPUP_TEXT_SIZE, buf, IDS_NFC_NFC);
-	ug_nfc_share_create_popup(ug_data, ug_data->base_layout, popup_str, NULL, 0, NULL, 0, NULL, 0, true, true, _mdm_restricted_popup_response_cb);
-
-	LOGD("END >>>>");
-
-	return ECORE_CALLBACK_CANCEL;
 }
 
 static void _activation_completed_cb(nfc_error_e error, void *user_data)
@@ -352,10 +320,9 @@ static void _setting_on_YesNo_popup_response_cb(void *data, Evas_Object *obj, vo
 		LOGD("setting is on >>>>");
 
 		result = nfc_manager_set_activation(true, _activation_completed_cb, ug_data);
-		if (result == NFC_ERROR_SECURITY_RESTRICTED)
+		if (result != NFC_ERROR_NONE)
 		{
-			LOGD("mdmPopup_timer START ");
-			mdmPopup_timer = ecore_timer_add(0.25, _mdm_restricted_popup, ug_data);
+			LOGD("nfc_manager_set_activation failed");
 		}
 		break;
 

@@ -67,9 +67,6 @@ extern "C" {
 
 typedef enum _NFCSettingType {
 	NFC_ON_OFF = 0,
-#ifdef _SBEAM_SUPPORT_
-	NFC_S_BEAM,
-#endif
 	NFC_PREDEFINED_ITEM,
 	NFC_SETTING_MAX
 } NFCSettingType;

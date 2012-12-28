@@ -18,9 +18,6 @@
 #include "ug-nfc-setting-main.h"
 #include "ug-nfc-setting-popup.h"
 #include "ug-nfc-setting-db.h"
-#ifdef MDM_PHASE_2
-#include <mdm.h>
-#endif
 
 #ifndef UG_MODULE_API
 #define UG_MODULE_API __attribute__ ((visibility("default")))
@@ -33,42 +30,10 @@ static Elm_Genlist_Item_Class itc_helptext;
 static Elm_Genlist_Item_Class itc_2text;
 
 static Elm_Object_Item *nfc_item = NULL;
-#ifdef _SBEAM_SUPPORT_
-static Elm_Object_Item *sbeam_item = NULL;
-#endif
 static Elm_Object_Item *predefined_item = NULL;
 
 static bool pending_status = false;
 
-
-#ifdef MDM_PHASE_2
-static void _mdm_restricted_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	LOGD("BEGIN >>>>");
-	ugdata_t *ug_data = (ugdata_t *)data;
-	if (!ug_data)
-		return;
-
-	LOGD("END >>>>");
-}
-
-static void _mdm_restricted_popup(void *data)
-{
-	LOGD("BEGIN >>>>");
-
-	char popup_str[POPUP_TEXT_SIZE] = { 0, };
-	char *buf = NULL;
-	ugdata_t *ug_data = (ugdata_t *)data;
-	if (!ug_data)
-		return;
-
-	buf = strdup(IDS_SECURITY_POLICY_RESTRICTS_USE_OF_PS);
-	snprintf(popup_str, POPUP_TEXT_SIZE, buf, IDS_NFC_NFC);
-	ug_nfc_setting_create_popup(ug_data, ug_data->base_layout, popup_str, NULL, 0, NULL, 0, NULL, 0, true, true, _mdm_restricted_popup_response_cb);
-
-	LOGD("END >>>>");
-}
-#endif
 
 static void _show_app_error_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
 {
@@ -151,41 +116,17 @@ static void _change_nfc_onoff_setting(void *data)
 	if (!ug_data)
 		return;
 
-	/* check MDM */
-#ifdef MDM_PHASE_2
-	result = mdm_get_service();
-	if (result == MDM_RESULT_SUCCESS)
-	{
-		result = mdm_get_allow_nfc();
-		if (result == MDM_ALLOWED)
-		{
-			LOGD( "MDM_ALLOWED!\n");
-			mdm_release_service();
-		}
-		else if (result == MDM_RESTRICTED)
-		{
-			LOGD( "MDM_RESTRICTED!\n");
-			_mdm_restricted_popup(ug_data);
-			return;
-		}
-		else
-		{
-			LOGD( "exception case!\n");
-			return;
-		}
-	}
-	else
-	{
-		LOGD( "failed to get mdm service!\n");
-		return;
-	}
-#endif
-
 	if ((result = vconf_get_bool(VCONFKEY_NFC_STATE, &status)) == 0)
 	{
 		LOGD("vconf_get_bool status [%d]\n", status);
 
 		result = nfc_manager_set_activation(!status, NULL, NULL);
+		if (result != NFC_ERROR_NONE)
+		{
+			LOGD("nfc_manager_set_activation failed");
+
+			return;
+		}
 		_set_pending_status(true);
 	}
 	else
@@ -195,103 +136,6 @@ static void _change_nfc_onoff_setting(void *data)
 
 	LOGD("END <<<<");
 }
-
-#ifdef _SBEAM_SUPPORT_
-static void _change_nfc_sbeam_setting(void *data)
-{
-	int status = 0;
-	int result = -1;
-
-	LOGD("BEGIN >>>>");
-
-	ugdata_t *ug_data = (ugdata_t *)data;
-	if (!ug_data)
-		return;
-
-	/* check MDM */
-#ifdef MDM_PHASE_2
-	result = mdm_get_service();
-	if (result == MDM_RESULT_SUCCESS)
-	{
-		result = mdm_get_allow_nfc();
-		if (result == MDM_ALLOWED)
-		{
-			LOGD( "MDM_ALLOWED!\n");
-			mdm_release_service();
-		}
-		else if (result == MDM_RESTRICTED)
-		{
-			LOGD( "MDM_RESTRICTED!\n");
-			_mdm_restricted_popup(ug_data);
-			return;
-		}
-		else
-		{
-			LOGD( "exception case!\n");
-			return;
-		}
-	}
-	else
-	{
-		LOGD( "failed to get mdm service!\n");
-		return;
-	}
-#endif
-
-	if ((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &status)) == 0)
-	{
-		LOGD("vconf_get_bool status [%d]\n", status);
-
-		if (status)
-		{
-			/* sbeam off */
-			result = vconf_set_bool(VCONFKEY_NFC_SBEAM, FALSE);
-			if (!result )
-			{
-				LOGD("vconf_set_bool success\n");
-			}
-			else
-			{
-				LOGD("vconf_set_bool failed\n");
-			}
-		}
-		else
-		{
-			/* sbeam on */
-			result = vconf_set_bool(VCONFKEY_NFC_SBEAM, TRUE);
-			if (!result )
-			{
-				LOGD("vconf_set_bool success\n");
-			}
-			else
-			{
-				LOGD("vconf_set_bool failed\n");
-			}
-
-			/* nfc on */
-			if ((result = vconf_get_bool(VCONFKEY_NFC_STATE, &status)) == 0)
-			{
-				LOGD("vconf_get_bool status [%d]\n", status);
-				if (!status)
-				{
-					result = nfc_manager_set_activation(true, NULL, NULL);
-					_set_pending_status(true);
-				}
-			}
-			else
-			{
-				LOGD("vconf_get_bool failed\n");
-			}
-		}
-	}
-	else
-	{
-		LOGD("vconf_get_bool failed\n");
-	}
-
-	LOGD("END <<<<");
-}
-#endif
 
 void _change_nfc_predefined_item_setting(void *data)
 {
@@ -303,36 +147,6 @@ void _change_nfc_predefined_item_setting(void *data)
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (!ug_data)
 		return;
-
-	/* check MDM */
-#ifdef MDM_PHASE_2
-	result = mdm_get_service();
-	if (result == MDM_RESULT_SUCCESS)
-	{
-		result = mdm_get_allow_nfc();
-		if (result == MDM_ALLOWED)
-		{
-			LOGD( "MDM_ALLOWED!\n");
-			mdm_release_service();
-		}
-		else if (result == MDM_RESTRICTED)
-		{
-			LOGD( "MDM_RESTRICTED!\n");
-			_mdm_restricted_popup(ug_data);
-			return;
-		}
-		else
-		{
-			LOGD( "exception case!\n");
-			return;
-		}
-	}
-	else
-	{
-		LOGD( "failed to get mdm service!\n");
-		return;
-	}
-#endif
 
 	if ((result = vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &status)) == 0)
 	{
@@ -424,10 +238,6 @@ void _nfc_activation_changed_cb(bool activated , void *user_data)
 	}
 	else
 	{
-#ifdef _SBEAM_SUPPORT_
-		int sbeam_state = 0;
-#endif
-
 		/* predefined item setting disabled */
 		elm_object_item_disabled_set(predefined_item, EINA_TRUE);
 
@@ -443,32 +253,6 @@ void _nfc_activation_changed_cb(bool activated , void *user_data)
 
 		/* set internal flag */
 		predefined_item_off_by_nfcOnOff = true;
-
-#ifdef _SBEAM_SUPPORT_
-		/* sbeam off */
-		if ((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &sbeam_state)) == 0)
-		{
-			LOGD("vconf_get_bool status [%d]\n", sbeam_state);
-
-			if (sbeam_state)
-			{
-				/* sbeam off */
-				result = vconf_set_bool(VCONFKEY_NFC_SBEAM, FALSE);
-				if (!result )
-				{
-					LOGD("vconf_set_bool success\n");
-				}
-				else
-				{
-					LOGD("vconf_set_bool failed\n");
-				}
-			}
-		}
-		else
-		{
-			LOGD("vconf_get_bool failed\n");
-		}
-#endif
 	}
 
 	LOGD("END <<<<");
@@ -502,7 +286,6 @@ static Evas_Object *_create_main_layout(Evas_Object *parent)
 	elm_layout_theme_set(layout, "layout", "application", "default");
 
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	elm_win_resize_object_add(parent, layout);
 
 	evas_object_show(layout);
 
@@ -544,27 +327,6 @@ static Eina_Bool _gl_state_get(void *data, Evas_Object *obj, const char *part)
 			LOGD("vconf_get_bool error [%d]", result);
 		}
 	}
-#ifdef _SBEAM_SUPPORT_
-	else if (item_data->type == NFC_S_BEAM)
-	{
-		if (!vconf_get_bool(VCONFKEY_NFC_SBEAM, &enable))
-		{
-			if (enable != 0)
-			{
-				LOGD("vconf_get_bool true");
-				result = EINA_TRUE;
-			}
-			else
-			{
-				LOGD("vconf_get_bool false");
-			}
-		}
-		else
-		{
-			LOGD("vconf_get_bool error [%d]", result);
-		}
-	}
-#endif
 	else if (item_data->type == NFC_PREDEFINED_ITEM)
 	{
 		if (!vconf_get_bool(VCONFKEY_NFC_PREDEFINED_ITEM_STATE, &enable))
@@ -634,14 +396,6 @@ static void _gl_sel_activation(void *data, Evas_Object *obj, void *event_info)
 
 		elm_genlist_item_update(item);
 	}
-#ifdef _SBEAM_SUPPORT_
-	else if (item_data->type == NFC_S_BEAM)
-	{
-		_change_nfc_sbeam_setting(item_data->data);
-
-		elm_genlist_item_update(item);
-	}
-#endif
 	else if (item_data->type == NFC_PREDEFINED_ITEM)
 	{
 		Evas_Object *predefined_item_list = NULL;
@@ -695,15 +449,6 @@ static void _check_changed_cb(void *data, Evas_Object *obj, void *event_info)
 		if (nfc_item != NULL)
 			elm_genlist_item_update(nfc_item);
 	}
-#ifdef _SBEAM_SUPPORT_
-	else if (item_data->type == NFC_S_BEAM)
-	{
-		_change_nfc_sbeam_setting(item_data->data);
-
-		if (sbeam_item != NULL)
-			elm_genlist_item_update(sbeam_item);
-	}
-#endif
 	else if (item_data->type == NFC_PREDEFINED_ITEM)
 	{
 		_change_nfc_predefined_item_setting(item_data->data);
@@ -772,27 +517,6 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 			elm_object_style_set(content, "on&off");
 		}
 	}
-#ifdef _SBEAM_SUPPORT_
-	else if (item_data->type == NFC_S_BEAM)
-	{
-		content = elm_check_add(obj);
-		evas_object_propagate_events_set(content, EINA_FALSE);
-		evas_object_smart_callback_add(content, "changed", _check_changed_cb, item_data);
-
-		if (((result = vconf_get_bool(VCONFKEY_NFC_SBEAM, &on)) == 0) && (on != 0))
-		{
-			LOGD("vconf_get_bool true");
-			elm_check_state_set(content, EINA_TRUE);
-		}
-		else
-		{
-			LOGD("vconf_get_bool false");
-			elm_check_state_set(content, EINA_FALSE);
-		}
-
-		elm_object_style_set(content, "on&off");
-	}
-#endif
 	else if (item_data->type == NFC_PREDEFINED_ITEM)
 	{
 		content = elm_check_add(obj);
@@ -842,12 +566,6 @@ static char *_gl_text_get_onoff(void *data, Evas_Object *obj, const char *part)
 	{
 		text = strdup(IDS_NFC_NFC);
 	}
-#ifdef _SBEAM_SUPPORT_
-	else if (item_data->type == NFC_S_BEAM)
-	{
-		text = strdup(IDS_NFC_S_BEAM);
-	}
-#endif
 	else if (item_data->type == NFC_PREDEFINED_ITEM)
 	{
 		if (!strcmp(part, "elm.text.1"))
@@ -1027,68 +745,6 @@ static Evas_Object *_ug_nfc_create_nfc_setting_list(void *data)
 	return genlist;
 }
 
-#ifdef _SBEAM_SUPPORT_
-static Evas_Object *_ug_nfc_create_sbeam_setting_list(void *data)
-{
-	LOGD("BEGIN >>>>");
-
-	ugdata_t *ug_data = (ugdata_t *)data;
-	Evas_Object *genlist = NULL;
-	Elm_Object_Item* seperator = NULL;
-
-
-	/* make genlist */
-	genlist = elm_genlist_add(ug_data->base_naviframe);
-	if (genlist == NULL)
-	{
-		LOGD("genlist is null");
-		return NULL;
-	}
-	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
-
-	itc_sep.item_style = "dialogue/separator";
-	itc_sep.func.text_get = NULL;
-	itc_sep.func.content_get = NULL;
-	itc_sep.func.state_get = NULL;
-	itc_sep.func.del = NULL;
-
-	itc_check.item_style = "dialogue/1text.1icon";
-	itc_check.func.text_get = _gl_text_get_onoff;
-	itc_check.func.content_get = _gl_content_get;
-	itc_check.func.state_get = _gl_state_get;
-	itc_check.func.del = _gl_del;
-
-	itc_helptext.item_style = "multiline/1text";
-	itc_helptext.func.text_get = _gl_text_get_help;
-	itc_helptext.func.content_get = NULL;
-	itc_helptext.func.state_get = NULL;
-	itc_helptext.func.del = NULL;
-
-
-	/* seperator */
-	seperator= elm_genlist_item_append(genlist, &itc_sep, NULL, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(seperator, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
-
-	/* S beam setting */
-	gl_item_data *sbeam_data = NULL;
-	sbeam_data = malloc(sizeof(gl_item_data));
-	if (!sbeam_data)
-		return NULL;
-	sbeam_data->type = NFC_S_BEAM;
-	sbeam_data->data = ug_data;
-	sbeam_item = elm_genlist_item_append(genlist, &itc_check, (void *)sbeam_data, NULL, ELM_GENLIST_ITEM_NONE, _gl_sel_activation, (void *)sbeam_data);
-
-	/* S beam setting Help Text */
-	elm_genlist_item_append(genlist, &itc_helptext, (void *)2, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-
-	evas_object_show(genlist);
-
-	LOGD("END <<<<");
-
-	return genlist;
-}
-#endif
-
 static void *__ug_nfc_setting_create(ui_gadget_h ug, enum ug_mode mode, service_h service, void *priv)
 {
 	LOGD("BEGIN >>>>");
@@ -1137,12 +793,6 @@ static void *__ug_nfc_setting_create(ui_gadget_h ug, enum ug_mode mode, service_
 
 			nfc_setting_list = _ug_nfc_create_nfc_setting_list(ug_data);
 		}
-#ifdef _SBEAM_SUPPORT_
-		else if (strncmp(type, "sbeam", strlen("sbeam")) == 0)
-		{
-			nfc_setting_list = _ug_nfc_create_sbeam_setting_list(ug_data);
-		}
-#endif
 		else
 		{
 			return NULL;

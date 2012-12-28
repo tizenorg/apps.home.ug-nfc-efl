@@ -84,7 +84,7 @@ extern "C" {
 
 
 /* will be deleted */
-#define IDS_NFC_SERVICE_IS_NOT_SUPPORTED		_("NFC service is not supported")
+#define IDS_NFC_SERVICE_IS_NOT_SUPPORTED					_("NFC service is not supported")
 
 /* System string */
 #define IDS_YES				dgettext("sys_string", "IDS_COM_SK_YES")
