@@ -4,7 +4,7 @@
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
-Version:    0.0.6
+Version:    0.0.7
 Release:    0
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
