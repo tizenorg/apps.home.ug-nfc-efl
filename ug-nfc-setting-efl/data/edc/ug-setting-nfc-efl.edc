@@ -1,0 +1,182 @@
+
+#define PADDING_TOP( param_padding_size ) \
+	part \
+	{ \
+		name: "top_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: 0 param_padding_size; \
+			fixed: 0 1; \
+			rel1 {relative: 0 0;} \
+			rel2 {relative: 1 0;} \
+			align:0 0; \
+		} \
+	} \
+
+#define PADDING_BOTTOM( param_padding_size ) \
+	part \
+	{ \
+		name: "bottom_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: 0 param_padding_size; \
+			fixed: 0 1; \
+			rel1 { relative: 0 1; } \
+			rel2 { relative: 1 1; } \
+			align: 0 1; \
+		} \
+	} \
+
+#define PADDING_LEFT( param_padding_size ) \
+	part \
+	{ \
+		name: "left_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: param_padding_size 0; \
+			fixed: 1 0; \
+			rel1 {relative: 0 0;} \
+			rel2 {relative: 0 1;} \
+			align:0 0; \
+		} \
+	} \
+
+#define PADDING_RIGHT( param_padding_size ) \
+	part \
+	{ \
+		name: "right_pad"; \
+		type: RECT; \
+		scale: 1; \
+		description \
+		{ \
+			state: "default" 0.0; \
+			color: 0 0 0 0; \
+			min: param_padding_size 0; \
+			fixed: 1 0; \
+			rel1 {relative: 1 0;} \
+			rel2 {relative: 1 1;} \
+			align:1 0; \
+		} \
+	} \
+
+#define SETTING_LIST_HEIGHT		(40+1+112+1+112+1+1)
+#define PREDEFINED_ITEM_HEIGHT	(40+1+112+15+1)
+#define SCREEN_HEIGHT			1280
+
+collections {
+
+	styles
+	{
+		style
+		{
+			name: "style_txt_desc_black";
+			base: "font=SLP:style=Regular text_class=slp_regular font_size=40 align=left color=#FFFFFF wrap=word";
+			tag:  "br" "\n";
+			tag:  "tab" "\t";
+			tag:  "b" "+ font=SLP:style=Bold";
+			tag:  "link" "+ color=#800 underline=on underline_color=#8008";
+			tag:  "hilight" "+ font=SLP:style=Bold";
+
+		}
+	}
+
+	group{
+		name: "nfc_setting";
+		parts
+		{
+			part
+			{
+				name: "setting_list";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					min: 0 SETTING_LIST_HEIGHT;
+					fixed: 0 1;
+					rel1{relative: 0 0;}
+					rel2{relative: 1 SETTING_LIST_HEIGHT/SCREEN_HEIGHT;}
+					align: 0 0;
+				}
+			}
+
+			PADDING_LEFT(40)
+			PADDING_RIGHT(40)
+
+			part
+			{
+				name: "sbeam_help";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 1 1; to_x:"left_pad"; to_y: "setting_list";}
+					rel2{relative: 0 1; to_x:"right_pad";to_y: "setting_list";}
+					align: 0 0;
+				}
+			}
+
+			part
+			{
+				name: "list_pad_1";
+				type: RECT;
+				scale: 1;
+				description
+				{
+					state: "default" 0.0;
+					color: 0 0 0 0;
+					min: 0 40;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "sbeam_help";}
+					rel2 {relative: 1 1; to_y: "sbeam_help";}
+					align:0 0;
+				}
+			}
+
+			part
+			{
+				name: "predefined_item_list";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					min: 0 PREDEFINED_ITEM_HEIGHT;
+					fixed: 0 1;
+					rel1 {relative: 0 1; to_y: "list_pad_1";}
+					rel2 {relative: 1 1; to_y: "list_pad_1";}
+					align: 0 0;
+				}
+			}
+
+			PADDING_BOTTOM(40)
+
+			part
+			{
+				name: "predefined_item_help";
+				type: SWALLOW;
+				scale:1;
+				description
+				{
+					state: "default" 0.0;
+					rel1{relative: 1 1; to_x:"left_pad"; to_y: "predefined_item_list";}
+					rel2{relative: 0 0; to_x:"right_pad";to_y: "bottom_pad";}
+					align: 0 0;
+				}
+			}
+		}
+	}
+}

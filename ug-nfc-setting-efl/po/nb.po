@@ -1,0 +1,42 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "For å avbryte deling trykker du på Avbryt"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Tjenesten er ikke tilgjengelig. NFC er slått av. Slå på NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Del via NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Legg telefonene forsiktig mot hverandre for å dele"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Overføringsfeil"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Sikkerhetspolicy begrenser bruk av %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Delt"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Kan ikke dele"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Forhåndsdef. element"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Du kan overføre forhåndsdefinerte elementer til en annen NFC-enhet. Bare før enhetene inntil hverandre (vanligvis bakside mot bakside) i startskjermbildet"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Når NFC er på, kan du sende eller motta data når enheten din berører andre NFC-aktiverte enheter eller NFC-tagger"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Når denne funksjonen er slått på, kan du sende filer til andre NFC- og Wi-Fi Direct-enheter ved å holde enhetene i nærheten av hverandre. For eksempel kan du sende bilde-/videofiler fra galleriet, musikkfiler fra musikkspilleren og mer. Bare før enhetene sammen (helst rygg mot rygg) og trykk deretter på skjermen. Programmet bestemmer hva som sendes"
+

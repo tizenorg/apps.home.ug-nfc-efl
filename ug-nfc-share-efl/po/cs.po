@@ -1,0 +1,42 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Chcete-li zrušit sdílení, klepněte na tlačítko Zrušit"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Služba je nedostupná. NFC bylo vypnuto. Zapnout NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Sdílet přes NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Pro sdílení se jemně dotkněte telefony"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Chyba přenosu"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Zásady zabezpečení omezují použití %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Sdíleno"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nelze sdílet"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Předdefinovaná položka"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Můžete přenést předdefinované položky do jiného zařízení podporujícího NFC. Stačí dát zařízení blízko k sobě (obvykle zadními stranami) když je zobrazena domovská obrazovka"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Když je NFC zapnuto, je možné odesílat nebo přijímat data, když se zařízením dotknete jiného zařízení podporujícího NFC nebo značky NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Když je tato funkce zapnutá, můžete přenést soubory do jiných zařízení podporujících NFC a Wi-Fi Direct tím, že podržíte zařízení u sebe. Můžete např. přenést obrázky nebo videosoubory z Galerie, hudební soubory z Hudebního přehrávače a podobně. Stačí dát zařízení k sobě (obvykle zadními stranami) a klepnout na displej. Aplikace určí, co se bude přenášet"
+

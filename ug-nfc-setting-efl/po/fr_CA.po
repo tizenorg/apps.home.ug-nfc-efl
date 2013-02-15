@@ -1,0 +1,42 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Pour annuler le partage, touchez Annuler"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Service non disponible. NFC désactivé. Activer NFC ?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Partager via NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Faites entrer doucement en contact les téléphones pour partager"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Erreur de transfert"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "La politique de sécurité limite l'utilisation de %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Partagé"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Partage impossible"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Élément prédéfini"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Vous pouvez transmettre des éléments prédéfinis vers un autre périphérique NFC. Il vous suffit de rapprocher les périphériques (en général dos contre dos) lorsque l'écran d'accueil est ouvert"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Lorsque NFC est activé, vous pouvez envoyer ou recevoir des données quand votre périphérique touche d'autres périphériques compatibles NFC ou des tags NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Lorsque cette fonction est activée, vous pouvez transmettre des fichiers à d'autres périphériques NFC et Wi-Fi Direct en les rapprochant les uns des autres. Par exemple, vous pouvez transmettre des fichiers image/vidéo à partir de la galerie, des fichiers audios à partir du lecteur de musique, etc. Il vous suffit de rapprocher les périphériques (en général dos contre dos) et d'appuyer sur l'écran. L'application détermine ce qui est transmis"
+
