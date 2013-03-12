@@ -1,0 +1,42 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Para cancelar o uso compartido, toca Cancelar"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Servizo non dispoñible. NFC desactivada. Desexas activar NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Compartir por NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Fai que os teléfonos se toquen suavemente para compartir"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Erro de transferencia"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "A política de seguridade limita o uso de %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Compartido"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Non se pode compartir"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Elemento predefinido"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Podes transferir elementos predefinidos a outro dispositivo NFC. Simplemente achega os dispositivos entre si (normalmente xuntando as partes posteriores) mentres te atopas na pantalla de inicio"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Cando NFC está activado, podes enviar ou recibir datos cando o teu dispositivo toca outros dispositivos compatibles con NFC ou etiquetas NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Cando esta función está activada, podes transmitir arquivos a outros dispositivos NFC e Wi-Fi Direct suxeitando os dispositivos un preto do outro. Por exemplo, podes transmitir arquivos de imaxe/vídeo desde a Galería, arquivos de música desde o reprodutor de música, etc. Simplemente achega os dispositivos entre si (normalmente as súas partes posteriores) e, a continuación, toca a pantalla. A aplicación determina o que se transmite"
+

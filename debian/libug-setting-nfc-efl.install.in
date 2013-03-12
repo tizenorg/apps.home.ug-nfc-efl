@@ -1,0 +1,4 @@
+/opt/ug/lib/libug-setting-nfc-efl*
+/opt/ug/res/edje/ug-setting-nfc-efl/*
+/opt/ug/res/icons/*
+/opt/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*

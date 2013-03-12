@@ -1,0 +1,42 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Če želite preklicati skupno rabo, pritisnite Prekliči"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Storitev ni na voljo. NFC je izklopljen. Želite vklopiti NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Skupna raba prek NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Za skupno rabo se s telefonom rahlo dotaknite drugega telefona"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Prenos ni uspel"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Varnostni pravilnik omejuje uporabo programa %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Dosegljivo drugim"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Souporaba ni mogoča"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Vnaprej določen element"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Vnaprej določene elemente lahko prenesete v drugo napravo NFC. Ko ste na domačem zaslonu, samo pomaknite naprave skupaj (običajno s hrbtnima stranema)"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Če je NFC vklopljen, lahko pošiljate ali prejemate podatke, ko se vaša naprava dotakne drugih naprav, ki podpirajo NFC ali oznake NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Ko je ta funkcija vklopljena, lahko datoteke prenesete v druge naprave, ki omogočajo NFC in Wi-Fi Direct, tako da naprave držite blizu skupaj. Prenesete lahko na primer slikovne/video datoteke iz Galerije, glasbene datoteke iz predvajalnika glasbe in drugo. Samo pomaknite naprave skupaj (običajno s hrbtnima stranema) in pritisnite na zaslon. Program določi, kaj se bo preneslo"
+
