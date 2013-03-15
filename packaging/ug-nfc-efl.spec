@@ -5,7 +5,7 @@
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.0.7
-Release:    1
+Release:    0
 Group:      TO_BE/FILLED_IN
 License:    Flora Software License
 Source0:    %{name}-%{version}.tar.gz
