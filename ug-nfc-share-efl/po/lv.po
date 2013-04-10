@@ -40,3 +40,5 @@ msgstr "Kad ir ieslēgta NFC funkcija, varat nosūtīt vai saņemt datus, kad ie
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Kad šī funkcija ir ieslēgta, varat pārsūtīt failus uz citām NFC un Wi-Fi Direct ierīcēm, turot ierīces tuvu blakus. Piemēram, varat pārsūtīt attēlu/video failus no Galerijas, mūzikas failus no Mūzikas atskaņotāja u.c. Novietojiet ierīces blakus (saliekot kopā aizmugures) un pēc tam pieskarieties ekrānam. Programma pati nosaka, kas tiek pārsūtīts"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Kad šī funkcija ir ieslēgta, varat pārsūtīt failus uz citām NFC un Wi-Fi Direct ierīcēm, turot ierīces tuvu blakus. Piemēram, varat pārsūtīt attēlu/video failus no galerijas. Novietojiet ierīces blakus (saliekot kopā aizmugures) un pēc tam pieskarieties ekrānam. Programma pati nosaka, kas tiek pārsūtīts."

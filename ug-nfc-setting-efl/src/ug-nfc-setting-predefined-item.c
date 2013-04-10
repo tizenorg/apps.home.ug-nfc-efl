@@ -62,8 +62,8 @@ static char *_gl_text_get(void *data, Evas_Object *obj, const char *part)
 	int index = (int) data;
 	char *text = NULL;
 
-	LOGD("[Genlist] index : %d\n", index);
-	LOGD("[Genlist] part : %s\n", part);
+	LOGD("[Genlist] index : %d", index);
+	LOGD("[Genlist] part : %s", part);
 
 	if (!strcmp(part, "elm.text") || !strcmp(part, "elm.text.1"))
 	{
@@ -76,10 +76,10 @@ static char *_gl_text_get(void *data, Evas_Object *obj, const char *part)
 			predefined_item_data *item = NULL;
 
 			item = g_array_index(predefined_item_list, predefined_item_data *, index);
-			if ((item != NULL) && (item->pkgName != NULL))
+			if ((item != NULL) && (item->msgDes != NULL))
 			{
-				text = strdup(item->pkgName);
-				LOGD("pkgName : %s\n", item->pkgName);
+				text = strdup(item->msgDes);
+				LOGD("pkgName : %s", item->msgDes);
 			}
 		}
 	}
@@ -108,8 +108,8 @@ static Evas_Object *_gl_content_get(void *data, Evas_Object *obj, const char *pa
 	int index = (int) data;
 	Evas_Object *content = NULL;
 
-	LOGD("[Genlist] index : %d\n", index);
-	LOGD("[Genlist] part : %s\n", part);
+	LOGD("[Genlist] index : %d", index);
+	LOGD("[Genlist] part : %s", part);
 
 	if (!strcmp(part, "elm.icon") || !strcmp(part, "elm.icon.1"))
 	{
@@ -222,11 +222,11 @@ static void _gl_sel(void *data, Evas_Object *obj, void *event_info)
 				result = vconf_set_str(VCONFKEY_NFC_PREDEFINED_ITEM, item->app_id);
 				if (!result )
 				{
-					LOGD("vconf_set_str success\n");
+					LOGD("vconf_set_str success");
 				}
 				else
 				{
-					LOGD("vconf_set_str failed\n");
+					LOGD("vconf_set_str failed");
 				}
 			}
 			elm_genlist_item_update(ui_item);
@@ -365,7 +365,7 @@ Evas_Object *_ug_nfc_create_predefined_item_list(void *data)
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	Evas_Object *genlist = NULL;
-	Elm_Object_Item* seperator = NULL;
+	Elm_Object_Item* separator = NULL;
 	int index = 0;
 
 
@@ -408,9 +408,10 @@ Evas_Object *_ug_nfc_create_predefined_item_list(void *data)
 	/* create item data */
 	__create_predefined_item_data();
 
-	/* seperator */
-	seperator = elm_genlist_item_append(genlist, &itc_sep, NULL, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-	elm_genlist_item_select_mode_set(seperator, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+	/* separator */
+	separator = elm_genlist_item_append(genlist, &itc_sep, NULL, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+	elm_genlist_item_select_mode_set(separator, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+	elm_object_item_access_unregister(separator);
 
 	/* add check button */
 	on_off_item = elm_genlist_item_append(genlist, &itc_2text, (void *)-1, NULL, ELM_GENLIST_ITEM_NONE, _gl_sel, NULL);

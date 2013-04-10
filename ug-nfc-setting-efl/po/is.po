@@ -40,3 +40,5 @@ msgstr "Þegar kveikt er á nándartengingu geturðu sent eða tekið við gögn
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Þegar þessi eiginleiki er virkur geturðu sent skrár í annað tæki með nándartengingu eða Wi-Fi Direct tæki með því að halda tækjunum þétt saman. Þú getur t.d. sent mynd/myndskeið úr galleríinu, tónlistarskrár úr tónlistarspilaranum o.fl. Haltu tækjunum bara saman (yfirleitt með því að láta þau snúa bökum saman) og pikkaðu á skjáinn. Forritið ákvarðar hvað er sent"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Þegar kveikt er á þessum eiginleika geturðu sent skrár til annarra NFC-tækja og Wi-Fi Direct tækja með því að halda tækjunum nálægt hvort öðru. Þú getur til dæmis sent mynda- eða myndskeiðaskrár úr galleríinu og fleira. Haltu einfaldlega tækjunum nálægt hvort öðru, bak í bak, og pikkaðu svo á skjáinn. Forritið velur hvað verður sent."

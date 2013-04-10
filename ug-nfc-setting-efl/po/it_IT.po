@@ -38,5 +38,7 @@ msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE
 msgstr "Se NFC è attivo, potete inviare o ricevere dati mettendo a contatto il vostro dispositivo con un altro con funzionalità NFC oppure un tag NFC"
 
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Se la funzione è attiva, sarà possibile trasmettere file ad altri dispositivi NFC e Wi-Fi Direct posizionati in prossimità di quello in uso. Per esempio, potete trasmettere file di immagini/video dalla Galleria, file musicali dal Lettore musica e altro ancora. È sufficiente avvicinare il retro dei due dispositivi e toccare lo schermo. L'applicazione determinerà il contenuto trasmesso"
+msgstr "Se la funzione è attiva, potrete trasmettere file ad altri dispositivi S Beam vicini al vostro. Per esempio, potete trasmettere file di immagini/video dalla Galleria, file musicali dal Lettore musica e altro ancora. Avvicinate il retro dei due dispositivi e toccate lo schermo. L'applicazione invierà il contenuto desiderato"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Se la funzione è attiva, potrete trasmettere file ad altri dispositivi S Beam vicini al vostro. Per esempio, potete trasmettere file di immagini/video dalla Galleria, file musicali dal Lettore musica e altro ancora. Avvicinate il retro dei due dispositivi e toccate lo schermo. L'applicazione invierà il contenuto desiderato"

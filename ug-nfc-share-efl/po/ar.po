@@ -40,3 +40,5 @@ msgstr "عند تشغيل NFC، يمكنك إرسال البيانات أو اس
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "عند تشغيل هذه الميزة، يمكنك نقل الملفات إلى أجهزة أخرى مزودة بإمكانية NFC وWi-Fi Direct بتقريب الجهازين من بعضهما. على سبيل المثال، يمكنك نقل ملفات الصور/الفيديو من الاستوديو‬‬ وملفات الموسيقى من ‏‫مشغل الموسيقى‬، وغير ذلك المزيد. فما عليك سوى تقريب الجهازين من بعضهما (عادة من الخلف) ثم النقر فوق الشاشة. يحدد التطبيق ما يتم نقله"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "عند تشغيل هذه الميزة، يمكنك نقل الملفات إلى أجهزة أخرى مزودة بإمكانية NFC وWi-Fi Direct بتقريب الجهازين من بعضهما. على سبيل المثال، يمكنك نقل ملفات الصور/الفيديو من الاستوديو‬‬، وغير ذلك المزيد. فما عليك سوى تقريب الجهازين من بعضهما، عادة من الخلف، ثم النقر فوق الشاشة. وعندئذ، يحدد التطبيق ما يتم نقله."

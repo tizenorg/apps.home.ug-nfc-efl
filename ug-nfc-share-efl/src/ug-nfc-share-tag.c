@@ -44,7 +44,7 @@ static void _show_status_text(void *data, char *text)
 {
 	ugdata_t *ug_data = (ugdata_t *)data;
 
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	ret_if(ug_data == NULL);
 	ret_if(text == NULL);
@@ -53,7 +53,7 @@ static void _show_status_text(void *data, char *text)
 
 	ug_destroy_me(ug_data->nfc_share_ug);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 ug_nfc_share_tag_type ug_nfc_share_get_tag_type(void)
@@ -73,23 +73,23 @@ nfc_ndef_message_h ug_nfc_share_get_current_ndef(void *data)
 {
 	ugdata_t *ug_data = (ugdata_t *)data;
 
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	retv_if(ug_data == NULL, NULL);
 
-	LOGD("END >>>>");
+	UG_NFC_SHARE_END();
 
 	return ug_data->current_ndef;
 }
 
 ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message_h ndef_msg)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	ugdata_t *ug_data = (ugdata_t *)data;
 	if (ug_data == NULL)
 	{
-		LOGD("ug_data is null");
+		UG_NFC_SHARE_DEBUG_ERR("ug_data is null");
 		return UG_NFC_SHARE_ERROR;
 	}
 
@@ -97,12 +97,13 @@ ug_nfc_share_result_e ug_nfc_share_set_current_ndef(void *data, nfc_ndef_message
 	{
 		if (nfc_ndef_message_destroy(ug_data->current_ndef) != NFC_ERROR_NONE)
 		{
-			LOGD("nfc_ndef_message_destroy failed");
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_destroy failed");
 		}
 	}
 
 	ug_data->current_ndef = ndef_msg;
-	LOGD("END >>>>");
+
+	UG_NFC_SHARE_END();
 
 	return UG_NFC_SHARE_OK;
 
@@ -113,19 +114,19 @@ static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(con
 	ug_nfc_share_result_e result = UG_NFC_SHARE_ERROR;
 	char *extension = NULL;
 
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	retv_if(path == NULL, result);
 	retv_if(type_data == NULL, result);
 	retv_if(type_size == NULL, result);
 
-	LOGD("typedata = %p, typesize = %d", type_data, *type_size);
+	UG_NFC_SHARE_DEBUG("typedata = %p, typesize = %d", type_data, *type_size);
 
 	memset(type_data, 0, *type_size);
 	*type_size = 0;
 
 	extension = strrchr(path, '.');
-	LOGD("extension = %s\n", GET_SAFE_STRING(extension));
+	UG_NFC_SHARE_DEBUG("extension = %s", GET_SAFE_STRING(extension));
 
 	if (extension != NULL)
 	{
@@ -133,7 +134,7 @@ static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(con
 
 		if (mime_type_get_mime_type(extension+1, &mime_str) == MIME_TYPE_ERROR_NONE)
 		{
-			LOGD("mime_str[%s]", mime_str);
+			UG_NFC_SHARE_DEBUG("mime_str[%s]", mime_str);
 
 			*type_size = strlen(mime_str);
 			memcpy(type_data, mime_str, *type_size);
@@ -141,14 +142,14 @@ static ug_nfc_share_result_e ug_nfc_share_make_mime_type_data_from_file_path(con
 		}
 		else
 		{
-			LOGD("ERROR :: mime_type_get_mime_type failed");
+			UG_NFC_SHARE_DEBUG_ERR("ERROR :: mime_type_get_mime_type failed");
 			result = UG_NFC_SHARE_ERROR;
 		}
 	}
 
-	LOGD("mime type : %s", GET_SAFE_STRING((char *)type_data));
+	UG_NFC_SHARE_DEBUG("mime type : %s", GET_SAFE_STRING((char *)type_data));
 
-	LOGD("END >>>>");
+	UG_NFC_SHARE_END();
 
 	return result;
 }
@@ -166,7 +167,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	long int file_len = 0;
 
 
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	retv_if(msg == NULL, result);
 	retv_if(path == NULL, result);
@@ -191,7 +192,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 		UG_NFC_SHARE_MEM_MALLOC(file_data, file_len, uint8_t);
 		if (file_data == NULL)
 		{
-			LOGD("ERROR :: UG_NFC_SHARE_MEM_MALLOC failed");
+			UG_NFC_SHARE_DEBUG_ERR("ERROR :: UG_NFC_SHARE_MEM_MALLOC failed");
 
 			fclose(file);
 
@@ -207,11 +208,11 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 
 		fclose(file);
 
-		LOGD("fread(%s) success, size %ld\n", path, file_len);
+		UG_NFC_SHARE_DEBUG("fread(%s) success, size %ld", path, file_len);
 	}
 	else
 	{
-		LOGD("fopen(%s) error\n");
+		UG_NFC_SHARE_DEBUG_ERR("fopen(%s) error");
 
 		return result;
 	}
@@ -220,7 +221,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	result = ug_nfc_share_make_mime_type_data_from_file_path(path, type_buffer, (uint32_t *)&type_size);
 	if (result != UG_NFC_SHARE_OK)
 	{
-		LOGD("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
+		UG_NFC_SHARE_DEBUG_ERR("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
 
 		return result;
 	}
@@ -236,13 +237,13 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 		file_name++;
 	}
 
-	LOGD("file name : %s", file_name);
+	UG_NFC_SHARE_DEBUG("file name : %s", file_name);
 
 	/* create record */
 	result = nfc_ndef_record_create(&record, NFC_RECORD_TNF_MIME_MEDIA, type_buffer, type_size, (uint8_t *)file_name, strlen(file_name), file_data, file_len);
 	if (result != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_ndef_record_create failed (%d)", result);
+		UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_record_create failed (%d)", result);
 
 		return result;
 	}
@@ -251,7 +252,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	result = nfc_ndef_message_create(msg);
 	if (result != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_ndef_message_create failed [%d]\n", result);
+		UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_create failed [%d]", result);
 
 		nfc_ndef_record_destroy(record);
 
@@ -262,14 +263,14 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_file(nfc_ndef_message_
 	result = nfc_ndef_message_append_record(*msg, record);
 	if (result != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_ndef_message_append_record failed (%d)", result);
+		UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_append_record failed (%d)", result);
 
 		return result;
 	}
 
-	LOGD("ug_nfc_share_make_ndef_message_from_file success");
+	UG_NFC_SHARE_DEBUG("ug_nfc_share_make_ndef_message_from_file success");
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 
 	return result;
 }
@@ -289,7 +290,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 	int index;
 
 
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	retv_if(msg == NULL, result);
 	retv_if(path == NULL, result);
@@ -318,7 +319,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 			UG_NFC_SHARE_MEM_MALLOC(file_data, file_len, uint8_t);
 			if (file_data == NULL)
 			{
-				LOGD("ERROR :: UG_NFC_SHARE_MEM_MALLOC failed");
+				UG_NFC_SHARE_DEBUG_ERR("ERROR :: UG_NFC_SHARE_MEM_MALLOC failed");
 
 				fclose(file);
 
@@ -334,11 +335,11 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 
 			fclose(file);
 
-			LOGD("fread(%s) success, size %ld\n", path[index], file_len);
+			UG_NFC_SHARE_DEBUG("fread(%s) success, size %ld", path[index], file_len);
 		}
 		else
 		{
-			LOGD("fopen(%s) error\n");
+			UG_NFC_SHARE_DEBUG_ERR("fopen(%s) error");
 
 			return result;
 		}
@@ -347,7 +348,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 		result = ug_nfc_share_make_mime_type_data_from_file_path(path[index], type_buffer, (uint32_t *)&type_size);
 		if (result != UG_NFC_SHARE_OK)
 		{
-			LOGD("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
+			UG_NFC_SHARE_DEBUG_ERR("ERROR :: _make_mime_type_data_from_file_path failed [%d]", result);
 
 			return result;
 		}
@@ -363,13 +364,13 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 			file_name++;
 		}
 
-		LOGD("file name : %s", file_name);
+		UG_NFC_SHARE_DEBUG("file name : %s", file_name);
 
 		/* create record */
 		result = nfc_ndef_record_create(&record, NFC_RECORD_TNF_MIME_MEDIA, type_buffer, type_size, (uint8_t *)file_name, strlen(file_name), file_data, file_len);
 		if (result != NFC_ERROR_NONE)
 		{
-			LOGD("nfc_ndef_record_create failed (%d)", result);
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_record_create failed (%d)", result);
 
 			return result;
 		}
@@ -378,7 +379,7 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 		result = nfc_ndef_message_create(msg);
 		if (result != NFC_ERROR_NONE)
 		{
-			LOGD("nfc_ndef_message_create failed [%d]\n", result);
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_create failed [%d]", result);
 
 			nfc_ndef_record_destroy(record);
 
@@ -389,14 +390,14 @@ ug_nfc_share_result_e ug_nfc_share_make_ndef_message_from_multi_file(nfc_ndef_me
 		result = nfc_ndef_message_append_record(*msg, record);
 		if (result != NFC_ERROR_NONE)
 		{
-			LOGD("nfc_ndef_message_append_record failed (%d)", result);
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_append_record failed (%d)", result);
 
 			return result;
 		}
 
-		LOGD("ug_nfc_share_make_ndef_message_from_file success");
+		UG_NFC_SHARE_DEBUG("ug_nfc_share_make_ndef_message_from_file success");
 
-		LOGD("END>>>>");
+		UG_NFC_SHARE_END();
 	}
 	return result;
 }
@@ -410,9 +411,9 @@ void _ug_nfc_share_get_bt_addr_from_string(uint8_t *addr, char *addr_string)
 		return;
 	}
 
-	LOGD("string : %s", addr_string);
+	UG_NFC_SHARE_DEBUG("string : %s", addr_string);
 
-	UG_NFC_SHARE_MEM_STRNDUP(temp, addr_string, strlen(addr_string));
+	UG_NFC_SHARE_MEM_STRDUP(temp, addr_string);
 	if (temp != NULL)
 	{
 		char *token = NULL;
@@ -434,7 +435,7 @@ void _ug_nfc_share_get_bt_addr_from_string(uint8_t *addr, char *addr_string)
 
 static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_type_e carrior, void *ac_data, int ac_data_size, void *user_data)
 {
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -444,18 +445,18 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 	/* nfc deactivate */
 	if(nfc_manager_deinitialize () != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_manager_deinitialize failed");
+		UG_NFC_SHARE_DEBUG_ERR("nfc_manager_deinitialize failed");
 	}
 
 	if(result == NFC_ERROR_NONE)
 	{
 		char *data = NULL;
 
-		LOGD("p2p_connection_handover is completed");
+		UG_NFC_SHARE_DEBUG("p2p_connection_handover is completed");
 
 		data = (char *)bundle_get_val(ug_data->bd, "request_data");
 
-		LOGD("uri[%d] = %s", strlen(data), data);
+		UG_NFC_SHARE_DEBUG("uri[%d] = %s", strlen(data), data);
 
 		if (_bt_ipc_send_obex_message((char *)ac_data, (uint8_t *)data, strlen(data) + 1) == 0)
 		{
@@ -463,24 +464,24 @@ static void _p2p_connection_handover_completed_cb(nfc_error_e result, nfc_ac_typ
 		}
 		else
 		{
-			LOGD("_bt_ipc_send_obex_message failed");
+			UG_NFC_SHARE_DEBUG_ERR("_bt_ipc_send_obex_message failed");
 
 			_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 		}
 	}
 	else
 	{
-		LOGD("p2p_connection_handover failed");
+		UG_NFC_SHARE_DEBUG_ERR("p2p_connection_handover failed");
 
 		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 {
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -490,28 +491,28 @@ static void _p2p_send_completed_cb(nfc_error_e result, void *user_data)
 	/* nfc deactivate */
 	if(nfc_manager_deinitialize () != NFC_ERROR_NONE)
 	{
-		LOGD("nfc_manager_deinitialize failed");
+		UG_NFC_SHARE_DEBUG_ERR("nfc_manager_deinitialize failed");
 	}
 
 	if(result == NFC_ERROR_NONE)
 	{
-		LOGD("_p2p_send_completed_cb is completed");
+		UG_NFC_SHARE_DEBUG("_p2p_send_completed_cb is completed");
 
 		_show_status_text(ug_data, IDS_SHARED);
 	}
 	else
 	{
-		LOGD("_p2p_send_completed_cb failed");
+		UG_NFC_SHARE_DEBUG_ERR("_p2p_send_completed_cb failed");
 
 		_show_status_text(ug_data, IDS_UNABLE_TO_SHARE);
 	}
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 static void _p2p_target_discovered_cb(nfc_discovered_type_e type, nfc_p2p_target_h target, void *user_data)
 {
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	ugdata_t* ug_data = (ugdata_t*)user_data;
 
@@ -519,16 +520,16 @@ static void _p2p_target_discovered_cb(nfc_discovered_type_e type, nfc_p2p_target
 	{
 		int result = NFC_ERROR_NONE;
 
-		LOGD("NFC_DISCOVERED_TYPE_ATTACHED");
+		UG_NFC_SHARE_DEBUG("NFC_DISCOVERED_TYPE_ATTACHED");
 
 		if (ug_nfc_share_get_tag_type() == UG_NFC_SHARE_TAG_HANDOVER)
 		{
-			LOGD("UG_NFC_SHARE_TAG_HANDOVER\n");
+			UG_NFC_SHARE_DEBUG("UG_NFC_SHARE_TAG_HANDOVER");
 
 			/* The code below will be changed after capi is completed */
 			if ((result = nfc_p2p_connection_handover(target, NFC_AC_TYPE_UNKNOWN, _p2p_connection_handover_completed_cb, ug_data)) != NFC_ERROR_NONE)
 			{
-				LOGD("nfc_p2p_connection_handover failed [%d]", result);
+				UG_NFC_SHARE_DEBUG_ERR("nfc_p2p_connection_handover failed [%d]", result);
 			}
 
 			return;
@@ -540,42 +541,42 @@ static void _p2p_target_discovered_cb(nfc_discovered_type_e type, nfc_p2p_target
 			msg = ug_nfc_share_get_current_ndef(ug_data);
 			if(msg == NULL)
 			{
-				LOGD("nfc_ndef_message_h is NULL!!\n");
+				UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_h is NULL!!");
 				return;
 			}
 
 			result = nfc_p2p_send(target, msg, _p2p_send_completed_cb, ug_data);
 			if(result != NFC_ERROR_NONE)
 			{
-				LOGD("nfc_p2p_send failed[%d]\n", result);
+				UG_NFC_SHARE_DEBUG_ERR("nfc_p2p_send failed[%d]", result);
 				return;
 			}
 		}
 	}
 	else
 	{
-		LOGD("NFC_DISCOVERED_TYPE_DETACHED");
+		UG_NFC_SHARE_DEBUG("NFC_DISCOVERED_TYPE_DETACHED");
 	}
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 void ug_nfc_set_nfc_callback(void *user_data)
 {
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	nfc_manager_set_p2p_target_discovered_cb(_p2p_target_discovered_cb, user_data);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 void ug_nfc_unset_nfc_callback(void)
 {
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	nfc_manager_unset_p2p_target_discovered_cb();
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t length)
@@ -584,11 +585,11 @@ int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t leng
 	uint32_t i, count = 1;
 	E_DBus_Connection *conn = NULL;
 
-	LOGD("BEGIN>>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	if (address == NULL || files == NULL)
 	{
-		LOGD("invalid param [%p] [%p]", address, files);
+		UG_NFC_SHARE_DEBUG_ERR("invalid param [%p] [%p]", address, files);
 		return 0;
 	}
 
@@ -619,7 +620,7 @@ int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t leng
 
 					_ug_nfc_share_get_bt_addr_from_string(temp, address);
 
-					LOGD("msg [%p], reserved [%d], address [%02X:%02X:%02X:%02X:%02X:%02X], count [%d], files [%s]", msg, reserved, addr[0], addr[1], addr[2], addr[3], addr[4], addr[5], count, files);
+					UG_NFC_SHARE_DEBUG("msg [%p], reserved [%d], address [%02X:%02X:%02X:%02X:%02X:%02X], count [%d], files [%s]", msg, reserved, addr[0], addr[1], addr[2], addr[3], addr[4], addr[5], count, files);
 
 					if (dbus_message_append_args(msg,
 												DBUS_TYPE_INT32, &reserved,
@@ -632,11 +633,11 @@ int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t leng
 					{
 						e_dbus_message_send(conn, msg, NULL, -1, NULL);
 
-						LOGD("Send success");
+						UG_NFC_SHARE_DEBUG("Send success");
 					}
 					else
 					{
-						LOGE("Connect sending failed");
+						UG_NFC_SHARE_DEBUG_ERR("Connect sending failed");
 
 						result = -1;
 					}
@@ -645,21 +646,21 @@ int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t leng
 				}
 				else
 				{
-					LOGE("dbus_message_new_signal failed");
+					UG_NFC_SHARE_DEBUG_ERR("dbus_message_new_signal failed");
 
 					result = -1;
 				}
 			}
 			else
 			{
-				LOGE("e_dbus_request_name failed");
+				UG_NFC_SHARE_DEBUG_ERR("e_dbus_request_name failed");
 
 				result = -1;
 			}
 		}
 		else
 		{
-			LOGE("e_dbus_bus_get failed");
+			UG_NFC_SHARE_DEBUG_ERR("e_dbus_bus_get failed");
 
 			result = -1;
 		}
@@ -668,12 +669,12 @@ int _bt_ipc_send_obex_message(char *address, const uint8_t *files, uint32_t leng
 	}
 	else
 	{
-		LOGE("e_dbus_init failed");
+		UG_NFC_SHARE_DEBUG_ERR("e_dbus_init failed");
 
 		result = -1;
 	}
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 
 	return result;
 }

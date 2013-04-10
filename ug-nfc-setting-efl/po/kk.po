@@ -40,3 +40,5 @@ msgstr "NFC қосылғанда, құрылғыңыз басқа NFC қабіл
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Бұл функция өшірілгенде, құрылғыларды бір-біріне жақын ұстап, файлдарды басқа NFC және Wi-Fi Direct құрылғыларына жіберуге болады. Мысалы, сурет/бейне файлдарды галереядан, музыкалық файлдарды музыкалық ойнатқыштан және т.с.с. жіберуге болады. Құрылғыларды (әдетте артын-артына) жақындатып, экраныңызды түртіңіз. Бағдарлама ненің жіберілетінін анықтайды"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Бұл функция өшірілгенде құрылғыларды бір-біріне жақын ұстап, файлдарды басқа NFC және Wi-Fi Direct құрылғыларына жіберуге болады. Мысалы, сурет/бейне файлын галереядан және т.с.с. жіберуге болады. Құрылғыларды артын-артына жақындатып, экранды түртіңіз. Бағдарлама ненің жіберілетінін анықтайды."

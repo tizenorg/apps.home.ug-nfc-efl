@@ -40,3 +40,5 @@ msgstr "Når NFC er aktiveret, kan du sende eller modtage data, når din enhed b
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Når denne funktion er aktiveret, kan du overføre filer til andre NFC- og Wi-Fi Direct-enheder ved at holde enhederne tættere sammen. F.eks. kan du overføre billed-/videofiler fra Galleri, musikfiler fra Musikafspiller og mere. Hold blot enheder sammen (typisk bagside mod bagside) og tap på din skærm. Programmet bestemmer, hvad der overføres"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Når denne funktion er aktiveret, kan du overføre filer til andre NFC- og Wi-Fi Direct-enheder ved at holde enhederne tættere sammen. F.eks. kan du overføre billed-/videofiler fra Galleri, musikfiler fra Musikafspiller og mere. Hold blot enheder sammen (typisk bagside mod bagside) og tap på din skærm. Programmet bestemmer, hvad der overføres."

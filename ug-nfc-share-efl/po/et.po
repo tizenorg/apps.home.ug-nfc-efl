@@ -40,3 +40,5 @@ msgstr "Kui NFC on sees, saate saata või vastu võtta andmeid, kui teie seade p
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Kui see funktsioon on sisse lülitatud, saate faile üle kanda teistesse NFC ja Wi-Fi Directi seadmetesse, hoides seadmeid üksteise lähedal. Näiteks saate üle kanda pildi-/videofaile galeriist, muusikafaile MP3-mängijast jms. Lihtsalt asetage seadmed üksteise lähedale (tavaliselt tagaküljed kohakuti) ja seejärel toksake ekraani. Rakendus tuvastab, mida üle kanda"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Kui see funktsioon on sisse lülitatud, saate faile üle kanda teistesse NFC ja Wi-Fi Directi seadmetesse, hoides seadmeid üksteise lähedal. Näiteks saate pildi-/videofaile üle kanda galeriist jms. Lihtsalt asetage seadmed üksteise lähedale tagaküljed kohakuti ja seejärel toksake ekraani. Rakendus tuvastab, mida üle kanda."

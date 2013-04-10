@@ -40,3 +40,5 @@ msgstr "Když je NFC zapnuto, je možné odesílat nebo přijímat data, když s
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Když je tato funkce zapnutá, můžete přenést soubory do jiných zařízení podporujících NFC a Wi-Fi Direct tím, že podržíte zařízení u sebe. Můžete např. přenést obrázky nebo videosoubory z Galerie, hudební soubory z Hudebního přehrávače a podobně. Stačí dát zařízení k sobě (obvykle zadními stranami) a klepnout na displej. Aplikace určí, co se bude přenášet"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Když je tato funkce zapnutá, můžete přenést soubory do jiných zařízení podporujících NFC a Wi-Fi Direct tím, že podržíte zařízení u sebe. Můžete např. přenést obrázky nebo videosoubory z Galerie a podobně. Stačí dát zařízení k sobě zadními stranami a klepnout na displej. Aplikace určí, co se bude přenášet."
