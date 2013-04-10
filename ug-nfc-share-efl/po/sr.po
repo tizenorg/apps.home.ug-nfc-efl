@@ -40,3 +40,5 @@ msgstr "Kada je NFC uključen, možeš da šalješ ili primaš podatke tokom kon
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Kada je ova funkcija uključena, možeš emitovati fajlove na drugim NFC i Wi-Fi Direct uređajima držeći jedan uređaj blizu drugog. Na primer, možeš emitovati slike/video fajlove iz galerije, muzičke fajlove iz muzičkog plejera i još mnogo toga. Jednostavno približi uređaje (obično leđa u leđa), a zatim kucni na ekran. Aplikacija određuje šta će se emitovati"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Kada je ova funkcija uključena, možeš emitovati fajlove na drugim NFC i Wi-Fi Direct uređajima držeći jedan uređaj blizu drugog. Na primer, možeš emitovati slike/video fajlove iz Galerije i još mnogo toga. Jednostavno približi uređaje, leđa u leđa, a zatim kucni na ekran. Aplikacija određuje šta će se emitovati."

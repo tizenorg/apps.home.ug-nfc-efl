@@ -40,3 +40,5 @@ msgstr "開啟 NFC 時，若您的裝置觸碰其他具備 NFC 功能的裝置�
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "開啟此功能時，將裝置握住靠在一起時，可發送檔案至其他 NFC 與 Wi-Fi Direct 裝置。例如，您可自媒體瀏覽器發送影像／影片檔案、自音樂播放器發送音樂檔案等。只需將裝置靠在一起（一般以背對背）然後輕觸螢幕。應用程式將決定發送的檔案"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "開啟此功能時，將裝置握住靠在一起時，可將檔案傳送至其他 NFC 與 Wi-Fi Direct 裝置。例如，您可自媒體瀏覽器與其他來源傳送圖像/影片檔案。只要將裝置背對背靠在一起然後輕觸螢幕。應用程式將決定傳送的檔案"

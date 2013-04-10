@@ -40,3 +40,5 @@ msgstr "NFC aktiv olduqda cihazınız, NFC dəstəklənən digər cihazlara və 
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Bu xüsusiyyət aktiv olduqda, siz cihazları yanaşı tutaraq faylları digər NFC və Wi-Fi Direct cihazlarına göndərə bilərsiniz. Məsələn, siz Qalereyadan təsvir/video fayllarını, Musiqi pleyerindən musiqi fayllarını və s. göndərə bilərsiniz. Sadəcə cihazları yaxınlaşdırın və (adətən arxa arxaya) və sonra ekrana vurun. Proqram göndərilənləri müəyyən edir"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Bu funksiya aktivləşdirildikdə, siz fayllarınızı qurğuları bir-birinə yaxın tutmaqla digər NFC və Wi-Fi Direct qurğularına göndərə bilərsiniz. Məsələn, siz Qalereyadan təsvir/video fayllarını göndərə bilərsiniz. Sadəcə cihazlara arxa-arxaya bir-birinə yaxınlaşdırın sonra isə ekranınızı vurun. Proqram nəyin göndərilməsini müəyyən edir."

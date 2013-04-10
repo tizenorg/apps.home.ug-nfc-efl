@@ -40,3 +40,5 @@ msgstr "När NFC är på kan du skicka och ta emot data när din enhet rör andr
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "När den här funktionen är påslagen kan du överföra filer till en annan NFC- och Wi-Fi Direct-kompatibel enhet genom att placera enheterna nära varandra. Du kan till exempel överföra bilder från galleriet eller musikfiler från musikspelaren. Placera enheterna bredvid varandra (normalt med baksidorna mot varandra) och tryck på din skärm. Programmet bestämmer vad som överförs"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "När den här funktionen är påslagen kan du överföra filer till en annan NFC- och Wi-Fi Direct-kompatibel enhet genom att placera enheterna nära varandra. Du kan till exempel överföra bilder från galleriet och mycket mer. Placera enheterna med baksidorna mot varandra, och tryck på din skärm. Programmet bestämmer vad som överförs."

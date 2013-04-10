@@ -82,12 +82,12 @@ collections {
 		style
 		{
 			name: "style_txt_desc_black";
-			base: "font=SLP:style=Regular text_class=slp_regular font_size=40 align=left color=#FFFFFF wrap=word";
+			base: "font=Tizen:style=Regular text_class=tizen font_size=40 align=left color=#FFFFFF wrap=word";
 			tag:  "br" "\n";
 			tag:  "tab" "\t";
-			tag:  "b" "+ font=SLP:style=Bold";
+			tag:  "b" "+ font=Tizen:style=Bold";
 			tag:  "link" "+ color=#800 underline=on underline_color=#8008";
-			tag:  "hilight" "+ font=SLP:style=Bold";
+			tag:  "hilight" "+ font=Tizen:style=Bold";
 
 		}
 	}

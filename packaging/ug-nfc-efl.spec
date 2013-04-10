@@ -4,7 +4,7 @@
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
-Version:    0.0.7
+Version:    0.0.8
 Release:    0
 Group:      TO_BE/FILLED_IN
 License:    Flora Software License
@@ -68,6 +68,7 @@ cd cmake_tmp
 rm -rf %{buildroot}
 %make_install
 mkdir -p %{buildroot}/usr/share/license
+mkdir -p %{buildroot}/etc/config/nfc/
 cp -af %{_builddir}/%{name}-%{version}/packaging/ug-nfc-efl %{buildroot}/usr/share/license/
 cp -af %{_builddir}/%{name}-%{version}/packaging/ug-share-nfc-efl %{buildroot}/usr/share/license/
 
@@ -93,3 +94,4 @@ cp -af %{_builddir}/%{name}-%{version}/packaging/ug-share-nfc-efl %{buildroot}/u
 /usr/ug/res/images/*
 /usr/ug/res/edje/*
 /usr/share/license/ug-share-nfc-efl
+/etc/config/nfc/*

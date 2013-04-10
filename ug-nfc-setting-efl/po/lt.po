@@ -40,3 +40,5 @@ msgstr "Kai NFC įjungta, galite siųsti ar gauti duomenis, kai jūsų įrenginy
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Kai ši funkcija įjungta, galite transliuoti failus į kitus NFC ir „Wi-Fi Direct“ įrenginius laikydami juos greta vienas kito. Tarkime, galite transliuoti vaizdus / vaizdo įrašus iš galerijos, muzikos įrašus iš muzikos grotuvo ir dar daugiau. Tiesiog suglauskite įrenginius (paprastai nugarėlėmis) ir bakstelėkite ekraną. Programa nusprendžia, kas transliuojama"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Kai ši funkcija įjungta, galite transliuoti failus į kitus NFC ir „Wi-Fi Direct“ įrenginius laikydami juos vienus šalia kitų. Pavyzdžiui, galite transliuoti vaizdus / vaizdo įrašus iš galerijos ir kt. Tiesiog suglauskite įrenginius nugarėlėmis ir bakstelėkite ekraną. Programa nustatomas transliuojamas turinys."

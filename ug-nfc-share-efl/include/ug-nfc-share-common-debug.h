@@ -37,81 +37,68 @@
 
 #ifdef UG_NFC_SHARE_ENABLE_DLOG
 #define UG_NFC_SHARE_DEBUG(fmt, ...)\
-	do\
-	{\
-		LOGD(fmt,##__VA_ARGS__);\
+	do { \
+		LOGD(COLOR_BROWN" " fmt COLOR_END,##__VA_ARGS__);\
 	} while (0)
-
 #define UG_NFC_SHARE_DEBUG_ERR(fmt, ...)\
-	do\
-	{\
-		LOGE(COLOR_RED fmt COLOR_END,##__VA_ARGS__);\
-	}while (0)
-
+	do { \
+		LOGE(COLOR_RED" " fmt COLOR_END,##__VA_ARGS__);\
+	} while (0)
 #define UG_NFC_SHARE_BEGIN() \
-	do\
-    {\
+	do { \
 		LOGD(COLOR_BLUE"BEGIN >>>>"COLOR_END);\
-    } while( 0 )
-
+	} while (0)
 #define UG_NFC_SHARE_END() \
-	do\
-    {\
+	do { \
 		LOGD(COLOR_BLUE"END <<<<"COLOR_END);\
-    } \
-    while( 0 )
-
+	} while (0)
 #else
 #define UG_NFC_SHARE_DEBUG(fmt, ...) \
-	do\
-	{\
+	do { \
 		printf("\n [%s: %s: %s(): %d] " fmt"\n",  APPNAME, rindex(__FILE__, '/')+1, __FUNCTION__, __LINE__, ##__VA_ARGS__);\
 	} while (0)
-
 #define UG_NFC_SHARE_BEGIN() \
-	do\
-    {\
-        printf("\n [%s: %s: %d] : BEGIN >>>> %s() \n", APPNAME, rindex(__FILE__, '/')+1,  __LINE__ , __FUNCTION__);\
-    } while( 0 )
-
+	do { \
+		printf("\n [%s: %s: %d] : BEGIN >>>> %s() \n", APPNAME, rindex(__FILE__, '/')+1,  __LINE__ , __FUNCTION__);\
+	} while (0)
 #define UG_NFC_SHARE_END() \
-	do\
-    {\
-        printf("\n [%s: %s: %d]: END   <<<< %s()\n", APPNAME, rindex(__FILE__, '/')+1,  __LINE__ , __FUNCTION__); \
-    } \
-    while( 0 )
+	do { \
+		printf("\n [%s: %s: %d]: END   <<<< %s()\n", APPNAME, rindex(__FILE__, '/')+1,  __LINE__ , __FUNCTION__); \
+	} while (0)
 #endif
 
-
-#define ret_if(expr) do { \
-	if(expr) { \
-		UG_NFC_SHARE_DEBUG_ERR("(%s) ", #expr); \
-		UG_NFC_SHARE_END();\
-		return; \
-	} \
-} while (0)
-#define retm_if(expr, fmt, arg...) do { \
-	 if(expr) { \
-		 UG_NFC_SHARE_DEBUG_ERR("(%s) "fmt, #expr, ##arg); \
-		 UG_NFC_SHARE_END();\
-		 return; \
-	 } \
- } while (0)
-#define retv_if(expr, val) do { \
+#define ret_if(expr) \
+	do { \
+		if(expr) { \
+			UG_NFC_SHARE_DEBUG_ERR("(%s) ", #expr); \
+			UG_NFC_SHARE_END();\
+			return; \
+		} \
+	} while (0)
+#define retm_if(expr, fmt, arg...) \
+	do { \
+		if(expr) { \
+			UG_NFC_SHARE_DEBUG_ERR("(%s) "fmt, #expr, ##arg); \
+			UG_NFC_SHARE_END();\
+			return; \
+		} \
+	} while (0)
+#define retv_if(expr, val) \
+	do { \
 		if(expr) { \
 			UG_NFC_SHARE_DEBUG_ERR("(%s) ", #expr); \
 			UG_NFC_SHARE_END();\
 			return (val); \
 		} \
 	} while (0)
-#define retvm_if(expr, val, fmt, arg...) do { \
-	if(expr) { \
-		UG_NFC_SHARE_DEBUG_ERR("(%s) "fmt, #expr, ##arg); \
-		UG_NFC_SHARE_END();\
-		return (val); \
-	} \
-} while (0)
-
+#define retvm_if(expr, val, fmt, arg...) \
+	do { \
+		if(expr) { \
+			UG_NFC_SHARE_DEBUG_ERR("(%s) "fmt, #expr, ##arg); \
+			UG_NFC_SHARE_END();\
+			return (val); \
+		} \
+	} while (0)
 
 #endif /*__UG_NFC_SHARE_DEBUG_H__*/
 

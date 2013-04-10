@@ -40,3 +40,5 @@ msgstr "Kada je NFC uključen, možete slati ili primati podatke kad vaš uređa
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Kada je uključeno, možete slati podatke i datoteke u drugi NFC i Wi-Fi Direct uređaj tako da dodirnete uređaje. Možete slati Slike/Video iz Galerije, glazbene datoteke iz Music Playera i više. Samo prislonite uređaje jedan uz drugi (poželjno stražnje strane uređaja) i zatim dodirnite svoj zaslon. Aplikacija određuje što se šalje"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Kada je uključeno, možete slati datoteke u drugi NFC i Wi-Fi Direct uređaj tako da prislonite uređaje. Na primjer, možete slati Slike/Video iz Galerije i više. Samo prislonite stražnje strane uređaja i zatim dodirnite svoj zaslon. Aplikacija određuje što se šalje."

@@ -40,3 +40,5 @@ msgstr "Երբ NFC-ն միացված է, կարող եք տվյալներ ուղ
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Երբ այս գործառական հնարավորությունը միացված է, կարող եք ֆայլերն ուղղորդված փոխանցել այլ NFC և Wi-Fi Direct սարքերի՝ սարքերն իրար մոտիկ պահելով: Օրինակ՝ կարող եք պատկերային ֆայլեր և տեսաֆայլեր փոխանցել Պատկերասրահից, երաժշտական ֆայլեր Նվագարկչից և այլն: Պարզապես իրար կցեք սարքերը (սովորաբար, հետևը հետևին), հետո թակեք Ձեր էկրանը: Ծրագիրը որոշում է, թե ինչ է ուղղորդված փոխանցվում"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Երբ այս գործառական հնարավորությունը միացված է, կարող եք ֆայլերն ուղղորդված փոխանցել այլ NFC և Wi-Fi Direct սարքերի՝ սարքերն իրար մոտիկ պահելով: Օրինակ՝ կարող եք պատկերային ֆայլեր և տեսաֆայլեր փոխանցել Պատկերասրահից և այլն: Պարզապես իրար կցեք սարքերը՝ հետևը հետևին, հետո թակեք Ձեր էկրանը: Ծրագիրը որոշում է, թե ինչ է ուղղորդված փոխանցվում:"

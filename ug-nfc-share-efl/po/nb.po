@@ -40,3 +40,5 @@ msgstr "Når NFC er på, kan du sende eller motta data når enheten din berører
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Når denne funksjonen er slått på, kan du sende filer til andre NFC- og Wi-Fi Direct-enheter ved å holde enhetene i nærheten av hverandre. For eksempel kan du sende bilde-/videofiler fra galleriet, musikkfiler fra musikkspilleren og mer. Bare før enhetene sammen (helst rygg mot rygg) og trykk deretter på skjermen. Programmet bestemmer hva som sendes"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Når denne funksjonen er slått på, kan du sende filer til andre NFC- og Wi-Fi Direct-enheter ved å holde enhetene nær hverandre. For eksempel kan du sende bilde-/videofiler fra Galleri osv. Du trenger bare å føre enhetene sammen, rygg mot rygg, og deretter trykke på skjermen. Programmet bestemmer hva som sendes."

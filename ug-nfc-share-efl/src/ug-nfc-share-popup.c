@@ -28,14 +28,14 @@ static void *_user_data = NULL;
 
 static void _ug_nfc_share_popup_response_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	int btn_type = (int)data;
 	UG_NFC_POPUP_USER_RESP_CB temp_cb = _user_response_cb;
 	void *temp_data = _user_data;
 
-	LOGD("btn_type: %d", (int)btn_type);
-	LOGD("Popup is removed: [%p]", obj);
+	UG_NFC_SHARE_DEBUG("btn_type: %d", (int)btn_type);
+	UG_NFC_SHARE_DEBUG("Popup is removed: [%p]", obj);
 	evas_object_del(_popup);
 
 	_popup = NULL;
@@ -45,28 +45,28 @@ static void _ug_nfc_share_popup_response_cb(void *data, Evas_Object *obj, void *
 	if (temp_cb)
 		temp_cb(temp_data, obj, (void*)btn_type);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 static Eina_Bool _ug_nfc_share_popup_show_cb(void *data)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();;
 
 	if (_popup)
 		evas_object_show(_popup);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 
 	return ECORE_CALLBACK_CANCEL;
 }
 
 static void _ug_nfc_share_popup_block_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	_ug_nfc_share_popup_response_cb((void*)UG_NFC_POPUP_RESP_CLOSE, _popup, NULL);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 Evas_Object *ug_nfc_share_create_popup(void *data,
@@ -82,7 +82,7 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
                                     bool enable_timeout,
                                     UG_NFC_POPUP_USER_RESP_CB response_cb)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	Evas_Object *btn = NULL;
 
@@ -94,7 +94,7 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
 	}
 
 	_popup = elm_popup_add(parent_layout);
-	LOGD("Popup is created: [%p]", _popup);
+	UG_NFC_SHARE_DEBUG("Popup is created: [%p]", _popup);
 	evas_object_size_hint_weight_set(_popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
 	elm_object_text_set(_popup, description);
@@ -136,7 +136,7 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
 
 	_ug_nfc_share_popup_show_cb(NULL);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 
 	return _popup;
 }
@@ -144,15 +144,15 @@ Evas_Object *ug_nfc_share_create_popup(void *data,
 
 void ug_nfc_share_close_popup(Evas_Object* popup)
 {
-	LOGD("BEGIN >>>>");
+	UG_NFC_SHARE_BEGIN();
 
 	if (NULL == popup || NULL == _popup || _popup != popup) {
-		LOGD("NULL == popup || NULL == _popup || _popup != popup");
+		UG_NFC_SHARE_DEBUG_ERR("NULL == popup || NULL == _popup || _popup != popup");
 	}
 
 	_ug_nfc_share_popup_response_cb((void*)UG_NFC_POPUP_RESP_CLOSE, _popup, NULL);
 
-	LOGD("END>>>>");
+	UG_NFC_SHARE_END();
 }
 
 

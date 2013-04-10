@@ -81,4 +81,7 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/ug-setting-nfc-efl.edj DESTINATION ${EDJDIR})
 
 INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/icons/setting-nfc.png DESTINATION ${ICONDIR})
 
+# install xml file
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/sysinfo-nfc-ug.xml DESTINATION /etc/config/nfc/)
+
 ADD_SUBDIRECTORY(po)

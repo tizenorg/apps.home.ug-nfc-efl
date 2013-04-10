@@ -40,3 +40,5 @@ msgstr "Кога е вклучено NFC, може да праќате или п
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "Кога оваа функција е вклучена, може да пренесувате фајлови на други NFC и Wi-Fi Direct уреди со држење на уредите блиску еден до друг. На пример, може да пренесете слики/видео фајлови од Галеријата, музички фајлови од Музичкиот плеер и повеќе. Само приближете ги уредите (обично грб со грб) и потчукнете го екранот. Апликацијата одредува што ќе се пренесе"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Кога е вклучена функцијата, може да пренесувате фајлови на други уреди NFC и Wi-Fi Direct со држење на уредите блиску еден до друг. На пример, може да пренесете сликовни/видео фајлови од Галеријата, музички фајлови од Музичкиот плеер и повеќе. Само приближете ги уредите, грб со грб, и потчукнете го екранот. Апликацијата одредува што ќе се пренесе."

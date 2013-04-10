@@ -40,3 +40,5 @@ msgstr "ड्राइविंग"
 msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
 msgstr "ज‍ब यह सुविधा चालू की जाती है, आप डिवाइसों को साथ में होल्ड कर दूसरे NFC और Wi-Fi डायरेक्ट डिवाइसों पर फ़ाइलें बीम कर सकते है। उदाहरण के लिए, आप गैलरी से वीडियो और छवि फ़ाइलों को, संगीत प्लेयर से संगीत फ़ाइलों को, और अधिक को बीम कर सकते हैं। केवल डिवाइसों को पास लाएँ (विशिष्ट रूप से बैक टू बैक) और फिर अपनी स्‍क्रीन टैप करें। क्या बीम करना है यह ऐप निर्धारित करता है"
 
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "यह सुविधा चालू होने पर आप डिवाइसों को एक-दूसरे के समीप रखकर अन्य NFC और Wi-Fi Direct डिवाइसों पर फ़ाइलों को बीम कर सकते हैं। उदाहरण के लिए, आप गैलरी से छवि/वीडियो फ़ाइल्स आदि बीम कर सकते हैं। बस, डिवाइसों को एक साथ, बैक टू बैक लाएँ और अपनी स्क्रीन पर टैप करें। क्या बीम करना है यह ऐप निर्धारित करता है।"

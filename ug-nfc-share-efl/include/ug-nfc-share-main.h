@@ -131,10 +131,14 @@ enum
 
 typedef struct _ugdata_t
 {
-	Evas_Object* ug_win_main;
+	Evas_Object *ug_win_main;
 	ui_gadget_h nfc_share_ug;
-	Evas_Object* base_layout;
+	Evas_Object *base_layout;
 	Evas_Object *bg;
+
+	/* for text */
+	Evas_Object *layout;
+	Evas_Object *cancel_btn;
 
 	nfc_ndef_message_h current_ndef;
 	bundle *bd;
