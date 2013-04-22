@@ -67,10 +67,11 @@ make %{?jobs:-j%jobs}
 cd cmake_tmp
 rm -rf %{buildroot}
 %make_install
+cd ..
 mkdir -p %{buildroot}/usr/share/license
 mkdir -p %{buildroot}/etc/config/nfc/
-cp -af %{_builddir}/%{name}-%{version}/packaging/ug-nfc-efl %{buildroot}/usr/share/license/
-cp -af %{_builddir}/%{name}-%{version}/packaging/ug-share-nfc-efl %{buildroot}/usr/share/license/
+cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-nfc-efl
+cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 
 %post
 
