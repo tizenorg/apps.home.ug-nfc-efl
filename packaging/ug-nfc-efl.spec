@@ -85,6 +85,7 @@ cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 /usr/ug/lib/libug-setting-nfc-efl*
 /usr/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
 /usr/ug/res/icons/*
+/etc/smack/accesses2.d/ug.setting-nfc-efl.include
 /usr/share/license/ug-nfc-efl
 
 %files -n ug-share-nfc-efl
@@ -95,4 +96,5 @@ cp -af LICENSE.Flora %{buildroot}/usr/share/license/ug-share-nfc-efl
 /usr/ug/res/images/*
 /usr/ug/res/edje/*
 /usr/share/license/ug-share-nfc-efl
+/etc/smack/accesses2.d/ug.share-nfc-efl.include
 /etc/config/nfc/*

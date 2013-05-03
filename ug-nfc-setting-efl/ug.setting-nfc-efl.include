@@ -1,0 +1,12 @@
+$1 system::homedir rwxat
+$1 system::vconf rwxat
+$1 xorg rw
+$1 isf rwx
+$1 pulseaudio rwx
+$1 sound_server rw
+$1 nfc-manager rwx
+$1 nfc-manager::admin rwx
+$1 com.samsung.indicator rw
+$1 ail::db rw
+$1 osp-connectivity-service rw
+e17 $1 rw
