@@ -796,6 +796,13 @@ static void __ug_nfc_share_destroy(ui_gadget_h ug, service_h service, void *priv
 	if (ug_data == NULL)
 		return;
 
+	if (ug_data->current_ndef)
+	{
+		if (nfc_ndef_message_destroy(ug_data->current_ndef) != NFC_ERROR_NONE)
+			UG_NFC_SHARE_DEBUG_ERR("nfc_ndef_message_destroy failed");
+		ug_data->current_ndef = NULL;
+	}
+
 	/* unset callback */
 	ug_nfc_unset_nfc_callback();
 
