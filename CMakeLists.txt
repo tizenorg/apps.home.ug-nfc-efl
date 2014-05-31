@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+MESSAGE("NFC UI Gardet version: ${VERSION}")
+
+ADD_SUBDIRECTORY(ug-nfc-setting-efl)
+ADD_SUBDIRECTORY(ug-nfc-share-efl)
+

@@ -1,0 +1,44 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Partekatzea uzteko, ukitu Utzi"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Zerbitzua ez dago erabilgarri. NFC itzalita. Piztu NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Partekatu NFC bidez"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Partekatzeko, ukitu leun telefonoak elkarrekin"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Akatsa transferitzean"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Segurtasun politikak %s erabiltzea mugatzen du"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Partekatua"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Ezin da partekatu"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Aurrez zehaz. elementua"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Aurrez zehaztutako elementuak transferitu daitezke beste NFC gailu batera. Jar itzazu gailuak elkarrengandik hurbil (normalean atzeko aldeak elkartuz) pantaila nagusian zaudela"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "NFC piztuta dagoenean, datuak bidali edo jaso ditzakezu zure gailuak NFC onartzen duen bestelako gailu bat edo NFC etiketak ukitzen dituenean"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Eginbidea piztuta dagoenean, fitxategiak transmititu ditzakezu beste NFC eta Wi-Fi Direct gailutara gailuak elkarrengatik hurbil jarrita. Esaterako, Galeriako irudi/bideo fitxategiak, Musika jogailuko musika fitxategiak eta gauza gehiago transferi ditzakezu. Gailuak bata bestearengandik hurbil jarri (atzealdeak elkar ukitzen direla) eta pantaila ukitu. Aplikazioak zehaztuko du zer eduki transmitituko den"
+
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Eginbide hau piztuta dagoenean, fitxategiak transmititu ditzakezu beste NFC eta Wi-Fi Direct gailutara gailuak elkarrengatik hurbil jarrita. Esaterako, Galeriako irudi/bideo fitxategiak eta gauza gehiago transferi ditzakezu. Gailuak bata bestearengandik hurbil jarri, atzeko aldeak elkar ukitzen direla, eta ondoren ukitu pantaila. Aplikazioak zehaztuko du zer eduki transmitituko den."

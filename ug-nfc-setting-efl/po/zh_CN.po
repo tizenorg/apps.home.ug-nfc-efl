@@ -1,0 +1,44 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "若要取消共享，点击取消"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "服务不可用。NFC 已关闭。是否开启 NFC？"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "通过 NFC 共享"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "轻轻地将手机触碰在一起以共享"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "转换失败"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "安全政策限制 %s 的使用"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "已分享"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "无法共享"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "预定项目"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "您可将预定项目传输至另一 NFC 设备。只需在主屏下将设备靠在一起（通常背对背）"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "当 NFC 开始时，您可在您的设备接触其他支持 NFC 的设备或 NFC 标签时发送或接收数据"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "当该特性开启时，您可通过将设备紧靠在一起将文件无线传输至其他 NFC 和 Wi-Fi直连设备。例如，您可无线传输来自图库的图片/视频文件、来自音乐播放器的音乐文件，以及更多。只需要将设备放在一起（通常背对背）然后轻敲您的屏幕。应用程序判定无线传输的内容"
+
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "当该特性开启时，您可通过将设备紧靠在一起将文件无线传输至其他 NFC 和 Wi-Fi Direct 设备。例如，您可传输来自图库的图片/视频文件以及更多。只需将设备背对背放在一起然后轻敲您的屏幕。应用程序判定无线传输的内容"

@@ -1,0 +1,44 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Pentru anularea partajării, atingeţi Anulare"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Serviciul nu este disponibil. NFC este oprit. Porniţi NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Partajare prin NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Atingeţi uşor telefoanele pentru a partaja"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Transfer nereuşit"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Politica de securitate restricţionează utilizarea %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Partajat"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Imposibil de partajat"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Element predefinit"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Puteţi transfera elemente predefinite pe un alt dispozitiv NFC. Doar apropiaţi dispozitivele (de obicei spate în spate) când este deschis ecranul de pornire"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Când NFC este activată, puteţi trimite sau primi date când dispozitivul atinge alte dispozitive compatibile cu NFC sau etichete NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Când această caracteristică este activată, puteţi transmite fişierele către alte dispozitive NFC şi Wi-Fi Direct, ţinând cele două dispozitive apropiate unul de celălalt. De exemplu, puteţi să transmiteţi fişiere de imagini/video din Galerie, fişiere muzicale din playerul muzical şi multe altele. Nu trebuie decât să apropiaţi cele două dispozitive (de obicei, aşezându-le unul în spatele celuilalt) şi să atingeţi ecranul. Aplicaţia determină apoi ce poate fi transmis"
+
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Când această caracteristică este activată, puteţi transmite fişierele către alte dispozitive NFC şi Wi-Fi Direct, ţinând cele două dispozitive apropiate unul de celălalt. De exemplu, puteţi să transmiteţi fişiere de imagini/video din Galerie şi multe altele. Trebuie doar să apropiaţi cele două dispozitive spate în spate şi să atingeţi ecranul. Aplicaţia determină apoi ce va fi transmis."

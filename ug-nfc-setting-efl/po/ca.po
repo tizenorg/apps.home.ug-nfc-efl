@@ -1,0 +1,44 @@
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
+msgstr "Per cancel·lar la compartició, toqui Cancel·lar"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Servei no disponible. NFC desactivat. Activar NFC?"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Compartir mitjançant NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Toqui suaument un telèfon amb l'altre per compartir"
+
+msgid "IDS_NFC_POP_TRANSFER_FAILED"
+msgstr "Error de transferència"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "La política de seguretat restringeix l'ús de %s"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Compartit"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "No es pot compartir"
+
+msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
+msgstr "Element predefinit"
+
+msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
+msgstr "Pot transmetre elements predefinits a un altre dispositiu NFC. Només cal que ajunti els dispositius (normalment d'esquena) mentre és a la pantalla d'inici"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Quan NFC està activat, pot enviar o rebre dades quan el seu dispositiu toca altres dispositius amb capacitat NFC o etiquetes NFC"
+
+msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
+msgstr "Quan aquesta funció està activada, pot transmetre fitxers a altres dispositius NFC o Wi-Fi Direct sostenint els dispositius prou a prop. Per exemple, pot transferir fitxers d'imatge/vídeo de la Galeria, fitxers de música del Reproductor de música, etc. Només cal que ajunti els dispositius (normalment d'esquena) i toqui la pantalla. L'aplicació determina què es transmet"
+
+msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
+msgstr "Quan aquesta funció està activada, pot transmetre fitxers a altres dispositius NFC o Wi-Fi Direct sostenint els dispositius a prop. Per exemple, pot transferir fitxers d'imatge/vídeo de la Galeria, etc. Només cal que ajunti els dispositius, normalment d'esquena, i toqui la pantalla. L'aplicació determina què es transmet."
