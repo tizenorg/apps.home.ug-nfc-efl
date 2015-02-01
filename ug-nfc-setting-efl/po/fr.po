@@ -1,17 +1,17 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Anulare"
+msgstr "Annuler"
 
 msgid "IDS_COM_POP_DELETE_Q"
-msgstr "Ştergeţi?"
+msgstr "Supprimer ?"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Conectare"
+msgstr "Connexion..."
 
 msgid "IDS_COM_BODY_NONE"
-msgstr "Niciuna"
+msgstr "Aucun(e)"
 
 msgid "IDS_COM_SK_ADD"
-msgstr "Adaugă"
+msgstr "Ajouter"
 
 msgid "IDS_COM_BODY_BLUETOOTH"
 msgstr "Bluetooth"
@@ -20,106 +20,106 @@ msgid "IDS_COM_BODY_EMAIL"
 msgstr "Email"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Ajutor"
+msgstr "Aide"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Notă"
+msgstr "Mémo"
 
 msgid "IDS_COM_BODY_MESSAGE"
-msgstr "Mesaj"
+msgstr "Message"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "Pornit"
+msgstr "Activé"
 
 msgid "IDS_COM_BODY_WI_FI"
 msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Nu"
+msgstr "Non"
 
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
 msgid "IDS_COM_SK_YES"
-msgstr "Da"
+msgstr "Oui"
 
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
 msgid "IDS_NFC_BODY_NEW_MEMO"
-msgstr "Notă nouă"
+msgstr "Nouveau mémo"
 
 msgid "IDS_NFC_ITAB_TAGS"
-msgstr "Etichete"
+msgstr "Tags"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "Scriere în etichetă"
+msgstr "Écrire dans le tag"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
-msgstr "Zile anterioare"
+msgstr "Jours précédents"
 
 msgid "IDS_COM_POP_FILE"
-msgstr "Fişier"
+msgstr "Fichier"
 
 msgid "IDS_COM_BODY_BOOKMARK"
-msgstr "Marcaj"
+msgstr "Favori"
 
 msgid "IDS_COM_BODY_BOOKMARKS"
-msgstr "Marcaje"
+msgstr "Favoris"
 
 msgid "IDS_COM_BODY_SUN"
-msgstr "Dum"
+msgstr "Dim"
 
 msgid "IDS_COM_SK3_COMPOSE"
-msgstr "Compun."
+msgstr "Rédiger"
 
 msgid "IDS_COM_BODY_TODAY"
-msgstr "Azi"
+msgstr "Aujourd'hui"
 
 msgid "IDS_COM_BODY_YESTERDAY"
-msgstr "Ieri"
+msgstr "Hier"
 
 msgid "IDS_COM_POP_CLOSE"
-msgstr "Închidere"
+msgstr "Fermer"
 
 msgid "IDS_COM_POP_ERROR"
-msgstr "Eroare"
+msgstr "Erreur"
 
 msgid "IDS_COM_POP_SENDING"
-msgstr "Se trimite..."
+msgstr "Envoi..."
 
 msgid "IDS_COM_BODY_CONTACT"
 msgstr "Contact"
 
 msgid "IDS_COM_BODY_APR"
-msgstr "Apr"
+msgstr "Avr."
 
 msgid "IDS_COM_BODY_AUG"
-msgstr "Aug"
+msgstr "Aoû."
 
 msgid "IDS_COM_BODY_DEC"
-msgstr "Dec"
+msgstr "Déc."
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Ştergere"
+msgstr "Supprimer"
 
 msgid "IDS_COM_BODY_FEB"
-msgstr "Feb"
+msgstr "Fév."
 
 msgid "IDS_COM_BODY_FRI"
-msgstr "Vin"
+msgstr "Ven"
 
 msgid "IDS_COM_BODY_JAN"
-msgstr "Ian"
+msgstr "Jan."
 
 msgid "IDS_COM_BODY_JUL"
-msgstr "Iul"
+msgstr "Juil"
 
 msgid "IDS_COM_BODY_JUN"
-msgstr "Iun"
+msgstr "Jui."
 
 msgid "IDS_COM_BODY_MAR"
-msgstr "Mar"
+msgstr "Mars"
 
 msgid "IDS_COM_BODY_MAY"
 msgstr "Mai"
@@ -128,449 +128,449 @@ msgid "IDS_COM_BODY_MON"
 msgstr "Lun"
 
 msgid "IDS_COM_BODY_NOV"
-msgstr "Nov"
+msgstr "Nov."
 
 msgid "IDS_COM_BODY_OCT"
-msgstr "Oct"
+msgstr "Oct."
 
 msgid "IDS_COM_BODY_SAT"
-msgstr "Sâm"
+msgstr "Sam"
 
 msgid "IDS_COM_BODY_SEP"
-msgstr "Sep"
+msgstr "Sep."
 
 msgid "IDS_COM_BODY_THU"
-msgstr "Joi"
+msgstr "Jeu"
 
 msgid "IDS_COM_BODY_TUE"
 msgstr "Mar"
 
 msgid "IDS_COM_BODY_UNKNOWN"
-msgstr "Necunoscut"
+msgstr "Inconnu"
 
 msgid "IDS_COM_BODY_WED"
-msgstr "Mie"
+msgstr "Mer"
 
 msgid "IDS_COM_SK_OPEN"
-msgstr "Deschidere"
+msgstr "Ouvrir"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d selectate"
+msgstr "%d sélectionné(es)"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
-msgstr "Deschideţi browserul?"
+msgstr "Ouvrir le navigateur ?"
 
 msgid "IDS_NFC_BODY_MEDIA_PLAYER"
-msgstr "Aplicaţie redare media"
+msgstr "Lecteur multimédia"
 
 msgid "IDS_NFC_BODY_URL"
 msgstr "URL"
 
 msgid "IDS_NFC_BODY_NO_TAGS"
-msgstr "Nicio etichetă"
+msgstr "Aucun tag"
 
 msgid "IDS_NFC_BODY_NO_BOOKMARKS"
-msgstr "Niciun marcaj"
+msgstr "Aucun favori"
 
 msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
-msgstr "Imposibil de găsit aplicaţia pentru efectuarea acestei acţiuni"
+msgstr "Application introuvable pour exécuter cette action"
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
-msgstr "Serviciul nu este disponibil. NFC este oprit. Porniţi NFC?"
+msgstr "Service non disponible. NFC désactivé. Activer NFC ?"
 
 msgid "IDS_NFC_HEADER_READ_NFC_TAG"
-msgstr "Citire etichetă NFC"
+msgstr "Lire le tag NFC"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
-msgstr "Partajare prin NFC"
+msgstr "Partager via NFC"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Atingeţi uşor telefoanele pentru a partaja."
+msgstr "Faites entrer doucement en contact les téléphones pour partager."
 
 msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "%s selectat"
+msgstr "%s sélectionné"
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "Scrierea în etichetă nereuşită"
+msgstr "Impossible d'écrire dans le tag."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
 msgid "IDS_NFC_POP_ACTIVATION_FAILED"
-msgstr "Activare nereuşită"
+msgstr "Échec de l'activation."
 
 msgid "IDS_NFC_POP_BLANK_TAG"
-msgstr "Etichetă goală"
+msgstr "Libellé vide"
 
 msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
-msgstr "Date scrise pe etichetă"
+msgstr "Données écrites dans le tag"
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "Tip de etichetă neacceptat"
+msgstr "Type de libellé non pris en charge"
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Atingeţi pentru a trimite."
+msgstr "Appuyez pour envoyer."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "Imposibil de creat eticheta. Datele sunt prea mari."
+msgstr "Impossible de créer le libellé. Données trop volumineuses."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "Imposibil de creat. Etichetă blocată."
+msgstr "Création impossible. Etiquette verrouillée."
 
 msgid "IDS_COM_POP_RECEIVING"
-msgstr "Se primeşte..."
+msgstr "Réception..."
 
 msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Nu există suficientă memorie. Ştergeţi câteva elemente şi încercaţi din nou."
+msgstr "Mémoire insuffisante. Supprimez des éléments, puis réessayez."
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Politica de securitate restricţionează utilizarea %s."
+msgstr "La politique de sécurité limite l'utilisation de %s."
 
 msgid "IDS_COM_OPT_SHARED"
-msgstr "Partajat"
+msgstr "Partagé"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Imposibil de partajat"
+msgstr "Partage impossible"
 
 msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
-msgstr "Nu s-a selectat niciun fişier. Selectaţi un fişier de trimis şi încercaţi din nou."
+msgstr "Aucun fichier sélectionné. Sélectionnez un fichier à envoyer et réessayez."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Când NFC este activată, puteţi trimite sau primi date când dispozitivul atinge alte dispozitive compatibile cu NFC sau etichete NFC."
+msgstr "Lorsque NFC est activé, vous pouvez envoyer ou recevoir des données quand votre appareil touche d'autres appareils compatibles NFC ou des tags NFC."
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
-msgstr "Selectare etichetă"
+msgstr "Sélectionner un tag"
 
 msgid "IDS_COM_BODY_BUTTON_T_TTS"
-msgstr "Buton"
+msgstr "Touche"
 
 msgid "IDS_COM_BODY_TICKBOX_T_TTS"
-msgstr "Casetă de bifare"
+msgstr "Cocher la case"
 
 msgid "IDS_COM_BODY_TICK_T_TTS"
-msgstr "Bifare"
+msgstr "Cocher"
 
 msgid "IDS_COM_BODY_UNTICK_T_TTS"
-msgstr "Debifare"
+msgstr "Décocher"
 
 msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
-msgstr "Scriere etichete multiple"
+msgstr "Ecriture multi-libellé"
 
 msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
-msgstr "Creare etichetă notă"
+msgstr "Créer une étiquette Mémo"
 
 msgid "IDS_NFC_BODY_CREATE_TAG"
-msgstr "Creare"
+msgstr "Nv libellé"
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "Încă %d"
+msgstr "Plus %d"
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
-msgstr "Conţinut etichetă"
+msgstr "Contenu du tag"
 
 msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
-msgstr "Sel. notiţă (numai text)"
+msgstr "Sélec. mémo (texte uniq)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "După ce citiţi/scrieţi etichete, jurnalul de etichete va fi afişat aici."
+msgstr "Les tags que vous avez lus/rédigés seront affichés ici dans votre journal des tags."
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. Deschideţi Setări %s."
+msgstr "1. Ouvrir paramètres %s."
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
-msgstr "Selectare etichete"
+msgstr "Sélectionner des tags"
 
 msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
-msgstr "Atingeţi suprafaţa indicată."
+msgstr "Appuyez sur la zone indiquée."
 
 msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
-msgstr "Tutorial finalizat."
+msgstr "Didacticiel terminé."
 
 msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
-msgstr "Faceţi schimb de date când dispozitivul dvs. atinge un alt dispozitiv."
+msgstr "Echanger des données lorsque deux appareils se touchent."
 
 msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
-msgstr "S Beam este deja activat. Puteţi modifica setările S Beam."
+msgstr "S Beam est déjà activé. Vous pouvez modifier vos paramètres S Beam."
 
 msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
-msgstr "NFC este deja activat. Puteţi modifica setările NFC."
+msgstr "NFC est déjà activé. Vous pouvez modifier vos paramètres NFC."
 
 msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
-msgstr "Selectaţi fila conexiuni."
+msgstr "Sélectionnez l'onglet Connexions."
 
 msgid "IDS_HELP_BODY_SELECT_PS_NFC"
-msgstr "Selectaţi %s NFC."
+msgstr "Sélectionnez NFC %s."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
-msgstr "Comutaţi butonul pentru a activa NFC."
+msgstr "Appuyez sur la touche pour activer NFC."
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "Selectaţi %s S Beam."
+msgstr "Sélectionnez S Beam %s."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
-msgstr "Comutaţi butonul pentru a activa S Beam."
+msgstr "Appuyez sur la touche pour activer S Beam."
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC activat"
+msgstr "NFC activé"
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam este activat."
+msgstr "S Beam activé."
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "Când este activată această caracteristică, puteţi trimite elemente predefinite prin NFC în timp ce vă aflaţi în ecranul de pornire."
+msgstr "Quand cette fonction est activée, vous pouvez envoyer via NFC des éléments prédéfinis lorsque vous vous trouvez sur l'écran d'accueil."
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
-msgstr "Când caracteristica S Beam este activată, puteţi trimite şi primi fişiere dacă dispozitivul se află în apropierea altor dispozitive NFC şi Wi-Fi Direct. De exemplu, puteţi să transmiteţi fişiere imagine/video din Galerie, apropiind dispozitivele spate în spate şi atingând ecranul."
+msgstr "Lorsque S Beam est activé, vous pouvez envoyer ou recevoir des fichiers lorsque votre appareil se trouve à proximité d'autres appareils NFC et Wi-Fi Direct. Vous pouvez par exemple transférer des images/vidéos depuis la Galerie en plaçant les appareils coque contre coque, puis en appuyant sur votre écran."
 
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Memorie insuficientă. Ştergeţi câteva elemente"
+msgstr "Mémoire insuffisante. Supprimez certains éléments."
 
 msgid "IDS_TAGS_OPT_SHARE_ABB"
-msgstr "Partajare"
+msgstr "Partager"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Dacă partajaţi fişiere prin S Beam, Screen Mirroring va fi dezactivat. Atingeţi OK în următoarele %d secunde pentru a continua."
+msgstr "L'envoi de fichiers via S Beam va désactiver Screen Mirroring. Appuyez sur OK d'ici %d secondes pour continuer."
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
-msgstr "Activarea NFC"
+msgstr "Activation de NFC"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
-msgstr "Activarea S Beam"
+msgstr "Activation de S Beam"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
 msgstr "Smart poster"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "Creare etichetă"
+msgstr "Créer un tag"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "Selectaţi unul dintre tipurile de conţinut pentru scrierea în etichetă. După ce scrieţi datele în etichetă, atingeţi eticheta cu dispozitivul pentru a vizualiza datele."
+msgstr "Vous pouvez sélectionner l'un des types de contenu suivants à écrire sur vos tags. Une fois les données écrites sur le tag, touchez-le avec votre appareil pour afficher ces données."
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
-msgstr "Salv."
+msgstr "Enreg."
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Anulare"
+msgstr "Annuler"
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
-msgstr "Arhivare"
+msgstr "Archiver"
 
 msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
-msgstr "S-a adăugat în arhivă."
+msgstr "Elément(s) ajouté(s) à l'archive."
 
 msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
-msgstr "S-a eliminat din arhivă."
+msgstr "Elément(s) supprimé(s) de l'archive."
 
 msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
-msgstr "Adăugare în arhivă"
+msgstr "Ajouter à l'archive"
 
 msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
-msgstr "Eliminare din arhivă"
+msgstr "Suppr. de l'archive"
 
 msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
-msgstr "NFC în ecr. pornire"
+msgstr "Util. NFC sur acc."
 
 msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
-msgstr "Nicio etichetă arhivată"
+msgstr "Aucun tag archivé"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "După ce adăugaţi etichete la arhivă, acestea vor fi afişate aici."
+msgstr "Les tags ajoutés à votre archive seront affichés ici."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "Creare etichetă"
+msgstr "Créer un tag"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
-msgstr "Jurnal etichete"
+msgstr "Journal des tags"
 
 msgid "IDS_NFC_BODY_CONTACT"
 msgstr "Contact"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Notă"
+msgstr "Mémo"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
-msgstr "Marcaj"
+msgstr "Favori"
 
 msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Pentru a salva contactul, acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde"
+msgstr "Pour enregistrer un contact, couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes"
 
 msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Pentru a salva datele, acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde"
+msgstr "Pour enregistrer des données, couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes"
 
 msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Pentru a salva notiţa, acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde"
+msgstr "Pour enregistrer un mémo, couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes"
 
 msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Pentru a salva adresa URL, acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde"
+msgstr "Pour enregistrer une URL, couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Nu se afiş. din nou"
+msgstr "Ne plus afficher"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "Eticheta nu a putut fi creată. Numele sau numărul de telefon pe care încercaţi să-l salvaţi nu poate fi găsit."
+msgstr "Impossible de créer le tag. Le nom ou le numéro de téléphone que vous essayez d'enregistrer est introuvable."
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "Puteţi salva în această etichetă numai numele şi numărul de telefon al contactului"
+msgstr "Seuls le nom et le numéro de téléphone du contact peuvent être enregistrés sur ce tag"
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
-msgstr "Atunci când este bifată această opţiune, vor fi scrise mai multe etichete simultan"
+msgstr "Quand cette option est cochée, plusieurs tags seront écrits en même temps"
 
 msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
-msgstr "Prezentarea etichetelor NFC"
+msgstr "Présentation des tags NFC"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "Despre etichetele NFC"
+msgstr "À propos des tags NFC"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "Etichetele NFC sunt mici microcipuri integrate în carduri de mici dimensiuni. Acestea pot conţine text, adrese URL şi alte tipuri de informaţii."
+msgstr "Les tags NFC sont de petites puces électroniques intégrées dans des petites cartes. Elles peuvent contenir du texte, des URL, ainsi que d'autres types d'informations."
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
-msgstr "Citirea etichetelor NFC"
+msgstr "Lecture de tags NFC"
 
 msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
-msgstr "Pentru a citi o etichetă NFC, acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde. Informaţiile din etichetă vor fi salvate în aplicaţia Etichete."
+msgstr "Pour lire un tag NFC, couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes. Les informations du tag seront enregistrées dans l'application Tags."
 
 msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
-msgstr "Stocare securizată NFC"
+msgstr "Stockage sécurisé NFC"
 
 msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
-msgstr "Stocare securizată NFC"
+msgstr "Stockage sécurisé NFC"
 
 msgid "IDS_NFC_OPT_MANUAL"
-msgstr "Manual"
+msgstr "Manuel"
 
 msgid "IDS_NFC_OPT_AUTOMATIC"
-msgstr "Automat"
+msgstr "Automatique"
 
 msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
-msgstr "Utilizaţi cartela SIM pentru stocare securizată."
+msgstr "Utiliser votre carte SIM pour un stockage sécurisé."
 
 msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Comutaţi automat între utilizarea cartelei SIM şi a spaţiului de stocare securizat de pe dispozitiv."
+msgstr "Basculer automatiquement entre la carte SIM et l'espace de stockage sécurisé de l'appareil."
 
 msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Selectarea opţiunii manual va dezactiva anumite caracteristici securizate, cum ar fi plata NFC, care stochează date în spaţiul de stocare securizat de pe dispozitiv."
+msgstr "La sélection manuelle désactive certaines fonctions sécurisées, telles que le paiement NFC, qui stockent les données dans l'espace de stockage sécurisé de l'appareil."
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "Acest tip de etichetă nu este acceptat."
+msgstr "Le type de tag n'est pas pris en charge."
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
-msgstr "Prezentarea etichetelor"
+msgstr "Présentation des tags"
 
 msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
-msgstr "A fost detectată o adresă de e-mail. Scrieţi un e-mail?"
+msgstr "Une adresse e-mail a été détectée. Rédiger un e-mail ?"
 
 msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
-msgstr "A fost detectată o adresă URL. O deschideţi?"
+msgstr "Une URL a été détectée. Ouvrir ?"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Aplicaţia Etichete vă ajută să organizaţi şi să partajaţi etichetele Near Field Communication (NFC). Pentru a scana o etichetă, deblocaţi dispozitivul şi poziţionaţi-l lângă o etichetă. Etichetele NFC pot conţine text, adrese URL şi alte tipuri de informaţii.\n\nPentru a scana sau a partaja etichete, activaţi NFC din meniul Setări > Conexiune."
+msgstr "L'application Tags vous permet d'organiser et de partager des tags NFC (Near Field Communication, communication en champ proche). Vous pouvez analyser un tag en déverrouillant votre appareil et en le plaçant à côté d’un tag. Les tags NFC peuvent contenir du texte, des URL et d’autres types d’informations.\n\nPour analyser ou partager des tags, activez NFC en accédant à Paramètres > Connexion."
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
-msgstr "Serviciul NFC nu este acceptat."
+msgstr "Le service NFC n'est pas pris en charge."
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Dacă partajaţi fişiere prin S Beam, hotspotul portabil Wi-Fi va fi dezactivat. Atingeţi OK în următoarele %d secunde pentru a continua."
+msgstr "Le partage des fichiers via S Beam désactivera le point d'accès Wi-Fi portable. Appuyez sur OK d'ici %d secondes pour continuer."
 
 msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
-msgstr "Crearea etichetelor NFC"
+msgstr "Création de tags NFC"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "Creaţi o etichetă utilizând opţiunea de meniu creare etichetă din aplicaţia Etichete. Selectaţi datele pe care doriţi să le salvaţi, apoi acoperiţi complet eticheta cu partea din spate a dispozitivului şi menţineţi câteva secunde."
+msgstr "Créez un tag avec l'option Créer un tag de l'application Tags. Sélectionnez les données que vous souhaitez enregistrer, puis couvrez intégralement le tag avec l'arrière de votre appareil et conservez cette position quelques secondes."
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
-msgstr "Nu se poate transfera"
+msgstr "Transmission impossible"
 
 msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
-msgstr "Activaţi NFC"
+msgstr "Activer NFC"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d selectate"
+msgstr "%d sélectionné(s)"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
-msgstr "Scrieţi contactul într-o etichetă"
+msgstr "Écrire un contact dans le tag"
 
 msgid "IDS_NFC_HEADER_DELETE_TAG"
-msgstr "Ştergeţi eticheta"
+msgstr "Supprimer le tag"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
-msgstr "Fişierul nu poate fi primit"
+msgstr "Impossible de recevoir fichier"
 
 msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
-msgstr "Ştergeţi această etichetă?"
+msgstr "Supprimer ce tag ?"
 
 msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
-msgstr "Ştergeţi %d etichete?"
+msgstr "Supprimer %d tags ?"
 
 msgid "IDS_NFC_BUTTON_STORAGE"
-msgstr "Stocare"
+msgstr "Stockage"
 
 msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
-msgstr "Acum puteţi partaja fişiere prin S Beam. Separaţi dispozitivele."
+msgstr "Les fichiers peuvent désormais être partagés via S Beam. Séparez les appareils."
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "Se pregăteşte partajarea fişierelor...\nAsiguraţi-vă că dispozitivele se ating în continuare."
+msgstr "Préparation du partage des fichiers...\nAssurez-vous que les appareils se touchent toujours."
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
-msgstr "Fişierele au fost trimise."
+msgstr "Fichiers envoyés."
 
 msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
-msgstr "Fişierele au fost trim."
+msgstr "Fichiers envoyés."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
-msgstr "Fişierele nu au fost trimise."
+msgstr "Échec de l'envoi des fichiers."
 
 msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
-msgstr "Fiş. nu au fost trimise."
+msgstr "Échec envoi des fichiers."
 
 msgid "IDS_NFC_TPOP_FILES_RECEIVED"
-msgstr "Fişierele au fost primite."
+msgstr "Fichiers reçus."
 
 msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
-msgstr "Fişierele au fost prim."
+msgstr "Fichiers reçus."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
-msgstr "Fişierele nu au putut fi primite."
+msgstr "Impossible de recevoir les fichiers."
 
 msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
-msgstr "Fiş. nu au fost primite."
+msgstr "Échec réception fichiers."
 
 msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
-msgstr "Aţi depăşit numărul maxim de fişiere care pot fi transferate simultan (%d). Pentru a partaja aceste fişiere, utilizaţi Wi-Fi Direct sau Bluetooth."
+msgstr "Le nombre maximal de fichiers pouvant être transmis en même temps (%d) a été dépassé. Pour partager ces fichiers, utilisez Wi-Fi Direct ou le Bluetooth."
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "NFC nu a putut fi pornit"
+msgstr "Impossible d'activer NFC"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
-msgstr "Eticheta nu poate fi citită"
+msgstr "Impossible de lire le tag"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
-msgstr "Eticheta nu poate fi creată"
+msgstr "Création du tag impossible"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "Selectare tip etichetă"
+msgstr "Sélectionner un type de tag"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
-msgstr "Asocierea cu %s nu a reuşit."
+msgstr "Échec de l'association avec %s."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
-msgstr "Conectarea la %s nu a reuşit."
+msgstr "Impossible de se connecter à %s."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
-msgstr "A apărut o eroare la pornirea NFC. Încercaţi din nou."
+msgstr "Une erreur s'est produite lors de l'activation de NFC. Réessayez."
 
 msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
-msgstr "Nu au fost scrise date în această etichetă."
+msgstr "Aucune donnée n'a été écrite sur ce tag."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
-msgstr "A apărut o eroare la scrierea informaţiilor în etichetă. Încercaţi din nou."
+msgstr "Une erreur s'est produite lors de l'écriture des informations sur le tag. Réessayez."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Aplicaţia Etichete vă ajută să organizaţi şi să partajaţi etichetele Near Field Communication (NFC). Puteţi să scanaţi o etichetă deblocând dispozitivul şi poziţionându-l lângă o etichetă. Etichetele NFC pot conţine text, adrese web, informaţii de contact, notiţe, imagini, videoclipuri şi multe altele.\n\nPentru a scana sau a partaja etichete, activaţi NFC din meniul Setări > Conexiune."
+msgstr "L'application Tags vous permet d'organiser et de partager des tags NFC (Near Field Communication, communication en champ proche). Vous pouvez analyser un tag en déverrouillant votre appareil et en le plaçant à côté d’un tag. Les tags NFC peuvent contenir du texte, des adresses Web, des informations de contact, des mémos, des images, des vidéos, etc.\n\nPour analyser ou partager des tags, activez NFC en accédant à Paramètres > Connexion."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Când dispozitivul dvs. atinge partea din spate a altui dispozitiv sau o etichetă, datele precum textul, imaginile, videoclipurile, adresele web şi informaţiile de contact pot fi transferate între dispozitive sau între etichetă şi dispozitiv."
+msgstr "Lorsque votre appareil touche un tag ou l'arrière d'un autre appareil, diverses données (texte, images, vidéos, adresses Web, informations de contact, etc.) peuvent être transférées entre les appareils, ou entre le tag et l'appareil."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "Etichetele NFC sunt microcipuri minuscule integrate în carduri de mici dimensiuni. Acestea pot conţine text, adrese web, informaţii de contact, notiţe, imagini, videoclipuri şi multe altele."
+msgstr "Les tags NFC sont de petites puces électroniques intégrées dans des petites cartes. Ils peuvent contenir du texte, des adresses Web, des informations de contact, des mémos, des images, des vidéos, etc."
 

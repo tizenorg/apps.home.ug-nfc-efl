@@ -28,7 +28,7 @@ else
 	echo "done"
 fi
 
-for LANG in $ALL_LINGUAS; do 
+for LANG in $ALL_LINGUAS; do
 	echo "$LANG : "
 
 	if [ ! -e $LANG.po ] ; then
@@ -40,7 +40,7 @@ for LANG in $ALL_LINGUAS; do
 				rm -f ${LANG}.new.po
 			else
 				if mv -f ${LANG}.new.po ${LANG}.po; then
-					echo ""	
+					echo ""
 				else
 					echo "msgmerge for $LANG.po failed: cannot move $LANG.new.po to $LANG.po" 1>&2
 					rm -f ${LANG}.new.po

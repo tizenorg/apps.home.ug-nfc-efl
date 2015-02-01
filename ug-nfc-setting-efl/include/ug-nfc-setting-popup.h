@@ -1,7 +1,7 @@
 /*
   * Copyright (c) 2012, 2013 Samsung Electronics Co., Ltd.
   *
-  * Licensed under the Flora License, Version 1.1 (the "License");
+  * Licensed under the Flora License, Version 1.0 (the "License");
   * you may not use this file except in compliance with the License.
   * You may obtain a copy of the License at
 
@@ -37,6 +37,7 @@ enum {
 
 Evas_Object *ug_nfc_setting_create_popup(void *data,
                                     Evas_Object *parent_layout,
+                                    const char *title,
                                     const char *description,
                                     const char *btn1_text,
                                     int btn1_type,

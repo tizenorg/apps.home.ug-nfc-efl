@@ -1,44 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Bekor q."
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "O'chirilsinmi?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Ulanmoqda..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Hech qaysi"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Qo‘shish"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-pochta"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Yordam"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Eslatma"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Xabar"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Yoq."
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Yo‘q"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Ha"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Ulashishni bekor qilish uchun, Bekor qilishni cherting"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Yangi yozuv"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Teglar"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Tegga yozish"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Avvalgi kunlar"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Fayl"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Saqlangan veb-hujjat"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Saqlangan veb-hujjatlar"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Yak"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Yaratish"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Bugun"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Kecha"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Yopish"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Xato"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Yuborilmoqda..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Apr."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Avg."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Dek."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "O'chirish"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Fev."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Ju"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Yan."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Iyl."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Iyn."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "May"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Du"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Noy."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Okt."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Shan"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Sen."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Pay"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Se"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Noma’lum"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Chor"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Ochish"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d tanlangan"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Brauzer ochilsinmi?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Media pleyer"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL-manzil"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Teglar yo‘q"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Veb-hujjatlar yo‘q"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Ushbu harakatni bajarish uchun ilovani topib bo‘lmaydi."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Xizmatdan foydalanib bo‘lmaydi. NFC o‘chirilgan. NFC yoqilsinmi?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "NFC tegini o‘qish"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "NFC orqali ulashish"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Ulashish uchun telefonlarni ehtiyotkorlik bilan birgalikda ushlang"
+msgstr "Ulashish uchun telefonlarni ehtiyotkorlik bilan birgalikda ushlang."
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Uzatish bajarilmadi"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s tanlangan."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Tegga yozib bo‘lmadi."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Faollashtirish bajarilmadi."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Bo‘sh teg."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Tegga yozilgan ma’lumot."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Qo‘llab-quvvatlanmaydigan teg turi."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Yuborish uchun teging."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Teg yaratib bo‘lmaydi. Ma’lumot juda katta."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Yaratib bo‘lmaydi. Teg bloklangan."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Qabul qilinmoqda..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chring va qayta urinib ko‘ring."
+
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Xavfsizlik siyosati %sdan foydalanishni cheklaydi"
+msgstr "Xavfsizlik siyosati %sdan foydalanishni cheklaydi."
 
 msgid "IDS_COM_OPT_SHARED"
 msgstr "Umumiy"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Umumiy foydalanib bo‘lmaydi"
+msgstr "Umumiy foydalanib bo‘lmaydi."
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Old/tayinlangan element"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Oldindan tayinlangan elementlarni boshqa NFC qurilmasiga uzatishingiz mumkin. Asosiy ekranda bo‘lganingizda, qurilmalarni bir-biriga yaqin keltiring (odatda orqasini-orqasiga qilib)"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Fayllar tanlanmagan. Yuborish uchun fayl tanlang va qayta urinib ko‘ring."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "NFC yoqilganda, qurilmangiz boshqa NFC-imkoniyatiga ega qurilma yoki NFC teglariga tekkanda, ma’lumotni olishingiz yoki yuborishingiz mumkin"
+msgstr "NFC yoqilganda, qurilmangiz boshqa NFC-imkoniyatiga ega qurilma yoki NFC teglariga tekkanda, ma’lumotni olishingiz yoki yuborishingiz mumkin."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Ushbu xususiyat yoqilganda, fayllarni boshqa NFC va Wi-Fi Direct qurilmalariga, qurilmalarni birlashtirish orqali, uzatishingiz mumkin. Misol uchun, Siz tasvir/video fayllarni Galereyadan, musiqa fayllarini esa Musiqa pleyeridan uzatishingiz mumkin. Qurilmalarni bir-biriga yaqin keltiring (orqasini orqasiga) va undan so‘ng ekranni cherting. Ilova nimalar uzatilganligini aniqlaydi"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Teg tanlash"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Ushbu xususiyat yoqilganda, fayllarni boshqa NFC va Wi-Fi Direct qurilmalariga, qurilmalarni birlashtirish orqali uzatishingiz mumkin. Misol uchun, Galereyadan tasvir/video fayllarni va boshqalarni uzatishingiz mumkin. Qurilmalarni bir-biriga yaqin keltiring, orqasini-orqasiga qilib va undan so‘ng ekranni cherting. Ilova nimalar uzatilganligini aniqlaydi."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Tugma"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Belgilash katakchasi"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Belgi qo‘yish"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Belgini olib tashlash"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Ko‘p tegli yozish"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Yozuv tegini yaratish"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Teg yarat"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d ko‘p"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Teg jurnali"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Yozuv tanla (faqat matn)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Teglarni o‘qish/yozishdan so‘ng teglaringiz jurnali bu yerda ko‘rsatiladi."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. %s Parametrlarni oching."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Teglarni tanlash"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Ko‘rsatilgan soha ustiga teging."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Ko‘rsatma yakunlandi."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Qurilmangiz boshqa qurilmaga tekkanida ma’lumot almashish."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam yoqilgan. S Beam parametrlarini o‘zgartirishingiz mumkin."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC avvalroq yoqilgan. NFC parametrlaringizni o‘zgartirishingiz mumkin."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Ulanishlar ilovasini tanlang."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "%s NFCni tanlang."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "NFC funksiyasini yoqish uchun tugmani suring."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "%s S Beamni tanlang."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "S Beam funksiyasini yoqish uchun tugmani suring."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC yoqilgan."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam yoqilgan."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Ushbu funksiya yoqilganda, asosiy ekranda bo‘lganingizda, NFC orqali oldindan belgilangan elementlarni yuborishingiz mumkin."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "S Beam yoqilgan holatda qurilmangiz boshqa NFC va Wi-Fi Direct qurilmalari yaqinida bo‘lganda fayllarni olishingiz va yuborishingiz mumkin. Masalan, qurilmalarni orqasini-orqasiga qilib qo‘yish va ekranga tegish orqali tasvir/video fayllarni Galereyadan uzatishingiz mumkin"
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chiring"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Ulashish"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam orqali fayllarni yuborish Screen Mirroringni baham ko‘rish. Davom ettirish uchun %d soniya ichida OKni cherting"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFCni yoqish"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beamni yoqish"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Teg yaratish"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Tegingizga yozish uchun tarkib turlaridan birini tanlang. Tegga ma’lumot yozganingizdan so‘ng, ushbu ma’lumotni ko‘rish uchun tegga qurilmangiz bilan teging."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Saqla"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Bekor qil"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arxiv"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Arxivga qo‘shildi"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Arxivdan olib tashlandi"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Arxivga qo‘shish"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Arxivdan olib tashla"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "As/ekran. NFC ishlat"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Arxivlangan teglar yo‘q"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Teglarni arxivingizga qo‘shganingizdan so‘ng, ular bu yerda ko‘rsatiladi."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Teg yaratish"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Teglar jurnali"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Eslatma"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Saqlangan veb-hujjat"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Kontaktni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Ma’lumotni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Yozuvni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URL-manzilni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Boshqa ko‘rsatma"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Teg yaratib bo‘lmadi. Saqlashga urinayotgan nom yoki telefon raqamini topib bo‘lmayapti."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Ushbu tegga faqat kontakt nomi va telefon raqamini saqlash mumkin"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Ushbu opsiya tekshirilganda, bir nechta teglar bittada yoziladi"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC teglari bilan tanishish"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "NFC teglari haqida"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC teglari kichkina kartochkalarida birlashtirilgan yupqa mikrochiplar. Ular matn, URL-manzillar va boshqa turdagi ma’lumotlardan tashkil topishi mumkin."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC teglarini o‘qish"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFC tegini o‘qish uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing. Teg ma’lumotlari Teglar ilovasiga saqlanadi."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC xavfsiz xotirasi"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC xavfsiz xotirasi"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Qo‘lda"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Avtomatik"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Xavfsiz xotira SIM-kartangizdan foydalaning."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "SIM-karta va qurilmadagi xavfsiz xotiradan foylanish o‘rtasida avtomatik ravishda almashish."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Qo‘lda o‘rnatishni tanlash qurilmadagi xavfsiz xotirada saqlanadigan NFC to‘lovi kabi ba’zi xavfsizlik funksiyalarini o‘chiradi."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Teg turi qo‘llab-quvvatlanmaydi"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Teglar bilan tanishish"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "E-pochta manzili aniqlandi. E-pochta yozilsinmi?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "URL-manzil aniqlandi. Ochilsinmi?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Teglar ilovasi Sizga Yaqin-atrofdagi Kommunikatsiya (NFC) teglarini tashkillashtirish va ulashishga yordam beradi. Qurilmangizni blokdan chiqarish va uni tegning yoniga qo‘yish orqali tegni skanerlashingiz mumkin. NFC teglari matn, URL-manzillar va boshqa turdagi ma’lumotlardan tashkil topadi.\n\nTeglarni qidirish yoki ulashish uchun Parametrlar > Ulanishga o‘tish orqali NFCni yoqing."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC xizmati qo‘llab-quvvatlanmaydi."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam orqali fayllarni ulashish portativ Wi-Fi faol nuqtani o‘chiradi. Davom ettirish uchun %d soniya ichida OKni bosing"
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC teglariga yaratish"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Teglar ilovasida teg menyusi opsiyasini yaratish yordamida tegni yarating. Saqlamoqchi bo‘lgan ma’lumotni tanlang, so‘ngra tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Uzatib bo‘lmaydi"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "NFCni yoqish"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d tanlandi"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Kontaktni tegga yozish"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Tegni yo‘q qilish"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Faylni olib bo‘lmaydi"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Ushbu teg yo‘q qilinsinmi?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "%dta teg yo‘q qilinsinmi?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Xotira"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Endilikda fayllarni S Beam bilan ulashish mumkin. Qurilmalarni ajrating."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Fayllarni ulashishga tayyorlanilmoqda...\nQurilmalar bir-biriga tegib turganiga ishonch hosil qiling."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Fayllar yuborildi."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Fayllar yuborildi."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Fayllarni yuborib bo‘lmadi."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Fayllar yuborilmadi."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Fayllar olindi."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Fayllar olindi."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Fayllarni olib bo‘lmadi."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Fayllarni olib bo‘lmadi."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Fayllar soni bir vaqtda uzatilishi mumkin bo‘lgan fayllarning maksimal miqdoriga (%d) yetdi. Ushbu fayllarni ulashish uchun Wi-Fi Direct yoki Bluetoothdan foydalaning."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFCni yoqib bo‘lmadi"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Tegni o‘qib bo‘lmaydi"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Teg yaratib bo‘lmaydi"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Teg turini tanlash"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s bilan bog‘lab bo‘lmadi."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "%sga ulanib bo‘lmadi."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFCni yoqayotganda xato yuz berdi. Qayta urinib ko‘ring."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Ushbu tegga ma’lumot yozilmagan."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Tegga ma’lumot yozish vaqtida xato yuz berdi. Qayta urinib ko‘ring."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Teglar ilovasi Sizga Yaqin-atrofdagi Kommunikatsiya (NFC) teglarini tashkillashtirish va ulashishga yordam beradi. Qurilmangizni blokdan chiqarish va uni tegning yoniga qo‘yish orqali tegni skanerlashingiz mumkin. NFC teglari matn, veb-manzil, kontakt ma’lumoti, yozuv, rasm, video va boshqalardan tashkil topishi mumkin.\n\nTeglarni ulashish yoki skanerlash uchun Parametrlar > Ulanishga o‘tish orqali NFCni yoqing."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Qurilmangiz boshqa qurilma yoki teg orqasiga tekkanida, qurilmalar o‘rtasida yoki qurilma va teg o‘rtasida matn, rasm, video, veb-manzil va kontakt ma’lumotlari kabi ma’lumotlarni almashish mumkin."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC teglari kichkina kartochkalarida birlashtirilgan yupqa mikrochiplar. Ular matn, veb-manzil, kontakt ma’lumoti, yozuv, rasm, video va boshqalardan tashkil topishi mumkin."
+

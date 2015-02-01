@@ -1,44 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Prekliči"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Izbrišem?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Povezujem..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Brez"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Dodaj"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-pošta"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Pomoč"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Beležka"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Sporočilo"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Vključeno"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_COM_SK_OK"
+msgstr "V redu"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Da"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Če želite preklicati skupno rabo, pritisnite Prekliči"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Nova beležka"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Oznake"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Pisanje v oznako"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Prejšnji dnevi"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Datoteka"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Zaznamek"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Zaznamki"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Ned"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Sestavi"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Danes"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Včeraj"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Zapri"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Napaka."
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Pošiljam..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Stik"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Apr"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Avg"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Dec"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Izbriši"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Feb"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pet"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Jan"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Jul"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Jun"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Maj"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Pon"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Nov"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Okt"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Sob"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Sep"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Čet"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Tor"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Neznano"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Sre"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Odpri"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d izbranih"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Odprem brskalnik?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Predvajalnik"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Brez oznak"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Ni zaznamkov"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Ni mogoče najti programa za izvršitev tega dejanja."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Storitev ni na voljo. NFC je izklopljen. Želite vklopiti NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Branje oznake NFC"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Skupna raba prek NFC"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Za skupno rabo se s telefonom rahlo dotaknite drugega telefona"
+msgstr "Za skupno rabo se s telefonom rahlo dotaknite drugega telefona."
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Prenos ni uspel"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s izbranih."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Zapisovanje v oznako ni uspelo."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Vklop ni uspel."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Prazna oznaka."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Podatki so zapisani v oznako."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Nepodprta vrsta oznake."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Pritisnite za pošiljanje."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Ni mogoče ustvariti oznake. Podatki so preveliki."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Ni mogoče ustvariti. Oznaka je zaklenjena."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Sprejemam"
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Ni dovolj pomnilnika. Izbrišite nekaj elementov in poskusite znova."
+
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Varnostni pravilnik omejuje uporabo programa %s"
+msgstr "Varnostni pravilnik omejuje uporabo programa %s."
 
 msgid "IDS_COM_OPT_SHARED"
 msgstr "Dosegljivo drugim"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Souporaba ni mogoča"
+msgstr "Souporaba ni mogoča."
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Vnaprej določen element"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Vnaprej določene elemente lahko prenesete v drugo napravo NFC. Ko ste na domačem zaslonu, samo pomaknite naprave skupaj (običajno s hrbtnima stranema)"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Nobena datoteka ni izbrana. Izberite datoteko za pošiljanje in poskusite znova."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Če je NFC vklopljen, lahko pošiljate ali prejemate podatke, ko se vaša naprava dotakne drugih naprav, ki podpirajo NFC ali oznake NFC"
+msgstr "Če je NFC vklopljen, lahko pošiljate ali prejemate podatke, ko se vaša naprava dotakne drugih naprav, ki podpirajo NFC ali oznake NFC."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Ko je ta funkcija vklopljena, lahko datoteke prenesete v druge naprave, ki omogočajo NFC in Wi-Fi Direct, tako da naprave držite blizu skupaj. Prenesete lahko na primer slikovne/video datoteke iz Galerije, glasbene datoteke iz predvajalnika glasbe in drugo. Samo pomaknite naprave skupaj (običajno s hrbtnima stranema) in pritisnite na zaslon. Program določi, kaj se bo preneslo"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Izberite oznako"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Ko je ta funkcija vklopljena, lahko datoteke prenesete v druge naprave, ki omogočajo NFC in Wi-Fi Direct, tako da naprave držite blizu skupaj. Prenesete lahko na primer slikovne/video datoteke iz Galerije in drugo. Samo pomaknite naprave skupaj s hrbtnima stranema in pritisnite na zaslon. Aplikacija določi, kaj se bo preneslo."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Gumb"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Polje za potrditev"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Potrdi"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Počisti"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Pisanje v več oznak"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Ustvari oznako za beležko"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Ustv. ozn."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "Še %d"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Vsebina oznake"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Izb. belež. (samo bes.)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Ko boste brali/pisali oznake, bo dnevnik oznak prikazan tukaj."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Odpri %s Nastavitve."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Izberite oznake"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Pritisnite na označeno območje."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Vadnica je končana."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Izmenjava podatkov, ko se vaša naprava dotakne druge naprave."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Funkcija S Beam je že vklopljena. Nastavitve funkcije S Beam lahko spremenite."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC je že vklopljen. Nastavitve za NFC lahko spremenite."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Izberite zavihek s povezavami."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Izberite NFC %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Preklopite gumb, da vklopite NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Izberite S Beam %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Preklopite gumb, da vklopite S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC vključen."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam vklopljen."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Ko je ta funkcija omogočena, lahko prek NFC pošiljate vnaprej določene elemente, medtem ko ste na domačem zaslonu."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Ko je funkcija S Beam vklopljena, lahko datoteke pošiljate ali prejemate, ko je vaša naprava v bližini naprav, ki omogočajo NFC in Wi-Fi Direct. Slikovne/video datoteke iz Galerije lahko na primer prenesete tako, da napravi pomaknete skupaj s hrbtnima stranema in pritisnite na zaslon."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Ni dovolj pomnilnika. Izbrišite nekaj predmetov"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Skupna raba"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Deljenje datotek prek S Beam bo onemogočilo Screen Mirroring. Če želite nadaljevati, v naslednjih %d s pritisnite V redu."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "Vklop funkcije NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "Vklop funkcije S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Ustvari oznako"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Izberite eno od vrst vsebine za zapis v oznako. Ko boste podatke zapisali v oznako, se oznake dotaknite z napravo, da si ogledate te podatke."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Shrani"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Prekliči"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arhiviraj"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Dodano v arhiv."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Odstranjeno iz arhiva."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Dodaj v arhiv"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Odstrani iz arhiva"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Up. NFC na dom. zas."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Ni arhiviranih oznak"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Ko boste oznake dodali v arhiv, bodo prikazane tukaj."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Ustvari oznako"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Označi dnevnik"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Stik"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Beležka"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Zaznamek"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Če želite shraniti stik, s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Če želite shraniti podatke, s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Če želite shraniti beležko, s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Če želite shraniti URL, s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ne pokaži znova"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Oznake ni uspelo ustvariti. Imena ali telefonske številke, ki jo poskušate shraniti, ni mogoče najti."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "V to oznako lahko shranite samo ime stika in telefonsko številko"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Ko je ta možnost potrjena, bo več oznak zapisanih hkrati"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Predstavitev oznak NFC"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "O oznakah NFC"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "Oznake NFC so majhni mikročipi, vdelani v majhne kartice. Vsebujejo lahko besedilo, URL-je in druge vrste informacij."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "Branje oznak NFC"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Če želite prebrati oznako NFC, s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund. Informacije iz oznake se bodo shranile v aplikacijo Oznake."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Varna shramba NFC"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Varna shramba NFC"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Ročno"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Samodejno"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Uporabite kartico SIM za varnostni pomnilnik."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Samodejni preklop med kartico SIM in varnostnim pomnilnikom v napravi."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Če izberete ročno, boste onemogočili nekatere varnostne funkcije, kot je plačevanje prek NFC, ki shranjuje podatke v varnostni pomnilnik v napravi."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Vrsta oznake ni podprta."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Uvod v Oznake"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Zaznan je e-poštni naslov. Želite sestaviti e-poštno sporočilo?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Zaznan je URL. Ga želite odpreti?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikacija Oznake je v pomoč pri organizaciji in deljenju oznak NFC z drugimi (komunikacija s tehnologijo bližnjega polja). Oznako optično preberete tako, da odklenete napravo in jo postavite v bližino oznake. Oznake NFC lahko vsebujejo besedilo, URL-je in druge vrste podatkov.\n\nZa optično branje ali deljenje oznak vklopite funkcijo NFC v meniju Nastavitve > Povezava."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "Storitev NFC ni podprta."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Deljenje datotek z drugimi prek S Beam bo onemogočilo prenosno dostopno točko Wi-Fi. Če želite nadaljevati, v naslednjih %d s pritisnite V redu."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "Ustvarjanje oznak NFC"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Ustvarite oznako v meniju za ustvarjanje oznak v aplikaciji Oznake. Izberite podatke, ki jih želite shraniti, nato pa s hrbtno stranjo naprave popolnoma prekrijte oznako in pridržite nekaj sekund."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Ni mogoče prenesti"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Vklopite NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d izbranih"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Zapišite stik v oznako"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Izbrišite oznako"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Datoteke ni mogoče prejeti"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Želite izbrisati to oznako?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Želite izbrisati toliko oznak: %d?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Shramba"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Datoteke lahko zdaj delite prek storitve S Beam. Ločite napravi."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Pripravljanje na deljenje datotek ...\nPreverite, ali se napravi še vedno dotikata."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Datoteke so poslane."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Datoteke so poslane."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Datotek ni uspelo poslati."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Datotek ni usp. poslati."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Datoteke so prejete."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Datoteke so prejete."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Datotek ni uspelo prejeti."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Datotek ni usp. prejeti."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Največje število datotek, ki jih je mogoče prenesti hkrati (%d), je preseženo. Za deljenje teh datotek uporabite funkcijo Wi-Fi Direct ali Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Funkc. NFC ni uspelo vklopiti"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Oznake ni mogoče prebrati"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Oznake ni mogoče ustvariti"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Izberite vrsto oznake"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Seznanjanje z napravo %s ni uspelo."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Povezave z napravo %s ni mogoče vzpostaviti."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Med vklopom funkcije NFC je prišlo do napake. Poskusite znova."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "V to oznako ni zapisan noben podatek."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Med zapisovanjem podatkov v oznako je prišlo do napake. Poskusite znova."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikacija Oznake je v pomoč pri organizaciji in deljenju oznak NFC z drugimi (komunikacija s tehnologijo bližnjega polja). Oznako lahko optično preberete tako, da odklenete napravo in jo postavite v bližino oznake. Oznake NFC lahko vsebujejo besedilo, spletne naslove, podatke o stikih, beležke, slike, videoposnetke in drugo.\n\nZa optično branje ali deljenje oznak vklopite funkcijo NFC v meniju Nastavitve > Povezava."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Ko se naprava dotakne hrbtne strani druge naprave ali oznake, se lahko podatki, kot so besedilo, slike, videoposnetki, spletni naslovi in podatki o stikih, prenesejo med napravama ali med oznako in napravo."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "Oznake NFC so majhni mikročipi, vdelani v majhne kartice. Vsebujejo lahko besedilo, spletne naslove, podatke o stikih, beležke, slike, videoposnetke in drugo."
+

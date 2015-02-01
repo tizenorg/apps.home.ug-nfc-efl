@@ -1,11 +1,185 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Ezabatu?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Konektatzen"
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Bat ere ez"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Gehitu"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "Helbide elektronikoa"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Laguntza"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Oroigarriak"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Mezua"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Aktibatuta"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ez"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Ados"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Bai"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Partekatzea uzteko, ukitu Utzi"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Memo berria"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Etiketak"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Idatzi etiketan"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Aurreko egunetan"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Fitxategia"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Laster-marka"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Laster-markak"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Iga."
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Sortu"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Gaur"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Atzo"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Itxi"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Akatsa"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Bidaltzen"
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontaktua"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Api."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Abu."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Abe."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Ezabatu"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Ots."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Otr."
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Urt."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Uzt."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Eka."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Maiatza"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Asl."
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Aza."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Urr."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Lar."
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Ira."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Osg."
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Asr."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Ezezaguna"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Asz."
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Ireki"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d aukeratuta"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Ireki nabigatzailea?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Multimedia erreproduzitzailea"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URLa"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Etiketarik ez"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Laster-markarik ez"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Ezin da aplikazioa aurkitu ekintza gauzatzeko"
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Zerbitzua ez dago erabilgarri. NFC itzalita. Piztu NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Irakurri NFC etiketa"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Partekatu NFC bidez"
@@ -13,11 +187,41 @@ msgstr "Partekatu NFC bidez"
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
 msgstr "Partekatzeko, ukitu leun telefonoak elkarrekin"
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Akatsa transferitzean"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s aukeratuta"
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Ezin izan da etiketan idatzi"
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktibazioak huts egin du"
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Etiketa hutsa"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Etiketan idatzitako datuak"
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Etiketa mota onartu gabea"
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Ukitu bidaltzeko"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Ezin da etiketa sortu. Datuak handiegiak."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Ezin da sortu. Etiketa blokeatuta dago."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Jasotzen"
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Ez duzu nahikoa memoria. Ezabatu hainbat elementu eta saiatu berriz."
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
 msgstr "Segurtasun politikak %s erabiltzea mugatzen du"
@@ -28,17 +232,345 @@ msgstr "Partekatua"
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
 msgstr "Ezin da partekatu"
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Aurrez zehaz. elementua"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Aurrez zehaztutako elementuak transferitu daitezke beste NFC gailu batera. Jar itzazu gailuak elkarrengandik hurbil (normalean atzeko aldeak elkartuz) pantaila nagusian zaudela"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Ez da fitxategirik hautatu. Hautatu fitxategi bat bidaltzeko eta saiatu berriz."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "NFC piztuta dagoenean, datuak bidali edo jaso ditzakezu zure gailuak NFC onartzen duen bestelako gailu bat edo NFC etiketak ukitzen dituenean"
+msgstr "NFC piztuta dagoenean, datuak bidali edo jaso ditzakezu zure gailuak NFC onartzen duen bestelako gailu bat edo NFC etiketak ukitzen dituenean."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Eginbidea piztuta dagoenean, fitxategiak transmititu ditzakezu beste NFC eta Wi-Fi Direct gailutara gailuak elkarrengatik hurbil jarrita. Esaterako, Galeriako irudi/bideo fitxategiak, Musika jogailuko musika fitxategiak eta gauza gehiago transferi ditzakezu. Gailuak bata bestearengandik hurbil jarri (atzealdeak elkar ukitzen direla) eta pantaila ukitu. Aplikazioak zehaztuko du zer eduki transmitituko den"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Hautatu etiketa"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Eginbide hau piztuta dagoenean, fitxategiak transmititu ditzakezu beste NFC eta Wi-Fi Direct gailutara gailuak elkarrengatik hurbil jarrita. Esaterako, Galeriako irudi/bideo fitxategiak eta gauza gehiago transferi ditzakezu. Gailuak bata bestearengandik hurbil jarri, atzeko aldeak elkar ukitzen direla, eta ondoren ukitu pantaila. Aplikazioak zehaztuko du zer eduki transmitituko den."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Botoia"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Markatze laukia"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Markatu"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Desmarkatu"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Etiketa anitz idaztea"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Sortu oharraren etiketa"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Sor. etik."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d geh."
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Etiketa berria"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Hauta. oro. (bak. test.)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Etiketak irakurri/idatzi ondoren, zure etiketa erregistroa hemen erakutsiko da"
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Ireki %s Ezarpenak"
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Aukeratu etiketak"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Ukitu adierazitako eremuan"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Tutoriala osatuta"
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Trukatu datuak zure gailuak beste gailu bat ukitzen duenean"
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Dagoeneko S Beam piztuta dago. Zure S Beam-en ezarpenak aldatu ditzakezu."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "Dagoeneko NFC piztuta dago. NFC ezarpenak aldatu ditzakezu"
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Hautatu konexioen fitxa"
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Hautatu %s NFC"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Eman botoiari NFC pizteko"
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Hautatu %s S Beam"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Eman botoiari S Beam pizteko"
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC piztuta"
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam piztuta"
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Eginbide hau gaituta dagoenean, aurrez definitutako elementuak NFC bidez bidal ditzakezu pantaila nagusian zaudenean"
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "S Beam piztuta dagoenean, fitxategiak bidali edo jaso ditzakezu, zure gailua beste NFC eta Wi-Fi Direct gailu batzuetatik gertu dagoenean. Esaterako, Galeriako irudi/bideo fitxategiak transferi ditzakezu gailuen atzeko aldeak elkartuz eta zure pantailan ukituz."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Ez dago memoria nahikoa. Elementu batzuk ezabatu."
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Partekatu"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam bidez fitxategiak partekatzeak Screen Mirroring ezgaituko du. Jarraitzeko, ukitu Ados %d segundoko epean."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC piztea"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam piztea"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Sortu etiketa"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Hautatu etiketan idazteko eduki motetako bat. Datuak etiketan idatzi ondoren, ukitu etiketa zure gailuarekin datuak ikusteko"
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Gorde"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Utzi"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Artxiboa"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Artxibora gehitu da."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Artxibotik kendu da."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Gehitu artxibora"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Kendu artxibotik"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Erabili NFC pan. nag."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Artxibatutako etiketarik ez"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Zure artxibora etiketak gehitu ondoren, hemen erakutsiko dira."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Sortu etiketa"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Etiketatu erregistroa"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontaktua"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Oroigarriak"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Laster-marka"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Kontaktua gordetzeko, estali etiketa osoa gailuaren atzeko aldearekin eta eutsi hainbat segundoz"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Datuak gordetzeko, estali etiketa osoa gailuaren atzeko aldearekin eta eutsi hainbat segundoz"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Oroigarria gordetzeko, estali etiketa osoa gailuaren atzeko aldearekin eta eutsi hainbat segundoz"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URLa gordetzeko, estali etiketa osoa gailuaren atzeko aldearekin eta eutsi hainbat segundoz"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ez erakutsi berriz"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Ezin izan da etiketa sortu. Gordetzen saiatzen ari zaren izena edo telefono zenbakia ezin dira aurkitu."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Kontaktuaren izena eta telefono zenbakia soilik gorde daitezke etiketa honetan"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Aukera hau markatzen denean, hainbat etiketa idatziko dira aldi berean"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC etiketen aurkezpena"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "NFC etiketei buruz"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC etiketak txartel txikietan jarritako mikrotxip txikiak dira. Testua, URLak eta bestelako informazio bil dezakete."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC etiketak irakurtzea"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFC etiketa bat irakurtzeko, estali etiketa osoa gailuaren atzeko aldearekin eta eutsi hainbat segundoz. Etiketaren informazioa Etiketak aplikazioan gordeko da."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC memoria segurua"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC memoria segurua"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Eskuz"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automatikoa"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Erabili zure SIM txartela biltegi seguru moduan"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Aldatu automatiko zure SIM txartela eta gailuko biltegi segurua erabiltzearen artean"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Eskuzkoa hautatuz gero, zenbait eginbide seguru ezgaituko dira, adibidez, gailuaren biltegi seguruan datuak gordetzen dituen NFC ordainketa"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Etiketa mota ez da onartzen."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Etiketetarako sarrera"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Helbide elektroniko bat hauteman da. Idatzi mezu elektronikoa?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "URL bat hauteman da. Ireki?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Etiketen aplikazioak eremu hurbileko komunikazioa (NFC) antolatzen eta partekatzen laguntzen dizu. Etiketa bat eskaneatzeko desblokeatu zure gailua eta jarri etiketaren alboan. NFC etiketek testua, URLak eta bestelako informazioa eduki ditzakete.\n\nEtiketak eskaneatzeko edo partekatzeko, piztu NFC Ezarpenak > Konexioa aukeran."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "Ez da NFC zerbitzua onartzen"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam bidez fitxategiak partekatzeak Wi-Fi berogune ibiltaria ezgaituko du. Ukitu Ados %d segundo barru jarraitzeko."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC etiketak sortzea"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Sortu etiketa bat Etiketen aplikazioko menuko sortu etiketa aukera erabiliz. Hautatu gorde nahi dituzun datuak, ondoren estali etiketa gailuaren atzeko aldearekin eta eutsi hainbat segundoz."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Ezin da transmititu"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Piztu NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d aukeratuta"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Idatzi kontaktua etiketatzeko"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Ezabatu etiketa"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Ezin da fitxategia jaso"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Ezabatu etiketa hau?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Ezabatu %d etiketa?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Biltegiratzea"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Fitxategiak S Beam bidez partekatu ditzakezu orain. Bereizi gailuak."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Fitxategiak partekatzeko prestatzen...\nEgiaztatu gailuak ukitzen ari direla."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Fitxategiak bidali dira."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Fitxategiak bidali dira."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Ezin izan dira fitxategiak bidali."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Errorea fitx. bidaltzean."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Fitxategiak jaso dira."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Fitxategiak jaso dira."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Ezin dira fitxategiak jaso."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Errorea fitx. jasotzean."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Aldi berean transmititu daitezkeen fitxategien gehieneko kopurua (%d) gainditu duzu. Fitxategi hauek partekatzeko, erabili Wi-Fi Direct edo Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Ezin izan da NFC piztu"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Ezin da etiketa irakurri"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Ezin da etiketa sortu"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Hautatu etiketa mota"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Ezin izan da %s-(e)rekin parekatu."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Ezin da %s-(e)ra konektatu."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Errore bat gertatu da NFC piztean. Saiatu berriz."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Ez da daturik idatzi etiketa honetan."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Errore bat gertatu da etiketan informazioa idaztean. Saiatu berriz."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Etiketen aplikazioak eremu hurbileko komunikazioa (NFC) antolatzen eta partekatzen laguntzen dizu. Etiketa bat eskaneatu dezakezu zure gailua desblokeatuta eta etiketaren alboan jarrita. NFC etiketek testua, web helbideak, kontaktuen informazioa, oroigarriak, argazkiak, bideoak eta bestelako informazioa eduki ditzakete.\n\nEtiketak eskaneatzeko edo partekatzeko, piztu NFC Ezarpenak > Konexioa aukeran."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Zure gailuak beste gailu baten atzealdea edo etiketa ukitzen duenean, testua, argazkiak, bideoak, web helbideak eta kontaktuen informazioa bezalako datuak transferitu daitezke gailuen artean edo etiketaren eta gailuaren artean."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC etiketak txartel txikietan jarritako mikrotxip txikiak dira. Testua, web helbideak, kontaktuen informazioa, oroigarriak, argazkiak, bideoak eta bestelakoak eduki ditzakete."
+

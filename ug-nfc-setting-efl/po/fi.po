@@ -1,44 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Peruuta"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Yhdistetään..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Ei mitään"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Lisää"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "Sähköposti"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Ohje"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Muistio"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Viesti"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Päällä"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ei"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Kyllä"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Lopeta jakaminen napauttamalla Peruuta"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Uusi muistio"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Tunnisteet"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Kirjoita tunnist."
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Edelliset päivät"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Tiedosto"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Kirjanmerkki"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Kirjanmerkit"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Su"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Luo"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Tänään"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Eilen"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Sulje"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Virhe"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Lähetetään..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Yhteystieto"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "huh"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "elo"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "jou"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Poista"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "hel"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pe"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "tam"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "hei"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "kesä"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "maa"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "tou"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Ma"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "mar"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "loka"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "La"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "syys"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "To"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Ti"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Tuntematon"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Ke"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Avaa"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valittu"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Avataanko selain?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Mediasoitin"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL-osoite"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Ei tunnisteita"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Ei kirjanmerkkejä"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Toiminnon suorittamiseen tarvittavaa sovellusta ei löydy."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Palvelu ei ole käytettävissä. NFC on poistettu käytöstä. Otetaanko NFC käyttöön?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Lue NFC-tunniste"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Jaa NFC:n kautta"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Jaa koskettamalla puhelimet varovasti toisiinsa"
+msgstr "Jaa koskettamalla puhelimet varovasti toisiinsa."
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Siirtovirhe"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s valittu."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Tunnisteeseen kirjoittaminen epäonnistui."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktivointi epäonnistui."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Tyhjä tunniste"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Tiedot on kirjoitettu tunnisteeseen."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Tunnisteen tyyppiä ei tueta."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Lähetä napauttamalla."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Tunnistetta ei voi luoda. Tiedosto on liian iso."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Ei voi luoda. Tunniste lukittu."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Vastaanotetaan..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Muisti ei riitä. Poista joitain kohteita ja yritä uudelleen."
+
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Suojauskäytäntö estää käytön: %s"
+msgstr "Suojauskäytäntö estää käytön: %s."
 
 msgid "IDS_COM_OPT_SHARED"
 msgstr "Jaettu"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Ei voi jakaa"
+msgstr "Ei voi jakaa."
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Esimääritetty kohde"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Voit siirtää valmiiksi määritetyt kohteet toiseen NFC-laitteeseen. Aseta laitteet alkunäytössä lähelle toisiaan (yleensä niiden takaosat vastakkain)"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Tiedostoa ei ole valittu. Valitse tiedosto ja yritä uudelleen."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Kun NFC on käytössä, voit lähettää tai vastaanottaa tietoja, kun laitteesi koskettaa muita NFC-toimintoa tukevia laitteita tai NFC-tunnisteita"
+msgstr "Kun NFC on käytössä, voit lähettää tai vastaanottaa tietoja, kun laitteesi koskettaa muita NFC-toimintoa tukevia laitteita tai NFC-tunnisteita."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Kun tämä toiminto on käytössä, voit siirtää tiedostoja muihin NFC- ja Wi-Fi Direct -laitteisiin pitämällä laitteita lähellä toisiaan. Voit esimerkiksi lähettää kuva- ja videotiedostoja galleriasta, musiikkitiedostoja musiikkisoittimesta ja paljon muuta. Sinun ei tarvitse tehdä muuta kuin asettaa laitteet lähelle toisiaan (yleensä niiden takaosat vastakkain) ja napauttaa näyttöä. Sovellus määrittää lähetettävän sisällön"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Valitse tunniste"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Kun tämä toiminto on käytössä, voit siirtää tiedostoja muihin NFC- ja Wi-Fi Direct -laitteisiin pitämällä laitteita lähellä toisiaan. Voit esimerkiksi lähettää kuva- ja videotiedostoja galleriasta sekä suorittaa muita toimintoja. Sinun ei tarvitse tehdä muuta kuin asettaa laitteet lähelle toisiaan, niiden takaosat vastakkain, ja napauttaa näyttöä. Sovellus määrittää lähetettävän sisällön."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Painike"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Valintaruutu"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Valitse"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Poista valinta"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Usean tunnisteen kirjoitus"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Luo muistiotunniste"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Luo tunn."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d lis."
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Tunnisteen sisältö"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Val. muistio (v. teksti)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Kun olet lukenut tai kirjoittanut tunnisteita, tunnisteloki näytetään täällä."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Avaa %s asetukset."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Valitse tunnisteet"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Napauta merkittyä aluetta."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Opetusohjelma suoritettu."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Vaihda tietoja, kun laitteesi koskettaa toista laitetta."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam on jo käytössä. Voit muuttaa S Beamin asetuksia."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC on jo käytössä. Voit muuttaa NFC-asetuksia."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Valitse Yhteydet-välilehti."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Valitse %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Ota NFC käyttöön painamalla painiketta."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Valitse %s S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Ota S Beam käyttöön painamalla painiketta."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC käytössä."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam otettu käyttöön."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Kun tämä toiminto on käytössä, voit lähettää valmiiksi määritettyjä kohteita NFC:n kautta, kun olet alkunäytössä."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Kun S Beam on käytössä, voit lähettää tai vastaanottaa tiedostoja, kun laite on lähellä muita NFC- ja Wi-Fi Direct -laitteita. Voit esimerkiksi lähettää kuva- ja videotiedostoja Galleriasta asettamalla laitteiden takaosat vastakkain ja napauttamalla näyttöä."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Muisti ei riitä. Poista joitain kohteita."
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Jaa"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beamillä tiedostoja jaettaessa Screen Mirroring poistetaan käytöstä. Jatka napauttamalla %d sekunnin kuluessa OK."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC:n ottaminen käyttöön"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beamin ottaminen käyttöön"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Luo tunniste"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Valitse jokin sisältötyyppi tunnisteeseen kirjoittamista varten. Kun olet kirjoittanut tiedot tunnisteeseen, voit näyttää tiedot koskettamalla laitteella tunnistetta."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Tall."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Peruuta"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arkisto"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Lisätty arkistoon."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Poistettu arkistosta."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Lisää arkistoon"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Poista arkistosta"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Käytä NFC:tä alkun."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Arkistoituja tunnisteita ei ole"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Kun olet lisännyt tunnisteet arkistoon, ne näytetään täällä."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Luo tunniste"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Tunnisteloki"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Yhteystieto"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Muistio"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Kirjanmerkki"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Voit tallentaa yhteystiedot peittämällä tunnisteen laitteen takaosalla kokonaan ja pitämällä laitetta muutaman sekunnin ajan paikallaan."
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Voit tallentaa tiedot peittämällä tunnisteen laitteen takaosalla kokonaan ja pitämällä laitetta muutaman sekunnin ajan paikallaan."
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Voit tallentaa muistion peittämällä tunnisteen laitteen takaosalla kokonaan ja pitämällä laitetta muutaman sekunnin ajan paikallaan."
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Voit tallentaa URL-osoitteen peittämällä tunnisteen laitteen takaosalla kokonaan ja pitämällä laitetta muutaman sekunnin ajan paikallaan."
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Älä näytä uudelleen"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Tunnisteen luominen epäonnistui. Nimeä tai puhelinnumeroa, jonka yrität tallentaa, ei löydy."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Tähän tunnisteeseen voidaan tallentaa vain yhteyshenkilön nimi ja puhelinnumero."
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Kun tämä asetus on valittuna, useita tunnisteita kirjoitetaan samaan aikaan."
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC-tunnisteiden esittely"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Tietoja NFC-tunnisteista"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC-tunnisteet ovat pieniin kortteihin upotettuja pieniä mikropiirejä. Niissä voi olla tekstiä, URL-osoitteita ja muita tietoja."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC-tunnisteiden lukeminen"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Voit lukea NFC-tunnisteen peittämällä sen laitteen takaosalla kokonaan ja pitämällä laitetta muutaman sekunnin ajan paikallaan. Tunnisteessa olevat tiedot tallennetaan Tunnisteet-sovellukseen."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Suojattu NFC-säilö"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Suojattu NFC-säilö"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Manuaalinen"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automaattinen"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Käytä SIM-korttia suojattuun tallennukseen."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Vaihda automaattisesti SIM-kortin ja laitteen suojatun säilön välillä."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Jos valitset Manuaalinen, jotkin laitteen suojattuun säilöön tietoja tallentavat suojatut toiminnot, kuten NFC-maksu, poistetaan käytöstä."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Tunnisteen tyyppiä ei tueta."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Tunnisteiden esittely"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Havaittu sähköpostiosoite. Luodaanko sähköpostiviesti?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Havaittu URL-osoite. Avataanko?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Tunnisteet-sovelluksen avulla voit järjestellä ja jakaa NFC -tunnisteita. Voit skannata tunnisteen poistamalla laitteen lukituksen ja asettamalla laitteen tunnisteen viereen. NFC-tunnisteissa voi olla tekstiä, URL-osoitteita ja muita tietoja.\n\nJos haluat skannata tai jakaa tunnisteita, ota NFC käyttöön valitsemalla Asetukset > Yhteys."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC-palvelua ei tueta."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beamillä tiedostoja jaettaessa siirrettävä Wi-Fi-tukiasema poistetaan käytöstä. Jatka napauttamalla %d sekunnin kuluessa OK."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC-tunnisteiden luominen"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Luo tunniste Tunnisteet-sovelluksen Luo tunniste -valikkokohdassa. Valitse tallennettavat tiedot, peitä sen jälkeen tunniste laitteen takaosalla kokonaan ja pidä laitetta muutaman sekunnin ajan paikallaan."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Ei voi siirtää"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Ota NFC käyttöön"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d valittu"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Kirjoita yhteystiedot tunnisteeseen"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Poista tunniste"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Tied. ei voi vastaanottaa"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Poistetaanko tämä tunniste?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Poistetaanko %d tunnistetta?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Tallennustila"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Tiedostot voidaan nyt jakaa S Beamillä. Erota laitteet."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Valmistellaan tiedostojen jakamista...\nVarmista, että laitteet koskettavat edelleen toisiaan."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Tiedostot lähetetty."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Tiedostot lähetetty."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Tiedostojen lähetys epäonnistui."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Tied. lähetys epäonn."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Tiedostot vastaanotettu."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Tiedostot vastaanotettu."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Tiedostojen vastaanottaminen epäonnistui."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Tied. vastaanotto epäonn."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Samanaikaisesti siirrettävissä olevien tiedostojen enimmäismäärä (%d) on ylitetty. Jos haluat jakaa nämä tiedostot, käytä Wi-Fi Direct- tai Bluetooth-toimintoa."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFC ei käynnistynyt"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Tunnistetta ei voi lukea"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Tunnistetta ei voi luoda"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Valitse tunnistetyyppi"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Pariliitos laitteen %s kanssa epäonnistui."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Yhteyden muodostaminen laitteeseen %s epäonnistui."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFC:tä käynnistettäessä tapahtui virhe. Yritä uudelleen."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Tähän tunnisteeseen ei ole kirjoitettu tietoja."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Tietoja tunnisteeseen kirjoitettaessa tapahtui virhe. Yritä uudelleen."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Tunnisteet-sovelluksen avulla voit järjestellä ja jakaa Near Field Communication (NFC) -tunnisteita. Voit skannata tunnisteen poistamalla laitteen lukituksen ja asettamalla laitteen tunnisteen viereen. NFC-tunnisteissa voi olla muun muassa tekstiä, verkko-osoitteita, yhteystietoja, muistioita, kuvia ja videoita.\n\nJos haluat skannata tai jakaa tunnisteita, ota NFC käyttöön valitsemalla Asetukset > Yhteys."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Kun laitteesi koskettaa toisen laitteen takaosaa tai tunnistetta, laitteiden tai tunnisteen ja laitteen välillä voidaan siirtää tietoja, kuten tekstiä, kuvia, videoita, verkko-osoitteita ja yhteystietoja."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC-tunnisteet ovat pieniin kortteihin upotettuja pieniä mikropiirejä. Niissä voi olla muun muassa tekstiä, verkko-osoitteita, yhteystietoja, muistioita, kuvia ja videoita."
+

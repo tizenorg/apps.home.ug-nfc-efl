@@ -1,41 +1,41 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Avbryt"
+msgstr "Abbrechen"
 
 msgid "IDS_COM_POP_DELETE_Q"
-msgstr "Slette?"
+msgstr "Löschen?"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Kobler til..."
+msgstr "Verbindung wird hergestellt..."
 
 msgid "IDS_COM_BODY_NONE"
-msgstr "Ingen"
+msgstr "Ohne"
 
 msgid "IDS_COM_SK_ADD"
-msgstr "Legg til"
+msgstr "Hinzufügen"
 
 msgid "IDS_COM_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_COM_BODY_EMAIL"
-msgstr "E-post"
+msgstr "E-Mail"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Hjelp"
+msgstr "Hilfe"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Notat"
+msgstr "Memo"
 
 msgid "IDS_COM_BODY_MESSAGE"
-msgstr "Melding"
+msgstr "Nachricht"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "På"
+msgstr "Ein"
 
 msgid "IDS_COM_BODY_WI_FI"
-msgstr "Wi-Fi"
+msgstr "WLAN"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Nei"
+msgstr "Nein"
 
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
@@ -47,530 +47,530 @@ msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
 msgid "IDS_NFC_BODY_NEW_MEMO"
-msgstr "Nytt notat"
+msgstr "Neues Memo"
 
 msgid "IDS_NFC_ITAB_TAGS"
-msgstr "Tagger"
+msgstr "Tags"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "Skriv for å tagge"
+msgstr "In Tag schreiben"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
-msgstr "Tidligere dager"
+msgstr "Vorherige Tage"
 
 msgid "IDS_COM_POP_FILE"
-msgstr "Fil"
+msgstr "Datei"
 
 msgid "IDS_COM_BODY_BOOKMARK"
-msgstr "Bokmerke"
+msgstr "Lesezeichen"
 
 msgid "IDS_COM_BODY_BOOKMARKS"
-msgstr "Bokmerker"
+msgstr "Favoriten"
 
 msgid "IDS_COM_BODY_SUN"
-msgstr "Søn"
+msgstr "So"
 
 msgid "IDS_COM_SK3_COMPOSE"
-msgstr "Skriv"
+msgstr "Verfass."
 
 msgid "IDS_COM_BODY_TODAY"
-msgstr "I dag"
+msgstr "Heute"
 
 msgid "IDS_COM_BODY_YESTERDAY"
-msgstr "I går"
+msgstr "Gestern"
 
 msgid "IDS_COM_POP_CLOSE"
-msgstr "Lukk"
+msgstr "Schließen"
 
 msgid "IDS_COM_POP_ERROR"
-msgstr "Feil."
+msgstr "Fehler"
 
 msgid "IDS_COM_POP_SENDING"
-msgstr "Sender..."
+msgstr "Wird gesendet..."
 
 msgid "IDS_COM_BODY_CONTACT"
 msgstr "Kontakt"
 
 msgid "IDS_COM_BODY_APR"
-msgstr "apr."
+msgstr "Apr."
 
 msgid "IDS_COM_BODY_AUG"
-msgstr "aug."
+msgstr "Aug."
 
 msgid "IDS_COM_BODY_DEC"
-msgstr "des."
+msgstr "Dez."
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Slett"
+msgstr "Löschen"
 
 msgid "IDS_COM_BODY_FEB"
-msgstr "feb."
+msgstr "Feb."
 
 msgid "IDS_COM_BODY_FRI"
-msgstr "Fre"
+msgstr "Fr"
 
 msgid "IDS_COM_BODY_JAN"
-msgstr "jan."
+msgstr "Jan."
 
 msgid "IDS_COM_BODY_JUL"
-msgstr "juli"
+msgstr "Jul."
 
 msgid "IDS_COM_BODY_JUN"
-msgstr "juni"
+msgstr "Jun."
 
 msgid "IDS_COM_BODY_MAR"
-msgstr "mars"
+msgstr "Mär."
 
 msgid "IDS_COM_BODY_MAY"
-msgstr "mai"
+msgstr "Mai"
 
 msgid "IDS_COM_BODY_MON"
-msgstr "Man"
+msgstr "Mo"
 
 msgid "IDS_COM_BODY_NOV"
 msgstr "Nov."
 
 msgid "IDS_COM_BODY_OCT"
-msgstr "okt."
+msgstr "Okt."
 
 msgid "IDS_COM_BODY_SAT"
-msgstr "Lør"
+msgstr "Sa"
 
 msgid "IDS_COM_BODY_SEP"
-msgstr "sep."
+msgstr "Sep."
 
 msgid "IDS_COM_BODY_THU"
-msgstr "Tor"
+msgstr "Do"
 
 msgid "IDS_COM_BODY_TUE"
-msgstr "Tir"
+msgstr "Di"
 
 msgid "IDS_COM_BODY_UNKNOWN"
-msgstr "Ukjent"
+msgstr "Unbekannt"
 
 msgid "IDS_COM_BODY_WED"
-msgstr "Ons"
+msgstr "Mi"
 
 msgid "IDS_COM_SK_OPEN"
-msgstr "Åpne"
+msgstr "Öffnen"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d valgt"
+msgstr "%d ausgewählt"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
-msgstr "Åpne nettleser?"
+msgstr "Browser öffnen?"
 
 msgid "IDS_NFC_BODY_MEDIA_PLAYER"
-msgstr "Mediespiller"
+msgstr "Media Player"
 
 msgid "IDS_NFC_BODY_URL"
 msgstr "URL"
 
 msgid "IDS_NFC_BODY_NO_TAGS"
-msgstr "Ingen tagger"
+msgstr "Keine Markierungen"
 
 msgid "IDS_NFC_BODY_NO_BOOKMARKS"
-msgstr "Ingen bokmerker"
+msgstr "Keine Favoriten"
 
 msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
-msgstr "Kan ikke finne app til å utføre denne handlingen."
+msgstr "Anwendung für diese Aktion kann nicht gefunden werden."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
-msgstr "Tjenesten er ikke tilgjengelig. NFC er slått av. Slå på NFC?"
+msgstr "Dienst nicht verfügbar. NFC deaktiviert. NFC aktivieren?"
 
 msgid "IDS_NFC_HEADER_READ_NFC_TAG"
-msgstr "Les NFC-tagg"
+msgstr "NFC-Tag lesen"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
-msgstr "Del via NFC"
+msgstr "Über NFC freigeben"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Legg telefonene forsiktig mot hverandre for å dele."
+msgstr "Führen Sie die Telefone leicht zusammen, um freizugeben."
 
 msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "%s valgt."
+msgstr "%s ausgewählt"
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "Kunne ikke skrive til tagg."
+msgstr "In Tag konnte nicht geschrieben werden."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
 msgid "IDS_NFC_POP_ACTIVATION_FAILED"
-msgstr "Feil under aktivering."
+msgstr "Aktivierung fehlgeschlagen"
 
 msgid "IDS_NFC_POP_BLANK_TAG"
-msgstr "Blank tagg."
+msgstr "Leeres Tag"
 
 msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
-msgstr "Data skrevet til tagg."
+msgstr "Für Tag erstellte Daten"
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "Ikke støttet taggtype."
+msgstr "Tag-Typ nicht unterstützt"
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Trykk for å sende."
+msgstr "Zum Senden tippen"
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "Kan ikke opprette tagg. Dataene er for store."
+msgstr "Tag kann nicht erstellt werden. Daten zu groß."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "Kan ikke opprette. Taggen er låst."
+msgstr "Kann nicht erstellt werden. Tag ist gesperrt."
 
 msgid "IDS_COM_POP_RECEIVING"
-msgstr "Mottar..."
+msgstr "Wird empfangen..."
 
 msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Ikke nok minne. Slett noen elementer og prøv på nytt."
+msgstr "Nicht genügend Speicher. Löschen Sie einige Elemente und versuchen Sie es erneut"
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Sikkerhetspolicy begrenser bruk av %s."
+msgstr "Sicherheitsrichtlinie schränkt die Verwendung von %s ein."
 
 msgid "IDS_COM_OPT_SHARED"
-msgstr "Delt"
+msgstr "Freigegeben"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Kan ikke dele."
+msgstr "Freigabe nicht möglich"
 
 msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
-msgstr "Ingen fil valgt. Velg en fil som skal sendes og prøv på nytt."
+msgstr "Keine Datei ausgewählt. Wählen Sie eine zu sendende Datei aus und versuchen Sie es erneut."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Når NFC er på, kan du sende eller motta data når enheten din berører andre NFC-aktiverte enheter eller NFC-tagger."
+msgstr "Wenn NFC aktiviert ist, können Sie Daten senden oder empfangen, wenn Ihr Gerät andere NFC-fähige Geräte oder NFC-Tags berührt."
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
-msgstr "Velg tagg"
+msgstr "Tag auswählen"
 
 msgid "IDS_COM_BODY_BUTTON_T_TTS"
-msgstr "Knapp"
+msgstr "Taste"
 
 msgid "IDS_COM_BODY_TICKBOX_T_TTS"
-msgstr "Avmerkingsboks"
+msgstr "Kontrollkästchen"
 
 msgid "IDS_COM_BODY_TICK_T_TTS"
-msgstr "Merk av"
+msgstr "Markieren"
 
 msgid "IDS_COM_BODY_UNTICK_T_TTS"
-msgstr "Fjern merking"
+msgstr "Markierung aufheben"
 
 msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
-msgstr "Flertaggskriving"
+msgstr "Mehrere Tags schreiben"
 
 msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
-msgstr "Opprett notattagg"
+msgstr "Memo-Tag erstellen"
 
 msgid "IDS_NFC_BODY_CREATE_TAG"
-msgstr "Oppr. tagg"
+msgstr "Tag erst."
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "%d til"
+msgstr "%d wei."
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
-msgstr "Tagg innhold"
+msgstr "Tag-Inhalt"
 
 msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
-msgstr "Velg notat (bare tekst)"
+msgstr "Memo auswählen (Text)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "Når du har lagt til lese-/skrivetagger, vises taggloggen her."
+msgstr "Wenn Sie Tags gelesen oder geschrieben haben, wird Ihr Tag-Protokoll hier angezeigt."
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. Åpne %s innstillinger."
+msgstr "1. %s Einstellungen öffnen."
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
-msgstr "Velg tagger"
+msgstr "Tags auswählen"
 
 msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
-msgstr "Trykk på det indikerte området."
+msgstr "Auf den angegebenen Bereich tippen."
 
 msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
-msgstr "Læreprogram fullført."
+msgstr "Ende der Anleitung."
 
 msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
-msgstr "Utveksle data når enheten berører en annen enhet."
+msgstr "Datenaustausch, wenn Ihr Gerät ein anderes Gerät berührt."
 
 msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
-msgstr "S Beam er allerede slått på. Du kan endre S Beam-innstillingene dine."
+msgstr "S Beam ist bereits eingeschaltet. Sie können die S Beam-Einstellungen ändern."
 
 msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
-msgstr "NFC er allerede slått på. Du kan endre NFC-innstillingene."
+msgstr "NFC ist bereits eingeschaltet. Sie können die NFC-Einstellungen ändern."
 
 msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
-msgstr "Velg fanen Tilkoblinger."
+msgstr "Registerkarte „Verbindungen“ auswählen."
 
 msgid "IDS_HELP_BODY_SELECT_PS_NFC"
-msgstr "Velg %s NFC."
+msgstr "%s NFC auswählen."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
-msgstr "Skyv knappen for å slå på NFC."
+msgstr "Taste umschalten, um NFC einzuschalten."
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "Velg %s S Beam."
+msgstr "%s S Beam auswählen."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
-msgstr "Skyv knappen for å slå på S Beam."
+msgstr "Taste umschalten, um S Beam einzuschalten."
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC slått på."
+msgstr "NFC aktiviert"
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam er slått på."
+msgstr "S Beam eingeschaltet."
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "Når denne funksjonen er aktivert, kan du sende forhåndsdefinerte elementer via NFC mens du er på startskjermbildet."
+msgstr "Wenn diese Funktion aktiviert ist, können Sie vordefinierte Elemente über NFC senden, während Sie sich auf dem Startbildschirm befinden."
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
-msgstr "Når S Beam er slått på, kan du sende eller motta filer når enheten din er i nærheten av andre NFC- og Wi-Fi Direct-enheter. Du kan for eksempel sende bilde-/videofiler fra Galleri ved å føre enhetene sammen, rygg mot rygg, og deretter trykke på skjermen."
+msgstr "Wenn S Beam aktiviert ist, können Sie Dateien senden oder empfangen, wenn sich Ihr Gerät in der Nähe von NFC- oder Wi-Fi Direct-fähigen Geräten befindet. Sie können z. B. Bild- und Video-Dateien aus der Galerie usw. übertragen, indem Sie die Geräte mit den Rückseiten aneinanderlegen und auf den Bildschirm tippen."
 
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Ikke nok minne. Slett noen elementer."
+msgstr "Nicht genügend Speicher. Löschen Sie einige Elemente"
 
 msgid "IDS_TAGS_OPT_SHARE_ABB"
-msgstr "Del"
+msgstr "Freigeben"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Deling av filer via S Beam vil deaktivere Screen Mirroring. Trykk på OK innen %d sekunder for å fortsette."
+msgstr "Beim Austausch von Dateien über S Beam wird Screen Mirroring deaktiviert. Tippen Sie innerhalb von %d Sekunden auf „OK“, um fortzufahren."
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
-msgstr "Slå på NFC"
+msgstr "NFC einschalten"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
-msgstr "Slå på S Beam"
+msgstr "S Beam einschalten"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
-msgstr "Smart poster"
+msgstr "Smart Poster"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "Opprett tagg"
+msgstr "Tag erstellen"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "Velg én av innholdstypene for å skrive den til taggen. Når du har skrevet data til taggen, berører du på taggen med enheten for å vise dataene"
+msgstr "Sie können für das Schreiben in das Tag einen der folgenden Inhaltstypen auswählen. Berühren Sie das Tag nach dem Schreiben mit dem Gerät, um diese Daten anzuzeigen."
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
-msgstr "Lagre"
+msgstr "Speichern"
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Avbryt"
+msgstr "Abbrechen"
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
-msgstr "Arkiv"
+msgstr "Archiv"
 
 msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
-msgstr "Lagt til i arkiv."
+msgstr "Zum Archiv hinzugefügt"
 
 msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
-msgstr "Fjernet fra arkiv."
+msgstr "Aus dem Archiv entfernt"
 
 msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
-msgstr "Legg til i arkiv"
+msgstr "Zum Archiv hzfg."
 
 msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
-msgstr "Fjern fra arkiv"
+msgstr "Aus dem Archiv entf."
 
 msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
-msgstr "Bruk NFC hjemme"
+msgstr "NFC in Startbildsch."
 
 msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
-msgstr "Ingen arkiverte tagger"
+msgstr "Keine archivierten Tags"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Når du har lagt til tagger i arkivet, vises de her,."
+msgstr "Nachdem Sie Ihrem Archiv Tags hinzugefügt haben, werden diese hier angezeigt."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "Opprett tagg"
+msgstr "Tag erstellen"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
-msgstr "Tagglogg"
+msgstr "Tag-Protokoll"
 
 msgid "IDS_NFC_BODY_CONTACT"
 msgstr "Kontakt"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Notat"
+msgstr "Memo"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
-msgstr "Bokmerke"
+msgstr "Lesezeichen"
 
 msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Hvis du vil lagre kontakten, kan du dekke taggen fullstendig med baksiden av enheten og holde enheten der i noen sekunder."
+msgstr "Wenn Sie den Kontakt speichern möchten, bedecken Sie das Tag vollständig mit der Rückseite des Geräts und halten Sie es einige Sekunden lang."
 
 msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Hvis du vil lagre dataene, kan du dekke taggen fullstendig med baksiden av enheten og holde enheten der i noen sekunder."
+msgstr "Wenn Sie die Daten speichern möchten, bedecken Sie das Tag vollständig mit der Rückseite des Geräts und halten Sie es einige Sekunden."
 
 msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Hvis du vil lagre notatet, kan du dekke taggen fullstendig med baksiden av enheten og holde enheten der i noen sekunder."
+msgstr "Wenn Sie das Memo speichern möchten, bedecken Sie das Tag vollständig mit der Rückseite des Geräts und halten Sie es einige Sekunden."
 
 msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Hvis du vil lagre URL-adressen, kan du dekke taggen fullstendig med baksiden av enheten og holde enheten der i noen sekunder."
+msgstr "Wenn Sie die URL speichern möchten, bedecken Sie das Tag vollständig mit der Rückseite des Geräts und halten Sie es einige Sekunden."
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ikke vis igjen"
+msgstr "Nicht erneut anzeigen"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "Kunne ikke opprette tagg. Finner ikke enten navnet eller telefonnummeret du forsøker å lagre."
+msgstr "Tag konnte nicht erstellt werden. Der Name oder die Telefonnummer, die Sie speichern möchten, wurde nicht gefunden."
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "Bare kontaktens navn og telefonnummer kan lagres i denne taggen."
+msgstr "In diesem Tag können nur der Name und die Telefonnummer des Kontakts gespeichert werden."
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
-msgstr "Når det er merket av for dette alternativet, vil flere tagger bli skrevet på én gang."
+msgstr "Wenn die Option aktiviert ist, werden mehrere Tags gleichzeitig geschrieben."
 
 msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
-msgstr "Innføring i NFC-tagger"
+msgstr "Einführung in NFC-Tags"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "Om NFC-tagger"
+msgstr "Info zu NFC-Tags"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "NFC-tagger er små mikrobrikker som er innebygget i små kort. De kan inneholde tekst, URL-adresser og andre typer informasjon."
+msgstr "NFC-Tags sind winzige Mikrochips, die in kleine Karten eingebettet sind. Sie können Text, URLs und weitere Arten von Informationen enthalten."
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
-msgstr "Lese NFC-tagger"
+msgstr "NFC-Tags lesen"
 
 msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
-msgstr "Hvis du vil lese en NFC-tagg, kan du dekke taggen fullstendig med baksiden av enheten og holde enheten der i noen sekunder. Informasjonen fra taggen vil bli lagret i Tagger-appen."
+msgstr "Wenn Sie ein NFC-Tag lesen möchten, bedecken Sie es vollständig mit der Rückseite des Geräts und halten Sie es einige Sekunden lang. Die Informationen im Tag werden in der Anwendung „Tags“ gespeichert."
 
 msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
-msgstr "Sikker NFC-lagring"
+msgstr "NFC-Sicherheitsspeicher"
 
 msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
-msgstr "Sikker NFC-lagring"
+msgstr "NFC-Sicherheitsspeicher"
 
 msgid "IDS_NFC_OPT_MANUAL"
-msgstr "Manuelt"
+msgstr "Manuell"
 
 msgid "IDS_NFC_OPT_AUTOMATIC"
-msgstr "Automatisk"
+msgstr "Automatisch"
 
 msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
-msgstr "Bruk SIM-kortet for sikker lagring."
+msgstr "SIM-Karte als sicheren Speicher verwenden"
 
 msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Bytt automatisk mellom å bruke SIM-kortet og den sikre lagringsplassen på enheten."
+msgstr "Automatisch zwischen der SIM-Karte und dem sicheren Speicher auf dem Gerät wechseln."
 
 msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Hvis du velger manuell, vil enkelte sikre funksjoner som lagrer data på den sikre lagringsplassen på enheten, deriblant NFC-betaling, deaktiveres."
+msgstr "Durch die manuelle Auswahl werden einige sichere Funktionen deaktiviert, wie NFC-Zahlung, bei dem die Daten im sicheren Speicher auf dem Gerät gespeichert werden."
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "Taggtypen støttes ikke."
+msgstr "Tag-Typ nicht unterstützt."
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
-msgstr "Innføring i tagger"
+msgstr "Einführung in Tags"
 
 msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
-msgstr "Det har blitt registrert en e-postadresse. Skrive e-post?"
+msgstr "Es wurde eine E-Mail-Adresse erkannt. E-Mail verfassen?"
 
 msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
-msgstr "En URL-adresse er oppdaget. Åpne?"
+msgstr "Es wurde eine URL erkannt. Öffnen?"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Tagger-appen hjelper deg å organisere og dele NFC-tagger (Near Field Communication). Du kan skanne en tagg ved å låse opp enheten og plassere den ved siden av en tagg. NFC-tagger kan inneholde tekst, URL-adresser og andre typer informasjon.\n\nHvis du vil skanne eller dele tagger, aktiver NFC ved å gå til Innstillinger > Tilkobling."
+msgstr "Mithilfe der App „Tags“ können Sie NFC-Tags (Near Field Communication) organisieren und versenden. Sie scannen ein Tag, indem Sie Ihr Gerät einschalten und direkt an das Tag halten. NFC-Tags können Text, URLs und andere Informationen enthalten.\n\nWenn Sie Tags scannen oder versenden möchten, aktivierten Sie NFC unter „Einstellungen > Verbindung“."
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
-msgstr "NFC-tjenesten støttes ikke."
+msgstr "NFC-Dienst wird nicht unterstützt."
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Hvis du deler filer via S Beam, deaktiveres den mobile Wi-Fi-trådløssonen. Trykk på OK innen %d sekunder for å fortsette."
+msgstr "Beim Austausch von Dateien über S Beam wird der mobile WLAN-Hotspot deaktiviert. Tippen Sie innerhalb von %d Sekunden auf „OK“, um fortzufahren."
 
 msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
-msgstr "Opprette NFC-tagger"
+msgstr "NFC-Tags erstellen"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "Opprett en tagg ved å bruke menyalternativet Opprett tagg i Tagger-appen. Velg de dataene du vil lagre, dekk taggen fullstendig med baksiden av enheten og hold enheten der i noen sekunder."
+msgstr "Erstellen Sie Tags mithilfe der Menüoption „Tag erstellen” in der Anwendung „Tags“. Wählen Sie die zuspeichernden Daten aus und bedecken Sie dann das Tag vollständig mit der Rückseite des Geräts und halten Sie es mehrere Sekunden lang."
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
-msgstr "Kan ikke overføre"
+msgstr "Übertragen nicht möglich"
 
 msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
-msgstr "Slå på NFC"
+msgstr "NFC aktivieren"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d er valgt"
+msgstr "%d ausgewählt"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
-msgstr "Skriv kontakt til tagg"
+msgstr "Kontakt als Tag hinzufügen"
 
 msgid "IDS_NFC_HEADER_DELETE_TAG"
-msgstr "Slett tagg"
+msgstr "Tag löschen"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
-msgstr "Kan ikke motta fil"
+msgstr "Dateiempfang nicht möglich"
 
 msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
-msgstr "Vil du slette denne taggen?"
+msgstr "Dieses Tag löschen?"
 
 msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
-msgstr "Vil du slette %d tagger?"
+msgstr "%d Tags löschen?"
 
 msgid "IDS_NFC_BUTTON_STORAGE"
-msgstr "Lagring"
+msgstr "Speicher"
 
 msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
-msgstr "Filer kan nå deles via S Beam. Separer enhetene."
+msgstr "Dateien können nun über S Beam freigegeben werden. Trennen Sie die Geräte."
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "Forbereder å dele filer...\nKontroller at enhetene fortsatt berører hverandre."
+msgstr "Freigabe von Dateien wird vorbereitet...\nStellen Sie sicher, dass die Geräte verbunden sind."
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
-msgstr "Filer er sendt."
+msgstr "Dateien gesendet."
 
 msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
-msgstr "Filer er sendt."
+msgstr "Dateien gesendet."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
-msgstr "Kunne ikke sende filer."
+msgstr "Dateien konnten nicht gesendet werden."
 
 msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
-msgstr "Kunne ikke sende filer."
+msgstr "Senden fehlgeschlagen."
 
 msgid "IDS_NFC_TPOP_FILES_RECEIVED"
-msgstr "Filer er mottatt."
+msgstr "Dateien empfangen."
 
 msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
-msgstr "Filer er mottatt."
+msgstr "Dateien empfangen."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
-msgstr "Kunne ikke motta filene."
+msgstr "Dateien konnten nicht empfangen werden."
 
 msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
-msgstr "Kunne ikke motta filer."
+msgstr "Empfang fehlgeschlagen."
 
 msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
-msgstr "Maksimalt antall filer som kan sendes samtidig (%d), er oversteget. Hvis du vil sende disse filene, må du bruke Wi-Fi Direct eller Bluetooth."
+msgstr "Die maximale Anzahl gleichzeitig übertragbarer Dateien (%d) wurde überschritten. Verwenden Sie Wi-Fi Direct oder Bluetooth zum Freigeben dieser Dateien."
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "Kunne ikke slå på NFC"
+msgstr "NFC einschalten nicht möglich"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
-msgstr "Kan ikke lese tagg"
+msgstr "Tag kann nicht gelesen werden"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
-msgstr "Kan ikke opprette tagg"
+msgstr "Tagerstellung nicht möglich"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "Velg taggtype"
+msgstr "Auswahl des Tag-Typs"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
-msgstr "Paring med %s mislyktes."
+msgstr "Kopplung mit %s nicht möglich."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
-msgstr "Kunne ikke koble til %s."
+msgstr "Verbindung mit %s nicht möglich."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
-msgstr "Det oppstod en feil mens du slo på NFC. Prøv på nytt."
+msgstr "Beim Einschalten von NFC ist ein Fehler aufgetreten. Versuchen Sie es erneut."
 
 msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
-msgstr "Ingen data er skrevet til denne taggen."
+msgstr "In dieses Tag wurden keine Daten geschrieben."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
-msgstr "Det oppstod en feil ved skriving av informasjonen til taggen. Prøv på nytt."
+msgstr "Beim Schreiben von Informationen in das Tag ist ein Fehler aufgetreten. Versuchen Sie es erneut."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Tagger-appen hjelper deg å organisere og dele NFC-tagger (Near Field Communication). Du kan skanne en tagg ved å låse opp enheten og plassere den ved siden av taggen. NFC-tagger kan inneholde tekst, nettadresser, kontaktinformasjon, notater, bilder, videoer og mer.\n\nHvis du vil skanne eller dele tagger, slår du på NFC ved å gå til Innstillinger > Tilkobling."
+msgstr "Mithilfe der Anwendung „Tags“ können Sie NFC-Tags (Near Field Communication) organisieren und versenden. Sie können einen Tag scannen, indem Sie Ihr Gerät einschalten und direkt an das Tag halten. NFC-Tags können Text, Webadressen, Kontaktinfos, Memos, Bilder, Videos und mehr enthalten.\n\nWenn Sie Tags scannen oder versenden möchten, aktivieren Sie NFC unter „Einstellungen > Verbindung“."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Når enheten din berører baksiden av en annen enhet eller tagg, kan data som tekst, bilder, videoer, nettadresser og kontaktinformasjon, overføres mellom enhetene eller mellom taggen og enheten."
+msgstr "Wenn Ihr Gerät die Rückseite eines anderen Geräts oder Tags berührt, können Daten wie Text, Bilder, Videos, Webadressen und Kontaktinfos zwischen den Geräten bzw. zwischen dem Tag und dem Gerät übertragen werden."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "NFC-tagger er små mikrobrikker som er innebygget i små kort. De kan inneholde tekst, nettadresser, kontaktinformasjon, notater, bilder, videoer og mer."
+msgstr "NFC-Tags sind winzige Mikrochips, die in kleine Karten eingebettet sind. Sie können Text, Webadressen, Memos, Bilder, Videos und andere Informationen enthalten."
 

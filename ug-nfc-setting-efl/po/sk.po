@@ -1,44 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Odstrániť?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Pripájanie..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Žiadny"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Pridať"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-mail"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Pomocník"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Poznámka"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Správa"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Zap."
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nie"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Áno"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Ak chcete zrušiť zdieľanie, ťuknite na tlačidlo Zrušiť"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Nová poznámka"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Značky"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Zapísať do značky"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Predchádzajúce dni"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Súbor"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Záložka"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Záložky"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Ne"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Napísať"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Dnes"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Včera"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Zavrieť"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Chyba."
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Odosielanie..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Apr."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Aug."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Dec."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Odstrániť"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Feb."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pi"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Jan."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Júl"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Jún"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Máj"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Po"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Nov."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Okt."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "So"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Sep."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Št"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Ut"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Neznáme"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "St"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Otvoriť"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Vybraté: %d"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Otvoriť prehliadač?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Prehrávač médií"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Žiadne značky"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Žiadne záložky"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nedá sa nájsť aplikácia na vykonanie tejto akcie."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Služba nie je k dispozícii. Funkcia NFC je vypnutá. Zapnúť funkciu NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Prečítať značku NFC"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Zdieľať cez NFC"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Jemným dotykom telefónov spustíte zdieľanie"
+msgstr "Jemným dotykom telefónov spustíte zdieľanie."
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Chyba prenosu"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "Vybrali ste %s."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Nepodarilo sa zapísať do značky."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktivácia sa nepodarila."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Prázdna značka."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Údaje boli zapísané do značky."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Nepodporovaný typ značky."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Ťuknutím vykonáte odoslanie."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Značka sa nedá vytvoriť. Údaje sú príliš veľké."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Nedá sa vytvoriť. Značka je zamknutá."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Príjem..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Nedostatok pamäte. Odstráňte niektoré položky a skúste to znova."
+
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Politika zabezpečenia obmedzuje použitie %s"
+msgstr "Politika zabezpečenia obmedzuje použitie %s."
 
 msgid "IDS_COM_OPT_SHARED"
 msgstr "Zdieľané"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Nedá sa zdieľať"
+msgstr "Nedá sa zdieľať."
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Preddefinovaná položka"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Môžete vysielať preddefinované položky do iného zariadenia NFC. Stačí dať zariadenia blízko k sebe (obvykle tesne vedľa seba) pri aktívnej domovskej obrazovke"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Nie je vybratý žiadny súbor. Vyberte súbor na odoslanie a skúste to znova."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Keď je zapnutá funkcia NFC, môžete odosielať alebo prijímať údaje, keď sa zariadenie dotýka iných zariadení podporujúcich funkciu NFC alebo značiek NFC"
+msgstr "Keď je zapnutá funkcia NFC, môžete odosielať alebo prijímať údaje, keď sa zariadenie dotýka iných zariadení podporujúcich funkciu NFC alebo značiek NFC."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Keď je táto funkcia zapnutá, môžete vysielať súbory do iných zariadení NFC alebo Wi-Fi Direct podržaním zariadení blízko seba. Môžete napríklad vyslať súbory s obrázkami/videami z Galérie, hudobné súbory z Prehrávača hudby a podobne. Stačí dať zariadenia k sebe (obvykle tesne vedľa seba) a potom ťuknúť na obrazovku. Aplikácia určí, čo sa vyšle"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Vybrať značku"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Keď je zapnutá táto funkcia, môžete prenášať súbory do iných zariadení podporujúcich funkciu NFC alebo Wi-Fi Direct podržaním zariadení blízko seba. Môžete napríklad vyslať súbory s fotografiami/videami z Galérie a podobne. Stačí dať zariadenia tesne vedľa seba zadným stranami a potom ťuknúť na obrazovku. Aplikácia určí, čo sa prenesie."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Tlačidlo"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Začiarkavacie políčko"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Začiarknuť"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Zrušiť začiarknutie"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Zapisovanie viacer. značiek"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Vytvoriť značku poznámky"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Vytv. zn."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d ďal."
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Obsah značky"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Vybr. pripom. (iba text)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Po načítaní/zapísaní značiek sa tu zobrazí váš denník značiek."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Otvorenie menu Nastavenia %s."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Vyberte značky"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Ťuknite na označenú oblasť."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Kurz je dokončený."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Výmena údajov, keď sa vaše zariadenie dotkne iného zariadenia."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Funkcia S Beam je už zapnutá. Môžete zmeniť nastavenia funkcie S Beam."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "Funkcia NFC je už zapnutá. Môžete zmeniť nastavenia funkcie NFC."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Vyberte kartu pripojenia."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Vyberte položku %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Prepnutím tlačidla môžete zapnúť funkciu NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Vyberte položku %s S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Prepnutím tlačidla môžete zapnúť funkciu S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "Funkcia NFC je zapnutá."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "Funkcia S Beam je zapnutá."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Keď je aktivovaná táto funkcia, priamo z domovskej obrazovky môžete odosielať preddefinované položky cez spojenie NFC."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Po zapnutí funkcie S Beam môžete odosielať alebo prijímať súbory, keď je zariadenie v blízkosti iných zariadení podporujúcich funkcie NFC a Wi-Fi Direct. Umiestnením zariadení k sebe zadnými stranami a ťuknutím na vašu obrazovku môžete napríklad vyslať súbory s fotografiami/videami z aplikácie Galéria."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nedostatok pamäte. Vymažte niektoré položky"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Zdieľať"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Zdieľaním súborov cez S Beam sa vypne režim Screen Mirroring. Pokračujte ťuknutím na tlačidlo OK do %d sekúnd."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "Zapnutie funkcie NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "Zapnutie funkcie S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Vytvoriť značku"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Vyberte jeden z typov obsahu na zapísanie do značky. Po zapísaní údajov do značky môžete dotykom značky vaším zariadením zobraziť tieto údaje."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Uložiť"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Zrušiť"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Archivovať"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Pridané do archívu."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Odstránené z archívu."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Pridať do archívu"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Odstrániť z archívu"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Použ. NFC na domov."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Žiadne archivované značky"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Po pridaní značiek do archívu sa tieto zobrazia tu."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Vytvoriť značku"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Denník značiek"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Poznámka"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Záložka"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Ak chcete uložiť kontakt, úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Ak chcete uložiť údaje, úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Ak chcete uložiť pripomienku, úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Ak chcete uložiť adresu URL, úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Už nezobrazovať"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Nepodarilo sa vytvoriť značku. Meno alebo telefónne číslo, ktoré sa pokúšate uložiť, nemožno nájsť."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Do tejto značky možno uložiť iba meno a telefónne číslo kontaktu"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Keď je začiarknutá táto možnosť, zapíše sa naraz viacero značiek"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Úvodné informácie o značkách NFC"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Informácie o značkách NFC"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "Značky NFC sú malé mikročipy integrované v malých kartách. Môžu obsahovať text, adresy URL a ďalšie druhy informácií."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "Čítanie značiek NFC"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Ak chcete prečítať značku NFC, úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte. Informácie zo značky sa uložia do aplikácie Značky."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Bezp. úložný priestor NFC"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Bezpečný úložný priestor NFC"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Manuálne"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automaticky"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Použiť vašu kartu SIM pre bezpečný úložný priestor"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Automatické prepínanie medzi používaním karty SIM a bezpečným úložným priestorom v zariadení."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Výberom manuálnej možnosti sa vypnú niektoré bezpečné funkcie, ako napríklad platba cez NFC, ktoré ukladajú údaje v bezpečnom úložnom priestore v zariadení."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Typ značky nie je podporovaný."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Úvodné informácie o značkách"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Zistila sa e-mailová adresa. Napísať e-mail?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Zistila sa adresa URL. Otvoriť?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikácia Značky pomáha organizovať a zdieľať značky komunikácie na krátku vzdialenosť (NFC). Značku môžete nasnímať odomknutím zariadenia a jeho umiestnením tesne vedľa značky. Značky NFC môžu obsahovať text, adresy URL a ďalšie typy informácií.\n\nAk chcete snímať alebo zdieľať značky, zapnite funkciu NFC v menu Nastavenia > Pripojenie."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "Služba NFC nie je podporovaná."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Zdieľaním súborov cez S Beam sa vypne prenosný prístupový bod Wi-Fi. Pokračujte ťuknutím na tlačidlo OK do %d sekúnd."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "Vytváranie značiek NFC"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Vytvorte značku pomocou možnosti vytvoriť značku v menu aplikácie Značky. Vyberte údaje, ktoré chcete uložiť, a potom úplne zakryte značku zadnou stranou zariadenia a na niekoľko sekúnd ju podržte."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Nedá sa preniesť"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Zapnutie funkcie NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "Vybraté: %d"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Zapíšte kontakt do značky"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Odstrániť značku"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Súbor sa nedá prijať"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Odstrániť túto značku?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Vykonať odstránenie %d značiek?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Úložisko"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Súbory možno teraz zdieľať cez S Beam. Dajte zariadenia od seba."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Pripravuje sa zdieľanie súborov...\nSkontrolujte, či sa zariadenia stále dotýkajú."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Súbory sa odoslali."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Súbory sa odoslali."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Nepodarilo sa odoslať súbory."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Nepod. sa odoslať súbory."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Súbory sa prijali."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Súbory sa prijali."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Nepodarilo sa prijať súbory."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Nepod. sa prijať súbory."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Prekročil sa maximálny počet súborov, ktoré možno vysielať súčasne (%d). Ak chcete zdieľať tieto súbory, použite Wi-Fi Direct alebo Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Nepodarilo sa zapnúť NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Značka sa nedá prečítať"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Značka sa nedá vytvoriť"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Vyberte typ značky"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Nepodarilo sa spárovať so zariadením %s."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Nepodarilo sa pripojiť k zariadeniu %s."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Počas zapínania funkcie NFC sa vyskytla chyba. Skúste to znova."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Do tejto značky nie sú zapísané žiadne údaje."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Počas zapisovania informácií do značky sa vyskytla chyba. Skúste to znova."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikácia Značky pomáha organizovať a zdieľať značky využívajúce komunikáciu na krátku vzdialenosť (NFC). Značku môžete nasnímať odomknutím zariadenia a jeho umiestnením tesne vedľa značky. Značky NFC môžu obsahovať text, webové adresy, kontaktné údaje, pripomienky, fotografie, videá a ďalšie údaje.\n\nAk chcete snímať alebo zdieľať značky, zapnite funkciu NFC v menu Nastavenia > Pripojenie."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Keď sa vaše zariadenie dotkne zadnej časti iného zariadenia alebo značky, medzi týmito zariadeniami alebo medzi značkou a zariadením sa môžu preniesť údaje ako text, fotografie, videá, webové adresy a kontaktné údaje."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "Značky NFC sú malé mikročipy integrované v malých kartách. Môžu obsahovať text, webové adresy, kontaktné údaje, pripomienky, fotografie, videá a ďalšie údaje."
+

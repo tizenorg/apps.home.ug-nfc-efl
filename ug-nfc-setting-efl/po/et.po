@@ -1,44 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Kustutada?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Ühendamine..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Puudub"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Lisa"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-post"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Spikker"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Memo"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Sõnum"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Sees"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ei"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Jah"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_TO_CANCEL_SHARING_TAP_CANCEL"
-msgstr "Jagamise tühistamiseks toksake käsul Tühista"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Uus memo"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Sildid"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Kirjuta sildile"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Eelmised päevad"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Fail"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Järjehoidja"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Järjehoidjad"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "P"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Koosta"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Täna"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Eile"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Sulge"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Tõrge"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Saatmine..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Apr."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Aug."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Det."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Kustuta"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Vee."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "R"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Jaa."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Jul."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Jun."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mär."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Mai"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "E"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Nov"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Okt."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "L"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Sept"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "N"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "T"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Tundmatu"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "K"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Ava"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d valitud"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Avada brauser?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Meediumipleier"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Silte pole"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Järjehoidjaid ei ole"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Selle toimingu teostamiseks ei leita rakendust."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
 msgstr "Teenus ei ole saadaval. NFC on välja lülitatud. Kas lülitada NFC sisse?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Loe NFC silti"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
 msgstr "Jaga NFC kaudu"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Jagamiseks pange telefonid õrnalt teineteise vastu"
+msgstr "Jagamiseks pange telefonid ornalt teineteise vastu."
 
-msgid "IDS_NFC_POP_TRANSFER_FAILED"
-msgstr "Edastamine nurjus"
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s valitud."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Sildile kirjutamine nurjus."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktiveerimine nurjus."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Tühi silt"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Andmed on kirjutatud sildile."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Mittetoetatud silditüüp."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Toksake, et saata."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Silti ei saa luua. Andmed on liiga suured."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Ei saa luua. Silt on lukustatud."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Vastuvõtmine..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Mälu pole piisavalt. Kustutage mõned üksused ja proovige uuesti."
+
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Turvalisuse poliis piirab üksuse %s kasutamist"
+msgstr "Turvalisuse poliis piirab uksuse %s kasutamist."
 
 msgid "IDS_COM_OPT_SHARED"
 msgstr "Jagatud"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Ei saa jagada"
+msgstr "Ei saa jagada."
 
-msgid "IDS_NFC_BODY_PREDEFINED_ITEM_ABB"
-msgstr "Eelistatud üksus"
-
-msgid "IDS_NFC_BODY_YOU_CAN_BEAM_PREDEFINED_ITEMS_TO_ANOTHER_NFC_DEVICE_JUST_BRING_THE_DEVICES_CLOSE_TOGETHER_MSG"
-msgstr "Saate saata eelistatud üksusi teise NFC-seadmesse. Lihtsalt asetage avaekraaniga seadmed üksteise lähedale (tavaliselt tagaküljed kohakuti)"
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Ühtegi faili pole valitud. Valige saatmiseks fail ja proovige uuesti."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Kui NFC on sees, saate saata või vastu võtta andmeid, kui teie seade puutub vastu teisi NFC-võimalusega seadmeid või NFC-silte"
+msgstr "Kui NFC on sees, saate saata või vastu võtta andmeid, kui teie seade puutub vastu teisi NFC-võimalusega seadmeid või NFC-silte."
 
-msgid "IDS_NFC_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_HELP_MSG"
-msgstr "Kui see funktsioon on sisse lülitatud, saate faile üle kanda teistesse NFC ja Wi-Fi Directi seadmetesse, hoides seadmeid üksteise lähedal. Näiteks saate üle kanda pildi-/videofaile galeriist, muusikafaile MP3-mängijast jms. Lihtsalt asetage seadmed üksteise lähedale (tavaliselt tagaküljed kohakuti) ja seejärel toksake ekraani. Rakendus tuvastab, mida üle kanda"
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Valige silt"
 
-msgid "IDS_ST_BODY_WHEN_THIS_FEATURE_IS_TURNED_ON_YOU_CAN_BEAM_FILES_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_BY_HOLDING_THE_DEVICES_CLOSE_TOGETHER_FOR_EXAMPLE_YOU_CAN_BEAM_IMAGE_VIDEO_FILES_FROM_THE_GALLERY_AND_MORE_MSG"
-msgstr "Kui see funktsioon on sisse lülitatud, saate faile üle kanda teistesse NFC ja Wi-Fi Directi seadmetesse, hoides seadmeid üksteise lähedal. Näiteks saate pildi-/videofaile üle kanda galeriist jms. Lihtsalt asetage seadmed üksteise lähedale tagaküljed kohakuti ja seejärel toksake ekraani. Rakendus tuvastab, mida üle kanda."
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Nupp"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Märkeruut"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Märgista"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Eemalda märgistus"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Mitme sildi kirjutamine"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Loo memo silt"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Loo silt"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d veel"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Sildi sisu"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Vali memo (ainult tekst)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Teie siltide logi kuvatakse siin parast siltide lugemist/kirjutamist."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Avage %s Seaded."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Vali sildid"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Toksake näidatud piirkonda."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Õpetus on lõpule viidud."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Vahetage andmeid, kui seade puudutab teist seadet."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam on juba sees. Saate muuta oma S Beami seadeid."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC on juba sees. Saate muuta oma NFC-seadeid."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Valige vahekaart Ühendused."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Valige %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Liigutage nuppu, et lülitada NFC-d sisse."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Valige %s S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Liigutage nuppu, et lülitada S Beami sisse."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC on sisse lülitatud."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam on sisse lülitatud."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Kui see funktsioon on aktiveeritud, saate saata eelmaaratletud uksusi NFC kaudu, olles oma seadme avaekraanil."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Kui S Beam on sisse lülitatud, saate saata või võtta vastu faile, kui teie seade on teiste NFC ja Wi-Fi Directi seadmete lähedal. Näiteks saate saata galeriis olevaid pildi-/videofaile, asetades seadmete tagaküljed kohakuti ja toksates oma ekraani."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Mälu pole piisavalt. Kustutage mõned üksused"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Jaga"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beami kaudu failide jagamisel desaktiveeritakse Screen Mirroring. Jätkamiseks toksake %d sekundi jooksul valikut OK."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC sisselülitamine"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam'i sisselülitamine"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Loo silt"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Valige üks sisutüüpidest, mida kirjutada oma sildile. Pärast andmete kirjutamist sildile puudutage nende vaatamiseks silti oma seadmega."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Salv."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Tühista"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arhiiv"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Lisatud arhiivi"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Eemaldatud arhiivist"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Lisa arhiivi"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Eemalda arhiivist"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Kas. NFC-d avaekr.-l"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Arhiveeritud silte pole"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Sildid kuvatakse siin pärast nende lisamist arhiivi."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Loo silt"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Siltide logi"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Memo"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Järjehoidja"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Kontakti salvestamiseks katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Andmete salvestamiseks katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Memo salvestamiseks katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URL-i salvestamiseks katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Ära enam kuva"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Sildi loomine nurjus. Ei leita kas nime või telefoninumbrit, mida proovite salvestada."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Sellele sildile saab salvestada ainult kontakti nime ja telefoninumbri"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Kui see valik on tehtud, kirjutatakse mitu silti korraga"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC-siltide tutvustus"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Teave NFC-siltide kohta"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC-sildid on väikesed mikrokiibid, mis on väikeste kaartide sees. Need võivad sisaldada teksti, URL-e ja muud teavet."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC-siltide lugemine"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFC-sildi lugemiseks katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul. Sildil olev teave salvestatakse rakendusse Sildid."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC turvaline mälu"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC turvaline mälu"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Käsitsi"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automaatne"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Turvaliseks hoiustamiseks kasutage oma SIM-kaarti."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Saate automaatselt vahetada SIM-kaardi ja seadme turvalise malu kasutamist."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Kasitsi valides desaktiveeritakse osad turvalised funktsioonid, nagu NFC-maksed, mis hoiustavad andmeid seadme turvalises malus."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Mittetoetatud silditüüp"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Siltide tutvustus"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "E-posti aadress on tuvastatud. Kas koostada e-kiri?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "URL on tuvastatud. Kas avada?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Rakendus Sildid aitab teil korraldada ja jagada lähiväljaside (NFC) silte. Saate skannida sildi, kui avate oma seadme ja asetate selle täpselt sildi kõrvale. NFC-sildid võivad sisaldada teksti, URL-e ja muud tüüpi teavet.\n\nSiltide otsimiseks või jagamiseks lülitage NFC sisse menüüs Seaded > Ühendus."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC-teenust ei toetata."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beami kaudu failide jagamisel desaktiveeritakse kaasaskantav Wi-Fi kuumkoht. Jätkamiseks toksake %d sekundi jooksul valikut OK."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC-siltide loomine"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Siltide loomiseks kasutage rakenduses Sildid olevat menüüvalikut Loo silt. Valige andmed, mida soovite salvestada ning seejärel katke silt täielikult seadme tagaküljega ja hoidke seda niimoodi mitme sekundi jooksul."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Ei saa kiirata"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Lülita NFC sisse"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d on valitud"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Kirjuta kontakt sildile"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Kustuta silt"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Faili ei saa vastu võtta"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Kas kustutada see silt?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Kas kustutada %d silti?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Mälu"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Faile saab nüüd jagada S Beami kaudu. Eraldage seadmed."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Ettevalmistumine failide jagamiseks...\nVeenduge, et seadmed puudutavad üksteist."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Failid on saadetud."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Failid on saadetud."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Failide saatmine nurjus."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Failide saatmine nurjus."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Failid on vastu võetud."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Failid on vastu võetud."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Failide vastuvõtmine nurjus."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Failide vastuvõtt nurjus."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Korraga ülekantavate failide maksimaalne arv (%d) on ületatud. Nende failide jagamiseks kasutage Wi-Fi Directi või Bluetoothi."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFC sisselülitamine nurjus"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Silti ei saa lugeda"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Silti ei saa luua"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Vali silditüüp"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Sidumine seadmega %s nurjus."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Ühenduse loomine seadmega %s nurjus."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFC sisselülitamisel ilmnes tõrge. Proovige uuesti."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Sellele sildile pole kirjutatud andmeid."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Teabe kirjutamisel sildile ilmnes tõrge. Proovige uuesti."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Rakendus Sildid aitab teil korraldada ja jagada lähiväljaside (NFC) silte. Saate skannida sildi, kui avate oma seadme ja asetate selle täpselt sildi kõrvale. NFC-sildid võivad sisaldada teksti, veebiaadresse, kontaktandmeid, memosid, pilte, videoid ja muudki.\n\nSiltide skannimiseks või jagamiseks lülitage NFC sisse menüüs Seaded > Ühendus."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Kui seade puudutab teise seadme tagakülge või silti, saab andmeid, nagu tekst, pildid, videod, veebiaadressid ja kontaktandmed, edastada seadmete vahel või sildi ja seadme vahel."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC-sildid on väikesed mikrokiibid, mis on väikeste kaartide sees. Need võivad sisaldada teksti, veebiaadresse, kontaktandmeid, memosid, pilte, videoid ja muudki."
+

@@ -1,7 +1,7 @@
 /*
   * Copyright (c) 2012, 2013 Samsung Electronics Co., Ltd.
   *
-  * Licensed under the Flora License, Version 1.1 (the "License");
+  * Licensed under the Flora License, Version 1.0 (the "License");
   * you may not use this file except in compliance with the License.
   * You may obtain a copy of the License at
 
@@ -19,7 +19,7 @@
 #include "ug-nfc-setting-db.h"
 
 
-#define DB_FILE_PATH			"/opt/usr/dbspace/.net-nfcpush.db"
+#define DB_FILE_PATH			"/opt/dbspace/.net-nfcpush.db"
 #define DB_TABLE_NAME			"NfcPushMsgTable"
 
 /* sqlite> .schema 		*/
@@ -33,8 +33,6 @@ static sqlite3_stmt *g_predefined_item_pstmt;
 
 static void _db_finalize_statement(void)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 
 	if (g_predefined_item_pstmt != NULL)
@@ -44,35 +42,27 @@ static void _db_finalize_statement(void)
 
 		if(db_ret != SQLITE_OK)
 		{
-			LOGD("Failed to sqlite3_finalize error[%d]", db_ret);
+			LOGE("Failed to sqlite3_finalize error[%d]", db_ret);
 		}
 	}
-
-	LOGD("END <<<<");
 }
 
 
 int _ug_nfc_setting_db_open(void)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 
 	db_ret = sqlite3_open(DB_FILE_PATH, &g_predefined_item_db);
 	if(db_ret != SQLITE_OK)
 	{
-		LOGD("Failed to open database. error[%d]", db_ret);
+		LOGE("Failed to open database. error[%d]", db_ret);
 	}
-
-	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_close(void)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 
 	if (g_predefined_item_db != NULL)
@@ -80,21 +70,17 @@ int _ug_nfc_setting_db_close(void)
 		db_ret = sqlite3_close(g_predefined_item_db);
 		if(db_ret != SQLITE_OK)
 		{
-			LOGD("Failed to close database. error[%d]", db_ret);
+			LOGE("Failed to close database. error[%d]", db_ret);
 			return db_ret;
 		}
 		g_predefined_item_db = NULL;
 	}
-
-	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_open_table(int *table_handle)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 	int count = 0;
 
@@ -107,19 +93,19 @@ int _ug_nfc_setting_db_open_table(int *table_handle)
 		sqlite3_stmt *stmt = NULL;
 
 		snprintf(query, DB_QUERY_LEN, "select * from %s", DB_TABLE_NAME);
-		LOGD("query [%s]", query);
+		//LOGD("query [%s]", query);
 
 		db_ret = sqlite3_prepare_v2(g_predefined_item_db, query, strlen(query), &stmt, NULL);
 		if (db_ret != SQLITE_OK)
 		{
-			LOGD("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
+			LOGE("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
 			if (g_predefined_item_pstmt != NULL)
 			{
 				db_ret = sqlite3_finalize(stmt);
 				stmt = NULL;
 				if(db_ret != SQLITE_OK)
 				{
-					LOGD("Failed to sqlite3_finalize error[%d]", db_ret);
+					LOGE("Failed to sqlite3_finalize error[%d]", db_ret);
 				}
 			}
 			return db_ret;
@@ -129,31 +115,27 @@ int _ug_nfc_setting_db_open_table(int *table_handle)
 	}
 	else
 	{
-		LOGD("no item");
+		LOGE("no item");
 		db_ret = SQLITE_ERROR;
 	}
-
-	LOGD("END <<<<");
 
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_get_count(int *count)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 	char query[DB_QUERY_LEN] = { 0, };
 
 	snprintf(query, DB_QUERY_LEN,
 			"select count(AppId) from %s ",
 			DB_TABLE_NAME);
-	LOGD("query [%s]", query);
+	//LOGD("query [%s]", query);
 
 	db_ret = sqlite3_prepare_v2(g_predefined_item_db, query, strlen(query), &g_predefined_item_pstmt, NULL);
 	if (db_ret != SQLITE_OK)
 	{
-		LOGD("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
+		LOGE("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
 		_db_finalize_statement();
 		return db_ret;
 	}
@@ -161,7 +143,7 @@ int _ug_nfc_setting_db_get_count(int *count)
 	db_ret = sqlite3_step(g_predefined_item_pstmt);
 	if (db_ret != SQLITE_ROW)
 	{
-		LOGD("Failed to sqlite3_step error[%d]", db_ret);
+		LOGE("Failed to sqlite3_step error[%d]", db_ret);
 		_db_finalize_statement();
 		return db_ret;
 	}
@@ -170,8 +152,6 @@ int _ug_nfc_setting_db_get_count(int *count)
 
 	_db_finalize_statement();
 
-	LOGD("END <<<<");
-
 	return db_ret;
 }
 
@@ -179,8 +159,6 @@ int _ug_nfc_setting_db_get_next_record(int table_handle,
 					char **app_id, char **pkgName,
 					char **iconPath, char **msgDes)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 	sqlite3_stmt *stmt = NULL;
 
@@ -193,8 +171,6 @@ int _ug_nfc_setting_db_get_next_record(int table_handle,
 	db_ret = sqlite3_step(stmt);
 	if (db_ret != SQLITE_DONE)
 	{
-		LOGD("success to get next record");
-
 		if ((char *)sqlite3_column_text(stmt, 0) != NULL)
 			*app_id = strdup((char *)sqlite3_column_text(stmt, 0));
 		if ((char *)sqlite3_column_text(stmt, 1) != NULL)
@@ -205,26 +181,22 @@ int _ug_nfc_setting_db_get_next_record(int table_handle,
 			*msgDes = strdup((char *)sqlite3_column_text(stmt, 3));
 	}
 
-	LOGD("END <<<<");
-
 	return SQLITE_OK;
 }
 
 int _ug_nfc_setting_db_get_pkgName(char *app_id, char **pkgName)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 	char query[DB_QUERY_LEN] = { 0, };
 
 	snprintf(query, DB_QUERY_LEN,
 			"select PkgName from %s where AppId =\"%s\"", DB_TABLE_NAME, app_id);
-	LOGD("query [%s]", query);
+	//LOGD("query [%s]", query);
 
 	db_ret = sqlite3_prepare_v2(g_predefined_item_db, query, strlen(query), &g_predefined_item_pstmt, NULL);
 	if (db_ret != SQLITE_OK)
 	{
-		LOGD("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
+		LOGE("Failed to sqlite3_prepare_v2 error[%d]", db_ret);
 		_db_finalize_statement();
 		return db_ret;
 	}
@@ -232,7 +204,7 @@ int _ug_nfc_setting_db_get_pkgName(char *app_id, char **pkgName)
 	db_ret = sqlite3_step(g_predefined_item_pstmt);
 	if (db_ret != SQLITE_ROW)
 	{
-		LOGD("Failed to sqlite3_step error[%d]", db_ret);
+		LOGE("Failed to sqlite3_step error[%d]", db_ret);
 		_db_finalize_statement();
 		return db_ret;
 	}
@@ -241,15 +213,11 @@ int _ug_nfc_setting_db_get_pkgName(char *app_id, char **pkgName)
 
 	_db_finalize_statement();
 
-	LOGD("END <<<<");
-
 	return db_ret;
 }
 
 int _ug_nfc_setting_db_close_table(int table_handle)
 {
-	LOGD("BEGIN >>>>");
-
 	int db_ret = SQLITE_OK;
 	sqlite3_stmt *stmt = NULL;
 
@@ -260,13 +228,9 @@ int _ug_nfc_setting_db_close_table(int table_handle)
 	db_ret = sqlite3_finalize(stmt);
 	if(db_ret != SQLITE_OK)
 	{
-		LOGD("Failed to sqlite3_finalize error[%d]", db_ret);
+		LOGE("Failed to sqlite3_finalize error[%d]", db_ret);
 	}
-
-	LOGD("END <<<<");
 
 	return db_ret;
 }
-
-
 
