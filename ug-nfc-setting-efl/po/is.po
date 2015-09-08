@@ -1,576 +1,576 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Mégse"
+msgstr "Hætta við"
 
 msgid "IDS_COM_POP_DELETE_Q"
-msgstr "Törli?"
+msgstr "Á að eyða?"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Kapcsolódás..."
+msgstr "Verið er að tengjast..."
 
 msgid "IDS_COM_BODY_NONE"
-msgstr "Nincs"
+msgstr "Ekkert"
 
 msgid "IDS_COM_SK_ADD"
-msgstr "Hozzáad"
+msgstr "Bæta við"
 
 msgid "IDS_COM_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_COM_BODY_EMAIL"
-msgstr "E-mail"
+msgstr "Tölvupóstur"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Súgó"
+msgstr "Hjálp"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Jegyzet"
+msgstr "Minnispunktar"
 
 msgid "IDS_COM_BODY_MESSAGE"
-msgstr "Üzenet"
+msgstr "Skilaboð"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "Be"
+msgstr "Kveikt"
 
 msgid "IDS_COM_BODY_WI_FI"
 msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Nem"
+msgstr "Nei"
 
 msgid "IDS_COM_SK_OK"
-msgstr "OK"
+msgstr "Í lagi"
 
 msgid "IDS_COM_SK_YES"
-msgstr "Igen"
+msgstr "Já"
 
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
 msgid "IDS_NFC_BODY_NEW_MEMO"
-msgstr "Új emlékeztető"
+msgstr "Nýtt minnisatriði"
 
 msgid "IDS_NFC_ITAB_TAGS"
-msgstr "Címkék"
+msgstr "Merki"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "Címkébe írás"
+msgstr "Skrifa í merki"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
-msgstr "Előző napok"
+msgstr "Fyrri dagar"
 
 msgid "IDS_COM_POP_FILE"
-msgstr "Fájl"
+msgstr "Skrá"
 
 msgid "IDS_COM_BODY_BOOKMARK"
-msgstr "Könyvjelző"
+msgstr "Bókamerki"
 
 msgid "IDS_COM_BODY_BOOKMARKS"
-msgstr "Könyvjelzők"
+msgstr "Bókamerki"
 
 msgid "IDS_COM_BODY_SUN"
-msgstr "Vas"
+msgstr "Sun"
 
 msgid "IDS_COM_SK3_COMPOSE"
-msgstr "Új üzenet"
+msgstr "Skrifa"
 
 msgid "IDS_COM_BODY_TODAY"
-msgstr "Ma"
+msgstr "Í dag"
 
 msgid "IDS_COM_BODY_YESTERDAY"
-msgstr "Tegnap"
+msgstr "Í gær"
 
 msgid "IDS_COM_POP_CLOSE"
-msgstr "Bezárás"
+msgstr "Loka"
 
 msgid "IDS_COM_POP_ERROR"
-msgstr "Hiba"
+msgstr "Villa."
 
 msgid "IDS_COM_POP_SENDING"
-msgstr "Küldés..."
+msgstr "Verið er að senda..."
 
 msgid "IDS_COM_BODY_CONTACT"
-msgstr "Névjegy"
+msgstr "Tengiliður"
 
 msgid "IDS_COM_BODY_APR"
-msgstr "ápr."
+msgstr "apr."
 
 msgid "IDS_COM_BODY_AUG"
-msgstr "aug."
+msgstr "ág."
 
 msgid "IDS_COM_BODY_DEC"
-msgstr "dec."
+msgstr "Des."
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Töröl"
+msgstr "Eyða"
 
 msgid "IDS_COM_BODY_FEB"
 msgstr "feb."
 
 msgid "IDS_COM_BODY_FRI"
-msgstr "Pén"
+msgstr "Fös"
 
 msgid "IDS_COM_BODY_JAN"
-msgstr "jan."
+msgstr "Jan."
 
 msgid "IDS_COM_BODY_JUL"
-msgstr "júl."
+msgstr "Júl."
 
 msgid "IDS_COM_BODY_JUN"
-msgstr "jún."
+msgstr "Jún."
 
 msgid "IDS_COM_BODY_MAR"
-msgstr "már."
+msgstr "Mar."
 
 msgid "IDS_COM_BODY_MAY"
-msgstr "máj."
+msgstr "Maí"
 
 msgid "IDS_COM_BODY_MON"
-msgstr "Hét"
+msgstr "Mán"
 
 msgid "IDS_COM_BODY_NOV"
-msgstr "nov."
+msgstr "nóv."
 
 msgid "IDS_COM_BODY_OCT"
 msgstr "okt."
 
 msgid "IDS_COM_BODY_SAT"
-msgstr "Szo"
+msgstr "Lau"
 
 msgid "IDS_COM_BODY_SEP"
-msgstr "szep"
+msgstr "Sep."
 
 msgid "IDS_COM_BODY_THU"
-msgstr "Csü"
+msgstr "Fim"
 
 msgid "IDS_COM_BODY_TUE"
-msgstr "Ke"
+msgstr "Þri"
 
 msgid "IDS_COM_BODY_UNKNOWN"
-msgstr "Ismeretlen"
+msgstr "Óþekkt"
 
 msgid "IDS_COM_BODY_WED"
-msgstr "Sze"
+msgstr "Mið"
 
 msgid "IDS_COM_SK_OPEN"
-msgstr "Megnyit"
+msgstr "Opna"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d kiválasztva"
+msgstr "%d valið"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
-msgstr "Megnyitja a böngészőt?"
+msgstr "Opna vafra?"
 
 msgid "IDS_NFC_BODY_MEDIA_PLAYER"
-msgstr "Médiatár"
+msgstr "Tónlistarspilari"
 
 msgid "IDS_NFC_BODY_URL"
-msgstr "URL"
+msgstr "Vefslóð"
 
 msgid "IDS_NFC_BODY_NO_TAGS"
-msgstr "Nincs címke"
+msgstr "Engin merki"
 
 msgid "IDS_NFC_BODY_NO_BOOKMARKS"
-msgstr "Nincs könyvjelző"
+msgstr "Ný bókamerki"
 
 msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
-msgstr "Nem található alkalmazás a művelet végrehajtásához."
+msgstr "Ekki fannst forrit til að framkvæma þessa aðgerð."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
-msgstr "A szolgáltatás nem elérhető. Az NFC ki van kapcsolva. Bekapcsolja az NFC-t?"
+msgstr "Þjónustan er ekki til staðar. Slökkt er á nándartengingu. Kveikja núna?"
 
 msgid "IDS_NFC_HEADER_READ_NFC_TAG"
-msgstr "NFC-címke olvasása"
+msgstr "Lesa NFC-merki"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
-msgstr "Megosztás NFC-n"
+msgstr "Senda með NFC"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Finoman érintse egymáshoz a telefonokat a megosztáshoz."
+msgstr "Látið síma snerta hvor annan til að deila."
 
 msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "%s kiválasztva."
+msgstr "%s valið."
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "Nem sikerült írni a címkébe."
+msgstr "Ekki tókst að skrifa í merki."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
 msgid "IDS_NFC_POP_ACTIVATION_FAILED"
-msgstr "Nem sikerült aktiválni."
+msgstr "Ekki tókst að gera virkt."
 
 msgid "IDS_NFC_POP_BLANK_TAG"
-msgstr "Üres címke"
+msgstr "Tómt merki."
 
 msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
-msgstr "Beírta az adatokat a címkébe."
+msgstr "Gögn skrifuð í merki."
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "Nem támogatott címketípus"
+msgstr "Óstudd gerð merkis."
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Érintse meg a küldéshez."
+msgstr "Pikkaðu til að senda."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "Nem lehet létrehozni a címkét. Az adatok túl nagyok."
+msgstr "Ekki tókst að búa til merki. Gögn of stór."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "Nem hozható létre. Zárolt címke."
+msgstr "Mistókst að búa til. Merki er læst."
 
 msgid "IDS_COM_POP_RECEIVING"
-msgstr "Fogadás..."
+msgstr "Verið er að taka við..."
 
 msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Kevés a memória. Töröljön tételeket, és próbálja újra."
+msgstr "Of lítið minni. Eyddu einhverjum atriðum og reyndu aftur."
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "A biztonsági irányelv korlátozza a(z) %s használatát."
+msgstr "Öryggisstefna takmarkar notkun %s."
 
 msgid "IDS_COM_OPT_SHARED"
-msgstr "Megosztott"
+msgstr "Samnýtt"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Nem lehet megosztani."
+msgstr "Mistókst að samnýta."
 
 msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
-msgstr "Nincs kiválasztva fájl. Válassza ki a küldeni kívánt fájlt, és próbálja újra."
+msgstr "Engin skrá valin. Veldu skrá til að senda og reyndu aftur."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Az NFC bekapcsolása esetén az eszközt egy másik NFC-kompatibilis eszközhöz vagy NFC-címkéhez érintve adatokat küldhet és fogadhat."
+msgstr "Þegar kveikt er á NFC geturðu sent eða tekið á móti gögnum þegar tækið snertir önnur NFC-tæki eða NFC-merki."
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
-msgstr "Címke kiválasztása"
+msgstr "Velja merki"
 
 msgid "IDS_COM_BODY_BUTTON_T_TTS"
-msgstr "Gomb"
+msgstr "Hnappur"
 
 msgid "IDS_COM_BODY_TICKBOX_T_TTS"
-msgstr "Jelölőnégyzet"
+msgstr "Merkibox"
 
 msgid "IDS_COM_BODY_TICK_T_TTS"
-msgstr "Bejelölés"
+msgstr "Merkja"
 
 msgid "IDS_COM_BODY_UNTICK_T_TTS"
-msgstr "Bejelölés törlése"
+msgstr "Afmerkja"
 
 msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
-msgstr "Írás több címkébe"
+msgstr "Skrifa í mörg merki"
 
 msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
-msgstr "Jegyzetcímke létrehozása"
+msgstr "Búa til minnismiðamerki"
 
 msgid "IDS_NFC_BODY_CREATE_TAG"
-msgstr "Létrehozás"
+msgstr "Búa til"
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "még %d"
+msgstr "%d fl."
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
-msgstr "Tartalom címkézése"
+msgstr "Efni merkis"
 
 msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
-msgstr "Jegyzet kiv.–csak szöveg"
+msgstr "Velja minnismiða (texti)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "Itt jelenik majd meg az címkenaplója, ha címkéket olvas/ír."
+msgstr "Merkjaannállinn þinn birtist hér eftir að þú lest eða skrifar merki."
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. Nyissa meg a %s Beállítások menüt."
+msgstr "1. Opnaðu %s stillingar."
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
-msgstr "Jelöljön ki címkéket"
+msgstr "Velja merki"
 
 msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
-msgstr "Érintse meg a megjelölt területet."
+msgstr "Pikkaðu á merkta svæðið."
 
 msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
-msgstr "A tankönyv befejeződött."
+msgstr "Kennslu lokið."
 
 msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
-msgstr "Adatcsere, ha az eszköz hozzáér egy másik eszközhöz."
+msgstr "Gagnaflutningur þegar tækið snertir annað tæki."
 
 msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
-msgstr "Most már tudja, hogyan kell használni a scrapbooker funkciót a tartalmak gyűjtésére és rendszerezésére a Scrapbookban."
+msgstr "Nú þegar er kveikt á S Beam. Þú getur breytt stillingum S Beam."
 
 msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
-msgstr "Az NFC már be van kapcsolva. Módosíthatja az NFC-beállításokat."
+msgstr "Kveikt er á NFC. Þú getur breytt stillingum NFC."
 
 msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
-msgstr "Válassza a Kapcsolatok lapot."
+msgstr "Veldu flipann Tengingar."
 
 msgid "IDS_HELP_BODY_SELECT_PS_NFC"
-msgstr "Válassza az %s NFC funkciót."
+msgstr "Veldu %s NFC."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
-msgstr "Kapcsolja be az NFC funkciót a gombbal."
+msgstr "Veldu hnappinn til að kveikja á NFC."
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "Válassza az %s S Beam funkciót."
+msgstr "Veldu %s S Beam."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
-msgstr "Kapcsolja be az S Beam funkciót a gombbal."
+msgstr "Veldu hnappinn til að kveikja á S Beam."
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC bekapcsolva."
+msgstr "Kveikt á NFC."
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam bekapcsolva."
+msgstr "Kveikt á S Beam."
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "A funkció engedélyezésével az eszköz NFC-n elküldi az előre megadott tételeket, amikor a kezdőképernyő látható rajta."
+msgstr "Þegar kveikt er á þessum eiginleika geturðu sent forskilgreind atriði um NFC þegar þú ert á heimaskjánum."
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
-msgstr "A bekapcsolt S Beam funkcióval fájlokat küldhet és fogadhat úgy, hogy az eszközt egy másik NFC- vagy Wi-Fi Direct-kompatibilis eszközhöz tartja. Például, a két eszközt háttal egymáshoz tartva és ennek az eszköznek a képernyőjét megérintve kép- vagy videofájlokat továbbíthat a Galériából."
+msgstr "Þegar kveikt er á S Beam geturðu sent eða móttekið skrár þegar tækið er nálægt öðrum NFC-tækjum og Wi-Fi Direct tækjum. Þú getur til dæmis sent mynda- eða myndskeiðaskrár úr galleríinu með því að halda tækjunum bak í bak og pikka á skjáinn."
 
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Kevés a memória. Töröljön néhány tételt"
+msgstr "Ekki er nægt minni. Eyðið nokkrum atriðum."
 
 msgid "IDS_TAGS_OPT_SHARE_ABB"
-msgstr "Megosztás"
+msgstr "Deila"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Ha fájlt oszt meg az S Beam segítségével, a Screen Mirroring le lesz tiltva. A folytatáshoz érintse meg az OK gombot %d másodpercen belül."
+msgstr "Ef skrám er deilt með S Beam verður slökkt á Screen Mirroring. Pikkaðu á Í lagi innan %d sekúndna til að halda áfram."
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
-msgstr "NFC bekapcsolása"
+msgstr "Kveikt á NFC"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
-msgstr "S Beam bekapcsolása"
+msgstr "Kveikt á S Beam"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
 msgstr "Smart poster"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "Címke létrehozása"
+msgstr "Búa til merki"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "Válasszon ki egy tartalomtípust a címkébe íráshoz. A címkébe írt adatok megtekintéséhez érintse az eszközt a címkéhez."
+msgstr "Veldu efnistegund til að skrifa í merkið. Þegar þú hefur skrifað gögn í merkið skaltu snerta merkið með tækinu til að lesa gögnin"
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
-msgstr "Mentés"
+msgstr "Vista"
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Mégse"
+msgstr "Hætta v."
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
-msgstr "Archívum"
+msgstr "Geymsla"
 
 msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
-msgstr "Archívumhoz adva."
+msgstr "Sett í geymslu."
 
 msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
-msgstr "Eltávolítva az archívumból."
+msgstr "Fjarlægt úr geymslu."
 
 msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
-msgstr "Archívumhoz adás"
+msgstr "Setja í geymslu"
 
 msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
-msgstr "Eltáv. az archív.ból"
+msgstr "Fjarlægja úr geymslu"
 
 msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
-msgstr "NFC a kezdőképernyőn"
+msgstr "Nota NFC á heimaskjá"
 
 msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
-msgstr "Nincs archivált címke"
+msgstr "Engin merki í geymslu"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Itt jelennek majd meg az archívumhoz adott címkék."
+msgstr "Merki birtast hér eftir að þeim er bætt í geymslu."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "Címke létrehozása"
+msgstr "Búa til merki"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
-msgstr "Címkenapló"
+msgstr "Merkjaannáll"
 
 msgid "IDS_NFC_BODY_CONTACT"
-msgstr "Névjegy"
+msgstr "Tengiliður"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Jegyzet"
+msgstr "Minnispunktar"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
-msgstr "Könyvjelző"
+msgstr "Bókamerki"
 
 msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Névjegy mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Til að vista tengilið hylurðu merkið að fullu með bakhlið tækisins í nokkrar sekúndur"
 
 msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Adatok mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Til að vista gögn hylurðu merkið að fullu með bakhlið tækisins í nokkrar sekúndur"
 
 msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Jegyzet mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Til að vista minnismiða hylurðu merkið að fullu með bakhlið tækisins í nokkrar sekúndur"
 
 msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "URL mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Til að vista vefslóð hylurðu merkið að fullu með bakhlið tækisins í nokkrar sekúndur"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ne jelenjen meg újra"
+msgstr "Ekki sýna aftur"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "Nem sikerült címkét létrehozni. A menteni próbált név vagy telefonszám nem található."
+msgstr "Mistókst að búa til merki. Annaðhvort nafnið eða símanúmerið sem þú ert að reyna að vista finnst ekki."
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "Ebbe a címkébe csak a partner nevét és telefonszámát mentheti."
+msgstr "Aðeins er hægt að vista nafn og símanúmer tengiliðar í þessu merki"
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
-msgstr "A lehetőség bejelölése esetén több címkét írhat egyszerre."
+msgstr "Þegar þessi kostur er valinn verða nokkur merki skrifuð í einu"
 
 msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
-msgstr "NFC-címkék – bevezetés"
+msgstr "Kynning á NFC-merkjum"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "Az NFC-címkék"
+msgstr "Um NFC-merki"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "Az NFC-címkék kis kártyába épített apró mikrochipek. Szöveget, URL-eket és bármilyen egyéb fajta információt tárolhatnak."
+msgstr "NFC-merki eru örflögur sem felldar eru inn í lítil kort. Þau geta innihaldið texta, vefslóðir og annars konar upplýsingar."
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
-msgstr "NFC-címke olvasása"
+msgstr "NFC-merki lesin"
 
 msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
-msgstr "NFC-címke olvasásához néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen letakarva azt. Az eszköz a Címkék alkalmazásba menti a címke adatait."
+msgstr "Til að lesa NFC-merki hylurðu merkið að fullu með bakhlið tækisins í nokkrar sekúndur. Upplýsingar merkisins verða vistaðar í forritinu Merki."
 
 msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
-msgstr "NFC biztonságos tárhely"
+msgstr "Örugg NFC-geymsla"
 
 msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
-msgstr "NFC biztonságos tárhely"
+msgstr "Örugg NFC-geymsla"
 
 msgid "IDS_NFC_OPT_MANUAL"
-msgstr "Kézi"
+msgstr "Handvirkt"
 
 msgid "IDS_NFC_OPT_AUTOMATIC"
-msgstr "Automatikus"
+msgstr "Sjálfvirkt"
 
 msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
-msgstr "SIM kártya használata a biztonságos tároláshoz"
+msgstr "Nota SIM-kortið fyrir örugga geymslu."
 
 msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Automatikus váltás a SIM kártya és az eszköz biztonságos tárhelyének használata között"
+msgstr "Skipta sjálfkrafa á milli notkunar SIM-korts og öruggrar geymslu tækisins."
 
 msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "A Kézi lehetőség kiválasztásával letilt bizonyos biztonsági funkciókat, például az NFC-fizetést, amely az eszköz biztonságos tárhelyén tárolja az adatokat."
+msgstr "Ef handvirk stilling er valin verða einhverjir öryggiseiginleikar sem vista gögn í öruggri geymslu tækisins óvirkir, t.d. NFC-greiðsla."
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "Nem támogatott címketípus."
+msgstr "Merkjategund er ekki studd."
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
-msgstr "Címkék – bevezetés"
+msgstr "Kynning á merkjum"
 
 msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
-msgstr "E-mail cím észlelve. Szeretne e-mailt írni?"
+msgstr "Netfang greindist. Viltu skrifa tölvupóst?"
 
 msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
-msgstr "URL észlelve. Megnyitja?"
+msgstr "Vefslóð greindist. Viltu opna hana?"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "A Címkék alkalmazás segít az NFC (Near Field Communication)-címkék rendszerezésében és megosztásában. Címke leolvasásához tartsa a feloldott eszközt a címkékhez. Az NFC-címkék tartalmazhatnak szöveget, URL-t és egyéb típusú adatokat.\n\nCímke leolvasásához vagy megosztásához kapcsolja be az NFC-t a Beállítások > Kapcsolat pontban."
+msgstr "Forritið Merki hjálpar þér að skipuleggja og deila NFC-merkjum. Þú getur lesið merki með því að taka tækið úr lás og koma því fyrir nálægt merki. NFC-merki geta innihaldið texta, vefslóðir og aðrar upplýsingar.\n\nTil að lesa eða deila merkjum skaltu kveikja á NFC undir Stillingar > Tenging."
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
-msgstr "Az NFC szolgáltatás nincs támogatva."
+msgstr "NFC-þjónusta er ekki studd."
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Ha fájlt oszt meg az S Beam segítségével, a mobil Wi-Fi hotspot le lesz tiltva. A folytatáshoz érintse meg az OK gombot %d másodpercen belül."
+msgstr "Ef deila á skrám gegnum S Beam verður slökkt á heitum Wi-Fi reit. Pikkaðu á Í lagi innan %d sekúndna til að halda áfram."
 
 msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
-msgstr "NFC-címke létrehozása"
+msgstr "NFC-merki búin til"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "Hozzon létre címkét a Címkék alkalmazás Címke létrehozása menüpontjával. Válassza ki a menteni kívánt adatokat, majd néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt."
+msgstr "Búðu til merki með því að velja þann valmyndarkost í forritinu Merki. Veldu gögnin sem þú vilt vista og hyldu síðan merkið að fullu með bakhlið tækisins í nokkrar sekúndur."
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
-msgstr "Nem lehet küldeni"
+msgstr "Ekki er hægt að senda"
 
 msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
-msgstr "NFC bekapcsolása"
+msgstr "Kveiktu á NFC"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d kijelölve"
+msgstr "%d valið"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
-msgstr "Névjegy címkébe írása"
+msgstr "Skrifa tengilið í merki"
 
 msgid "IDS_NFC_HEADER_DELETE_TAG"
-msgstr "Címke törlése"
+msgstr "Eyða merki"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
-msgstr "Nem lehet fogadni a fájlt"
+msgstr "Ekki er hægt að taka við skrá"
 
 msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
-msgstr "Törli a címkét?"
+msgstr "Viltu eyða þessu merki?"
 
 msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
-msgstr "Töröl %d címkét?"
+msgstr "Viltu eyða %d merkjum?"
 
 msgid "IDS_NFC_BUTTON_STORAGE"
-msgstr "Tárhely"
+msgstr "Geymsla"
 
 msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
-msgstr "A fájlok immár megoszthatók az S Beam segítségével. Helyezze egymástól távolabb az eszközöket."
+msgstr "Nú er hægt að deila skrám með S Beam. Aðskildu tækin."
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "Fájlmegosztás előkészítése...\nAz eszközöknek egymáshoz kell érniük."
+msgstr "Undirbýr deilingu skráa...\nGakktu úr skugga um að tækin snerti enn hvort annað."
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
-msgstr "Fájlok elküldve."
+msgstr "Skrár sendar."
 
 msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
-msgstr "Fájlok elküldve."
+msgstr "Skrár sendar."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
-msgstr "A fájlküldés sikertelen."
+msgstr "Mistókst að senda skrár."
 
 msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
-msgstr "A fájlküldés sikertelen."
+msgstr "Mistókst að senda skrár."
 
 msgid "IDS_NFC_TPOP_FILES_RECEIVED"
-msgstr "Fájlok fogadva."
+msgstr "Skrár mótteknar."
 
 msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
-msgstr "Fájlok fogadva."
+msgstr "Skrár mótteknar."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
-msgstr "Nem sikerült fogadni a fájlokat."
+msgstr "Mistókst að taka á móti skrám."
 
 msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
-msgstr "A fájlfogadás sikertelen."
+msgstr "Móttaka skráa mistókst."
 
 msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
-msgstr "Túllépte az egyszerre küldhető fájlok maximális számát (%d). A fájlok megosztásához használja a Wi-Fi Direct vagy a Bluetooth funkciót."
+msgstr "Hámarksfjölda skráa sem hægt er að senda í einu (%d) hefur verið náð. Notaðu Wi-Fi Direct eða Bluetooth til að deila þessum skrám."
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "NFC bekapcsolása nem sikerült"
+msgstr "Mistókst að kveikja á NFC"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
-msgstr "A címke nem olvasható"
+msgstr "Ekki er hægt að lesa merki"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
-msgstr "A címke nem hozható létre"
+msgstr "Ekki er hægt að búa til merki"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "Címketípus kiválasztása"
+msgstr "Velja merkjagerð"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
-msgstr "Nem sikerült a párosítás a(z) %s eszközzel."
+msgstr "Mistókst að para við %s."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
-msgstr "Nem sikerült kapcsolódni a(z) %s eszközhöz."
+msgstr "Mistókst að tengjast %s."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
-msgstr "Az NFC bekapcsolása során hiba történt. Próbálja újra."
+msgstr "Villa kom upp við að kveikja á NFC. Reyndu aftur."
 
 msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
-msgstr "Nem írtak adatot a címkébe."
+msgstr "Engin gögn hafa verið skrifuð í þetta merki."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
-msgstr "Az adat címkébe írásakor hiba történt. Próbálja újra."
+msgstr "Villa kom upp við að skrifa upplýsingarnar í merkið. Reyndu aftur."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "A Címkék alkalmazás segít az NFC (Near Field Communication)-címkék rendszerezésében és megosztásában. Címke leolvasásához tartsa a feloldott eszközt a címkéhez. Az NFC-címkék szöveget, webcímeket, névjegyadatokat, jegyzeteket, képeket, videókat és egyebeket tárolhatnak.\n\nCímke leolvasásához vagy megosztásához kapcsolja be az NFC-t a Beállítások > Kapcsolat pontban."
+msgstr "Merkjaforritið hjálpar þér að skipuleggja og deila NFC-merkjum fyrir nándarsamskipti. Þú getur lesið merki með því að taka tækið úr lás og koma því fyrir nálægt merkinu. NFC-merki geta innihaldið texta, vefslóðir, tengiliðaupplýsingar, minnisatriði, myndir, myndskeið og annað.\n\nTil að lesa eða deila merkjum skaltu kveikja á NFC undir Stillingar > Tenging."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Az eszközt egy másik eszköz hátuljához vagy egy címkéhez érintve adatokat, például szöveget, képeket, videókat, webcímeket és névjegyadatokat vihet át a két eszköz vagy az eszköz és a címke között."
+msgstr "Þegar tækið snertir bakhlið annars tækis eða merki er hægt að flytja gögn líkt og texta, myndir, myndskeið, vefslóðir og tengiliðaupplýsingar milli tækjanna, eða milli merkisins og tækisins."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "Az NFC-címkék kis kártyába épített apró mikrochipek. Tárolhatnak szöveget, webcímeket, névjegyadatokat, jegyzeteket, képeket, videókat és egyebeket."
+msgstr "NFC-merki eru örflögur sem eru felldar inn í lítil kort. Þau geta innihaldið texta, vefslóðir, tengiliðaupplýsingar, minnismiða, myndir, myndskeið og fleira."
 

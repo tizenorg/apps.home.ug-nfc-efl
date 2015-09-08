@@ -1,9 +1,0 @@
-msgid "IDS_NFC_BODY_NFC"
-msgstr "NFC"
-
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "開啟此功能時，將裝置握住靠在一起時，可發送檔案至其他 NFC 與 WLAN Direct 裝置。例如，您可自媒體瀏覽器發送影像／影片檔案、自音樂播放器發送音樂檔案等。只需將裝置靠在一起（一般以背對背）然後輕觸螢幕。應用程式將決定發送的檔案"
-
-msgid "IDS_NFC_OPT_S_BEAM"
-msgstr "S Beam"
-

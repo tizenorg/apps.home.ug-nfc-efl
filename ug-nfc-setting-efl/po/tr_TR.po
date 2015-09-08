@@ -1,9 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Sil?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Bağlanılıyor..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Hiçbiri"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Ekle"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-posta"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Yardım"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Not"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Mesaj"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Açık"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Hayır"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Evet"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Yeni not"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Etiketler"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Etikete yaz"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Önceki günler"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Dosya"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Yer İmi"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Yer imleri"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Pzr"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Yaz"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Bugün"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Dün"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Kapat"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Hata"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Gönderiliyor..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kişi"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Nis."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Ağu."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Ara."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Sil"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Şub."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Cum"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Oca."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Tem."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Haz."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Mayıs"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Pts"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Kas."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Eki."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Cts"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Eyl."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Per"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Sal"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Bilinmeyen"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Çar"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Aç"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d seçildi"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Tarayıcı açılsın mı?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Medya oynatıcı"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Etiket yok"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Yer imi yok"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Bu eylemi gerçekleştirecek uygulama bulunamadı."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Servis kullanılamıyor. NFC kapatıldı. NFC açılsın mı?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "NFC etiketini oku"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFC ile paylaş"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Paylaşmak için hafifçe telefonları birbirine dokundurun."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s seçildi."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Etikete yazılamadı."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Etkinleştirme başarısız."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Etiket boş."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Veri etikete yazıldı."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Etiket tipi desteklenmiyor."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Göndermek için dokunun."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Etiket oluşturulamıyor. Veri çok büyük."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Oluşturulamıyor. Sekme kilitli."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Alınıyor..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Yeterli bellek yok. Bazı öğeleri silin ve tekrar deneyin."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Güvenlik ilkesi %s kullanımını kısıtlıyor."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Paylaşılıyor"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Paylaşılamıyor."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Dosya seçilmedi. Göndermek için bir dosya seçin ve tekrar deneyin."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "NFC açıkken, cihazınız diğer NFC özellikli cihazlara veya NFC etiketlerine dokunduğunda, veri gönderebilir veya alabilirsiniz."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Etiket seç"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Düğme"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "İşaret kutusu"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "İşaretle"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "İşareti kaldır"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Çoklu etiket yazma"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Not etiketi oluştur"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "İm oluştur"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d daha"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Etiket içeriği"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Not seçin (salt metin)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Etiketleri okuduktan/yazdıktan sonra, etiket günlüğünüz burada gösterilecektir."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. %s Ayarlarını aç."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "İmleri seç"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Gösterilen alana dokunun."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Eğitsel bitti."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Cihazınız başka bir cihaza dokunduğunda veri alışverişi yapın."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam zaten açık. S Beam ayarlarınızı değiştirebilirsiniz."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC şuanda açık. NFC ayarlarınızı değiştirebilirsiniz."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Bağlantılar sekmesini seçin."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "%s NFC'yi seç."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "NFC’yi açmak için düğme ile geçiş yapın."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "%s S Beam'i seç."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "S Beam’i açmak için düğme ile geçiş yapın."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC açıldı."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam açıldı."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Bu özellik etkinleştirildiğinde, ana ekrandayken önceden tanımlanmış öğeleri NFC vasıtasıyla gönderebilirsiniz."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "S Beam açıldı, cihazınız NFC veya Wi-Fi Direct cihazlarına yakın olduğunda dosyaları gönderebilir veya alabilirsiniz. Örneğin, cihazlarınızı sırt sırta getirip ekrana dokunarak Galeriden resim/video dosyalarını yayınlayabilirsiniz."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Yeterli hafıza yok. Bazı öğeleri silin."
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Paylaş"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam ile dosya paylaşmak Screen Mirroring'i devre dışı bırakır. Devam etmek için %d saniye içinde Tamam'a dokunun."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC'yi açma"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam'i açma"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Etiket oluştur"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Etiketinize yazmak için içerik türlerinden birini seçin. Etiketinize verileri yazdıktan sonra bu verileri görüntülemek için etikete cihazınızla dokunun."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Kaydet"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "İptal"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arşiv"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Arşive eklendi"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Arşivden kaldırıldı"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Arşive ekle"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Arşivden kaldır"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Ana syfd NFC kullan"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Arşivlenmiş etiket yok"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Etiketler arşivinize eklendikten sonra burada gösterilecektir."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Etiket oluştur"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Etiket günlüğü"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kişi"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Not"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Yer İmi"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Kişi kaydetmek için cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Veri kaydetmek için cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Not kaydetmek için cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URL kaydetmek için cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Tekrar gösterme"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Etiket oluşturulamadı. Kaydetmeye çalıştığınız ad veya telefon numarası bulunamıyor."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Bu etikete yalnızca kişinin adı ve telefon numarası kaydedilebilir"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Bu seçenek işaretlendiğinde bir defada birkaç etiket yazılır"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC etiketlerine giriş"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "NFC etiketleri hakkında"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC etiketleri küçük kartlara gömülü minik mikroçiplerdir. NFC etiketleri metin, URL ve diğer türde bilgileri içerebilir."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC etiketlerinin okunması"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFC etiketi okumak için cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin. Etiketteki bilgiler Etiketler uygulamasına kaydedilir."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC güvenli depolama"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC güvenli depolama"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Manuel"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Otomatik"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Güvenli depolama için SIM kartınızı kullanın"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "SIM kartınızı ve cihaz üstü güvenli bellek kullanım arasında otomatik olarak geçiş yapın"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Manueli seçmek verileri cihaz üzerinde güvenli bir belleğe kaydeden NFC ödemesi gibi bazı güvenli özellikleri devre dışı bırakacaktır"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Desteklenmeyen etiket tipi"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Etiketlere giriş"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Bir e-posta adresi algılandı. E-posta yaz?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Bir URL algılandı. Açılsın mı?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Etiketler uygulaması, yakın alan iletişimi (NFC) etiketlerini düzenlemenize ve paylaşmanıza yardımcı olur. Cihazınızın kilidini açıp cihazınızı etiketin hemen yanına getirerek bir etiketi tarayabilirsiniz. NFC etiketleri metin, URL ve başka tür bilgiler içerebilir.\n\nEtiketleri taramak veya paylaşmak için Ayarlar > Bağlantı konumuna giderek NFC'yi açın."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC hizmeti desteklenmiyor"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam ile dosya paylaşmak Wi-Fi alanını devre dışı bırakır. Devam etmek için %d saniye içinde Tamam'a dokunun."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC etiketleri oluşturma"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Etiketler uygulamasındaki etiket oluştur menü seçeneğini kullanarak etiket oluşturun. Kaydetmek istediğiniz verileri seçin, ardından cihazın arka kısmını etiketi tamamen kaplayacak şekilde etikete temas ettirin ve birkaç saniye bekleyin."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "İletilemiyor"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "NFC’yi aç"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d seçildi"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Etikete kişi yaz"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Etiketi sil"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Dosya alınamıyor"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Bu etiket silinsin mi?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "%d etiket silinsin mi?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Hafıza"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Dosyalar şimdi S Beam üzerinden paylaşılabilir. Cihazları ayır."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Dosyaları paylaşmaya hazırlanıyor...\nCihazların hala temas halinde olduğundan emin olun."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Dosyalar gönderildi."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Dosyalar gönderildi."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Dosyalar gönderilemedi."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Dosyalar gönderilemedi."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Dosyalar alındı."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Dosyalar alındı."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Dosyalar alınamadı."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Dosyalar alınamadı."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Aynı anda aktarılabilecek maksimum dosya sayısı (%d) aşıldı. Bu dosyaları paylaşmak için Wi-Fi Direct veya Bluetooth kullanın."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFC açılamadı"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Etiket okunamıyor"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Etiket oluşturulamıyor"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Etiket türü seç"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s ile eşleştirilemedi."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "%s bağlantısı başarısız."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFC açılırken bir hata oluştu. Tekrar deneyin."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Bu etikete yazılmış veri yok."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Bilgiler etikete yazılırken bir hata oluştu. Tekrar deneyin."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Etiketler uygulaması, yakın alan iletişimi (NFC) etiketlerini düzenlemenize ve paylaşmanıza yardımcı olur. Cihazınızın kilidini açıp cihazınızı etiketin hemen yanına getirerek bir etiketi tarayabilirsiniz. NFC etiketleri metin, web adresi, kişi bilgileri, not, resim, video ve daha fazlasını içerebilir.\n\nEtiketleri taramak veya paylaşmak için Ayarlar > Bağlantı bölümüne giderek NFC'yi açın."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Cihazınız başka bir cihazın veya etiketin arkasına temas ettiğinde metin, resim, video, web adresi ve kişi bilgileri gibi veriler, cihazlar arasında veya etiketle cihaz arasında aktarılır."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC etiketleri, küçük kartlara gömülü minik mikroçiplerdir. Metin, web adresi, kişi bilgileri, not, resim, video ve daha fazlasını içerebilirler."
 

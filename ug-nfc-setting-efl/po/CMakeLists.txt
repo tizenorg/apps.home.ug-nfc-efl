@@ -1,7 +1,13 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 0.1)
 PROJECT(ug-setting-nfc-efl C)
 
-SET(POFILES en.po nl_NL.po de_DE.po zh_HK.po zh_CN.po ru_RU.po ko_KR.po zh_TW.po ja_JP.po es_ES.po el_GR.po it_IT.po tr_TR.po pt_PT.po fr_FR.po)
+SET(POFILES
+az.po bg.po ca.po cs.po da.po de.po el_GR.po en.po en_US.po es_ES.po
+es_US.po et.po eu.po fi.po fr.po fr_CA.po gl.po hr.po hu.po hy.po
+is.po it_IT.po ka.po kk.po ko_KR.po lt.po lv.po mn_MN.po nb.po nl.po
+pl.po pt_BR.po pt_PT.po ro.po ru_RU.po sk.po sl.po sr.po sv.po tr_TR.po
+uk.po uz.po
+)
 
 SET(MSGFMT "/usr/bin/msgfmt")
 

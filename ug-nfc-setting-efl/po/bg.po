@@ -1,9 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Отмени"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Изтриване?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Свързване..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Няма"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Добави"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "Email"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Помощ"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Записка"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Съобщение"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Включено"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Не"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Да"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Нова бележка"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Тагове"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Пиши в таг"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Предишни дни"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Файл"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Показалец"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Показалци"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Нед"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Писане"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Днес"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Вчера"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Затваряне"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Грешка."
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Изпращане..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Запис"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Апр."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Авг."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Дек."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Изтриване"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Фев."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Пет"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Ян"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Юли"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Юни"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Март"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Май"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Пон"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Ное"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Окт."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Съб"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Сеп."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Чтв"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Вт"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Няма информация"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Ср"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Отвори"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d избрани"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Отваряне на браузъра?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Медия плейър"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Без тагове"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Няма показалци"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Не може да се намери приложение, което да извърши това действие."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Услугата не е достъпна. NFC е изключено. Включване на NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Четене на NFC таг"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Споделяне през NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Леко докоснете телефоните един в друг, за да споделите."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s избрани."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Неуспешно писане в таг."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Неуспешно активиране"
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Празен таг"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Данните са написани за отбелязване."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Неподдържан тип таг."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Чукнете, за да изпратите."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Не може да се създаде таг. Данни са твърде големи."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Не може да се създаде. Тагът е заключен."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Получаване..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Няма достатъчно памет. Изтрийте някои елементи и опитайте отново."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Правилата за защита ограничават използването на %s."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Споделен*"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Не може да се сподели."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Няма избран файл. Изберете файл за изпращане и опитайте отново."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Когато NFC е включено, можете да изпращате или получавате данни, когато устройството ви докосне други устройства с възможности за NFC или NFC тагове."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Изберете таг"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Бутон"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Поле за отметка"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Сложи отметка"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Махни отметката"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Писане на много тагове"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Създаване на таг за бележка"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Създ. таг"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "Още %d"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Отбелязване на съдържание с тагове"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Избер. бел. (само текст)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "След като добавите тагове за четене/писане, дневникът ви с тагове ще се покаже тук."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Отваряне на %s Настройки."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Изберете тагове"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Чукнете върху указаната област."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Самоучителят завърши."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Обменяйте данни, когато устройството ви докосне друго устройство."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam вече е включен. Можете да промените вашите настройки за S Beam."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC вече е включено. Можете да промените вашите настройки за NFC."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Изберете раздела връзки."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Изберете %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Превключете бутона, за да включите NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Изберете %s S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Превключете бутона, за да включите S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC е включено."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam е включен."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Когато тази функция е активирана, можете да изпращате предварително зададени елементи през NFC, докато сте в началния екран."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Когато S Beam е включен, можете да изпращате или получавате файлове, когато устройството ви е близо до други устройства с NFC и Wi-Fi Direct възможности. Например, можете да насочвате музикални/видео файлове от Галерията, като доближите устройствата откъм гърбовете им и чукнете екрана си."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Няма достатъчно памет. Изтрийте някои елементи"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Споделяне"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Споделянето на файлове през S Beam ще деактивира Screen Mirroring. Чукнете OK в рамките на %d секунди, за да продължите."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "Включване на NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "Включване на S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Създаване на таг"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Изберете един от типовете съдържание, за да пишете в тага си. След като въведете данни в тага, докоснете го с устройството, за да видите тези данни."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Запаз."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Отказ"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Архив"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Добавено e към архива."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Премахнато e от архива."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Добавяне към архив"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Премахни от архива"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Използ. NFC в начало"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Няма архивирани тагове"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "След като добавите тагове към архива си, те ще се покажат тук."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Създаване на таг"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Регистър на тагове"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Запис"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Записка"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Показалец"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "За да запишете контакт, напълно покрийте тага с гърба на устройството и задръжте няколко секунди"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "За да запишете данни, напълно покрийте тага с гърба на устройството и задръжте няколко секунди"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "За да запишете бележка, напълно покрийте тага с гърба на устройството и задръжте няколко секунди"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "За да запишете URL, напълно покрийте тага с гърба на устройството и задръжте няколко секунди"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Не показвай повече"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Неуспешно създаване на таг. Името или телефонният номер, който се опитвате да запишете, не могат да бъдат намерени."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Само името и телефонният номер на контакта могат да бъдат записани в този таг"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Когато тази опция е отметната, ще бъдат написани няколко тага наведнъж"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Въведение в NFC таговете"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "За NFC таговете"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC таговете са малки микрочипове, вградени в малки карти. Те могат да съдържат текст, URL адреси и други видове информация."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "Четене на NFC тагове"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "За да прочетете NFC таг, напълно покрийте тага с гърба на устройството и задръжте за няколко секунди. Информацията от тага ще бъде записана в приложението Тагове."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Защитено NFC съхранение"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Защитено NFC съхранение"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Ръчно"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Автоматично"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Използвайте вашата SIM карта за защитено място за съхранение."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Превключвайте автоматично между използване на вашата SIM карта и защитеното място за съхранение в устройството."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Избирането на ръчно ще деактивира някои защитени функции, като NFC плащане, които съхраняват данни в защитеното място за съхранение в устройството."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Типът таг не се поддържа."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Въведение в Таговете"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Открит е имейл адрес. Искате ли да съставите имейл?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Открит е URL адрес. Искате ли да го отворите?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Приложението Тагове ви помага да организирате и споделяте тагове за комуникация в близка зона (NFC). Можете да сканирате таг, като отключите устройството си и го поставите до тага. NFC таговете могат да съдържат текст, URL адреси и други типове информация.\n\nЗа да сканирате или споделяте тагове, включете NFC, като отидете в Настройки > Връзка."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC услугата не се поддържа."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Споделянето през S Beam ще деактивира преносимата точка за Wi-Fi достъп. Чукнете OK в рамките на %d секунди, за да продължите."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "Създаване на NFC тагове"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Създайте таг, като използвате опцията на менюто създаване на таг в приложението Тагове. Изберете данните, които искате да запишете, след което напълно покрийте тага с гърба на устройството и задръжте за няколко секунди."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Не може да се насочва"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Включване на NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d избрани"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Писане на контакт за обозначаване"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Изтриване на етикет"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Файлът не може да се получи"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Изтривате ли това обозначение?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Изтривате ли %d обозначения?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Памет"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Файловете вече може да се споделят чрез S Beam. Отделете устройствата."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Подготовка за споделяне на файлове...\nУверете се, че устройствата все още се докосват."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Файловете са изпратени."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Файловете са изпратени."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Неуспешно изпращане на файлове."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Неусп. изпр. на файлове."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Файловете са получени."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Файловете са получени."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Получаването на файлове е неуспешно."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Неусп. получ. на файлове."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Максималният брой файлове, които може да се предадат едновременно (%d), е надвишен. За да споделите тези файлове, използвайте Wi-Fi Direct или Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Неуспешно включване на NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Етикетът не може да се прочете"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Не може да се създаде етикет"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Избор на тип обозначаване"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Сдвояването с %s е неуспешно."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Свързването с %s е неуспешно."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Възникна грешка при включване на NFC. Опитайте отново."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Никакви данни не са записани към това обозначение."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Възникна грешка при записване на информацията в обозначението. Опитайте отново."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Приложението за обозначения ви помага да организирате и споделяте обозначения за комуникация в близка зона (NFC). Можете да сканирате обозначение, като отключите устройството си и го поставите до обозначението. NFC обозначенията може да съдържат текст, уеб адреси, информация за контакт, паметни бележки, картини, видеоклипове и др.\n\nЗа да сканирате или споделяте обозначения, включете NFC, като отидете в Настройки > Връзка."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Когато устройството ви докосне гърба на друго устройство или обозначение, данни, като например текст, картини, видеоклипове, уеб адреси и информация за контакт, може да се прехвърли между устройствата или между обозначението и устройството."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC обозначенията са малки микрочипове, вградени в малки карти. Те може да съдържат текст, уеб адреси, информация за контакт, паметни бележки, картини, видеоклипове и др."
 

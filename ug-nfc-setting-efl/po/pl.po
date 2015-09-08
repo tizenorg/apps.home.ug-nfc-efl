@@ -1,9 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Anuluj"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Usunąć?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Łączenie..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Brak"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Dodaj"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-mail"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Pomoc"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Notatka"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Wiadomość"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Włącz"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nie"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Tak"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Nowa notatka"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Etykiety"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Zapisz do etykiety"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Poprzednie dni"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Plik"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Zakładka"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Zakładki"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Nd"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Utwórz"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Dzisiaj"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Wczoraj"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Zamknij"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Błąd"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Wysyłanie..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Kwi."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Sie."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Gru."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Usuń"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Lut."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pt"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Sty."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Lip."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Cze."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Maj"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Pn"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Lis."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Paź."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "So"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Wrz."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Cz"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Wt"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nieznane"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Śr"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Otwórz"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Wybrano %d"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Otworzyć przeglądarkę?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Odtwarzacz multimedialny"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "Adres URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Brak etykiet"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Brak zakładek"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nie można znaleźć aplikacji do wykonania tej czynności."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Usługa niedostępna. NFC wyłączony. Włączyć NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Odczyt etykiety NFC"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Udostępnij przez NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Delikatnie przyłóż telefony do siebie, aby udostępnić."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "Wybrano %s."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Zapisywanie do etykiety nie powiodło się."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Nie można włączyć..."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Pusta etykieta"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Dane zostały zapisane w etykiecie."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Nieobsługiwany typ etykiety."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Dotknij, aby wysłać."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Nie można utworzyć etykiety. Dane są za duże."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Nie można utworzyć. Etykieta zablokowana."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Odbieranie..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Za mało pamięci. Usuń niektóre elementy i spróbuj ponownie."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Zasady zabezpieczeń ograniczają użycie %s."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Udostępniono"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nie można udostępnić."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Nie wybrano pliku. Wybierz plik do wysłania i spróbuj ponownie."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Gdy NFC jest włączone, możesz wysyłać i odbierać dane po dotknięciu urządzeniem innego urządzenia obsługującego NFC lub etykiety NFC."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Wybierz etykietę"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Przycisk"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Pole zaznaczenia"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Zaznaczenie"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Brak zaznaczenia"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Zapisywanie wielu etykiet"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Utwórz etykietę notatki"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Utwórz etykietę"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "Nas.:%d"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Zawartość etykiety"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Wyb. zapis.(tylko tekst)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Dziennik etykiet będzie tutaj wyświetlany po odczytaniu/zapisaniu etykiet."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Otwórz Ustawienia %s."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Wybór etykiet"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Dotknij wskazany obszar."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Samouczek ukończono."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Wymieniaj dane, gdy urządzenie styka się z innym urządzeniem."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Funkcja S Beam jest już włączona. Możesz zmienić ustawienia funkcji S Beam."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC jest już włączone. Możesz zmienić ustawienia NFC."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Wybierz kartę Połączenia."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Wybierz ikonę %s funkcji NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Przełącz przycisk, aby włączyć NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Wybierz ikonę %s funkcji S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Przełącz przycisk, aby włączyć S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC włączone."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "Włączono aplikację S Beam."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Gdy ta funkcja jest włączona, można wysyłać predefiniowane elementy przez NFC będąc na ekranie startowym."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Po włączeniu aplikacji S Beam można wysyłać lub odbierać pliki do innego trzymanego blisko urządzenia obsługującego technologię NFC lub Wi-Fi Direct. Można przesłać np. pliki obrazów lub filmów z Galerii, zbliżając urządzenia ich tylnymi stronami do siebie i dotykając ekranu."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Brak pamięci. Usuń niektóre elementy"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Udostępniaj"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Udostępnianie plików za pomocą funkcji S Beam spowoduje wyłączenie funkcji Screen Mirroring. Dotknij OK w ciągu %d s, aby kontynuować."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "Włączanie funkcji NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "Włączanie funkcji S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Utwórz etykietę"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Wybierz jeden typ zawartości do zapisania do etykiety. Po zapisaniu danych do etykiety, dotknij etykiety swoim urządzeniem, aby wyświetlić te dane."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Zapisz"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Anuluj"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Archiwum"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Dodano do archiwum."
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Usunięto z archiwum."
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Dodaj do archiwum"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Usuń z archiwum"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Użyj NFC na start."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Brak zarchiwizowanych etykiet"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Etykiety zostaną tu wyświetlone po dodaniu do archiwum."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Utwórz etykietę"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Dziennik etykiety"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontakt"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Notatka"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Zakładka"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Aby zapisać kontakt, całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Aby zapisać dane, całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Aby zapisać zapisek, całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Aby zapisać adres URL, całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Nie pokazuj ponownie"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Błąd tworzenia etykiety. Nie można znaleźć nazwy lub numeru telefonu, które chcesz zapisać."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "W tej etykiecie można zapisać tylko nazwę i numer telefonu kontaktu"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Po wyborze tej opcji zapisywanych będzie jednocześnie kilka etykiet"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Prezentacja etykiet NFC"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Etykiety NFC — informacje"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "Etykiety NFC to bardzo małe mikrochipy umieszczone w małych kartach. Mogą zawierać tekst, adresy URL i inne rodzaje informacji."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "Czytanie etykiet NFC"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Aby odczytać etykietę NFC, całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund. Informacje z etykiety zostaną zapisane w aplikacji Etykiety."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "Bezpiecz. pam. masowa NFC"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "Bezpieczna pamięć masowa NFC"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Ręcznie"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automatycznie"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Użyj karty SIM jako bezpiecznej pamięci masowej."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Automatyczne przełączanie między kartą SIM a wbudowaną bezpieczną pamięcią masową urządzenia."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Wybór trybu ręcznego spowoduje wyłączenie niektórych bezpiecznych funkcji, takich jak płatności NFC, które przechowują dane we wbudowanej bezpiecznej pamięci masowej urządzenia."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Ten typ etykiety nie jest obsługiwany."
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Wprowadzenie do etykiet"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Wykryto adres e-mail. Utworzyć e-mail?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Wykryto adres URL. Otworzyć?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikacja Etykiety pomaga organizować i udostępniać etykiety NFC (Near Field Communication). Możesz zeskanować etykietę, odblokowując urządzenie i zbliżając je do etykiety. Etykiety NFC mogą zawierać tekst, adresy URL oraz informacje innego typu.\n\nAby zeskanować lub udostępnić etykiety, włącz funkcję NFC w menu Ustawienia > Połączenie."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "Usługa NFC nie jest obsługiwana."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Udostępnianie plików za pomocą funkcji S Beam spowoduje wyłączenie routera Wi-Fi. Aby kontynuować, dotknij opcji OK w ciągu %d s."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "Tworzenie etykiet NFC"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Utwórz etykietę przy użyciu opcji menu tworzenia etykiety w aplikacji Etykiety. Wybierz dane, które chcesz zapisać, a następnie całkowicie przykryj etykietę tyłem urządzenia i przytrzymaj je przez kilka sekund."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Nie można przesłać"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Włącz funkcję NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "Wybrano %d"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Zapisywanie kontaktu do etykiety"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Usuwanie etykiety"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Nie można odebrać pliku"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Usunąć tę etykietę?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Usunąć etykiet: %d?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Pamięć"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Możesz teraz udostępniać pliki za pomocą funkcji S Beam. Rozłącz urządzenia."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Przygotowywanie do udostępniania plików...\nUpewnij się, że urządzenia nadal się dotykają."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Wysłano pliki."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Wysłano pliki."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Błąd wysyłania plików."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Błąd wysyłania plików."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Odebrano pliki."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Odebrano pliki."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Odbieranie plików nie powiodło się."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Błąd odbierania plików."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Przekroczono maksymalną liczbę plików, które można przesłać jednocześnie (%d). Aby udostępnić te pliki, użyj funkcji Wi-Fi Direct lub Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Błąd włączania NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Nie można odczytać etykiety"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Nie można utworzyć etykiety"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Wybór typu etykiety"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Powiązanie z urządzeniem %s nie powiodło się."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Nawiązanie połączenia z urządzeniem %s nie powiodło się."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Podczas włączania funkcji NFC wystąpił błąd. Spróbuj ponownie."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Nie zapisano danych do tej etykiety."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Podczas zapisywania informacji do etykiety wystąpił błąd. Spróbuj ponownie."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Aplikacja Etykiety pomaga organizować i udostępniać etykiety NFC (Near Field Communication). Możesz zeskanować etykietę, odblokowując urządzenie i zbliżając je do etykiety. Etykiety NFC mogą zawierać tekst, adresy WWW, dane kontaktowe, zapiski, zdjęcia, filmy i inne informacje.\n\nAby zeskanować lub udostępnić etykiety, włącz funkcję NFC w menu Ustawienia > Połączenie."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Dotknięcie urządzeniem tylnej części innego urządzenia lub etykiety umożliwia przesłanie między nimi takich danych jak tekst, zdjęcia, filmy, adresy WWW i dane kontaktowe."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "Etykiety NFC to bardzo małe mikrochipy umieszczone w małych kartach. Mogą zawierać tekst, adresy WWW, dane kontaktowe, zapiski, zdjęcia, filmy i inne informacje."
 

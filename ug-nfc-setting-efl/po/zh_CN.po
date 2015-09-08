@@ -1,9 +1,0 @@
-msgid "IDS_NFC_BODY_NFC"
-msgstr "NFC"
-
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "当该功能开启时，您可通过将设备紧靠在一起将文件无线传输至其他 NFC 和 WLAN Direct 设备。例如，您可无线传输来自图库的图片/视频文件、来自音乐播放器的音乐文件，以及更多。只需要将设备放在一起（通常背对背）然后轻敲您的屏幕。应用程序判定无线传输的内容"
-
-msgid "IDS_NFC_OPT_S_BEAM"
-msgstr "S 传送"
-

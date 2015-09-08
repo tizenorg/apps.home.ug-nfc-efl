@@ -1,9 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Ar trinti?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Jungiamasi..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Nėra"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Pridėti"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "El. paštas"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Žinynas"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Įrašas"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Žinutė"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Įjungta"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Taip"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Naujas įrašas"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Žymos"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Rašyti į žymą"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Ankstesnės dienos"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Failas"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Adresyno įrašas"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Adresyno įrašai"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Sek."
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Kurti"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Šiandien"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Vakar"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Uždaryti"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Klaida"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Siunčiama..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Adresatas"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Bal."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Rgp."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Gru."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Trinti"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Vas."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pen."
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Sau."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Lie."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Bir."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Kov."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Gegužė"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Pir."
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Lap."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Spal."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Šeš."
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Rug."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Ket."
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Ant."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nežinomas"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Tre."
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Atidaryti"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "Pasirinkta: %d"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Atidaryti naršyklę?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Medijos leistuvas"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Žymų nėra"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Žymeklių nėra"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Neįmanoma surasti programos šiam veiksmui atlikti."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Paslauga nepasiekiama. NFC išjungtas. Įjungti NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Nuskaityti NFC žymą"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Bendrinti per NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Jei norite bendrinti, švelniai pridėkite vieną telefoną prie kito."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "Pasirinkta: %s"
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Nepavyko rašyti į žymą."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktyvinti nepavyko."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Tuščia žyma"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Duomenys surašyti į žymą."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Nepalaikomas žymos tipas."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Bakstelėkite ir išsiųskite žinutę."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Neįmanoma sukurti žymos. Duomenys per dideli."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Neįmanoma sukurti. Žyma užrakinta."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Gaunama..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Nepakanka atminties. Ištrinkite kai kuriuos elementus ir bandykite dar kartą."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Saugos politika draudžia naudoti „%s“."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Bendra"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Neįmanoma bendrinti."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Failų nepasirinkta. Pasirinkite norimą siųsti failą ir bandykite dar kartą."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Kai NFC įjungta, galite siųsti ar gauti duomenis, kai jūsų įrenginys liečiasi prie kito įrenginio, kuriame veikia NFC, ar NFC žymų."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Pasirinkti žymą"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Mygtukas"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Žymimasis langelis"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Pažymėti"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Panaikinti žymėjimą"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Kelių žymų rašymas"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Sukurti įrašo žymą"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Kurti žymą"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "Dar %d"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Žymėti turinį"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Rinktis įr.(tik tekstas)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Perskaičius / parašius žymų, žymų žurnalas bus rodomas čia."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Atidaryti %s nustatymus."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Pasirinkti žymas"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Bakstelėkite nurodytą sritį."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Mokymo programa baigta."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Keiskitės duomenimis įrenginiui palietus kitą įrenginį."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "„S Beam“ jau įjungta. Galite pakeisti savo „S Beam“ nustatymus."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC jau įjungtas. Galite pakeisti NFC nustatymus."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Pasirinkite ryšių skirtuką."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Pasirinkite %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Jei norite įjungti NFC, perjunkite mygtuką."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Pasirinkite %s „S Beam“."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Jei norite įjungti „S Beam“, perjunkite mygtuką."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC įjungtas."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "„S Beam“ įjungtas."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Kai ši funkcija įjungta, galite siųsti iš anksto nustatytus elementus per NFC būdami pradžios ekrane."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Kai įjungtas „S Beam“, galite siųsti arba gauti failus, kai jūsų įrenginys yra šalia kitų NFC ir „Wi-Fi Direct“ įrenginių. Pavyzdžiui, galite perduoti vaizdo / vaizdo įrašų failus iš galerijos suglausdami įrenginius nugarėlėmis ir bakstelėdami savo įrenginio ekraną."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nepakanka atminties. Ištrinkite kai kuriuos elementus"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Dalytis"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Failus bendrinant per „S Beam“ bus išjungta „Screen Mirroring“ funkcija. Jei norite tęsti, per %d sek. bakstelėkite „Gerai“."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "Įjungiama NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "Įjungiama „S Beam“"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Kurti žymą"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Pasirinkite vieną iš kelių turinio, kurį įrašysite žymoje, tipų. Įrašę duomenis į žymą bakstelėkite žymą įrenginiu, kad peržiūrėtumėte tuos duomenis."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Saug."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Atšaukti"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Archyvas"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Pridėta prie archyvo"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Pašalinta iš archyvo"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Pridėti prie archyvo"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Šalinti iš archyvo"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Pradž. ek. naud. NFC"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Archyvuotų žymų nėra"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Pridėjus žymas prie archyvo, jos bus rodomos čia."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Kurti žymą"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Žymų žurnalas"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Adresatas"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Įrašas"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Adresyno įrašas"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Jei norite išsaugoti adresatą, visiškai uždenkite žymą įrenginio nugarėle ir palaikykite kelias sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Jei norite išsaugoti duomenis, visiškai uždenkite žymą įrenginio nugarėle ir palaikykite kelias sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Jei norite išsaugoti įrašą, visiškai uždenkite žymą įrenginio nugarėle ir palaikykite kelias sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Jei norite išsaugoti URL, visiškai uždenkite žymą įrenginio nugarėle ir palaikykite kelias sekundes"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Nerodyti dar kartą"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Nepavyko sukurti žymos. Nepavyksta rasti vardo ar telefono numerio, kurį norite išsaugoti."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Šioje žymoje galima išsaugoti tik adresato vardą ir telefono numerį"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Pažymėjus šią parinktį vienu metu rašomos kelios žymos"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Įvadas apie NFC žymas"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Apie NFC žymas"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC žymos – tai nedideli mikrolustai, įdėti į nedideles korteles. Jose gali būti teksto, URL ir kitokios informacijos."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC žymų nuskaitymas"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Jei norite nuskaityti NFC žymą, visiškai uždenkite ją įrenginio nugarėle ir palaikykite kelias sekundes. Informacija iš žymos bus išsaugota žymų programoje."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC saugos duom. saugykla"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC saugos duomenų saugykla"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Rankinis"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automatinė"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Naudokite SIM kortelę saugos duomenų saugykloje."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Automatiškai pakaitomis naudokite SIM kortelę ir įrenginio saugos duomenų saugyklą."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Pasirinkus rankinį režimą bus išjungtos kai kurios saugos funkcijos (pvz., NFC mokėjimas), kurios saugo duomenis įrenginio saugos duomenų saugykloje."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Žymos tipas nepalaikomas"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Įvadas apie žymas"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Aptiktas el. pašto adresas. Kurti el. laišką?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Aptiktas URL. Atidaryti?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Žymų programa padeda tvarkyti ir dalytis artimojo lauko ryšių (NFC) technologijos žymomis. Žymą galite nuskaityti atrakinę įrenginį ir pridėję jį prie žymos. NFC žymose gali būti teksto, URL ir kitokio tipo informacijos.\n\nNorėdami nuskaityti arba bendrinti žymas įjunkite NFC įėję į skirtuką Nustatymai > Ryšys."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC paslauga nepalaikoma."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Failus bendrinant per „S Beam“ bus išjungta mobilioji „Wi-Fi“ saitvietė. Jei norite tęsti, per %d sek. bakstelėkite „Gerai“."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC žymų kūrimas"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Kurkite žymas naudodami žymų programos žymų kūrimo meniu parinktį. Pasirinkite duomenis, kuriuos norite išsaugoti, tada visą žymą uždenkite pridėdami įrenginį ir palaikykite kelias minutes."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Negalima perduoti"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "Įjungti NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "Pasirinkta: %d"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Įrašyti adresatą į žymą"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Ištrinti žymą"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Neįmanoma priimti failo"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Trinti šią žymą?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Trinti %d žymas?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Saugykla"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Dabar failus galite bendrinti per „S Beam“. Atskirkite įrenginius."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Ruošiamasi bendrinti failus...\nPatikrinkite, ar įrenginiai vis dar suglausti."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Failai išsiųsti."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Failai išsiųsti."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Nepavyko išsiųsti failų."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Nepavyko išsiųsti failų."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Failai gauti."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Failai gauti."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Nepavyko priimti failų."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Nepavyko priimti failų."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Viršytas didžiausias failų, kuriuos galima perduoti vienu metu, skaičius (%d). Jei norite bendrinti šiuos failus, naudokite „Wi-Fi Direct“ arba „Bluetooth“."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Nepavyko įjungti NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Neįmanoma nuskaityti žymos"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Neįmanoma sukurti žymos"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Rinktis žymos tipą"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Nepavyko susieti su %s."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Nepavyko prisijungti prie %s."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Įjungiant NFC įvyko klaida. Bandykite dar."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Šioje žymoje duomenų nėra."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Įrašant informaciją į žymą įvyko klaida. Bandykite dar."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Žymų programa padeda tvarkyti ir dalytis artimojo lauko ryšių (NFC) technologijos žymomis. Žymą galite nuskaityti atrakinę įrenginį ir pridėję jį prie žymos. NFC žymose gali būti teksto, žiniatinklio adresų, adresatų informacijos, įrašų, nuotraukų, vaizdo įrašų ir kitos informacijos.\n\nJei norite nuskaityti arba bendrinti žymas, įjunkite NFC nuėję į skirtuką Nustatymai > Ryšiai."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Kai įrenginiu paliesite kito įrenginio nugarėlę ar žymą, duomenys, pvz., tekstas, nuotraukos, vaizdo įrašai, žiniatinklio adresai ir adresato informacija, bus perkelti iš vieno įrenginio į kitą arba tarp žymos ir įrenginio."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC žymos – tai nedideli mikrolustai, įdėti į nedideles korteles. Jose gali būti teksto, žiniatinklio adresų, adresatų informacijos, įrašų, nuotraukų, vaizdo įrašų ir kitos informacijos."
 

@@ -1,17 +1,17 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Mégse"
+msgstr "Annuleren"
 
 msgid "IDS_COM_POP_DELETE_Q"
-msgstr "Törli?"
+msgstr "Verwijderen?"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Kapcsolódás..."
+msgstr "Verbinden..."
 
 msgid "IDS_COM_BODY_NONE"
-msgstr "Nincs"
+msgstr "Geen"
 
 msgid "IDS_COM_SK_ADD"
-msgstr "Hozzáad"
+msgstr "Toevoegen"
 
 msgid "IDS_COM_BODY_BLUETOOTH"
 msgstr "Bluetooth"
@@ -20,557 +20,557 @@ msgid "IDS_COM_BODY_EMAIL"
 msgstr "E-mail"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Súgó"
+msgstr "Help"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Jegyzet"
+msgstr "Notitie"
 
 msgid "IDS_COM_BODY_MESSAGE"
-msgstr "Üzenet"
+msgstr "Bericht"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "Be"
+msgstr "Aan"
 
 msgid "IDS_COM_BODY_WI_FI"
 msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Nem"
+msgstr "Nee"
 
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
 msgid "IDS_COM_SK_YES"
-msgstr "Igen"
+msgstr "Ja"
 
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
 msgid "IDS_NFC_BODY_NEW_MEMO"
-msgstr "Új emlékeztető"
+msgstr "Nieuwe notitie"
 
 msgid "IDS_NFC_ITAB_TAGS"
-msgstr "Címkék"
+msgstr "Tags"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "Címkébe írás"
+msgstr "Schrijven naar tag"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
-msgstr "Előző napok"
+msgstr "Vorige dagen"
 
 msgid "IDS_COM_POP_FILE"
-msgstr "Fájl"
+msgstr "Bestand"
 
 msgid "IDS_COM_BODY_BOOKMARK"
-msgstr "Könyvjelző"
+msgstr "Favorieten"
 
 msgid "IDS_COM_BODY_BOOKMARKS"
-msgstr "Könyvjelzők"
+msgstr "Favorieten"
 
 msgid "IDS_COM_BODY_SUN"
-msgstr "Vas"
+msgstr "Zo"
 
 msgid "IDS_COM_SK3_COMPOSE"
-msgstr "Új üzenet"
+msgstr "Opstellen"
 
 msgid "IDS_COM_BODY_TODAY"
-msgstr "Ma"
+msgstr "Vandaag"
 
 msgid "IDS_COM_BODY_YESTERDAY"
-msgstr "Tegnap"
+msgstr "Gisteren"
 
 msgid "IDS_COM_POP_CLOSE"
-msgstr "Bezárás"
+msgstr "Sluiten"
 
 msgid "IDS_COM_POP_ERROR"
-msgstr "Hiba"
+msgstr "Fout."
 
 msgid "IDS_COM_POP_SENDING"
-msgstr "Küldés..."
+msgstr "Verzenden..."
 
 msgid "IDS_COM_BODY_CONTACT"
-msgstr "Névjegy"
+msgstr "Contact"
 
 msgid "IDS_COM_BODY_APR"
-msgstr "ápr."
+msgstr "apr"
 
 msgid "IDS_COM_BODY_AUG"
-msgstr "aug."
+msgstr "aug"
 
 msgid "IDS_COM_BODY_DEC"
-msgstr "dec."
+msgstr "dec"
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Töröl"
+msgstr "Verwijderen"
 
 msgid "IDS_COM_BODY_FEB"
-msgstr "feb."
+msgstr "feb"
 
 msgid "IDS_COM_BODY_FRI"
-msgstr "Pén"
+msgstr "Vr"
 
 msgid "IDS_COM_BODY_JAN"
-msgstr "jan."
+msgstr "jan"
 
 msgid "IDS_COM_BODY_JUL"
-msgstr "júl."
+msgstr "jul"
 
 msgid "IDS_COM_BODY_JUN"
-msgstr "jún."
+msgstr "jun"
 
 msgid "IDS_COM_BODY_MAR"
-msgstr "már."
+msgstr "mrt"
 
 msgid "IDS_COM_BODY_MAY"
-msgstr "máj."
+msgstr "Mei"
 
 msgid "IDS_COM_BODY_MON"
-msgstr "Hét"
+msgstr "Ma"
 
 msgid "IDS_COM_BODY_NOV"
-msgstr "nov."
+msgstr "nov"
 
 msgid "IDS_COM_BODY_OCT"
-msgstr "okt."
+msgstr "okt"
 
 msgid "IDS_COM_BODY_SAT"
-msgstr "Szo"
+msgstr "Za"
 
 msgid "IDS_COM_BODY_SEP"
-msgstr "szep"
+msgstr "sep"
 
 msgid "IDS_COM_BODY_THU"
-msgstr "Csü"
+msgstr "Do"
 
 msgid "IDS_COM_BODY_TUE"
-msgstr "Ke"
+msgstr "Di"
 
 msgid "IDS_COM_BODY_UNKNOWN"
-msgstr "Ismeretlen"
+msgstr "Onbekend"
 
 msgid "IDS_COM_BODY_WED"
-msgstr "Sze"
+msgstr "Wo"
 
 msgid "IDS_COM_SK_OPEN"
-msgstr "Megnyit"
+msgstr "Openen"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d kiválasztva"
+msgstr "%d geselecteerd"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
-msgstr "Megnyitja a böngészőt?"
+msgstr "Browser openen?"
 
 msgid "IDS_NFC_BODY_MEDIA_PLAYER"
-msgstr "Médiatár"
+msgstr "Mediaspeler"
 
 msgid "IDS_NFC_BODY_URL"
 msgstr "URL"
 
 msgid "IDS_NFC_BODY_NO_TAGS"
-msgstr "Nincs címke"
+msgstr "Geen tags"
 
 msgid "IDS_NFC_BODY_NO_BOOKMARKS"
-msgstr "Nincs könyvjelző"
+msgstr "Geen favorieten"
 
 msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
-msgstr "Nem található alkalmazás a művelet végrehajtásához."
+msgstr "Kan geen applicatie vinden om deze actie uit te voeren."
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
-msgstr "A szolgáltatás nem elérhető. Az NFC ki van kapcsolva. Bekapcsolja az NFC-t?"
+msgstr "Service niet beschikbaar. NFC uitgeschakeld. NFC inschakelen?"
 
 msgid "IDS_NFC_HEADER_READ_NFC_TAG"
-msgstr "NFC-címke olvasása"
+msgstr "NFC-tags lezen"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
-msgstr "Megosztás NFC-n"
+msgstr "Delen via NFC"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Finoman érintse egymáshoz a telefonokat a megosztáshoz."
+msgstr "Houd de telefoons voorzichtig tegen elkaar om te delen."
 
 msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "%s kiválasztva."
+msgstr "%s geselecteerd."
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "Nem sikerült írni a címkébe."
+msgstr "Kan niet schrijven naar tag."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
 msgid "IDS_NFC_POP_ACTIVATION_FAILED"
-msgstr "Nem sikerült aktiválni."
+msgstr "Kan niet inschakelen..."
 
 msgid "IDS_NFC_POP_BLANK_TAG"
-msgstr "Üres címke"
+msgstr "Lege tag."
 
 msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
-msgstr "Beírta az adatokat a címkébe."
+msgstr "Gegevens opgeslagen met tag."
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "Nem támogatott címketípus"
+msgstr "Niet-ondersteund tagtype."
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Érintse meg a küldéshez."
+msgstr "Tik om te verzenden."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "Nem lehet létrehozni a címkét. Az adatok túl nagyok."
+msgstr "Kan tag niet maken. Gegevens te groot."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "Nem hozható létre. Zárolt címke."
+msgstr "Kan niet maken. Tag vergrendeld."
 
 msgid "IDS_COM_POP_RECEIVING"
-msgstr "Fogadás..."
+msgstr "Ontvangen..."
 
 msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Kevés a memória. Töröljön tételeket, és próbálja újra."
+msgstr "Onvoldoende geheugen. Verwijder een aantal items en probeer het opnieuw."
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "A biztonsági irányelv korlátozza a(z) %s használatát."
+msgstr "Gebruik van %s beperkt door beveiligingsbeleid."
 
 msgid "IDS_COM_OPT_SHARED"
-msgstr "Megosztott"
+msgstr "Gedeeld"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Nem lehet megosztani."
+msgstr "Kan niet delen."
 
 msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
-msgstr "Nincs kiválasztva fájl. Válassza ki a küldeni kívánt fájlt, és próbálja újra."
+msgstr "Geen bestand geselecteerd. Selecteer een bestand en probeer het opnieuw."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "Az NFC bekapcsolása esetén az eszközt egy másik NFC-kompatibilis eszközhöz vagy NFC-címkéhez érintve adatokat küldhet és fogadhat."
+msgstr "Wanneer NFC is ingeschakeld, kunt u gegevens verzenden of ontvangen wanneer uw apparaat andere NFC-apparaten of NFC-tags aanraakt."
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
-msgstr "Címke kiválasztása"
+msgstr "Tag selecteren"
 
 msgid "IDS_COM_BODY_BUTTON_T_TTS"
-msgstr "Gomb"
+msgstr "Knop"
 
 msgid "IDS_COM_BODY_TICKBOX_T_TTS"
-msgstr "Jelölőnégyzet"
+msgstr "Selectievak"
 
 msgid "IDS_COM_BODY_TICK_T_TTS"
-msgstr "Bejelölés"
+msgstr "Selecteren"
 
 msgid "IDS_COM_BODY_UNTICK_T_TTS"
-msgstr "Bejelölés törlése"
+msgstr "Deselecteren"
 
 msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
-msgstr "Írás több címkébe"
+msgstr "Meerdere tags schrijven"
 
 msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
-msgstr "Jegyzetcímke létrehozása"
+msgstr "Notitietag maken"
 
 msgid "IDS_NFC_BODY_CREATE_TAG"
-msgstr "Létrehozás"
+msgstr "Tag maken"
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "még %d"
+msgstr "%d meer"
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
-msgstr "Tartalom címkézése"
+msgstr "Taginhoud"
 
 msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
-msgstr "Jegyzet kiv.–csak szöveg"
+msgstr "Sel. memo (alleen tekst)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "Itt jelenik majd meg az címkenaplója, ha címkéket olvas/ír."
+msgstr "Nadat u tags hebt gelezen/ingevoerd, wordt uw taglogbestand hier weergegeven."
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. Nyissa meg a %s Beállítások menüt."
+msgstr "1. Open %s Instellingen."
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
-msgstr "Jelöljön ki címkéket"
+msgstr "Tags selecteren"
 
 msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
-msgstr "Érintse meg a megjelölt területet."
+msgstr "Tik op het aangegeven gebied."
 
 msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
-msgstr "A tankönyv befejeződött."
+msgstr "Zelfstudie voltooid."
 
 msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
-msgstr "Adatcsere, ha az eszköz hozzáér egy másik eszközhöz."
+msgstr "Gegevens uitwisselen wanneer uw apparaat een ander apparaat aanraakt."
 
 msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
-msgstr "Most már tudja, hogyan kell használni a scrapbooker funkciót a tartalmak gyűjtésére és rendszerezésére a Scrapbookban."
+msgstr "S Beam is al ingeschakeld. U kunt uw S Beam-instellingen wijzigen."
 
 msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
-msgstr "Az NFC már be van kapcsolva. Módosíthatja az NFC-beállításokat."
+msgstr "NFC is al ingeschakeld. U kunt uw NFC-instellingen wijzigen."
 
 msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
-msgstr "Válassza a Kapcsolatok lapot."
+msgstr "Selecteer het tabblad Verbindingen."
 
 msgid "IDS_HELP_BODY_SELECT_PS_NFC"
-msgstr "Válassza az %s NFC funkciót."
+msgstr "Selecteer %s NFC."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
-msgstr "Kapcsolja be az NFC funkciót a gombbal."
+msgstr "Zet de knop aan om NFC in te schakelen."
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "Válassza az %s S Beam funkciót."
+msgstr "Selecteer %s S Beam."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
-msgstr "Kapcsolja be az S Beam funkciót a gombbal."
+msgstr "Zet de knop aan om S Beam in te schakelen."
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC bekapcsolva."
+msgstr "NFC ingeschakeld."
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam bekapcsolva."
+msgstr "S Beam ingeschakeld."
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "A funkció engedélyezésével az eszköz NFC-n elküldi az előre megadott tételeket, amikor a kezdőképernyő látható rajta."
+msgstr "Wanneer deze functie is ingeschakeld, kunt u vooraf gedefinieerde items verzenden via NFC terwijl u in het startscherm bent."
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
-msgstr "A bekapcsolt S Beam funkcióval fájlokat küldhet és fogadhat úgy, hogy az eszközt egy másik NFC- vagy Wi-Fi Direct-kompatibilis eszközhöz tartja. Például, a két eszközt háttal egymáshoz tartva és ennek az eszköznek a képernyőjét megérintve kép- vagy videofájlokat továbbíthat a Galériából."
+msgstr "Wanneer S Beam is ingeschakeld, kunt u bestanden verzenden of ontvangen wanneer uw apparaat dichtbij andere NFC- en Wi-Fi Direct-apparaten is. U kunt bijvoorbeeld foto-/videobestanden uit de Galerij overbrengen door de apparaten met de achterkant bij elkaar te houden en op uw scherm te tikken."
 
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Kevés a memória. Töröljön néhány tételt"
+msgstr "Onvoldoende geheugen. Wis een aantal items."
 
 msgid "IDS_TAGS_OPT_SHARE_ABB"
-msgstr "Megosztás"
+msgstr "Delen"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Ha fájlt oszt meg az S Beam segítségével, a Screen Mirroring le lesz tiltva. A folytatáshoz érintse meg az OK gombot %d másodpercen belül."
+msgstr "Als u bestanden deelt via S Beam, wordt Screen Mirroring uitgeschakeld. Tik binnen %d seconden op OK om verder te gaan."
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
-msgstr "NFC bekapcsolása"
+msgstr "NFC inschakelen"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
-msgstr "S Beam bekapcsolása"
+msgstr "S Beam inschakelen"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
 msgstr "Smart poster"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "Címke létrehozása"
+msgstr "Tag maken"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "Válasszon ki egy tartalomtípust a címkébe íráshoz. A címkébe írt adatok megtekintéséhez érintse az eszközt a címkéhez."
+msgstr "Selecteer een van de inhoudstypen om naar uw tag te schrijven. Nadat u gegevens naar de tag hebt geschreven, raakt u de tag aan met uw apparaat om die gegevens weer te geven."
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
-msgstr "Mentés"
+msgstr "Opsln"
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Mégse"
+msgstr "Annul."
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
-msgstr "Archívum"
+msgstr "Archief"
 
 msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
-msgstr "Archívumhoz adva."
+msgstr "Toegevoegd aan archief."
 
 msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
-msgstr "Eltávolítva az archívumból."
+msgstr "Verwijderd uit archief."
 
 msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
-msgstr "Archívumhoz adás"
+msgstr "Toev. aan archief"
 
 msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
-msgstr "Eltáv. az archív.ból"
+msgstr "Verwijd. uit archief"
 
 msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
-msgstr "NFC a kezdőképernyőn"
+msgstr "NFC thuis gebruiken"
 
 msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
-msgstr "Nincs archivált címke"
+msgstr "Geen gearchiveerde tags"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Itt jelennek majd meg az archívumhoz adott címkék."
+msgstr "Nadat u tags aan uw archief hebt toegevoegd, worden ze hier weergegeven."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "Címke létrehozása"
+msgstr "Tag maken"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
-msgstr "Címkenapló"
+msgstr "Logbestand taggen"
 
 msgid "IDS_NFC_BODY_CONTACT"
-msgstr "Névjegy"
+msgstr "Contact"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Jegyzet"
+msgstr "Notitie"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
-msgstr "Könyvjelző"
+msgstr "Favorieten"
 
 msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Névjegy mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Als u het contact wilt opslaan, bedekt u de tag helemaal met de achterkant van het apparaat en houdt u dit een paar seconden vast"
 
 msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Adatok mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Als u gegevens wilt opslaan, bedekt u de tag helemaal met de achterkant van het apparaat en houdt u dit een paar seconden vast"
 
 msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Jegyzet mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Als u het memo wilt opslaan, bedekt u de tag helemaal met de achterkant van het apparaat en houdt u dit een paar seconden vast"
 
 msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "URL mentéséhez néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt"
+msgstr "Als u de URL wilt opslaan, bedekt u de tag helemaal met de achterkant van het apparaat en houdt u dit een paar seconden vast"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Ne jelenjen meg újra"
+msgstr "Niet meer tonen"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "Nem sikerült címkét létrehozni. A menteni próbált név vagy telefonszám nem található."
+msgstr "Kan tag niet maken. De naam of het telefoonnummer dat u probeert op te slaan, kan niet worden gevonden."
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "Ebbe a címkébe csak a partner nevét és telefonszámát mentheti."
+msgstr "Alleen de naam en het telefoonnummer van het contact kunnen worden opgeslagen in deze tag"
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
-msgstr "A lehetőség bejelölése esetén több címkét írhat egyszerre."
+msgstr "Wanneer deze optie is ingeschakeld, worden verschillende tags in één keer geschreven"
 
 msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
-msgstr "NFC-címkék – bevezetés"
+msgstr "Informatie bij NFC-tags"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "Az NFC-címkék"
+msgstr "Over NFC-tags"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "Az NFC-címkék kis kártyába épített apró mikrochipek. Szöveget, URL-eket és bármilyen egyéb fajta információt tárolhatnak."
+msgstr "NFC-tags zijn kleine microchips die zijn opgenomen in kleine kaarten. Ze kunnen tekst, URL´s en andere soorten informatie bevatten."
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
-msgstr "NFC-címke olvasása"
+msgstr "NFC-tags lezen"
 
 msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
-msgstr "NFC-címke olvasásához néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen letakarva azt. Az eszköz a Címkék alkalmazásba menti a címke adatait."
+msgstr "Als u een NFC-tag wilt lezen, bedekt u de tag helemaal met de achterkant van het apparaat en houdt u dit een paar seconden vast. De informatie uit de tag wordt opgeslagen in de applicatie Tags."
 
 msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
-msgstr "NFC biztonságos tárhely"
+msgstr "Beveiligde NFC-opslag"
 
 msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
-msgstr "NFC biztonságos tárhely"
+msgstr "Beveiligde NFC-opslag"
 
 msgid "IDS_NFC_OPT_MANUAL"
-msgstr "Kézi"
+msgstr "Handmatig"
 
 msgid "IDS_NFC_OPT_AUTOMATIC"
-msgstr "Automatikus"
+msgstr "Automatisch"
 
 msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
-msgstr "SIM kártya használata a biztonságos tároláshoz"
+msgstr "Gebruik uw SIM-kaart voor beveiligde opslag."
 
 msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Automatikus váltás a SIM kártya és az eszköz biztonságos tárhelyének használata között"
+msgstr "Schakel automatisch tussen uw SIM-kaart en de beveiligde opslag op het apparaat."
 
 msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "A Kézi lehetőség kiválasztásával letilt bizonyos biztonsági funkciókat, például az NFC-fizetést, amely az eszköz biztonságos tárhelyén tárolja az adatokat."
+msgstr "Bepaalde beveiligingsvoorzieningen worden uitgeschakeld, als u handmatig selecteert. Dit geldt bijvoorbeeld voor NFC-betalingen waarmee gegevens worden opgeslagen in de beveiligde opslag op het apparaat."
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "Nem támogatott címketípus."
+msgstr "Tagtype niet ondersteund."
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
-msgstr "Címkék – bevezetés"
+msgstr "Introductie bij Tags"
 
 msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
-msgstr "E-mail cím észlelve. Szeretne e-mailt írni?"
+msgstr "Er is een e-mailadres gedetecteerd. E-mail opstellen?"
 
 msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
-msgstr "URL észlelve. Megnyitja?"
+msgstr "Er is een URL gedetecteerd. Openen?"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "A Címkék alkalmazás segít az NFC (Near Field Communication)-címkék rendszerezésében és megosztásában. Címke leolvasásához tartsa a feloldott eszközt a címkékhez. Az NFC-címkék tartalmazhatnak szöveget, URL-t és egyéb típusú adatokat.\n\nCímke leolvasásához vagy megosztásához kapcsolja be az NFC-t a Beállítások > Kapcsolat pontban."
+msgstr "De Tags-app helpt u met het organiseren en delen van NFC-tags (Near Field Communication). U scant een tag door uw apparaat te ontgrendelen en het naast een tag te plaatsen. NFC-tags kunnen tekst, URL´s en andere informatie bevatten.\n\nAls u tags wilt scannen of delen, schakelt u NFC in via Instellingen > Verbinding."
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
-msgstr "Az NFC szolgáltatás nincs támogatva."
+msgstr "NFC-service wordt niet ondersteund."
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "Ha fájlt oszt meg az S Beam segítségével, a mobil Wi-Fi hotspot le lesz tiltva. A folytatáshoz érintse meg az OK gombot %d másodpercen belül."
+msgstr "Als u bestanden deelt via S Beam, wordt de draagbare Wi-Fi hotspot uitgeschakeld. Tik binnen %d seconden op OK om verder te gaan."
 
 msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
-msgstr "NFC-címke létrehozása"
+msgstr "NFC-tags maken"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "Hozzon létre címkét a Címkék alkalmazás Címke létrehozása menüpontjával. Válassza ki a menteni kívánt adatokat, majd néhány másodpercre tartsa az eszköz hátulját a címkéhez, teljesen eltakarva azt."
+msgstr "Maak een tag met de menuoptie Tag maken in de applicatie Tags. Selecteer de gegevens die u wilt opslaan, bedek de tag helemaal met de achterkant van het apparaat en houd dit een paar seconden vast."
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
-msgstr "Nem lehet küldeni"
+msgstr "Kan niet overbrengen"
 
 msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
-msgstr "NFC bekapcsolása"
+msgstr "NFC inschakelen"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d kijelölve"
+msgstr "%d geselecteerd"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
-msgstr "Névjegy címkébe írása"
+msgstr "Contact wegschrijven naar tag"
 
 msgid "IDS_NFC_HEADER_DELETE_TAG"
-msgstr "Címke törlése"
+msgstr "Tag verwijderen"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
-msgstr "Nem lehet fogadni a fájlt"
+msgstr "Kan bestand niet ontvangen"
 
 msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
-msgstr "Törli a címkét?"
+msgstr "Deze tag verwijderen?"
 
 msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
-msgstr "Töröl %d címkét?"
+msgstr "%d tags verwijderen?"
 
 msgid "IDS_NFC_BUTTON_STORAGE"
-msgstr "Tárhely"
+msgstr "Opslag"
 
 msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
-msgstr "A fájlok immár megoszthatók az S Beam segítségével. Helyezze egymástól távolabb az eszközöket."
+msgstr "Bestanden kunnen nu worden gedeeld via S Beam. Scheid de apparaten van elkaar."
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "Fájlmegosztás előkészítése...\nAz eszközöknek egymáshoz kell érniük."
+msgstr "Voorbereiden op delen van bestanden...\nZorg dat de apparaten elkaar aanraken."
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
-msgstr "Fájlok elküldve."
+msgstr "Bestanden verzonden."
 
 msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
-msgstr "Fájlok elküldve."
+msgstr "Bestanden verzonden."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
-msgstr "A fájlküldés sikertelen."
+msgstr "Geen bestanden verzonden."
 
 msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
-msgstr "A fájlküldés sikertelen."
+msgstr "Geen bestanden verzonden."
 
 msgid "IDS_NFC_TPOP_FILES_RECEIVED"
-msgstr "Fájlok fogadva."
+msgstr "Bestanden ontvangen."
 
 msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
-msgstr "Fájlok fogadva."
+msgstr "Bestanden ontvangen."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
-msgstr "Nem sikerült fogadni a fájlokat."
+msgstr "Kan bestanden niet ontvangen."
 
 msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
-msgstr "A fájlfogadás sikertelen."
+msgstr "Geen bestanden ontvangen."
 
 msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
-msgstr "Túllépte az egyszerre küldhető fájlok maximális számát (%d). A fájlok megosztásához használja a Wi-Fi Direct vagy a Bluetooth funkciót."
+msgstr "Het maximumaantal bestanden dat tegelijk kan worden overgedragen (%d), is overschreden. Gebruik Wi-Fi Direct of Bluetooth om deze bestanden te delen."
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "NFC bekapcsolása nem sikerült"
+msgstr "Kan NFC niet inschakelen"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
-msgstr "A címke nem olvasható"
+msgstr "Kan tag niet lezen"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
-msgstr "A címke nem hozható létre"
+msgstr "Kan tag niet maken"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "Címketípus kiválasztása"
+msgstr "Tagtype selecteren"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
-msgstr "Nem sikerült a párosítás a(z) %s eszközzel."
+msgstr "Kan niet koppelen met %s."
 
 msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
-msgstr "Nem sikerült kapcsolódni a(z) %s eszközhöz."
+msgstr "Kan niet verbinden met %s."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
-msgstr "Az NFC bekapcsolása során hiba történt. Próbálja újra."
+msgstr "Er is fout opgetreden bij het inschakelen van NFC. Probeer het opnieuw."
 
 msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
-msgstr "Nem írtak adatot a címkébe."
+msgstr "Er zijn geen gegevens geschreven naar deze tag."
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
-msgstr "Az adat címkébe írásakor hiba történt. Próbálja újra."
+msgstr "Er is een fout opgetreden bij het schrijven van gegevens naar de tag. Probeer het opnieuw."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "A Címkék alkalmazás segít az NFC (Near Field Communication)-címkék rendszerezésében és megosztásában. Címke leolvasásához tartsa a feloldott eszközt a címkéhez. Az NFC-címkék szöveget, webcímeket, névjegyadatokat, jegyzeteket, képeket, videókat és egyebeket tárolhatnak.\n\nCímke leolvasásához vagy megosztásához kapcsolja be az NFC-t a Beállítások > Kapcsolat pontban."
+msgstr "De applicatie Tags helpt u met het organiseren en delen van NFC-tags (Near Field Communication). U scant een tag door uw apparaat te ontgrendelen en het naast de tag te plaatsen. NFC-tags kunnen tekst, webadressen, contactgegevens, memo´s, foto´s, video´s en meer bevatten.\n\nAls u tags wilt scannen of delen, schakelt u NFC in via Instellingen > Verbinding."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Az eszközt egy másik eszköz hátuljához vagy egy címkéhez érintve adatokat, például szöveget, képeket, videókat, webcímeket és névjegyadatokat vihet át a két eszköz vagy az eszköz és a címke között."
+msgstr "Wanneer uw apparaat de achterkant van een ander apparaat of een andere tag aanraakt, kunnen gegevens als tekst, foto´s, video´s, webadressen en contactgegevens tussen apparaten worden overgedragen of tussen de tag en het apparaat."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "Az NFC-címkék kis kártyába épített apró mikrochipek. Tárolhatnak szöveget, webcímeket, névjegyadatokat, jegyzeteket, képeket, videókat és egyebeket."
+msgstr "NFC-tags zijn kleine microchips die zijn opgenomen in kleine kaarten. Ze kunnen tekst, webadressen, contactgegevens, memo´s, foto´s, video´s en meer bevatten."
 

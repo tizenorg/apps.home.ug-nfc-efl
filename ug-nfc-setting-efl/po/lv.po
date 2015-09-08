@@ -1,9 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "Vai dzēst?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "Savieno..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "Nav"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "Pievienot"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "E-pasts"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Palīdzība"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "Atgādne"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "Ziņa"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "Ieslēgt"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nē"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_COM_SK_YES"
+msgstr "Jā"
+
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
-msgid "IDS_NFC_BODY_S_BEAM_DESCRIPTION_MSG_CHN"
-msgstr "When this feature is turned on, you can beam files to other NFC and WLAN Direct devices by holding the devices close together. For example, you can beam image/video files from the Gallery, music files from the Music player, and more. Just bring the devices together (typically back to back) and then tap your screen. The app determines what is beamed"
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "Jauna piezīme"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "Atzīmes"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "Rakstīt atzīmē"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "Iepriekšējās dienas"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "Fails"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "Grāmatzīme"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "Grāmatzīmes"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "Sv."
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "Rakstīt"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "Šodien"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "Vakar"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "Aizvērt"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "Kļūda."
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "Sūta..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "Kontakts"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "Apr."
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "Aug."
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "Dec."
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "Dzēst"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "Feb."
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "Pk."
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "Jan."
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "Jūl."
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "Jūn."
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "Mar."
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "Maijs"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "Pr."
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "Nov."
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "Okt."
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "Se."
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "Sep."
+
+msgid "IDS_COM_BODY_THU"
+msgstr "Ce."
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "Ot."
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "Nezināms"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "Tr."
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "Atvērt"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d izvēlētas"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "Vai atvērt pārlūku?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "Multivides atskaņotājs"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "Nav atzīmju"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "Nav grāmatzīmes"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "Nevar atrast programmu, lai veiktu šo darbību."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "Pakalpojums nav pieejams. NFC ir izslēgts. Vai ieslēgt NFC?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "Lasīt NFC atzīmi"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "Kopīgot, izmantojot NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "Viegli pieskarieties ar vienu tālruni otram, lai kopīgotu."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "Izvēlēta %s."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "Neizdevās ierakstīt atzīmē."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "Aktivizēšana neizdevās."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "Tukša atzīme."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "Dati ir ierakstīti atzīmē."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "Neatbalstīts atzīmju veids."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "Pieskarieties, lai sūtītu."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "Nevar izveidot atzīmi. Pārāk daudz datu."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "Nevar izveidot. Atzīme bloķēta."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "Saņem..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "Nepietiek atmiņas. Izdzēsiet dažus objektus un mēģiniet vēlreiz."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Drošības politika ierobežo %s lietošanu."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "Koplietots"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "Nevar koplietot."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "Nav izvēlēts neviens fails. Izvēlieties sūtīšanai paredzēto failu un mēģiniet vēlreiz."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "Kad ir ieslēgta NFC funkcija, varat nosūtīt vai saņemt datus, kad ierīce pieskaras citai NFC ierīcei vai NFC atzīmei."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "Izvēlēties atzīmi"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "Poga"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "Atzīmējamais lodziņš"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "Atzīmēt"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "Noņemt atzīmi"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "Rakstīšana vairākās atzīmēs"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "Izveidot piezīmes atzīmi"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "Izv. atz."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "Vēl %d"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "Atzīmes saturs"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "Izv. atgādni (tekstu)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "Pēc atzīmju lasīšanas vai rakstīšanas jūsu atzīmju žurnāls tiks parādīts šeit."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. Atveriet %s iestatījumus."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "Izvēlēties atzīmes"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "Pieskarieties norādītajam laukam."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Apmācība pabeigta."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "Veiciet datu apmaiņu, kad jūsu ierīce pieskaras citai ierīcei."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "Tehnoloģija S Beam jau ir ieslēgta. Jūs varat mainīt S Beam iestatījumus."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC jau ir ieslēgts. Varat mainīt savus NFC iestatījumus."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "Izvēlieties savienojumu cilni."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "Izvēlieties %s NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "Pārslēdziet pogu, lai ieslēgtu NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "Izvēlieties %s S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "Pārslēdziet pogu, lai ieslēgtu S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC ir ieslēgts."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "Tehnoloģija S Beam ieslēgta."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "Kad šī funkcija ir aktivizēta un ir atvērts sākuma ekrāns, jūs varat nosūtīt sākotnēji definētus objektus, izmantojot NFC."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "Kad ir ieslēgta funkcija S Beam un jūsu ierīce atrodas citu NFC un Wi-Fi Direct ierīču tuvumā, jūs varat nosūtīt vai saņemt failus. Piemēram, lai sūtītu attēlu/video failus no galerijas, salieciet kopā ierīču aizmugures un pieskarieties savas ierīces ekrānam."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "Nepietiek atmiņas. Izdzēsiet dažus vienumus"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "Kopīgot"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Kopīgojot failus, izmantojot S Beam, tiks deaktivizēta programma Screen Mirroring. Lai turpinātu, %d sekunžu laikā pieskarieties pie Labi."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC ieslēgšana"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam ieslēgšana"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "Izveidot atzīmi"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "Izvēlieties kādu no šiem satura veidiem, ko rakstīt savā atzīmē. Kad esat atzīmē ierakstījis datus, pieskarieties atzīmei ar savu ierīci, lai skatītu šos datus."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "Sagl."
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "Atcelt"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "Arhivēt"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "Pievienots arhīvam"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "Noņemts no arhīva"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "Pievienot arhīvam"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "Noņemt no arhīva"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "Lietot NFC sāk. ekr."
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "Nav arhivētu atzīmju"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "Pēc atzīmju pievienošanas arhīvam tās tiks parādītas šeit."
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "Izveidot atzīmi"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "Atzīmju žurnāls"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "Kontakts"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "Atgādne"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "Grāmatzīme"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Lai saglabātu kontaktu, pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Lai saglabātu datus, pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Lai saglabātu atgādni, pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "Lai saglabātu URL, pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "Vairs nerādīt"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "Neizdevās izveidot atzīmi. Vārdu vai tālruņa numuru, ko mēģināt saglabāt, nevar atrast."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "Šajā atzīmē var saglabāt tikai kontakta vārdu un tālruņa numuru"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "Kad atzīmēsit šo iespēju, uzreiz tiks uzrakstītas vairākas atzīmes"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "Informācija par NFC atzīmēm"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "Par NFC atzīmēm"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC atzīmes ir mazās kartēs integrētas sīkas mikroshēmas. Tās var ietvert tekstu, URL un cita veida informāciju."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC atzīmju lasīšana"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "Lai nolasītu NFC atzīmi, pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes. Atzīmes informācija tiks saglabāta programmā Atzīmes."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC drošā krātuve"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC drošā krātuve"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "Manuāli"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "Automātiski"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "Izmantojiet savu drošās krātuves SIM karti."
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Automātiski pārslēdzieties starp SIM kartes un ierīces drošās krātuves lietošanu."
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "Izvēloties Manuāli, tiks deaktivizētas dažas drošības funkcijas, piemēram, NFC maksājums, kas saglabā datus ierīces drošajā krātuvē."
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "Atzīmes veids netiek atbalstīts"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "Informācija par atzīmēm"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Ir noteikta e-pasta adrese. Vai rakstīt e-pasta ziņu?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "Ir noteikts URL. Vai atvērt?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Programma Atzīmes palīdz kārtot un kopīgot tuva darbības lauka sakaru (NFC) atzīmes. Lai skenētu atzīmi, atbloķējiet ierīci un novietojiet to blakus atzīmei. NFC atzīmes var ietvert tekstu, URL un cita veida informāciju.\n\nLai skenētu vai kopīgotu atzīmes, ieslēdziet NFC, izvēloties Iestatījumi > Savienojums."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC pakalpojums netiek atbalstīts."
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "Ja kopīgojat failus, izmantojot S Beam, tiks deaktivizēts pārvietojamais Wi-Fi tīklājs. Lai turpinātu, %d sekunžu laikā pieskarieties pie Labi."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC atzīmju izveide"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "Izveidojiet atzīmi, izmantojot programmas Atzīmes izvēlnes iespēju Izveidot atzīmi. Izvēlieties datus, ko saglabāt, un pēc tam pilnībā aizklājiet atzīmi ar ierīces aizmuguri un turiet to dažas sekundes."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Nevar nosūtīt"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "NFC ieslēgšana"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "Izvēlēts: %d"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "Rakstīt kontaktu atzīmē"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "Dzēst atzīmi"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "Nevar saņemt failu"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "Vai izdzēst šo atzīmi?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "Vai izdzēst %d atzīmes?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "Krātuve"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "Failus tagad var kopīgot, izmantojot programmu S Beam. Atvienojiet ierīces vienu no otras."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "Gatavojas failu kopīgošanai...\nPārliecinieties, vai ierīces vēl arvien saskaras viena ar otru."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "Faili ir nosūtīti."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "Faili ir nosūtīti."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "Neizdevās nosūtīt failus."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "Neizdevās nosūtīt failus."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "Faili ir saņemti."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "Faili ir saņemti."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "Neizdevās saņemt failus."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "Neizdevās saņemt failus."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "Pārsniegts maksimālais failu skaits (%d), ko var pārsūtīt vienlaicīgi. Lai kopīgotu šos failus, izmantojiet Wi-Fi Direct vai Bluetooth."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "Neizdevās ieslēgt NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "Nevar nolasīt atzīmi"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "Nevar izveidot atzīmi"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "Izvēlieties atzīmes veidu"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Neizdevās savienošana pārī ar %s."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "Neizdevās izveidot savienojumu ar %s."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "Ieslēdzot NFC, radās kļūda. Mēģiniet vēlreiz."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "Šajā atzīmē nav ierakstīti dati."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "Rakstot informāciju atzīmē, radās kļūda. Mēģiniet vēlreiz."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "Programma Atzīmes palīdz kārtot un kopīgot tuva darbības lauka sakaru (NFC) atzīmes. Lai skenētu atzīmi, atbloķējiet ierīci un novietojiet to blakus atzīmei. NFC atzīmēs var būt teksts, tīmekļa adreses, kontaktinformācija, atgādnes, attēli, videoklipi un cita informācija.\n\nLai skenētu vai kopīgotu atzīmes, ieslēdziet NFC, atverot sadaļu Iestatījumi > Savienojums."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "Kad jūsu ierīce pieskaras otras ierīces aizmugurei vai atzīmei, starp ierīcēm vai starp atzīmi un ierīci var pārsūtīt datus, piemēram, tekstu, attēlus, videoklipus, tīmekļa adreses un kontaktinformāciju."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC atzīmes ir mazās kartēs integrētas sīkas mikroshēmas. Tajās var būt teksts, tīmekļa adreses, kontaktinformācija, atgādnes, attēli, videoklipi un cita informācija."
 
