@@ -43,11 +43,6 @@ extern "C" {
 #define EDJ_PATH	EDJDIR
 #define EDJ_FILE	EDJ_PATH"/"PACKAGE".edj"
 
-#define PREDEFINED_ITEM_FILE_PATH	\
-	"/usr/apps/org.tizen.57r43275q7/share"
-#define SECURE_STORAGE_FIRST_TIME_POPUP_SHOW_KEY	\
-	"db/private/ug-nfc-setting-efl/first_time_secure_storage_popup_show"
-
 #ifdef LOG_TAG
 #undef LOG_TAG
 #endif
@@ -94,11 +89,6 @@ extern "C" {
 	dgettext(PACKAGE, "IDS_COM_POP_CLOSE")
 #define IDS_OK	\
 	dgettext(PACKAGE, "IDS_COM_SK_OK")
-
-#define IDS_PREDEFINED_ITEM_DESCRIPTION_MSG	\
-	dgettext(PACKAGE, "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN")
-#define IDS_NFC_S_BEAM_DESCRIPTION_MSG	\
-	dgettext(PACKAGE, "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG")
 #define IDS_NFC_SERVICE_IS_NOT_SUPPORTED	\
 	dgettext(PACKAGE, "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED")
 
@@ -115,9 +105,6 @@ extern "C" {
 
 typedef enum {
 	MENU_NFC = 0,
-#ifdef _SBEAM_SUPPORT_
-	MENU_SBEAM,
-#endif
 	MENU_MAX
 } NFCSettingMenuType;
 
@@ -175,9 +162,6 @@ typedef struct {
 } gl_item_data;
 
 /************************** API **************************/
-void __change_predefined_item_onoff_setting(void *data);
-bool _ug_nfc_check_predefined_item_available(void);
-void _ug_nfc_predefined_item_create(void *data);
 void _ug_nfc_secure_storage_create(void *data);
 
 #ifdef __cplusplus

@@ -155,7 +155,7 @@ msgid "IDS_COM_SK_OPEN"
 msgstr "Abrir"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d selec."
+msgstr "%d selecionado(s)"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
 msgstr "Abrir o browser?"

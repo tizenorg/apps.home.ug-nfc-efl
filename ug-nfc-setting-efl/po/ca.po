@@ -1,5 +1,5 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Cancel·la"
+msgstr "Cancel"
 
 msgid "IDS_COM_POP_DELETE_Q"
 msgstr "Esborrar?"
@@ -101,7 +101,7 @@ msgid "IDS_COM_BODY_DEC"
 msgstr "Des."
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "Esborra"
+msgstr "Esborrar"
 
 msgid "IDS_COM_BODY_FEB"
 msgstr "Feb."
@@ -350,7 +350,7 @@ msgid "IDS_NFC_BUTTON_SAVE_ABB"
 msgstr "Desar"
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Cancel·la"
+msgstr "Cancel·lar"
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
 msgstr "Arxiu"
@@ -566,10 +566,10 @@ msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TR
 msgstr "S'ha produït un error en escriure la informació a l'etiqueta. Torni-ho a intentar."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "L'aplicació Etiquetes us ajuda a organitzar i compartir etiquetes de comunicació de camp proper (NFC). Podeu analitzar una etiqueta desbloquejant el dispositiu i col·locant-lo just al costat de l'etiqueta. Les etiquetes NFC poden contenir text, adreces web, informació de contacte, notes, fotos, vídeos i molt més.\n\nPer escanejar o compartir les etiquetes, activeu NFC anant a Ajustaments > Connexió."
+msgstr "L'aplicació Etiquetes l'ajuda a organitzar i compartir etiquetes de comunicació de camp proper (NFC). Pot analitzar una etiqueta desbloquejant el dispositiu i col·locant-lo just al costat de l'etiqueta. Les etiquetes NFC poden contenir text, adreces web, informació de contacte, notes, fotos, vídeos i molt més.\n\nPer escanejar o compartir les etiquetes, activi NFC anant a Ajustaments > Connexió."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Quan el vostre dispositiu toca la part posterior d'un altre dispositiu o etiqueta, les dades com el text, les fotos, els vídeos, les adreces web i la informació de contacte es transferirà entre dispositius o entre l'etiqueta i el dispositiu."
+msgstr "Quan el seu dispositiu toca la part posterior d'un altre dispositiu o etiqueta, les dades com el text, les fotos, els vídeos, les adreces web i la informació de contacte es transferirà entre dispositius o entre l'etiqueta i el dispositiu."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
 msgstr "Les etiquetes NFC són microxips diminuts incrustats en targetes petites. Poden contenir text, adreces web, informació de contacte, notes, fotos, vídeos i molt més."

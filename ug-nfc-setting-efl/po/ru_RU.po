@@ -23,7 +23,7 @@ msgid "IDS_COM_BODY_HELP"
 msgstr "Справка"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Заметка"
+msgstr "Заметки"
 
 msgid "IDS_COM_BODY_MESSAGE"
 msgstr "Сообщение"
@@ -386,7 +386,7 @@ msgid "IDS_NFC_BODY_CONTACT"
 msgstr "Контакт"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Заметка"
+msgstr "Заметки"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
 msgstr "Закладка"

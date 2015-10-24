@@ -20,7 +20,7 @@ msgid "IDS_COM_BODY_EMAIL"
 msgstr "El. paštas"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Žinynas"
+msgstr "Pagalba"
 
 msgid "IDS_COM_BODY_MEMO"
 msgstr "Įrašas"

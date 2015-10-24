@@ -23,7 +23,7 @@ msgid "IDS_COM_BODY_HELP"
 msgstr "Yardım"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Yaddaş"
+msgstr "Qeyd"
 
 msgid "IDS_COM_BODY_MESSAGE"
 msgstr "Mesaj"
@@ -386,7 +386,7 @@ msgid "IDS_NFC_BODY_CONTACT"
 msgstr "Ad"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Yaddaş"
+msgstr "Qeyd"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
 msgstr "Çevik keçid"
@@ -485,7 +485,7 @@ msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
 msgstr "NFC-ni yandır"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d seçildi"
+msgstr "%d seçilmişdir"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
 msgstr "Teqə əlaqə yaz"

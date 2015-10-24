@@ -1,0 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "مسح؟"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "جار التوصيل..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "لا شيء"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "إضافة"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "البلوتوث"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "بريد إلكتروني"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "مساعدة"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "المذكرة"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "رسالة"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "مفعل"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "لا"
+
+msgid "IDS_COM_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_COM_SK_YES"
+msgstr "نعم"
+
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "مذكرة جديدة"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "علامات"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "كتابة على العلامة"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "الأيام السابقة"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "الملف"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "علامة"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "العلامات"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "أحد"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "إنشاء"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "اليوم"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "أمس"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "إغلاق"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "خطأ"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "جاري\n الإرسال..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "الاسم"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "أبريل"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "أغسطس"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "ديسمبر"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "مسح"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "فبراير"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "جمعة"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "يناير"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "يوليو"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "يونيو"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "مارس"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "مايو"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "إثنـ"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "نوفمبر"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "أكتوبر"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "سبت"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "سبتمبر"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "خميس"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "ثلا"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "غير معروف"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "أربـ"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "فتح"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "تم تحديد %d"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "فتح المستعرض؟"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "مشغل الوسائط"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "الموقع"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "لا توجد علامات"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "لا يوجد علامات"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "يتعذر العثور على التطبيق للقيام بهذا الإجراء."
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "الخدمة غير متاحة. تم إيقاف تشغيل NFC‬. هل تريد تشغيل NFC؟"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "قراءة علامة NFC"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "مشاركة عبر NFC"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "قم بملامسة الهواتف ببعضها البعض برفق لمشاركتها."
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "تم تحديد %s."
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "فشلت الكتابة على العلامة‬."
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "فشل التنشيط."
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "علامة فارغة."
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "البيانات المكتوبة على العلامة."
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "ليست نوع علامة مدعومة."
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "انقر للإرسال."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "يتعذر إنشاء علامة. حجم البيانات كبير للغاية."
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "يتعذر الإنشاء. تم قفل العلامة."
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "جاري الاستقبال..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "مساحة الذاكرة غير كافية. احذف بعض العناصر وحاول مرة أخرى‬."
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "قم بتقيد سياسة الأمان استخدام %s."
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "مشترك"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "يتعذر المشاركة."
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "لم يتم تحديد أي ملفات. حدد ملف لإرساله ثم حاول مرة أخرى."
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "عند تشغيل NFC، يمكنك إرسال البيانات أو استلامها عند ملامسة الجهاز لأجهزة أخرى مزودة بإمكانية NFC أو علامات NFC."
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "تحديد علامة"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "الزر"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "مربع التحديد"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "تحديد"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "إلغاء التحديد"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "كتابة علامات متعددة"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "إنشاء علامة مذكرة"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "إنشاء ع."
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d أخرى"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "محتوى العلامة"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "تحديد مذكرة (نص فقط)"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "بعد قراءة/كتابة علامات، يتم عرض سجل العلامات هنا."
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. إفتح الضبط %s."
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "تحديد العلامات"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "انقر فوق المنطقة المشار إليها."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "استكمال المادة التعليمية."
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "تبادل البيانات عند ملامسة الجهاز لجهاز آخر."
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam قيد التشغيل بالفعل. يمكنك تغيير إعدادات S Beam."
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC قيد التشغيل بالفعل. يمكنك تغيير إعدادات NFC."
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "حدد علامة التبويب الاتصالات."
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "حدد %s ‏NFC."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "قم بتبديل هذا الزر لتشغيل NFC."
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "حدد %s ‏S Beam."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "قم بتبديل هذا الزر لتشغيل S Beam."
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "تم تشغيل NFC."
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "تم تشغيل S Beam."
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "عند تفعيل هذه الميزة، يمكنك إرسال العناصر المحددة من قبل عبر NFC أثناء وجودك في الشاشة الرئيسية."
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "عند تشغيل S Beam، يمكنك إرسال الملفات أو استلامها عند تقريب الجهاز من أجهزة أخرى مجهزة بتقنيتي NFC وWi-Fi Direct.‏ على سبيل المثال، يمكنك نقل ملفات الصور/الفيديو من الاستوديو عن طريق تقريب الجهازين من بعضهما من الخلف والنقر فوق الشاشة."
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "لا يوجد ذاكرة كافية. امسح بعض العناصر."
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "مشاركة"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "تؤدي مشاركة الملفات عبر S Beam إلى إلغاء تفعيل Screen Mirroring. انقر فوق موافق في غضون %d ثوان للمتابعة."
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "تشغيل NFC"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "تشغيل S Beam"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "Smart poster"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "إنشاء علامة"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "تحديد أحد أنواع المحتويات للكتابة على العلامة. بعد الكتابة على العلامة، المس العلامة باستخدام جهازك لعرض هذه البيانات."
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "حفظ"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "إلغاء"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "الأرشيف"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "تمت الإضافة إلى الأرشيف"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "تمت الإزالة من الأرشيف"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "إضافة إلى الأرشيف"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "إزالة من الأرشيف"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "استخدام NFC في الرئيسية"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "لا توجد علامات مؤرشفة"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr ".بعد إضافة علامات إلى الأرشيف، يتم عرضها هنا"
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "إنشاء علامة"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "سجل العلامات"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "الاسم"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "المذكرة"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "علامة"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "لحفظ جهة الاتصال، قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "لحفظ البيانات، قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "لحفظ المذكرة، قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "لحفظ عنوان URL، قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "عدم العرض مرة أخرى"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "فشل إنشاء علامة. لا يمكن العثور على الاسم أو رقم الهاتف الذي تحاول حفظه."
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "يمكن فقط حفظ اسم جهة الاتصال ورقم الهاتف في هذه العلامة"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "عندما يتم التحقق من هذا الخيار، سنتم كتابة العديد من العلامات مرة واحدة"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "مقدمة لعلامات NFC"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "حول علامات NFC"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "علامات NFC هي رقائق إلكترونية صغيرة للغاية مضمنة في بطاقات صغيرة. يمكن أن تحتوي على نص وعناوين URL وأنواع أخرى من المعلومات."
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "قراءة علامات NFC"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "لقراءة علامة NFC، قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان. سيتم حفظ معلومات من العلامة داخل تطبيق العلامات."
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "التخزين الآمن عبر NFC"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "التخزين الآمن عبر علامة NFC"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "يدوي"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "تلقائي"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "استخدم بطاقة SIM لوحدة التخزين الآمن"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "التبديل تلقائيا بين استخدام بطاقة SIM ووحدة التخزين الآمن الخاصة بالجهاز"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "سيؤدي تحديد يدوي إلى إلغاء تفعيل بعض الميزات الآمنة، مثل الدفع عبر NFC، التي تخزن البيانات على وحدة التخزين الآمن الخاصة بالجهاز"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "إنّ نوع العلامة غير معتمد"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "مقدمة عن العلامات"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "تمّ اكتشاف عنوان بريد إلكتروني. هل تريد إنشاء رسالة بريد إلكتروني؟"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "تمّ اكتشاف عنوان URL. هل تريد فتحه؟"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "يساعدك تطبيق The Tags في تنظيم علامات الاتصال بالحقل القريب (NFC). يمكنك مسح علامة ما عبر إلغاء تأمين جهازك ووضعه بالقرب من هذه العلامة مباشرةً. يمكن لعلامات NFC أن تحتوي على نص وعناوين URL وأنواع أخرى من المعلومات.\n\nلمسح العلامات أو مشاركتها، قم بتشغيل NFC عبر الانتقال إلى الضبط > الاتصال."
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "خدمة NFC غير معتمدة"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "تؤدي مشاركة الملفات عبر S Beam إلى تعطيل نقطة اتصال Wi-Fi النقالة‬. انقر فوق موافق في غضون %d ثوان للمتابعة."
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "إنشاء علامات NFC"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "إنشاء علامة عبر استخدام خيار إنشاء قائمة العلامات الموجود في تطبيق العلامات. حدد البيانات التي تريد حفظها ثم قم بتغطية العلامة تمامًا بالجزء الخلفي من الجهاز وانتظر لعدة ثوان."
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "يتعذر الإرسال"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "تشغيل NFC"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "تم تحديد %d"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "كتابة جهة اتصال على العلامة"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "حذف العلامة"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "يتعذر استلام الملف"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "هل تريد حذف هذه العلامة؟"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "هل تريد حذف %d من العلامات؟"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "التخزين"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "يمكن الآن مشاركة الملفات عبر S Beam. أبعد الجهازين."
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "جارٍ التحضير لمشاركة الملفات...\nاحرص على أن الأجهزة لا تزال متلامسة."
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "تم إرسال الملفات."
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "تم إرسال الملفات."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "فشل إرسال الملفات."
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "فشل إرسال الملفات."
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "تم استلام الملفات."
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "تم استلام الملفات."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "فشل استلام الملفات."
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "فشل استلام الملفات."
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "تم تجاوز الحد الأقصى لعدد الملفات التي يمكن نقلها في الوقت نفسه (%d). لمشاركة هذه الملفات، استخدم Wi-Fi Direct أو البلوتوث."
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "فشل تشغيل NFC"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "تتعذر قراءة العلامة"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "يتعذر إنشاء علامة"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "تحديد نوع العلامة"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "فشل الإقران مع %s."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "فشل الاتصال بـ %s."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "حدث خطأ أثناء تشغيل NFC. حاول مرة أخرى."
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "لم تتم كتابة أي بيانات على هذه العلامة."
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "حدث خطأ أثناء كتابة المعلومات على العلامة. حاول مرة أخرى."
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "يساعدك تطبيق العلامات في تنظيم علامات الاتصال بالحقل القريب (NFC) ومشاركته. يمكنك مسح علامة عبر إلغاء قفل الجهاز ووضعه بالقرب من العلامة مباشرة. يمكن لعلامات NFC أن تتضمن نصوصًا وعناوين ويب ومعلومات جهات اتصال ومذكرات وصور ومقاطع فيديو وغيرها.\n\nلمسح علامات أو مشاركتها، قم بتشغيل NFC عبر الانتقال إلى الضبط > الاتصال."
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "عند ملامسة الجهاز للجهة الخلفية لجهازٍ آخر أو علامة، يمكن نقل بيانات مثل النصوص والصور ومقاطع الفيديو وعناوين الويب ومعلومات جهات الاتصال بين الأجهزة أو بين العلامة والجهاز."
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "علامات NFC هي رقائق إلكترونية صغيرة للغاية مضمنة في بطاقات صغيرة. يمكنها أن تتضمن نصوصًا وعناوين ويب ومعلومات جهات اتصال ومذكرات وصور ومقاطع فيديو وغيرها."
+

@@ -317,7 +317,7 @@ msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
 msgstr "S Beam turned on"
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "When this feature is on, you can send predefined items via NFC while you are on the home screen."
+msgstr "When this feature is on, you can send predefined items via NFC while you are on the Home screen."
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
 msgstr "When S Beam is on, you can send or receive files whenever your device is close to other NFC and Wi-Fi Direct devices. For example, you can beam image/video files from the Gallery by placing the devices back to back and tapping your screen."

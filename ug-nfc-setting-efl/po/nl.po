@@ -566,11 +566,11 @@ msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TR
 msgstr "Er is een fout opgetreden bij het schrijven van gegevens naar de tag. Probeer het opnieuw."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "De applicatie Tags helpt u met het organiseren en delen van NFC-tags (Near Field Communication). U scant een tag door uw apparaat te ontgrendelen en het naast de tag te plaatsen. NFC-tags kunnen tekst, webadressen, contactgegevens, memo´s, foto´s, video´s en meer bevatten.\n\nAls u tags wilt scannen of delen, schakelt u NFC in via Instellingen > Verbinding."
+msgstr "De applicatie Tags helpt u met het organiseren en delen van NFC-tags (Near Field Communication). U scant een tag door uw apparaat te ontgrendelen en het naast de tag te plaatsen. NFC-tags kunnen tekst, webadressen, contactgegevens, memo's, foto's, video's en meer bevatten.\n\nAls u tags wilt scannen of delen, schakelt u NFC in via Instellingen > Verbinding."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
 msgstr "Wanneer uw apparaat de achterkant van een ander apparaat of een andere tag aanraakt, kunnen gegevens als tekst, foto´s, video´s, webadressen en contactgegevens tussen apparaten worden overgedragen of tussen de tag en het apparaat."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "NFC-tags zijn kleine microchips die zijn opgenomen in kleine kaarten. Ze kunnen tekst, webadressen, contactgegevens, memo´s, foto´s, video´s en meer bevatten."
+msgstr "NFC-tags zijn kleine microchips die zijn opgenomen in kleine kaarten. Ze kunnen tekst, webadressen, contactgegevens, memo's, foto's, video's en meer bevatten."
 

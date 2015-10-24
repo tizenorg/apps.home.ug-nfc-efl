@@ -305,7 +305,7 @@ msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
 msgstr "Pulse el botón para activar NFC."
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "Seleccionar %s S Beam"
+msgstr "Seleccione %s S Beam."
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
 msgstr "Pulse el botón para activar S Beam."
@@ -404,7 +404,7 @@ msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOL
 msgstr "Para guardar URL, cubra la etiqueta por completo con la parte posterior del dispositivo y manténgalo en esa posición durante varios segundos"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "No mostrar de nuevo"
+msgstr "No volver a mostrar"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
 msgstr "Error al crear etiqueta. No se puede encontrar el nombre o el número de teléfono que está intentando guardar."

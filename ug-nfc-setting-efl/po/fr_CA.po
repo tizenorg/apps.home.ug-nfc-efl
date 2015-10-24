@@ -5,7 +5,7 @@ msgid "IDS_COM_POP_DELETE_Q"
 msgstr "Supprimer ?"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Connexion ..."
+msgstr "Connexion en cours..."
 
 msgid "IDS_COM_BODY_NONE"
 msgstr "Aucun"

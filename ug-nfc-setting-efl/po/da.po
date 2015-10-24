@@ -209,7 +209,7 @@ msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
 msgstr "Tagtype ikke understøttet."
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Tap for at sende."
+msgstr "Tryk for at sende."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
 msgstr "Kan ikke oprette tag. Data for store."
@@ -374,7 +374,7 @@ msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
 msgstr "Ingen arkiverede tags"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Når du har føjet koder til dit arkiv, vises de her."
+msgstr "Når du har føjet tags til dit arkiv, vises de her."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
 msgstr "Opret kode"
@@ -566,7 +566,7 @@ msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TR
 msgstr "Der opstod en fejl under skrivning af oplysninger til tagget. Prøv igen."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Applikationen Tags hjælper dig med at organisere og dele NFC-tags (near field communication). Du kan scanne et tag ved at låse din enhed op og placere den ved siden af tagget. NFC-tags kan indeholde tekst, webadresser, kontaktoplysninger, notater, billeder, videoer og andet.\n\nFor at scanne eller dele tags skal du aktivere NFC ved at gå til Indstillinger > Forbindelse."
+msgstr "Applikationen Tags hjælper dig med at organisere og dele NFC-tags (near field communication). Du kan scanne et tag ved at oplåse din enhed og placere den ved siden af tagget. NFC-tags kan indeholde tekst, webadresser, kontaktoplysninger, notater, billeder, videoer og andet.\n\nFor at scanne eller dele tags skal du aktivere NFC ved at gå til Indstillinger > Forbindelse."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
 msgstr "Når din enhed berører bagsiden af en anden enhed eller et tag, kan data, som f.eks. tekst, billeder, videoer, webadresser og kontaktoplysninger, blive overført mellem enhederne eller mellem tagget og enheden."

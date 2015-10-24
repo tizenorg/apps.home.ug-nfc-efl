@@ -29,7 +29,7 @@ msgid "IDS_COM_BODY_MESSAGE"
 msgstr "Wiadomość"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "Włącz"
+msgstr "Włączone"
 
 msgid "IDS_COM_BODY_WI_FI"
 msgstr "Wi-Fi"
@@ -263,7 +263,7 @@ msgid "IDS_NFC_BODY_CREATE_TAG"
 msgstr "Utwórz etykietę"
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "Nas.:%d"
+msgstr "Inne:%d"
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
 msgstr "Zawartość etykiety"

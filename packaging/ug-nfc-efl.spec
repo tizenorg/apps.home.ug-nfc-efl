@@ -1,16 +1,23 @@
 %define _usrdir	/usr
 %define _ugdir	%{_usrdir}/ug
 
+%if "%{?tizen_profile_name}" == "wearable"
+ExcludeArch: %{arm} %ix86 x86_64
+%endif
+
+%if "%{?tizen_profile_name}" == "tv"
+ExcludeArch: %{arm} %ix86 x86_64
+%endif
 
 Name:       ug-nfc-efl
 Summary:    UI gadget about the nfc
 Version:    0.1.0
 Release:    0
 Group:      TO_BE/FILLED_IN
-License:    Flora Software License
+License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  pkgconfig(elementary)
-BuildRequires:  pkgconfig(efl-assist)
+BuildRequires:  pkgconfig(efl-extension)
 BuildRequires:  pkgconfig(ui-gadget-1)
 BuildRequires:  pkgconfig(dlog)
 BuildRequires:  pkgconfig(vconf)
@@ -28,7 +35,6 @@ BuildRequires:  edje-tools
 BuildRequires:  gettext-tools
 
 Requires(post): /sbin/ldconfig
-Requires(post): /usr/bin/vconftool
 Requires(postun): /sbin/ldconfig
 
 %description
@@ -60,22 +66,20 @@ cd cmake_tmp
 rm -rf %{buildroot}
 %make_install
 mkdir -p %{buildroot}/usr/share/license
+mkdir -p %{buildroot}/etc/config/nfc/
 cp -af %{_builddir}/%{name}-%{version}/LICENSE %{buildroot}/usr/share/license/
 
 %post
 mkdir -p /usr/ug/bin/
 ln -sf /usr/bin/ug-client /usr/ug/bin/setting-nfc-efl
 
-vconftool set -t bool -f db/private/ug-nfc-setting-efl/first_time_secure_storage_popup_show 1 -u 5000 -s system::vconf_network
-
 %postun
 
 %files
-%manifest ug-nfc-efl.manifest
 %defattr(-,root,root,-)
 /usr/ug/lib/libug-setting-nfc-efl*
 /usr/ug/res/edje/ug-setting-nfc-efl/*.edj
 /usr/ug/res/locale/*/LC_MESSAGES/ug-setting-nfc-efl*
 /usr/ug/res/icons/*
+/etc/config/nfc/*
 /usr/share/license/LICENSE
-/usr/share/packages/ug-setting-nfc-efl.xml

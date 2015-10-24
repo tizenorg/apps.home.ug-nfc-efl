@@ -9,8 +9,5 @@
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/setting/nfc"/>
 		</application-service>
-		<application-service>
-			<operation name="http://samsung.com/appcontrol/operation/setting/nfc"/>
-		</application-service>
 	</ui-application>
 </manifest>

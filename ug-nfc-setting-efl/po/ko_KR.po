@@ -53,7 +53,7 @@ msgid "IDS_NFC_ITAB_TAGS"
 msgstr "태그"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "태그에 쓰기"
+msgstr "태그에 등록하기"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
 msgstr "이전"
@@ -191,7 +191,7 @@ msgid "IDS_NFC_BODY_PS_SELECTED"
 msgstr "%s 항목을 선택하였습니다."
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "내용을 태그하지 못하였습니다."
+msgstr "내용을 등록하지 못하였습니다."
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
@@ -206,16 +206,16 @@ msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
 msgstr "태그에 데이터 쓰기를 완료하였습니다."
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "지원되지 않는 태그 형식입니다."
+msgstr "지원되지 않는 태그 유형입니다."
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
 msgstr "보내려면 누르세요."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "태그를 추가할 수 없습니다. 데이터가 너무 큽니다."
+msgstr "새 태그를 추가할 수 없습니다. 데이터가 너무 큽니다."
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "추가할 수 없습니다. 태그가 잠겼습니다."
+msgstr "새로 추가할 수 없습니다. 태그가 잠겼습니다."
 
 msgid "IDS_COM_POP_RECEIVING"
 msgstr "수신 중..."
@@ -236,7 +236,7 @@ msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
 msgstr "선택한 파일이 없습니다. 보낼 파일을 선택한 후 다시 시도하세요."
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "NFC를 켠 상태에서 내 디바이스를 다른 NFC 디바이스나 NFC 태그에 맞대면 데이터를 주고받을 수 있습니다."
+msgstr "NFC를 실행한 상태에서 내 디바이스를 다른 NFC 디바이스 또는 NFC 태그에 맞대면 데이터를 주고받을 수 있습니다."
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
 msgstr "태그 선택"
@@ -272,10 +272,10 @@ msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
 msgstr "메모 선택(문자만)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "태그를 읽거나 입력하면 태그 기록을 여기에 표시합니다."
+msgstr "태그를 읽거나 입력하면 태그기록을 여기에 표시합니다."
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. %s 설정을 실행하세요."
+msgstr "1. %s [설정]을 실행하세요."
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
 msgstr "태그 선택"
@@ -311,10 +311,10 @@ msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
 msgstr "버튼을 눌러 S Beam을 실행하세요."
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC가 켜졌습니다."
+msgstr "NFC를 실행하였습니다."
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam이 켜졌습니다."
+msgstr "S Beam을 실행하였습니다."
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
 msgstr "이 기능을 실행하면 홈 화면에서 미리 지정한 항목을 NFC로 보낼 수 있습니다."
@@ -329,7 +329,7 @@ msgid "IDS_TAGS_OPT_SHARE_ABB"
 msgstr "공유"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "S Beam으로 파일을 공유하면 Screen Mirroring을 해제합니다. 계속하려면 %d초 안에 [확인]을 누르세요."
+msgstr "S Beam으로 파일을 공유하면 Screen Mirroring이 해제됩니다. 계속하려면 %d초 안에 [확인]을 누르세요."
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
 msgstr "NFC 실행"
@@ -341,10 +341,10 @@ msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
 msgstr "스마트 포스터"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "태그 추가"
+msgstr "새 태그 추가"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "태그에 입력할 컨텐츠 유형 중 하나를 선택할 수 있습니다. 태그에 데이터를 입력한 후 디바이스를 태그에 맞대면 해당 데이터를 확인할 수 있습니다."
+msgstr "태그에 등록할 컨텐츠 유형 중 하나를 선택할 수 있습니다. 태그에 데이터를 등록한 후 디바이스를 태그에 맞대면 해당 데이터를 확인할 수 있습니다."
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
 msgstr "저장"
@@ -377,7 +377,7 @@ msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
 msgstr "영구 보관함에 태그를 추가하면 여기에 표시합니다."
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "태그 추가"
+msgstr "새 태그 추가"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
 msgstr "태그 기록"
@@ -407,10 +407,10 @@ msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
 msgstr "다시 보지 않기"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "저장하려는 이름이나 전화번호를 찾을 수 없어 태그를 만들지 못하였습니다"
+msgstr "저장하려는 이름 또는 전화번호를 찾을 수 없어 새 태그를 추가하지 못하였습니다."
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "이 태그에는 연락처 이름과 전화번호만 저장할 수 있습니다"
+msgstr "Only the contact's name and phone number can be saved to this tag."
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
 msgstr "이 옵션을 선택하면 여러 개의 태그를 한 번에 쓸 수 있습니다"
@@ -419,10 +419,10 @@ msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
 msgstr "NFC 태그 소개"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "NFC 태그 정보"
+msgstr "NFC 태그정보"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "NFC 태그는 작은 카드에 내장된 마이크로칩입니다. 텍스트, URL, 기타 정보를 저장할 수 있습니다."
+msgstr "NFC 태그는 작은 카드에 내장된 마이크로칩입니다. 텍스트, URL, 기타 정보를 포함할 수 있습니다."
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
 msgstr "NFC 태그 읽기"
@@ -452,7 +452,7 @@ msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NF
 msgstr "수동을 선택하면 NFC 결제와 같이 내장 보안 저장공간에 데이터를 저장하는 일부 보안 기능을 해제합니다."
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "지원되지 않는 태그 형식입니다."
+msgstr "지원되지 않는 태그 유형입니다."
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
 msgstr "태그 소개"
@@ -464,7 +464,7 @@ msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
 msgstr "URL을 인식하였습니다. 해당 페이지를 열까요?"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "태그 애플리케이션으로 NFC 태그를 구성하고 공유할 수 있습니다. 디바이스 잠금을 해제한 후 태그에 가까이 가져가면 해당 태그를 읽을 수 있습니다. NFC 태그에는 텍스트, URL, 기타 정보를 저장할 수 있습니다.\n\n태그를 읽거나 공유하려면 [설정] > [연결]에서 NFC를 실행하세요."
+msgstr "태그 애플리케이션으로 NFC 태그를 구성하고 공유할 수 있습니다. 디바이스 잠금을 해제한 후 태그에 가까이 가져가면 해당 태그를 읽을 수 있습니다. NFC 태그에는 텍스트, URL, 기타 정보를 포함할 수 있습니다.\n\n태그를 읽거나 공유하려면 [설정] > [연결]에서 NFC를 실행하세요."
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
 msgstr "NFC 서비스는 지원되지 않습니다."
@@ -476,7 +476,7 @@ msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
 msgstr "NFC 태그 추가"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "태그 애플리케이션에서 [태그 추가] 옵션을 사용하여 태그를 만들 수 있습니다. 저장하려는 데이터를 선택한 후 디바이스 뒷면을 태그에 대고 몇 초간 기다리세요."
+msgstr "태그 애플리케이션에서 [태그 추가] 옵션을 사용하여 태그를 추가할 수 있습니다. 저장하려는 데이터를 선택한 후 디바이스 뒷면을 태그에 대고 몇 초간 기다리세요."
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
 msgstr "전송할 수 없음"
@@ -509,7 +509,7 @@ msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
 msgstr "지금 S Beam으로 파일을 공유할 수 있습니다. 디바이스를 분리하세요."
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "파일 공유 준비 중…\n디바이스가 여전히 맞닿은 상태인지 확인하세요."
+msgstr "파일 공유 준비 중...\n디바이스가 여전히 맞닿은 상태인지 확인하세요."
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
 msgstr "파일을 보냈습니다."
@@ -539,7 +539,7 @@ msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TI
 msgstr "동시에 전송할 수 있는 최대 파일 수(%d)를 초과하였습니다. 파일을 공유하려면 Wi-Fi 다이렉트 또는 블루투스를 사용하세요."
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "NFC를 실행하지 못함"
+msgstr "NFC 실행 안 됨"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
 msgstr "태그를 읽을 수 없음"
@@ -548,7 +548,7 @@ msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
 msgstr "새 태그를 추가할 수 없음"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "태그 형식 선택"
+msgstr "태그 유형 선택"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
 msgstr "%s 디바이스와 등록하지 못하였습니다."
@@ -566,11 +566,11 @@ msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TR
 msgstr "태그에 정보를 쓰는 중에 오류가 발생하였습니다. 다시 시도하세요."
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "태그 애플리케이션으로 근거리 무선 통신(NFC) 태그를 구성하고 공유할 수 있습니다. 디바이스 잠금을 해제한 후 태그에 가까이 가져가면 해당 태그를 읽을 수 있습니다. NFC 태그에는 텍스트, 웹 주소, 연락처 정보, 메모, 사진, 동영상 등을 저장할 수 있습니다.\n\n태그를 읽거나 공유하려면 [설정] > [연결]에서 NFC를 실행하세요."
+msgstr "태그 애플리케이션으로 근거리 무선 통신(NFC) 태그를 구성하고 공유할 수 있습니다. 디바이스 잠금을 해제한 후 태그에 가까이 가져가면 해당 태그를 읽을 수 있습니다. NFC 태그에는 텍스트, 웹 주소, 연락처 정보, 메모, 사진, 동영상 등을 포함할 수 있습니다.\n\n태그를 읽거나 공유하려면 [설정] > [연결]에서 NFC를 실행하세요."
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
 msgstr "내 디바이스를 다른 디바이스의 뒷면 또는 태그에 가까이 가져가면, 텍스트, 사진, 동영상, 웹 주소, 연락처 정보 등의 데이터를 다른 디바이스 또는 태그로 전송할 수 있습니다."
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "NFC 태그는 작은 카드에 내장된 마이크로칩입니다. 텍스트, 웹 주소, 연락처 정보, 메모, 사진, 동영상 등을 저장할 수 있습니다."
+msgstr "NFC 태그는 작은 카드에 내장된 마이크로칩입니다. 텍스트, 웹 주소, 연락처 정보, 메모, 사진, 동영상 등을 포함할 수 있습니다."
 

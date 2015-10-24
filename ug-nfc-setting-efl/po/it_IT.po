@@ -338,7 +338,7 @@ msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
 msgstr "Attivazione S Beam"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
-msgstr "Smart poster"
+msgstr "Smart Poster"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
 msgstr "Crea tag"

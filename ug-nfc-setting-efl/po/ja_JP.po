@@ -1,0 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "削除しますか？"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "接続中..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "なし"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "追加"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "Eメール"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "ヘルプ"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "メモ"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "メッセージ"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "ON"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "いいえ"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_SK_YES"
+msgstr "はい"
+
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "新規メモ"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "タグ情報"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "タグへの書き込み"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "前のメール"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "ファイル"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "ブックマーク"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "ブックマーク"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "日"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "新規作成"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "今日"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "昨日"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "閉じる"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "エラー"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "送信中..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "連絡先"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "4月"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "8月"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "12月"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "削除"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "2月"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "金"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "1月"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "7月"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "6月"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "3月"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "5月"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "月"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "11月"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "10月"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "土"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "9月"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "木"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "火"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "不明"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "水"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "開く"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d件選択"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "ブラウザを開きますか？"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "メディアプレーヤー"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "タグがありません。"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "ブックマークがありません。"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "この操作を実行するアプリケーションが見つかりません。"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "サービスを利用できません。NFCがOFFになっています。NFCをONにしますか？"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "NFCタグの読み込み"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFCで共有"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "共有するには、端末同士をゆっくりと近づけてください。"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%sが選択されました。"
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "タグの書き込みに失敗しました。"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "起動に失敗しました。"
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "タグのデータがありません。"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "データがタグに書き込まれました。"
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "未対応のタグタイプです。"
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "タップして送信します。"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "タグを作成できません。データが大きすぎます。"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "作成できません。タグがロックされています。"
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "受信中..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "メモリが不足しています。いくつかのアイテムを削除し、やり直してください。"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "セキュリティポリシーが%sの使用を制限します。"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "公開中"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "共有できません。"
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "ファイルが選択されていません。送信するファイルを選択してから、再度実行してください。"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "NFCがONの場合、NFC対応機器またはNFCタグに触れると、データを送受信できます。"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "タグを選択"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "ボタン"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "チェックボックス"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "チェックを付ける"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "チェックを外す"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "マルチタグへの書き込み"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "メモタグの作成"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "タグを作成"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "他%d件"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "コンテンツにタグ付け"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "メモ(テキストのみ)を選択"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "タグを読み書きすると、タグ履歴がここに表示されます。"
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. %s[設定]を開きます。"
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "タグを選択"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "指示エリアをタップします。"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "チュートリアルが完了しました。"
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "端末を他のデバイスにタッチさせることでデータを交換"
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beamは既にONになっています。S Beamの設定を変更できます。"
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFCは既にONになっています。NFC設定を変更できます。"
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "接続タブを選択します。"
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "%s[NFC]を選択します。"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "NFCをONに切り替えます。"
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "%sS Beamを選択します。"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "S BeamをONに切り替えます。"
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFCがONになりました。"
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S BeamがONになりました。"
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "この機能を有効にすると、設定済みアイテムをホーム画面からNFCで送信することができます。"
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "S BeamがONの状態で、端末を他のNFCおよびWi-Fi Direct対応端末に近付けるとファイルを送受信することができます。 例えば、ギャラリーの画像や動画ファイルなどを送受信するには、端末同士の背面を互いに近づけて画面をタップします。"
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "メモリが不足しています。不要なアイテムを削除してください。"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "共有"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beamでファイルを共有すると、Screen Mirroringが無効になります。続行するには、%d秒以内に[OK]をタップしてください。"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFCをON"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S BeamをON"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "スマートポスター"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "タグを作成"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "タグに書き込むコンテンツのタイプを1つ選択します。タグにデータを書き込んだ後に、端末でタグにタッチすると、そのデータが表示されます。"
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "保存"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "キャンセル"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "アーカイブ"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "アーカイブに追加しました。"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "アーカイブから削除しました。"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "アーカイブに追加"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "アーカイブから削除"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "ﾎｰﾑ画面でNFCを使用"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "アーカイブされたタグがありません。"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "アーカイブにタグを追加すると、ここに表示されます。"
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "タグを作成"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "タグ履歴"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "連絡先"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "メモ"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "ブックマーク"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "連絡先を保存するには、端末の背面をタグにしっかり合わせてしばらく待ちます。"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "データを保存するには、端末の背面をタグにしっかり合わせてしばらく待ちます。"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "メモを保存するには、端末の背面をタグにしっかり合わせてしばらく待ちます。"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URLを保存するには、端末の背面をタグにしっかり合わせてしばらく待ちます。"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "今後表示しない"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "タグの作成に失敗しました。保存しようとしている名前または電話番号が見つかりません。"
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "このタグには連絡先の名前と電話番号のみ保存することができます。"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "このオプションを選択すると、複数のタグを同時に書き込むことができます。"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFCタグの紹介"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "NFCタグについて"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFCタグは、小さなカードに内蔵されたマイクロチップです。NFCタグには、テキスト、URLおよびその他の情報を保存することができます。"
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFCタグの読み取り"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFCタグを読み取るには、端末の背面をタグにしっかり合わせてしばらく待ちます。タグの情報がタグアプリケーションに保存されます。"
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFCｾｷｭﾘﾃｨ保護ｽﾄﾚｰｼﾞ"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFCセキュリティ保護ストレージ"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "手動"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "自動"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "SIMカードをセキュリティ保護ストレージとして使用"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "SIMカードと端末上のセキュリティ保護ストレージを自動で切り替えて使用"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "手動を選択すると、NFC決済など端末上のセキュリティ保護ストレージにデータを保存する一部のセキュリティ保護機能が無効になります。"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "未対応のタグタイプです。"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "タグの紹介"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "Eメールアドレスが検出されました。Eメールを作成しますか？"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "URLが検出されました。開きますか？"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "タグアプリを使用すると、近距離無線通信(NFC)タグを構成および共有することができます。端末のロックを解除し、タグに近付けるとタグを読み取ることができます。NFCタグにはテキスト、URLおよびその他のさまざまな情報が含まれています。\n\nタグの読み取りまたは共有をするには、[設定] > [接続]に移動し、NFCをONにしてください。"
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFCサービスに対応していません。"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beamでファイルを共有すると、Wi-Fiテザリングが無効になります。継続するには、%d秒以内に[OK]をタップしてください。"
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFCタグを作成"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "タグアプリケーションでメニューオプションの[タグを作成]を使用してタグを作成します。保存するデータを選択し、端末の背面をタグにしっかり合わせてしばらく待ちます。"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "Beam不可"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "NFCをON"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d件選択"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "タグに連絡先を書き込む"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "タグを削除"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "ファイル受信不可"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "このタグを削除しますか？"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "%d件のタグを削除しますか？"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "ストレージ"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "S Beamでファイルを共有することができました。端末を離してください。"
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "ファイルの共有を準備中...\n端末同士を接触させたままにしてください。"
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "ファイルを送信しました。"
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "ファイルを送信しました。"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "ファイルの送信に失敗しました。"
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "ﾌｧｲﾙ送信に失敗しました。"
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "ファイルを受信しました。"
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "ファイルを受信しました。"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "ファイルの受信に失敗しました。"
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "ﾌｧｲﾙ受信に失敗しました。"
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "一度にBeamできるファイルの最大数(%d件)に達しました。これらのファイルを共有するには、Wi-Fi DirectまたはBluetoothを使用してください。"
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFCのONに失敗"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "タグの読み取り不可"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "タグの作成不可"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "タグタイプを選択"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%sとのペアリングに失敗しました。"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "%sとの接続に失敗しました。"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFCをONにする際にエラーが発生しました。再度実行してください。"
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "このタグにはデータが書き込まれていません。"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "タグへの情報書き込み中にエラーが発生しました。再度実行してください。"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "タグアプリケーションを使用すると、近距離通信(NFC)タグの構成および共有ができます。端末のロックを解除し、タグの近くに置くことで、タグを読み取ることができます。NFCタグには、テキスト、Webアドレス、連絡先情報、メモ、写真、動画などを保存することができます。\n\nタグを読み取るまたは共有するには、[設定] > [接続]に移動し、NFCをONにしてください。"
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "端末で他の端末の背面またはタグにタッチすると、テキスト、写真、動画、Webアドレス、連絡先情報などのデータを、端末間およびタグと端末との間で転送することができます。"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFCタグは、小さなカードに内蔵されたマイクロチップです。NFCタグには、テキスト、Webアドレス、連絡先情報、メモ、写真、動画などを保存することができます。"
+

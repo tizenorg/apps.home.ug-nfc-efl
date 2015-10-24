@@ -155,7 +155,7 @@ msgid "IDS_COM_SK_OPEN"
 msgstr "Abrir"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d seleccionada"
+msgstr "%d seleccionada(s)"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
 msgstr "Abrir o browser?"
@@ -404,7 +404,7 @@ msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOL
 msgstr "Para guardar URLs, cubra completamente a etiqueta com a parte de trás do dispositivo e mantenha-a assim durante alguns segundos"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Não mostrar novamen."
+msgstr "Não mostrar de novo"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
 msgstr "Falha ao criar etiqueta. Impossível encontrar o nome ou o número de telefone que está a tentar guardar."
@@ -485,7 +485,7 @@ msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
 msgstr "Ligar NFC"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d seleccionada"
+msgstr "%d selecionado(s)"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
 msgstr "Escrever contacto na etiqueta"

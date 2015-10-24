@@ -1,576 +1,576 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Bekor qilish"
+msgstr "取消"
 
 msgid "IDS_COM_POP_DELETE_Q"
-msgstr "O'chirilsinmi?"
+msgstr "刪除嗎？"
 
 msgid "IDS_COM_POP_CONNECTING"
-msgstr "Ulanmoqda..."
+msgstr "連接中..."
 
 msgid "IDS_COM_BODY_NONE"
-msgstr "Hech qaysi"
+msgstr "無"
 
 msgid "IDS_COM_SK_ADD"
-msgstr "Qo‘shish"
+msgstr "加入"
 
 msgid "IDS_COM_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgstr "藍牙"
 
 msgid "IDS_COM_BODY_EMAIL"
-msgstr "E-pochta"
+msgstr "電子郵件"
 
 msgid "IDS_COM_BODY_HELP"
-msgstr "Yordam"
+msgstr "說明"
 
 msgid "IDS_COM_BODY_MEMO"
-msgstr "Eslatma"
+msgstr "備忘錄"
 
 msgid "IDS_COM_BODY_MESSAGE"
-msgstr "Xabar"
+msgstr "訊息"
 
 msgid "IDS_COM_BODY_ON"
-msgstr "Yoq."
+msgstr "開"
 
 msgid "IDS_COM_BODY_WI_FI"
 msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Yo‘q"
+msgstr "否"
 
 msgid "IDS_COM_SK_OK"
-msgstr "OK"
+msgstr "確定"
 
 msgid "IDS_COM_SK_YES"
-msgstr "Ha"
+msgstr "是"
 
 msgid "IDS_NFC_BODY_NFC"
 msgstr "NFC"
 
 msgid "IDS_NFC_BODY_NEW_MEMO"
-msgstr "Yangi yozuv"
+msgstr "新備忘錄"
 
 msgid "IDS_NFC_ITAB_TAGS"
-msgstr "Teglar"
+msgstr "標籤"
 
 msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
-msgstr "Tegga yozish"
+msgstr "寫入至標籤"
 
 msgid "IDS_COM_BODY_PREVIOUS_DAYS"
-msgstr "Avvalgi kunlar"
+msgstr "前幾天"
 
 msgid "IDS_COM_POP_FILE"
-msgstr "Fayl"
+msgstr "檔案"
 
 msgid "IDS_COM_BODY_BOOKMARK"
-msgstr "Saqlangan veb-hujjat"
+msgstr "書籤"
 
 msgid "IDS_COM_BODY_BOOKMARKS"
-msgstr "Saqlangan veb-hujjatlar"
+msgstr "書籤"
 
 msgid "IDS_COM_BODY_SUN"
-msgstr "Yak"
+msgstr "週日"
 
 msgid "IDS_COM_SK3_COMPOSE"
-msgstr "Yaratish"
+msgstr "撰寫"
 
 msgid "IDS_COM_BODY_TODAY"
-msgstr "Bugun"
+msgstr "今天"
 
 msgid "IDS_COM_BODY_YESTERDAY"
-msgstr "Kecha"
+msgstr "昨天"
 
 msgid "IDS_COM_POP_CLOSE"
-msgstr "Yopish"
+msgstr "關閉"
 
 msgid "IDS_COM_POP_ERROR"
-msgstr "Xato"
+msgstr "錯誤"
 
 msgid "IDS_COM_POP_SENDING"
-msgstr "Yuborilmoqda..."
+msgstr "正在發送..."
 
 msgid "IDS_COM_BODY_CONTACT"
-msgstr "Kontakt"
+msgstr "聯絡人"
 
 msgid "IDS_COM_BODY_APR"
-msgstr "Apr."
+msgstr "4月"
 
 msgid "IDS_COM_BODY_AUG"
-msgstr "Avg."
+msgstr "8月"
 
 msgid "IDS_COM_BODY_DEC"
-msgstr "Dek."
+msgstr "12月"
 
 msgid "IDS_COM_BODY_DELETE"
-msgstr "O'chirish"
+msgstr "刪除"
 
 msgid "IDS_COM_BODY_FEB"
-msgstr "Fev."
+msgstr "2月"
 
 msgid "IDS_COM_BODY_FRI"
-msgstr "Ju"
+msgstr "週五"
 
 msgid "IDS_COM_BODY_JAN"
-msgstr "Yan."
+msgstr "1月"
 
 msgid "IDS_COM_BODY_JUL"
-msgstr "Iyl."
+msgstr "7月"
 
 msgid "IDS_COM_BODY_JUN"
-msgstr "Iyn."
+msgstr "6月"
 
 msgid "IDS_COM_BODY_MAR"
-msgstr "Mar."
+msgstr "3月"
 
 msgid "IDS_COM_BODY_MAY"
-msgstr "May"
+msgstr "5月"
 
 msgid "IDS_COM_BODY_MON"
-msgstr "Du"
+msgstr "週一"
 
 msgid "IDS_COM_BODY_NOV"
-msgstr "Noy."
+msgstr "11月"
 
 msgid "IDS_COM_BODY_OCT"
-msgstr "Okt."
+msgstr "10月"
 
 msgid "IDS_COM_BODY_SAT"
-msgstr "Shan"
+msgstr "週六"
 
 msgid "IDS_COM_BODY_SEP"
-msgstr "Sen."
+msgstr "9月"
 
 msgid "IDS_COM_BODY_THU"
-msgstr "Pay"
+msgstr "週四"
 
 msgid "IDS_COM_BODY_TUE"
-msgstr "Se"
+msgstr "週二"
 
 msgid "IDS_COM_BODY_UNKNOWN"
-msgstr "Noma’lum"
+msgstr "未知"
 
 msgid "IDS_COM_BODY_WED"
-msgstr "Chor"
+msgstr "週三"
 
 msgid "IDS_COM_SK_OPEN"
-msgstr "Ochish"
+msgstr "開啟"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "%d tanlangan"
+msgstr "%d 已選擇"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
-msgstr "Brauzer ochilsinmi?"
+msgstr "要開啟瀏覽器嗎？"
 
 msgid "IDS_NFC_BODY_MEDIA_PLAYER"
-msgstr "Media pleyer"
+msgstr "媒體播放器"
 
 msgid "IDS_NFC_BODY_URL"
-msgstr "URL-manzil"
+msgstr "網址"
 
 msgid "IDS_NFC_BODY_NO_TAGS"
-msgstr "Teglar yo‘q"
+msgstr "無標籤"
 
 msgid "IDS_NFC_BODY_NO_BOOKMARKS"
-msgstr "Veb-hujjatlar yo‘q"
+msgstr "無書籤"
 
 msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
-msgstr "Ushbu harakatni bajarish uchun ilovani topib bo‘lmaydi."
+msgstr "找不到執行此動作的應用程式。"
 
 msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
-msgstr "Xizmatdan foydalanib bo‘lmaydi. NFC o‘chirilgan. NFC yoqilsinmi?"
+msgstr "服務不可用。NFC 已關閉。開啟 NFC 嗎？"
 
 msgid "IDS_NFC_HEADER_READ_NFC_TAG"
-msgstr "NFC tegini o‘qish"
+msgstr "讀取 NFC 標籤"
 
 msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
-msgstr "NFC orqali ulashish"
+msgstr "透過 NFC 分享"
 
 msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
-msgstr "Ulashish uchun telefonlarni ehtiyotkorlik bilan birgalikda ushlang."
+msgstr "輕輕地將手機碰觸在一起以分享。"
 
 msgid "IDS_NFC_BODY_PS_SELECTED"
-msgstr "%s tanlangan."
+msgstr "%s 已選擇。"
 
 msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
-msgstr "Tegga yozib bo‘lmadi."
+msgstr "寫入至標籤失敗。"
 
 msgid "IDS_NFC_OPT_S_BEAM"
 msgstr "S Beam"
 
 msgid "IDS_NFC_POP_ACTIVATION_FAILED"
-msgstr "Faollashtirish bajarilmadi."
+msgstr "啟動失敗"
 
 msgid "IDS_NFC_POP_BLANK_TAG"
-msgstr "Bo‘sh teg."
+msgstr "空白標籤。"
 
 msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
-msgstr "Tegga yozilgan ma’lumot."
+msgstr "數據已寫入至標籤。"
 
 msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
-msgstr "Qo‘llab-quvvatlanmaydigan teg turi."
+msgstr "不支援的標籤類型。"
 
 msgid "IDS_NFC_BODY_TAP_TO_SEND"
-msgstr "Yuborish uchun teging."
+msgstr "輕觸以發送。"
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
-msgstr "Teg yaratib bo‘lmaydi. Ma’lumot juda katta."
+msgstr "無法建立標籤。 數據太大。"
 
 msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
-msgstr "Yaratib bo‘lmaydi. Teg bloklangan."
+msgstr "無法建立。標籤已鎖定。"
 
 msgid "IDS_COM_POP_RECEIVING"
-msgstr "Qabul qilinmoqda..."
+msgstr "正在接收..."
 
 msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
-msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chring va qayta urinib ko‘ring."
+msgstr "記憶體不足。請刪除部分項目並重試。"
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Xavfsizlik siyosati %sdan foydalanishni cheklaydi."
+msgstr "安全政策限制使用 %s。"
 
 msgid "IDS_COM_OPT_SHARED"
-msgstr "Umumiy"
+msgstr "已共享"
 
 msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
-msgstr "Umumiy foydalanib bo‘lmaydi."
+msgstr "無法分享。"
 
 msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
-msgstr "Fayllar tanlanmagan. Yuborish uchun fayl tanlang va qayta urinib ko‘ring."
+msgstr "無選定的檔案。選擇一個欲發送的檔案並重試。"
 
 msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
-msgstr "NFC yoqilganda, qurilmangiz boshqa NFC-imkoniyatiga ega qurilma yoki NFC teglariga tekkanda, ma’lumotni olishingiz yoki yuborishingiz mumkin."
+msgstr "當 NFC 開啟時，若您的裝置觸碰其他具備 NFC 功能的裝置或 NFC 標籤時，即可發送或接收數據。"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG"
-msgstr "Teg tanlash"
+msgstr "選擇標籤"
 
 msgid "IDS_COM_BODY_BUTTON_T_TTS"
-msgstr "Tugma"
+msgstr "按鈕"
 
 msgid "IDS_COM_BODY_TICKBOX_T_TTS"
-msgstr "Belgilash katakchasi"
+msgstr "勾選方塊"
 
 msgid "IDS_COM_BODY_TICK_T_TTS"
-msgstr "Belgi qo‘yish"
+msgstr "勾選"
 
 msgid "IDS_COM_BODY_UNTICK_T_TTS"
-msgstr "Belgini olib tashlash"
+msgstr "取消勾選"
 
 msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
-msgstr "Ko‘p tegli yozish"
+msgstr "多標籤編寫"
 
 msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
-msgstr "Yozuv tegini yaratish"
+msgstr "建立備忘錄標籤"
 
 msgid "IDS_NFC_BODY_CREATE_TAG"
-msgstr "Teg yarat"
+msgstr "建立標籤"
 
 msgid "IDS_ST_BODY_PD_MORE_ABB"
-msgstr "%d ko‘p"
+msgstr "%d 更多"
 
 msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
-msgstr "Teg jurnali"
+msgstr "標籤內容"
 
 msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
-msgstr "Yozuv tanla (faqat matn)"
+msgstr "選擇備忘錄 (僅文字)"
 
 msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
-msgstr "Teglarni o‘qish/yozishdan so‘ng teglaringiz jurnali bu yerda ko‘rsatiladi."
+msgstr "在加入讀取/寫入標籤後，將顯示於此。"
 
 msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
-msgstr "1. %s Parametrlarni oching."
+msgstr "1. 開啟 %s 設定。"
 
 msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
-msgstr "Teglarni tanlash"
+msgstr "選擇標籤"
 
 msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
-msgstr "Ko‘rsatilgan soha ustiga teging."
+msgstr "輕觸指示的區域。"
 
 msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
-msgstr "Ko‘rsatma yakunlandi."
+msgstr "教學完成。"
 
 msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
-msgstr "Qurilmangiz boshqa qurilmaga tekkanida ma’lumot almashish."
+msgstr "裝置與其他裝置接觸時交換數據。"
 
 msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
-msgstr "S Beam yoqilgan. S Beam parametrlarini o‘zgartirishingiz mumkin."
+msgstr "S Beam 已開啟。您可變更 S Beam 設定。"
 
 msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
-msgstr "NFC avvalroq yoqilgan. NFC parametrlaringizni o‘zgartirishingiz mumkin."
+msgstr "NFC 已開啟。可變更您的 NFC 設定。"
 
 msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
-msgstr "Ulanishlar ilovasini tanlang."
+msgstr "選擇連接標籤。"
 
 msgid "IDS_HELP_BODY_SELECT_PS_NFC"
-msgstr "%s NFCni tanlang."
+msgstr "選擇 %s NFC。"
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
-msgstr "NFC funksiyasini yoqish uchun tugmani suring."
+msgstr "切換按鈕以開啟 NFC。"
 
 msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
-msgstr "%s S Beamni tanlang."
+msgstr "選擇 %s S Beam。"
 
 msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
-msgstr "S Beam funksiyasini yoqish uchun tugmani suring."
+msgstr "切換按鈕以開啟 S Beam。"
 
 msgid "IDS_NFC_BODY_NFC_TURNED_ON"
-msgstr "NFC yoqilgan."
+msgstr "已開啟 NFC。"
 
 msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
-msgstr "S Beam yoqilgan."
+msgstr "S Beam 已開啟。"
 
 msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
-msgstr "Ushbu funksiya yoqilganda, asosiy ekranda bo‘lganingizda, NFC orqali oldindan belgilangan elementlarni yuborishingiz mumkin."
+msgstr "當此功能啟用時，即可在主螢幕中透過 NFC 發送預定義的項目。"
 
 msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
-msgstr "S Beam yoqilgan holatda qurilmangiz boshqa NFC va Wi-Fi Direct qurilmalari yaqinida bo‘lganda fayllarni olishingiz va yuborishingiz mumkin. Masalan, qurilmalarni orqasini-orqasiga qilib qo‘yish va ekranga tegish orqali tasvir/video fayllarni Galereyadan uzatishingiz mumkin"
+msgstr "S Beam 開啟時，可在裝置靠近其他 NFC 與 Wi-Fi Direct 裝置時發送或接收檔案。 舉例來說，您可將裝置背靠背並輕觸螢幕，以從媒體瀏覽器發送圖像/影片檔案。"
 
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
-msgstr "Xotira yetarli emas. Ba’zi elementlarni o'chiring"
+msgstr "記憶體不足。請刪除一些項目。"
 
 msgid "IDS_TAGS_OPT_SHARE_ABB"
-msgstr "Ulashish"
+msgstr "分享"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "S Beam orqali fayllarni yuborish Screen Mirroringni baham ko‘rish. Davom ettirish uchun %d soniya ichida OKni cherting"
+msgstr "透過 S Beam 共享檔案將停用 Screen Mirroring。在 %d 秒內輕觸確定以繼續。"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
-msgstr "NFCni yoqish"
+msgstr "開啟 NFC"
 
 msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
-msgstr "S Beamni yoqish"
+msgstr "開啟 S Beam"
 
 msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
-msgstr "Smart poster"
+msgstr "智能海報"
 
 msgid "IDS_NFC_BUTTON_CREATE_TAG"
-msgstr "Teg yaratish"
+msgstr "建立標籤"
 
 msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
-msgstr "Tegingizga yozish uchun tarkib turlaridan birini tanlang. Tegga ma’lumot yozganingizdan so‘ng, ushbu ma’lumotni ko‘rish uchun tegga qurilmangiz bilan teging."
+msgstr "選擇其中一種內容類型以寫入至您的標籤。在您已將數據寫入至標籤後，請用您的裝置輕觸標籤來查看該數據。"
 
 msgid "IDS_NFC_BUTTON_SAVE_ABB"
-msgstr "Saqla"
+msgstr "儲存"
 
 msgid "IDS_NFC_BUTTON_CANCEL_ABB"
-msgstr "Bekor qilish"
+msgstr "取消"
 
 msgid "IDS_NFC_ITAB_ARCHIVE"
-msgstr "Arxiv"
+msgstr "存檔"
 
 msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
-msgstr "Arxivga qo‘shildi"
+msgstr "已加入至存檔"
 
 msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
-msgstr "Arxivdan olib tashlandi"
+msgstr "已從存檔移除"
 
 msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
-msgstr "Arxivga qo‘shish"
+msgstr "加入至存檔"
 
 msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
-msgstr "Arxivdan olib tashla"
+msgstr "從存檔移除"
 
 msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
-msgstr "As/ekran. NFC ishlat"
+msgstr "在主螢幕使用 NFC"
 
 msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
-msgstr "Arxivlangan teglar yo‘q"
+msgstr "無已存檔的標籤"
 
 msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
-msgstr "Teglarni arxivingizga qo‘shganingizdan so‘ng, ular bu yerda ko‘rsatiladi."
+msgstr "在您加入標籤至存檔後，將顯示於此。"
 
 msgid "IDS_NFC_HEADER_CREATE_TAG"
-msgstr "Teg yaratish"
+msgstr "建立標籤"
 
 msgid "IDS_NFC_BODY_TAG_LOG"
-msgstr "Teglar jurnali"
+msgstr "標籤記錄"
 
 msgid "IDS_NFC_BODY_CONTACT"
-msgstr "Kontakt"
+msgstr "聯絡人"
 
 msgid "IDS_NFC_BODY_MEMO"
-msgstr "Eslatma"
+msgstr "備忘錄"
 
 msgid "IDS_NFC_BODY_BOOKMARK"
-msgstr "Saqlangan veb-hujjat"
+msgstr "書籤"
 
 msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Kontaktni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+msgstr "若要儲存聯絡人，請用裝置的背面完全蓋住標籤並停留幾秒鐘。"
 
 msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Ma’lumotni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+msgstr "若要儲存數據，請用裝置的背面完全蓋住標籤並停留幾秒鐘。"
 
 msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "Yozuvni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+msgstr "若要儲存備忘錄，請用裝置的背面完全蓋住標籤並停留幾秒鐘。"
 
 msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
-msgstr "URL-manzilni saqlash uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing"
+msgstr "若要儲存網址，請用裝置的背面完全蓋住標籤並停留幾秒鐘。"
 
 msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
-msgstr "Boshqa ko‘rsatma"
+msgstr "不要再顯示"
 
 msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
-msgstr "Teg yaratib bo‘lmadi. Saqlashga urinayotgan nom yoki telefon raqamini topib bo‘lmayapti."
+msgstr "無法建立標籤。找不到您正在嘗試儲存的姓名或電話號碼。"
 
 msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
-msgstr "Ushbu tegga faqat kontakt nomi va telefon raqamini saqlash mumkin"
+msgstr "僅聯絡人的姓名和電話號碼可儲存至此標籤。"
 
 msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
-msgstr "Ushbu opsiya tekshirilganda, bir nechta teglar bittada yoziladi"
+msgstr "選項勾選時，將同時寫入多個標籤。"
 
 msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
-msgstr "NFC teglari bilan tanishish"
+msgstr "NFC 標籤簡介"
 
 msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
-msgstr "NFC teglari haqida"
+msgstr "關於 NFC 標籤"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
-msgstr "NFC teglari kichkina kartochkalarida birlashtirilgan yupqa mikrochiplar. Ular matn, URL-manzillar va boshqa turdagi ma’lumotlardan tashkil topishi mumkin."
+msgstr "NFC 標籤為內嵌於小卡內的微型晶片。其可包含文字、網址以及其他類型的資訊。"
 
 msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
-msgstr "NFC teglarini o‘qish"
+msgstr "讀取 NFC 標籤"
 
 msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
-msgstr "NFC tegini o‘qish uchun tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing. Teg ma’lumotlari Teglar ilovasiga saqlanadi."
+msgstr "若要讀取 NFC 標籤，請用裝置的背面完全蓋住標籤並停留幾秒鐘。標籤的資訊將儲存至標籤應用程式。"
 
 msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
-msgstr "NFC xavfsiz xotirasi"
+msgstr "NFC 安全儲存空間"
 
 msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
-msgstr "NFC xavfsiz xotirasi"
+msgstr "NFC 安全儲存空間"
 
 msgid "IDS_NFC_OPT_MANUAL"
-msgstr "Qo‘lda"
+msgstr "手動"
 
 msgid "IDS_NFC_OPT_AUTOMATIC"
-msgstr "Avtomatik"
+msgstr "自動"
 
 msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
-msgstr "Xavfsiz xotira SIM-kartangizdan foydalaning."
+msgstr "使用您的 SIM 卡作為安全儲存空間。"
 
 msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "SIM-karta va qurilmadagi xavfsiz xotiradan foylanish o‘rtasida avtomatik ravishda almashish."
+msgstr "在使用 SIM 卡與裝置內安全儲存空間之間自動切換。"
 
 msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
-msgstr "Qo‘lda o‘rnatishni tanlash qurilmadagi xavfsiz xotirada saqlanadigan NFC to‘lovi kabi ba’zi xavfsizlik funksiyalarini o‘chiradi."
+msgstr "選擇手動將停用部分將數據儲存於裝置內安全儲存空間的安全功能，例如 NFC 付款。"
 
 msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
-msgstr "Teg turi qo‘llab-quvvatlanmaydi"
+msgstr "不支援標籤類型"
 
 msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
-msgstr "Teglar bilan tanishish"
+msgstr "標籤簡介"
 
 msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
-msgstr "E-pochta manzili aniqlandi. E-pochta yozilsinmi?"
+msgstr "偵測到一個電子郵件地址。撰寫電子郵件嗎？"
 
 msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
-msgstr "URL-manzil aniqlandi. Ochilsinmi?"
+msgstr "偵測到一個網址。開啟嗎？"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Teglar ilovasi Sizga Yaqin-atrofdagi Kommunikatsiya (NFC) teglarini tashkillashtirish va ulashishga yordam beradi. Qurilmangizni blokdan chiqarish va uni tegning yoniga qo‘yish orqali tegni skanerlashingiz mumkin. NFC teglari matn, URL-manzillar va boshqa turdagi ma’lumotlardan tashkil topadi.\n\nTeglarni qidirish yoki ulashish uchun Parametrlar > Ulanishga o‘tish orqali NFCni yoqing."
+msgstr "標籤應用程式有助於組織並分享近距離無線通訊 (NFC) 標籤。您可通過解鎖裝置並將其置於標籤旁邊以掃描標籤。NFC 標籤可包含文字、網址與其他類型的資訊。\n\n若要掃描或共享標籤，可通過前往設定 > 連接開啟 NFC。"
 
 msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
-msgstr "NFC xizmati qo‘llab-quvvatlanmaydi."
+msgstr "不支援 NFC 服務。"
 
 msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
-msgstr "S Beam orqali fayllarni ulashish portativ Wi-Fi faol nuqtani o‘chiradi. Davom ettirish uchun %d soniya ichida OKni bosing"
+msgstr "透過 S Beam 共享檔案將停用便攜式 Wi-Fi 熱點。在 %d 秒內輕觸確定以繼續。"
 
 msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
-msgstr "NFC teglariga yaratish"
+msgstr "建立 NFC 標籤"
 
 msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
-msgstr "Teglar ilovasida teg menyusi opsiyasini yaratish yordamida tegni yarating. Saqlamoqchi bo‘lgan ma’lumotni tanlang, so‘ngra tegni qurilma orqasi bilan to‘liq qoplang va bir necha soniya ushlab turing."
+msgstr "使用標籤應用程式中的建立標籤功能表選項建立標籤。選擇您要儲存的數據，然後用裝置的背面完全蓋住標籤並停留幾秒鐘。"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
-msgstr "Uzatib bo‘lmaydi"
+msgstr "無法傳輸"
 
 msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
-msgstr "NFCni yoqish"
+msgstr "開啟 NFC"
 
 msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
-msgstr "%d tanlandi"
+msgstr "已選擇 %d"
 
 msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
-msgstr "Kontaktni tegga yozish"
+msgstr "寫入聯絡人至標籤"
 
 msgid "IDS_NFC_HEADER_DELETE_TAG"
-msgstr "Tegni yo‘q qilish"
+msgstr "刪除標籤"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
-msgstr "Faylni olib bo‘lmaydi"
+msgstr "無法接收檔案"
 
 msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
-msgstr "Ushbu teg yo‘q qilinsinmi?"
+msgstr "刪除此標籤嗎？"
 
 msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
-msgstr "%dta teg yo‘q qilinsinmi?"
+msgstr "刪除 %d 個標籤嗎？"
 
 msgid "IDS_NFC_BUTTON_STORAGE"
-msgstr "Xotira"
+msgstr "儲存裝置"
 
 msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
-msgstr "Endilikda fayllarni S Beam bilan ulashish mumkin. Qurilmalarni ajrating."
+msgstr "檔案現在可以透過 S Beam 共享。分離裝置。"
 
 msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
-msgstr "Fayllarni ulashishga tayyorlanilmoqda...\nQurilmalar bir-biriga tegib turganiga ishonch hosil qiling."
+msgstr "正在準備共享檔案...\n請確認裝置仍處於連接狀態。"
 
 msgid "IDS_NFC_TPOP_FILES_SENT"
-msgstr "Fayllar yuborildi."
+msgstr "檔案已發送。"
 
 msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
-msgstr "Fayllar yuborildi."
+msgstr "檔案已發送。"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
-msgstr "Fayllarni yuborib bo‘lmadi."
+msgstr "發送檔案失敗。"
 
 msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
-msgstr "Fayllar yuborilmadi."
+msgstr "發送檔案失敗。"
 
 msgid "IDS_NFC_TPOP_FILES_RECEIVED"
-msgstr "Fayllar olindi."
+msgstr "檔案已接收。"
 
 msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
-msgstr "Fayllar olindi."
+msgstr "檔案已接收。"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
-msgstr "Fayllarni olib bo‘lmadi."
+msgstr "接收檔案失敗。"
 
 msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
-msgstr "Fayllarni olib bo‘lmadi."
+msgstr "接收檔案失敗。"
 
 msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
-msgstr "Fayllar soni bir vaqtda uzatilishi mumkin bo‘lgan fayllarning maksimal miqdoriga (%d) yetdi. Ushbu fayllarni ulashish uchun Wi-Fi Direct yoki Bluetoothdan foydalaning."
+msgstr "已超過可同時無線傳輸的檔案數量上限 (%d)。若要共享這些檔案，請使用 Wi-Fi Direct 或藍牙。"
 
 msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
-msgstr "NFCni yoqib bo‘lmadi"
+msgstr "開啟 NFC 失敗"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
-msgstr "Tegni o‘qib bo‘lmaydi"
+msgstr "無法讀取標籤"
 
 msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
-msgstr "Teg yaratib bo‘lmaydi"
+msgstr "無法建立標籤"
 
 msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
-msgstr "Teg turini tanlash"
+msgstr "選擇標籤類型"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
-msgstr "%s bilan bog‘lab bo‘lmadi."
+msgstr "與 %s 配對失敗。"
 
 msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
-msgstr "%sga ulanib bo‘lmadi."
+msgstr "連接至 %s 失敗。"
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
-msgstr "NFCni yoqayotganda xato yuz berdi. Qayta urinib ko‘ring."
+msgstr "開啟 NFC 時發生錯誤。請重試。"
 
 msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
-msgstr "Ushbu tegga ma’lumot yozilmagan."
+msgstr "無數據已寫入至此標籤。"
 
 msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
-msgstr "Tegga ma’lumot yozish vaqtida xato yuz berdi. Qayta urinib ko‘ring."
+msgstr "寫入資訊至標籤時發生錯誤。請重試。"
 
 msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
-msgstr "Teglar ilovasi Sizga Yaqin-atrofdagi Kommunikatsiya (NFC) teglarini tashkillashtirish va ulashishga yordam beradi. Qurilmangizni blokdan chiqarish va uni tegning yoniga qo‘yish orqali tegni skanerlashingiz mumkin. NFC teglari matn, veb-manzil, kontakt ma’lumoti, yozuv, rasm, video va boshqalardan tashkil topishi mumkin.\n\nTeglarni ulashish yoki skanerlash uchun Parametrlar > Ulanishga o‘tish orqali NFCni yoqing."
+msgstr "標籤應用程式有助於組織並分享近距離無線通訊 (NFC) 標籤。您可通過解鎖裝置並將其置於標籤旁邊以掃描標籤。NFC 標籤可包含文字、網址、聯絡人資訊、備忘錄、圖片、影片及更多。\n\n若要掃描或共享標籤，請通過前往設定 > 連接來開啟 NFC。"
 
 msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
-msgstr "Qurilmangiz boshqa qurilma yoki teg orqasiga tekkanida, qurilmalar o‘rtasida yoki qurilma va teg o‘rtasida matn, rasm, video, veb-manzil va kontakt ma’lumotlari kabi ma’lumotlarni almashish mumkin."
+msgstr "當您的裝置觸碰其他裝置或標籤的背面時，即可在裝置之間或在標籤與裝置之間傳輸文字、圖片、影片、網址及聯絡人資訊等數據。"
 
 msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
-msgstr "NFC teglari kichkina kartochkalarida birlashtirilgan yupqa mikrochiplar. Ular matn, veb-manzil, kontakt ma’lumoti, yozuv, rasm, video va boshqalardan tashkil topishi mumkin."
+msgstr "NFC 標籤是內嵌於小卡內的小型微晶片。可包含文字、網址、聯絡人資訊、備忘錄、圖片、影片及更多。"
 

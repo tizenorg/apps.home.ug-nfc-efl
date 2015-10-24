@@ -155,7 +155,7 @@ msgid "IDS_COM_SK_OPEN"
 msgstr "Otvori"
 
 msgid "IDS_COM_BODY_PD_SELECTED"
-msgstr "Izabran je %d"
+msgstr "Izabrano %d"
 
 msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
 msgstr "Otvori pretraživač?"

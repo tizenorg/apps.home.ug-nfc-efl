@@ -1,0 +1,576 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_COM_POP_DELETE_Q"
+msgstr "हटाएँ?"
+
+msgid "IDS_COM_POP_CONNECTING"
+msgstr "कनेक्ट हो रहा है..."
+
+msgid "IDS_COM_BODY_NONE"
+msgstr "कुछ नहीं"
+
+msgid "IDS_COM_SK_ADD"
+msgstr "जोड़ें"
+
+msgid "IDS_COM_BODY_BLUETOOTH"
+msgstr "ब्लूटूथ"
+
+msgid "IDS_COM_BODY_EMAIL"
+msgstr "ईमेल"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "सहायता"
+
+msgid "IDS_COM_BODY_MEMO"
+msgstr "मेमो"
+
+msgid "IDS_COM_BODY_MESSAGE"
+msgstr "सन्देश"
+
+msgid "IDS_COM_BODY_ON"
+msgstr "चालू"
+
+msgid "IDS_COM_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "नहीं"
+
+msgid "IDS_COM_SK_OK"
+msgstr "ओके"
+
+msgid "IDS_COM_SK_YES"
+msgstr "हाँ"
+
+msgid "IDS_NFC_BODY_NFC"
+msgstr "NFC"
+
+msgid "IDS_NFC_BODY_NEW_MEMO"
+msgstr "नया मेमो"
+
+msgid "IDS_NFC_ITAB_TAGS"
+msgstr "टैग्स"
+
+msgid "IDS_NFC_BUTTON2_WRITE_TO_TAG"
+msgstr "टैग पर लिखें"
+
+msgid "IDS_COM_BODY_PREVIOUS_DAYS"
+msgstr "पिछले दिनों"
+
+msgid "IDS_COM_POP_FILE"
+msgstr "फाइल"
+
+msgid "IDS_COM_BODY_BOOKMARK"
+msgstr "बुकमार्क"
+
+msgid "IDS_COM_BODY_BOOKMARKS"
+msgstr "बुकमार्क्स"
+
+msgid "IDS_COM_BODY_SUN"
+msgstr "रवि"
+
+msgid "IDS_COM_SK3_COMPOSE"
+msgstr "लिखें"
+
+msgid "IDS_COM_BODY_TODAY"
+msgstr "आज"
+
+msgid "IDS_COM_BODY_YESTERDAY"
+msgstr "बीता हुआ कल"
+
+msgid "IDS_COM_POP_CLOSE"
+msgstr "बंद करें"
+
+msgid "IDS_COM_POP_ERROR"
+msgstr "त्रुटि।"
+
+msgid "IDS_COM_POP_SENDING"
+msgstr "भेजा जा रहा है..."
+
+msgid "IDS_COM_BODY_CONTACT"
+msgstr "संपर्क"
+
+msgid "IDS_COM_BODY_APR"
+msgstr "अप"
+
+msgid "IDS_COM_BODY_AUG"
+msgstr "अग"
+
+msgid "IDS_COM_BODY_DEC"
+msgstr "दिसं"
+
+msgid "IDS_COM_BODY_DELETE"
+msgstr "हटाएँ"
+
+msgid "IDS_COM_BODY_FEB"
+msgstr "फर"
+
+msgid "IDS_COM_BODY_FRI"
+msgstr "शुक्र"
+
+msgid "IDS_COM_BODY_JAN"
+msgstr "जन"
+
+msgid "IDS_COM_BODY_JUL"
+msgstr "जुल"
+
+msgid "IDS_COM_BODY_JUN"
+msgstr "जून"
+
+msgid "IDS_COM_BODY_MAR"
+msgstr "मा"
+
+msgid "IDS_COM_BODY_MAY"
+msgstr "मई"
+
+msgid "IDS_COM_BODY_MON"
+msgstr "सोम"
+
+msgid "IDS_COM_BODY_NOV"
+msgstr "नवं"
+
+msgid "IDS_COM_BODY_OCT"
+msgstr "अक"
+
+msgid "IDS_COM_BODY_SAT"
+msgstr "शनि"
+
+msgid "IDS_COM_BODY_SEP"
+msgstr "सितं"
+
+msgid "IDS_COM_BODY_THU"
+msgstr "गुरु"
+
+msgid "IDS_COM_BODY_TUE"
+msgstr "मंगल"
+
+msgid "IDS_COM_BODY_UNKNOWN"
+msgstr "अज्ञात"
+
+msgid "IDS_COM_BODY_WED"
+msgstr "बुध"
+
+msgid "IDS_COM_SK_OPEN"
+msgstr "खोलें"
+
+msgid "IDS_COM_BODY_PD_SELECTED"
+msgstr "%d चयनित।"
+
+msgid "IDS_NFC_POP_OPEN_BROWSER_Q"
+msgstr "ब्राउजर खोलें?"
+
+msgid "IDS_NFC_BODY_MEDIA_PLAYER"
+msgstr "मीडिया प्लेयर"
+
+msgid "IDS_NFC_BODY_URL"
+msgstr "URL"
+
+msgid "IDS_NFC_BODY_NO_TAGS"
+msgstr "कोई टैग्स नहीं"
+
+msgid "IDS_NFC_BODY_NO_BOOKMARKS"
+msgstr "कोई बुकमार्क नहीं"
+
+msgid "IDS_COM_BODY_NO_APPLICATIONS_CAN_PERFORM_THIS_ACTION"
+msgstr "यह कार्रवाई क्रियान्‍वित करने के लिए एप्लीकेशन ढूँढने में अक्षम।"
+
+msgid "IDS_NFC_POP_SERVICE_NOT_AVAILABLE_NFC_TURNED_OFF_TURN_ON_NFC_Q"
+msgstr "सेवा उपलब्ध नहीं है। NFC बंद किया गया है। NFC चालू करें?"
+
+msgid "IDS_NFC_HEADER_READ_NFC_TAG"
+msgstr "NFC टैग पढ़ें"
+
+msgid "IDS_NFC_HEADER_SHARE_VIA_NFC"
+msgstr "NFC के द्वारा साझा करें"
+
+msgid "IDS_NFC_BODY_GENTLY_TOUCH_PHONES_TOGETHER_TO_SHARE"
+msgstr "साझा करने के लिए फ़ोन्स को एक साथ हल्के से स्पर्श करें"
+
+msgid "IDS_NFC_BODY_PS_SELECTED"
+msgstr "%s चुना गया।"
+
+msgid "IDS_NFC_POP_FAILED_TO_WRITE_TO_TAG"
+msgstr "टैग में लिखने में विफल।"
+
+msgid "IDS_NFC_OPT_S_BEAM"
+msgstr "S Beam"
+
+msgid "IDS_NFC_POP_ACTIVATION_FAILED"
+msgstr "सक्रियण विफल।"
+
+msgid "IDS_NFC_POP_BLANK_TAG"
+msgstr "रिक्त टैग।"
+
+msgid "IDS_NFC_POP_DATA_WRITTEN_TO_TAG"
+msgstr "टैग करने के लिए डाटा लिखा गया।"
+
+msgid "IDS_NFC_POP_UNSUPPORTED_TAG_TYPE"
+msgstr "असमर्थित टैग प्रकार।"
+
+msgid "IDS_NFC_BODY_TAP_TO_SEND"
+msgstr "भेजने के लिए टैप करें"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_DATA_TOO_LARGE"
+msgstr "टैग बनाने में अक्षम। डाटा बहुत बड़ा है।"
+
+msgid "IDS_NFC_POP_UNABLE_TO_CREATE_TAG_LOCKED"
+msgstr "बनाने में असमर्थ। टैग लॉक किया गया।"
+
+msgid "IDS_COM_POP_RECEIVING"
+msgstr "प्राप्त हो रहा है..."
+
+msgid "IDS_NFC_BODY_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS_AND_TRY_AGAIN"
+msgstr "पर्याप्त मेमोरी नहीं। कुछ मदें हटाएँ और फिर से प्रयास करें।"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "सुरक्षा नीति %s के उपयोग को सीमित करता है"
+
+msgid "IDS_COM_OPT_SHARED"
+msgstr "साझा किए गए"
+
+msgid "IDS_COM_BODY_UNABLE_TO_SHARE"
+msgstr "साझा करने में अक्षम।"
+
+msgid "IDS_NFC_POP_NO_FILE_SELECTED_SELECT_A_FILE_TO_SEND_AND_TRY_AGAIN"
+msgstr "कोई फाइल चयनित नहीं। भेजने के लिए कोई फाइल चुनें और फिर से प्रयास करें।"
+
+msgid "IDS_NFC_BODY_WHEN_NFC_IS_ON_YOU_CAN_SEND_OR_RECEIVE_DATA_WHEN_YOUR_DEVICE_TOUCHES_OTHER_NFC_CAPABLE_DEVICES_OR_NFC_TAGS"
+msgstr "NFC चालू होने पर, जब आपका डिवाइस किसी अन्य NFC-सक्षम डिवाइसेस या NFC टैग्स से टच होता है, तो आप डाटा भेज या प्राप्त कर सकते हैं।"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG"
+msgstr "टैग चुनें"
+
+msgid "IDS_COM_BODY_BUTTON_T_TTS"
+msgstr "बटन"
+
+msgid "IDS_COM_BODY_TICKBOX_T_TTS"
+msgstr "टिकबॉक्स"
+
+msgid "IDS_COM_BODY_TICK_T_TTS"
+msgstr "टिक करें"
+
+msgid "IDS_COM_BODY_UNTICK_T_TTS"
+msgstr "अनटिक करें"
+
+msgid "IDS_TAGS_BODY_MULTI_TAG_WRITING_ABB"
+msgstr "मल्टी-टैग लेखन"
+
+msgid "IDS_NFC_BODY_CREATE_MEMO_TAG"
+msgstr "मेमो टैग बनाएँ"
+
+msgid "IDS_NFC_BODY_CREATE_TAG"
+msgstr "टैग बनाएँ"
+
+msgid "IDS_ST_BODY_PD_MORE_ABB"
+msgstr "%d अधिक"
+
+msgid "IDS_TAGS_HEADER_TAG_CONTENT_ABB"
+msgstr "सामग्री टैग करें"
+
+msgid "IDS_TAGS_OPT_SELECT_MEMO_HTEXT_ONLY_ABB"
+msgstr "मेमो (केवल टेक्स्ट) चुनें"
+
+msgid "IDS_TAGS_BODY_AFTER_YOU_READ_WRITE_TAGS_YOUR_TAG_LOG_WILL_BE_SHOWN_HERE"
+msgstr "आपके द्वारा टैग्स पढ़ने/लिखने के बाद, आपके टैग लॉग यहाँ दिखाए जाएँगे"
+
+msgid "IDS_HELP_BODY_1_OPEN_PS_SETTINGS"
+msgstr "1. %s सेटिंग्स खोलें।"
+
+msgid "IDS_TAGS_HEADER_SELECT_TAGS_ABB"
+msgstr "टैग्स चुनें"
+
+msgid "IDS_HELP_POP_TAP_ON_THE_AREA_INDICATED"
+msgstr "इंगित क्षेत्र पर टैप करें।"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "शिक्षण पूर्ण।"
+
+msgid "IDS_HELP_BODY_EXCHANGE_DATA_WHEN_YOUR_DEVICE_TOUCHES_ANOTHER_DEVICE"
+msgstr "अपने डिवाइस को किसी अन्य डिवाइस से टच करते हुए डाटा विनिमय करें।"
+
+msgid "IDS_HELP_BODY_S_BEAM_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_S_BEAM_SETTINGS"
+msgstr "S Beam पहले से चालू है। आप अपने S Beam की सेटिंग्स को बदल सकते हैं।"
+
+msgid "IDS_HELP_POP_NFC_IS_ALREADY_ON_YOU_CAN_CHANGE_YOUR_NFC_SETTINGS"
+msgstr "NFC पहले से ही चालू है। आप अपनी NFC सेटिंग्स बदल सकते हैं।"
+
+msgid "IDS_HELP_BODY_SELECT_THE_CONNECTIONS_TAB"
+msgstr "कनेक्शंस टैब चुनें।"
+
+msgid "IDS_HELP_BODY_SELECT_PS_NFC"
+msgstr "%s NFC चुनें।"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_NFC"
+msgstr "NFC चालू करने के लिए बटन टॉगल करें।"
+
+msgid "IDS_HELP_BODY_SELECT_PS_S_BEAM"
+msgstr "%s S Beam चुनें।"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_TO_TURN_ON_S_BEAM"
+msgstr "S Beam चालू करने के लिए बटन टॉगल करें।"
+
+msgid "IDS_NFC_BODY_NFC_TURNED_ON"
+msgstr "NFC चालू किया गया।"
+
+msgid "IDS_HELP_BODY_S_BEAM_TURNED_ON"
+msgstr "S Beam चालू किया गया।"
+
+msgid "IDS_TAGS_BODY_WHEN_THIS_FEATURE_IS_ENABLED_YOU_CAN_SEND_PREDEFINED_ITEMS_VIA_NFC_WHILE_YOU_ARE_ON_THE_HOME_SCREEN"
+msgstr "यह सुविधा सक्षम होने पर, जब आप होम स्क्रीन पर हों, तो आप NFC द्वारा पूर्वनिर्धारित मदें भेज सकते हैं"
+
+msgid "IDS_TAGS_BODY_WHEN_S_BEAM_IS_TURNED_ON_YOU_CAN_SEND_OR_RECEIVE_FILES_WHEN_YOUR_DEVICE_IS_CLOSE_TO_OTHER_NFC_AND_WI_FI_DIRECT_DEVICES_MSG"
+msgstr "S Beam चालू होने पर, जब आपका डिवाइस अन्य NFC और Wi-Fi Direct डिवाइसों के नज़दीक हो, तो आप फ़ाइलें भेज या प्राप्त कर सकते हैं। उदाहरण के लिए, आप डिवाइसों को आगे-पीछे रखकर और अपनी स्क्रीन को टैप करके गैलेरी से छवि/वीडियो फ़ाइलों को बीम कर सकते हैं।"
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY_DELETE_SOME_ITEMS"
+msgstr "पर्याप्त मेमोरी नहीं। कुछ मदें हटाएँ।"
+
+msgid "IDS_TAGS_OPT_SHARE_ABB"
+msgstr "साझा करें"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_SCREEN_MIRRORING_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam के द्वारा फ़ाइलें साझाकरण से Screen Mirroring अक्षम हो जाएगा। जारी रखने के लिए %d सेकंड के भीतर ओके टैप करें।"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_NFC_ABB"
+msgstr "NFC चालू हो रही है"
+
+msgid "IDS_HELP_HEADER_TURNING_ON_S_BEAM_ABB"
+msgstr "S Beam चालू हो रहा है"
+
+msgid "IDS_NFC_HEADER_SMART_POSTER_ABB"
+msgstr "स्मार्ट पोस्टर"
+
+msgid "IDS_NFC_BUTTON_CREATE_TAG"
+msgstr "टैग बनाएँ"
+
+msgid "IDS_NFC_BODY_SELECT_ONE_OF_THE_TYPES_OF_CONTENT_TO_WRITE_TO_YOUR_TAG_MSG"
+msgstr "अपना टैग लिखने के लिए कोई एक प्रकार की सामग्री का चयन करें। आपके द्वारा टैग पर डाटा लिखे जाने के बाद, उस डाटा को देखने के लिए टैग को अपनी डिवाइस से स्पर्श करें।"
+
+msgid "IDS_NFC_BUTTON_SAVE_ABB"
+msgstr "सेव"
+
+msgid "IDS_NFC_BUTTON_CANCEL_ABB"
+msgstr "रद्द करें"
+
+msgid "IDS_NFC_ITAB_ARCHIVE"
+msgstr "अभिलेख"
+
+msgid "IDS_NFC_TPOP_ADDED_TO_ARCHIVE_ABB"
+msgstr "अभिलेख में जोड़ा गया"
+
+msgid "IDS_NFC_TPOP_REMOVED_FROM_ARCHIVE_ABB"
+msgstr "अभिलेख से निकाला गया"
+
+msgid "IDS_NFC_OPT_ADD_TO_ARCHIVE_ABB"
+msgstr "अभिलेख में जोड़ें"
+
+msgid "IDS_NFC_OPT_REMOVE_FROM_ARCHIVE_ABB"
+msgstr "अभिलेख से निकालें"
+
+msgid "IDS_NFC_OPT_USE_NFC_IN_HOME_ABB"
+msgstr "होम में NFC का उपयोग करें"
+
+msgid "IDS_NFC_BODY_NO_ARCHIVED_TAGS"
+msgstr "कोई संग्रहीत टैग्स नहीं"
+
+msgid "IDS_NFC_BODY_AFTER_YOU_ADD_TAGS_TO_YOUR_ARCHIVE_THEY_WILL_BE_SHOWN_HERE"
+msgstr "आपके द्वारा अपने संग्रह में टैग्स जोड़ने पर, वे यहाँ दिखाए जाएँगे।"
+
+msgid "IDS_NFC_HEADER_CREATE_TAG"
+msgstr "टैग बनाएँ"
+
+msgid "IDS_NFC_BODY_TAG_LOG"
+msgstr "टैग लॉग"
+
+msgid "IDS_NFC_BODY_CONTACT"
+msgstr "संपर्क"
+
+msgid "IDS_NFC_BODY_MEMO"
+msgstr "मेमो"
+
+msgid "IDS_NFC_BODY_BOOKMARK"
+msgstr "बुकमार्क"
+
+msgid "IDS_NFC_BODY_TO_SAVE_CONTACT_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "संपर्क सुरक्षित करने के लिए, टैग को डिवाइस के पिछले भाग से पूरी तरह ढके और कुछ सेकंड के लिए होल्ड करें।"
+
+msgid "IDS_NFC_BODY_TO_SAVE_DATA_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "डाटा सुरक्षित करने के लिए, टैग को डिवाइस के पिछले भाग से पूरी तरह ढके और कुछ सेकंड के लिए होल्ड करें।"
+
+msgid "IDS_NFC_BODY_TO_SAVE_MEMO_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "मेमो सुरक्षित करने के लिए, टैग को डिवाइस के पिछले भाग से पूरी तरह ढके और कुछ सेकंड के लिए होल्ड करें।"
+
+msgid "IDS_NFC_BODY_TO_SAVE_URL_COMPLETELY_COVER_TAG_WITH_BACK_OF_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS"
+msgstr "URL सुरक्षित करने के लिए, टैग को डिवाइस के पिछले भाग से पूरी तरह ढके और कुछ सेकंड के लिए होल्ड करें।"
+
+msgid "IDS_NFC_BODY_DO_NOT_SHOW_AGAIN_ABB2"
+msgstr "दोबारा न दिखाएँ।"
+
+msgid "IDS_NFC_POP_FAILED_TO_CREATE_TAG_EITHER_THE_NAME_OR_THE_PHONE_NUMBER_YOU_ARE_TRYING_TO_SAVE_CANNOT_BE_FOUND"
+msgstr "टैग बनाने में विफल। आप जिस नाम या फ़ोन नंबर को सुरक्षित करने का प्रयास कर रहे हैं, वह ढूँढ़ा नहीं जा सका।"
+
+msgid "IDS_NFC_POP_ONLY_THE_CONTACTS_NAME_AND_PHONE_NUMBER_CAN_BE_SAVED_TO_THIS_TAG"
+msgstr "इस टैग में केवल संपर्क नाम और फ़ोन नंबर सुरक्षित किया जा सकता है"
+
+msgid "IDS_NFC_POP_WHEN_THIS_OPTION_IS_CHECKED_SEVERAL_TAGS_WILL_BE_WRITTEN_AT_ONCE"
+msgstr "इस विकल्प की जाँच करने के बाद, एक ही बार में कई टैग्स लिखे जाएँगे"
+
+msgid "IDS_NFC_HEADER_INTRODUCTION_TO_NFC_TAGS"
+msgstr "NFC टैग्स का परिचय"
+
+msgid "IDS_NFC_HEADER_ABOUT_NFC_TAGS_ABB"
+msgstr "NFC टैग्स के बारे में"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_MSG"
+msgstr "NFC टैग्स, छोटे कार्ड्स में अंतःस्थापित अतिसूक्ष्म माइक्रोचिप्स होते हैं। इनमें टेक्स्ट, URL, और अन्य प्रकार की जानकारी शामिल हो सकती है।"
+
+msgid "IDS_NFC_HEADER_READING_NFC_TAGS"
+msgstr "NFC टैग्स पढ़ना"
+
+msgid "IDS_NFC_BODY_TO_READ_AN_NFC_TAG_COMPLETELY_COVER_THE_TAG_WITH_THE_BACK_OF_THE_DEVICE_AND_HOLD_FOR_SEVERAL_SECONDS_MSG"
+msgstr "NFC टैग पढ़ने के लिए, टैग को डिवाइस के पिछले भाग से पूरी तरह कवर करें और कुछ सेकंड्स के लिए होल्ड करें। टैग से मिली जानकारी टैग्स एप्लीकेशन में सुरक्षित की जाएगी।"
+
+msgid "IDS_NFC_MBODY_NFC_SECURE_STORAGE"
+msgstr "NFC सुरक्षित स्टोरेज"
+
+msgid "IDS_NFC_HEADER_NFC_SECURE_STORAGE_ABB"
+msgstr "NFC सुरक्षित स्टोरेज"
+
+msgid "IDS_NFC_OPT_MANUAL"
+msgstr "मैनुअल"
+
+msgid "IDS_NFC_OPT_AUTOMATIC"
+msgstr "स्वचालित"
+
+msgid "IDS_ST_BODY_USE_YOUR_SIM_CARD_FOR_SECURE_STORAGE"
+msgstr "सुरक्षित स्टोरेज के लिए अपने SIM कार्ड का उपयोग करें।"
+
+msgid "IDS_ST_BODY_SWITCH_AUTOMATICALLY_BETWEEN_USING_YOUR_SIM_CARD_AND_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "आपके द्वारा उपयोग किए जा रहे SIM कार्ड और ऑन-डिवाइस सुरक्षित स्टोरेज के बीच स्वचालित रूप से स्विच करें।"
+
+msgid "IDS_ST_BODY_SELECTING_MANUAL_WILL_DISABLE_SOME_SECURE_FEATURES_SUCH_AS_NFC_PAYMENT_THAT_STORE_DATA_IN_THE_ON_DEVICE_SECURE_STORAGE"
+msgstr "मैनुअल रूप से चुनने पर कुछ सुविधाएँ जैसे कि NFC भुगतान अक्षम हो जाएँगी, जो कि ऑन-डिवाइस सुरक्षित स्टोरेज में डाटा स्टोर करती है।"
+
+msgid "IDS_NFC_TPOP_TAG_TYPE_NOT_SUPPORTED"
+msgstr "टैग प्रकार स‍मर्थित नहीं है"
+
+msgid "IDS_TAGS_HEADER_INTRODUCTION_TO_TAGS"
+msgstr "टैग्स का परिचय"
+
+msgid "IDS_NFC_POP_AN_EMAIL_ADDRESS_HAS_BEEN_DETECTED_COMPOSE_EMAIL_Q"
+msgstr "किसी ईमेल पते का पता चला है। ईमेल लिखें?"
+
+msgid "IDS_NFC_POP_A_URL_HAS_BEEN_DETECTED_OPEN_Q"
+msgstr "किसी URL का पता चला है। खोलें?"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APP_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "टैग्स ऐप, नियर फ़ील्‍ड कम्यूनिकेशन (NFC) टैग्स व्यवस्थित और साझा करने में आपकी मदद करता है। अपना डिवाइस अनलॉक करके और उसे किसी टैग के ठीक आगे रखकर आप कोई टैग स्कैन करते हैं। NFC टैग्स में टेक्स्ट, URL और अन्य प्रकार की जानकारी शामिल हो सकती है।\n\nटैग्स स्कैन या साझा करने के लिए, सेटिंग्स > कनेक्शन पर जाकर NFC चालू करें।"
+
+msgid "IDS_TAGS_POP_NFC_SERVICE_IS_NOT_SUPPORTED"
+msgstr "NFC सेवा समर्थित नहीं है।"
+
+msgid "IDS_NFC_BODY_SHARING_FILES_VIA_S_BEAM_WILL_DISABLE_THE_PORTABLE_WI_FI_HOTSPOT_TAP_OK_WITHIN_PD_SECONDS_TO_CONTINUE"
+msgstr "S Beam के माध्यम से फ़ाइलें साझा करने पर पोर्टेबल Wi-Fi हॉटस्पॉट अक्षम हो जाएगा। जारी रखने के लिए %d सेकंड में ओके पर टैप करें।"
+
+msgid "IDS_NFC_HEADER_CREATING_NFC_TAGS"
+msgstr "NFC टैग्स बनाना"
+
+msgid "IDS_NFC_BODY_CREATE_A_TAG_USING_THE_CREATE_TAG_MENU_OPTION_IN_THE_TAGS_APPLICATION_MSG"
+msgstr "टैग्स एप्लीकेशन में टैग बनाएँ मेन्यू विकल्प का उपयोग करके कोई टैग बनाएँ। वह डाटा चुनें, जिसे आप सुरक्षित करना चाहते हैं, फिर टैग को डिवाइस के पिछले भाग से पूरी तरह कवर करें और कुछ सेकंड्स के लिए होल्ड करें।"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_BEAM_ABB"
+msgstr "बीम करने में असमर्थ"
+
+msgid "IDS_NFC_HEADER_TURN_ON_NFC_ABB"
+msgstr "NFC चालू करें"
+
+msgid "IDS_NFC_HEADER_PD_SELECTED_ABB"
+msgstr "%d चयनित"
+
+msgid "IDS_NFC_HEADER_WRITE_CONTACT_TO_TAG"
+msgstr "टैग पर संपर्क लिखें"
+
+msgid "IDS_NFC_HEADER_DELETE_TAG"
+msgstr "टैग हटाएँ"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_RECEIVE_FILE_ABB"
+msgstr "फाइल प्राप्त करने में असमर्थ"
+
+msgid "IDS_NFC_POP_DELETE_THIS_TAG_Q"
+msgstr "यह टैग हटाएँ?"
+
+msgid "IDS_NFC_POP_DELETE_PD_TAGS_Q"
+msgstr "%d टैग हटाएँ?"
+
+msgid "IDS_NFC_BUTTON_STORAGE"
+msgstr "स्टोरेज"
+
+msgid "IDS_NFC_BODY_FILES_CAN_NOW_BE_SHARED_VIA_S_BEAM_SEPARATE_THE_DEVICES"
+msgstr "फाइलें अब S Beam द्वारा साझा की जा सकती हैं। डिवाइसों को अलग करें।"
+
+msgid "IDS_NFC_BODY_PREPARING_TO_SHARE_FILES_ING_NMAKE_SURE_THE_DEVICES_ARE_STILL_TOUCHING"
+msgstr "फाइलें साझा करने के लिए तैयार हो रही हैं...\nसुनिश्चित करें कि डिवाइसें अभी भी स्पर्श हो रही हैं।"
+
+msgid "IDS_NFC_TPOP_FILES_SENT"
+msgstr "फाइलें भेजी गईं।"
+
+msgid "IDS_NFC_BODY_FILES_SENT_ABB2"
+msgstr "फाइलें भेजी गईं।"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_SEND_FILES"
+msgstr "फाइलें भेजने में विफल।"
+
+msgid "IDS_NFC_BODY_FAILED_TO_SEND_FILES_ABB"
+msgstr "फाइलें भेजने में विफल।"
+
+msgid "IDS_NFC_TPOP_FILES_RECEIVED"
+msgstr "फाइलें प्राप्त हुईं।"
+
+msgid "IDS_NFC_BODY_FILES_RECEIVED_ABB2"
+msgstr "फाइलें प्राप्त हुईं।"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_RECEIVE_FILES"
+msgstr "फाइलें प्राप्त करने में विफल।"
+
+msgid "IDS_NFC_BODY_FAILED_TO_RECEIVE_FILES_ABB"
+msgstr "फाइलें लेने में विफल।"
+
+msgid "IDS_NFC_POP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_BEAMED_AT_THE_SAME_TIME_HPD_HAS_BEEN_EXCEEDED_MSG"
+msgstr "एक ही समय पर बीम की जा सकने वाली फाइलों की अधिकतम संख्या (%d) से अधिक हो चुकी है। इन फाइलों को साझा करने के लिए, Wi-Fi Direct या ब्लूटूथ का उपयोग करें।"
+
+msgid "IDS_NFC_HEADER_FAILED_TO_TURN_ON_NFC_ABB"
+msgstr "NFC चालू करने में विफल"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_READ_TAG_ABB"
+msgstr "टैग पढ़ने में अक्षम"
+
+msgid "IDS_NFC_HEADER_UNABLE_TO_CREATE_TAG_ABB"
+msgstr "टैग बनाने में अक्षम"
+
+msgid "IDS_NFC_HEADER_SELECT_TAG_TYPE_ABB"
+msgstr "टैग प्रकार चुनें"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s के साथ जोड़ने में विफल।"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_CONNECT_TO_PS"
+msgstr "%s से कनेक्ट करने में विफल।"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_TURNING_ON_NFC_TRY_AGAIN"
+msgstr "NFC चालू करते समय एक त्रुटि उत्पन्न हुई। फिर से प्रयास करें।"
+
+msgid "IDS_NFC_POP_NO_DATA_HAS_BEEN_WRITTEN_TO_THIS_TAG"
+msgstr "इस टैग में कोई डाटा नहीं लिखा गया है।"
+
+msgid "IDS_NFC_POP_AN_ERROR_OCCURRED_WHILE_WRITING_THE_INFORMATION_TO_THE_TAG_TRY_AGAIN"
+msgstr "टैग पर जानकारी लिखते समय एक त्रुटि उत्पन्न हुई। फिर से प्रयास करें।"
+
+msgid "IDS_NFC_BODY_THE_TAGS_APPLICATION_HELPS_YOU_ORGANISE_AND_SHARE_NEAR_FIELD_COMMUNICATION_HNFC_TAGS_MSG"
+msgstr "टैग्स एप्लीकेशन, नियर फील्‍ड कम्यूनिकेशन (NFC) टैग्स व्यवस्थित और साझा करने में आपकी सहायता करता है। अपने डिवाइस को अनलॉक कर उसे टैग के ठीक आगे रख कर आप टैग को स्कैन कर सकते हैं। NFC टैग्स में टेक्स्ट, वेब पते, संपर्क जानकारी, मेमोज, तस्वीरें, वीडियोज और बहुत कुछ शामिल हो सकते हैं।\n\nटैग्स स्कैन या साझा करने के लिए, सेटिंग्स > कनेक्शन पर जाकर NFC चालू करें।"
+
+msgid "IDS_NFC_BODY_WHEN_YOUR_DEVICE_TOUCHES_THE_BACK_OF_ANOTHER_DEVICE_OR_TAG_DATA_SUCH_AS_TEXT_PICTURES_VIDEOS_WEB_ADDRESSES_MSG"
+msgstr "जब आपका डिवाइस किसी अन्य डिवाइस के पिछले भाग या टैग से स्पर्श होता है, तो टेक्स्ट, तस्वीरें, वीडियोज, वेब पते और संपर्क जानकारी जैसे डाटा, डिवाइसों के बीच या टैग और डिवाइस के बीच स्थानांतरित किए जा सकते हैं।"
+
+msgid "IDS_NFC_BODY_NFC_TAGS_ARE_TINY_MICROCHIPS_EMBEDDED_IN_SMALL_CARDS_THEY_CAN_CONTAIN_TEXT_WEB_ADDRESSES_CONTACT_INFORMATION_MEMOS_PICTURES_VIDEOS_AND_MORE"
+msgstr "NFC टैग्स छोटे कार्ड्स में एम्बेड किए गए बहुत छोटे माइक्रोचिप्स होते हैं। इनमें टेक्स्ट, वेब पते, संपर्क जानकारी, मेमोज, तस्वीरें, वीडियोज और बहुत कुछ शामिल हो सकते हैं।"
+
